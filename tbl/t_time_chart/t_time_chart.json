@@ -1,0 +1,247 @@
+{
+  "headers": [
+    {
+      "name": "TimeChartData",
+      "schema": "Kuro2"
+    },
+    {
+      "name": "TimeChartNode",
+      "schema": "Kuro2"
+    },
+    {
+      "name": "TimeChartTitleParam",
+      "schema": "Kuro2"
+    }
+  ],
+  "data": [
+    {
+      "name": "TimeChartData",
+      "data": []
+    },
+    {
+      "name": "TimeChartNode",
+      "data": []
+    },
+    {
+      "name": "TimeChartTitleParam",
+      "data": [
+        {
+          "id": 0,
+          "arr1": [],
+          "empty1": 0,
+          "arr2": [],
+          "empty2": 0,
+          "title": "<R><c402>А<c000>лая</Rあかぐろ> ярость",
+          "event": "",
+          "chapter": "Пролог",
+          "route": ""
+        },
+        {
+          "id": 1,
+          "arr1": [],
+          "empty1": 0,
+          "arr2": [],
+          "empty2": 0,
+          "title": "<R><c402>В<c000>олшебный</Rメルヒェンガルテン> сад-крепость",
+          "event": "",
+          "chapter": "Перед занавесом",
+          "route": ""
+        },
+        {
+          "id": 2,
+          "arr1": [],
+          "empty1": 0,
+          "arr2": [],
+          "empty2": 0,
+          "title": "<c402>С<c000>еверный порт: <R>Каприччио</Rカ ブ リ チ オ>",
+          "event": "",
+          "chapter": "Часть I, сторона А",
+          "route": ""
+        },
+        {
+          "id": 3,
+          "arr1": [],
+          "empty1": 0,
+          "arr2": [],
+          "empty2": 0,
+          "title": "<R><c402>Т<c000>ёмный</Rス　プ　リ　ガ　ン> агент",
+          "event": "",
+          "chapter": "Часть I, сторона B",
+          "route": ""
+        },
+        {
+          "id": 4,
+          "arr1": [],
+          "empty1": 0,
+          "arr2": [],
+          "empty2": 0,
+          "title": "<c402>Б<c000>листающая столица вновь",
+          "event": "～黒月<R>撩乱</Rりょうらん>～",
+          "chapter": "Часть II, сторона А",
+          "route": ""
+        },
+        {
+          "id": 5,
+          "arr1": [],
+          "empty1": 0,
+          "arr2": [],
+          "empty2": 0,
+          "title": "<c402>П<c000>роникновение в Аламис",
+          "event": "～<R>或</Rあるい>はまったりしない日々～",
+          "chapter": "Часть II, сторона B",
+          "route": ""
+        },
+        {
+          "id": 6,
+          "arr1": [],
+          "empty1": 0,
+          "arr2": [],
+          "empty2": 0,
+          "title": "<c402>О<c000>стров Немесис",
+          "event": "～もう一つの祝祭日～",
+          "chapter": "Интерлюдия",
+          "route": ""
+        },
+        {
+          "id": 7,
+          "arr1": [
+            21500
+          ],
+          "empty1": 0,
+          "arr2": [
+            18175
+          ],
+          "empty2": 0,
+          "title": "<c402>В<c000>се, как один",
+          "event": "",
+          "chapter": "Часть III",
+          "route": ""
+        },
+        {
+          "id": 7,
+          "arr1": [
+            18175
+          ],
+          "empty1": 0,
+          "arr2": [],
+          "empty2": 0,
+          "title": "<c402>П<c000>устая месть",
+          "event": "",
+          "chapter": "Часть III: Все как один",
+          "route": "<c402>A<c000>route"
+        },
+        {
+          "id": 7,
+          "arr1": [],
+          "empty1": 0,
+          "arr2": [],
+          "empty2": 0,
+          "title": "<c402>П<c000>устая месть",
+          "event": "",
+          "chapter": "Часть III: Все как один",
+          "route": "<c402>A<c000>route"
+        },
+        {
+          "id": 8,
+          "arr1": [
+            18178
+          ],
+          "empty1": 0,
+          "arr2": [
+            18181
+          ],
+          "empty2": 0,
+          "title": "<c000>？？？",
+          "event": "",
+          "chapter": "Часть III: Все как один",
+          "route": "<c402>B<c000>route"
+        },
+        {
+          "id": 8,
+          "arr1": [
+            18181
+          ],
+          "empty1": 0,
+          "arr2": [],
+          "empty2": 0,
+          "title": "<c402>Т<c000>рагическая гонка Z1",
+          "event": "",
+          "chapter": "Часть III: Все как один",
+          "route": "<c402>B<c000>route"
+        },
+        {
+          "id": 9,
+          "arr1": [
+            18186
+          ],
+          "empty1": 0,
+          "arr2": [
+            18189
+          ],
+          "empty2": 0,
+          "title": "<c000>？？？",
+          "event": "",
+          "chapter": "Часть III: Все как один",
+          "route": "<c402>C<c000>route"
+        },
+        {
+          "id": 9,
+          "arr1": [
+            18189
+          ],
+          "empty1": 0,
+          "arr2": [],
+          "empty2": 0,
+          "title": "<R><c402>И<c000></Rねじ>звращённая охота на еретиков",
+          "event": "",
+          "chapter": "Часть III: Все как один",
+          "route": "<c402>C<c000>route"
+        },
+        {
+          "id": 10,
+          "arr1": [],
+          "empty1": 0,
+          "arr2": [],
+          "empty2": 0,
+          "title": "<c402>Г<c000>рань",
+          "event": "～断ち切られた絆～",
+          "chapter": "Часть III: Все как один",
+          "route": "<c402>D<c000>route"
+        },
+        {
+          "id": 11,
+          "arr1": [],
+          "empty1": 0,
+          "arr2": [],
+          "empty2": 0,
+          "title": "<c402>О<c000>тветный удар завтрашнего дня",
+          "event": "～首都騒乱～",
+          "chapter": "Часть III: Все как один",
+          "route": "<c402>E<c000>route"
+        },
+        {
+          "id": 12,
+          "arr1": [],
+          "empty1": 0,
+          "arr2": [],
+          "empty2": 0,
+          "title": "<c402>М<c000>астер сада",
+          "event": "～暴かれた真実～",
+          "chapter": "Часть III: Все как один",
+          "route": "<c402>F<c000>route"
+        },
+        {
+          "id": 13,
+          "arr1": [],
+          "empty1": 0,
+          "arr2": [],
+          "empty2": 0,
+          "title": "<c402>И<c000> так по кругу, в вечном цикле",
+          "event": "",
+          "chapter": "Финальный акт",
+          "route": ""
+        }
+      ]
+    }
+  ]
+}

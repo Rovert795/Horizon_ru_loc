@@ -1,0 +1,657 @@
+{
+	"headers": [
+		{
+			"name": "TipsTableData",
+			"schema": "Kuro1"
+		}
+	],
+	"data": [
+		{
+			"name": "TipsTableData",
+			"data": [
+				{
+					"long1": 36700,
+					"array": [
+						36705
+					],
+					"empty1": 0,
+					"id": 0,
+					"text_1": "Recovery via Level Up",
+					"text_2": "Upon leveling up, HP and EP will be fully restored."
+				},
+				{
+					"long1": 36700,
+					"array": [
+						36705
+					],
+					"empty1": 0,
+					"id": 1,
+					"text_1": "Registering Enemy Battle Information",
+					"text_2": "Defeated enemies will automatically have their info recorded\nin the Battle tab of the notebook."
+				},
+				{
+					"long1": 36700,
+					"array": [
+						36705
+					],
+					"empty1": 0,
+					"id": 2,
+					"text_1": "Checking Detailed Battle Results",
+					"text_2": "The results of the previous battle are available to view in the\nBattle tab of the Log menu."
+				},
+				{
+					"long1": 36700,
+					"array": [],
+					"empty1": 0,
+					"id": 0,
+					"text_1": "Healing Arts",
+					"text_2": "While on the field, pressing <s30><I1114><s24> + <s30><I1125><s24> will open the Healing\nArts screen. In a tough situation, it's important to recover as\nsoon as possible."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 9,
+					"text_1": "Meals & Snacks",
+					"text_2": "Eating a meal can restore the entire party's HP while also\nrewarding gourmet points. However, they cannot be eaten\nduring battle. Snacks, on the other hand, can be eaten at any\ntime."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 3,
+					"text_1": "Food & Gourmet Points",
+					"text_2": "After eating a dish for the first time, you'll acquire gourmet\npoints. Once you accumulate a certain number of points, your\ngourmet rank will go up, allowing you to gain parameter\nboosts for all party members."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 4,
+					"text_1": "Changing Field Battle Difficulty",
+					"text_2": "You can change field battle difficulty in the Options menu.\nWhen the difficulty is set to easy, the amount of damage you\nreceive in field battles is decreased, making it easier to stun\nenemies."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 5,
+					"text_1": "Achievement Rewards",
+					"text_2": "You can obtain special rewards after selecting a completed\nachievement from the Achievements list."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 6,
+					"text_1": "Trading for Advanced Quartz",
+					"text_2": "At shops where the Trade option is available, you can trade\nquartz and U-Material for advanced quartz."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 7,
+					"text_1": "Cooking",
+					"text_2": "Use ingredients from the notebook's Gourmet tab to cook.\nLearn to cook more dishes by reading recipes in the\nItems menu."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 11,
+					"text_1": "Equipping Cosmetics",
+					"text_2": "Items like outfits, attachments, and hair colors can be\nequipped from the Costume tab in the Equip menu."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 0,
+					"text_1": "ZOC (Field Battles)",
+					"text_2": "Press and hold <s30><I912><s24> during field battles to activate ZOC.\nThis will slow your foes so you can easily overwhelm them\nwithout fear of retaliation. Attacking enemies will shorten\nthe time it takes to reactivate this skill."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 0,
+					"text_1": "ZOC (Command Battles)",
+					"text_2": "Press <s30><I1087><s24> twice during command battles to activate ZOC.\nPerform two actions back-to-back, such as\napplying a buff and attacking, or casting Arts instantly."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 0,
+					"text_1": "Shard Command",
+					"text_2": "Press <s30><I1091><s24> during command battles to activate a shard\ncommand. This consumes the boost gauge, but does not use a\nturn. In addition to various buffs, it also provides some\nrecovery."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 0,
+					"text_1": "Awaken",
+					"text_2": "Awaken during field battles by pressing <s30><I1116><s24> + <s30><I1117><s24>.\nWhile only available to certain characters, Awakening\nallows you to overwhelm your foes with powerful abilities."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 0,
+					"text_1": "Arts (Refreshing Veil)",
+					"text_2": "The wind-attribute Support Art Refreshing Veil removes\ndebuffs from allies within range and gives them\n<s30><I330><s24> Debuff Immunity for 4 turns."
+				},
+				{
+					"long1": 36700,
+					"array": [
+						36705
+					],
+					"empty1": 0,
+					"id": 21,
+					"text_1": "Arts Casting Time",
+					"text_2": "After selecting an art, it will take some time to cast. The cast\ntiming is displayed via the AT bar."
+				},
+				{
+					"long1": 36700,
+					"array": [],
+					"empty1": 0,
+					"id": 22,
+					"text_1": "Canceling Actions via Impede",
+					"text_2": "While an enemy is charging or casting an art, stop their\nimpending attack by using crafts with the Impede effect."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 23,
+					"text_1": "Tactical Bonuses",
+					"text_2": "Tactical bonuses are generated depending on how a battle\ntranspires. This increases the amount of experience gained as\na result. Check the bonus details from the list in the Help\nsection in the notebook."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 24,
+					"text_1": "Overkill",
+					"text_2": "In a command battle, if you defeat an enemy with damage\nsignificantly greater than their remaining HP, you'll get an\nOverkill bonus, increasing the amount of sepith\nacquired post-battle."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 25,
+					"text_1": "Chain Bonus",
+					"text_2": "Depending on the amount of times you successfully hit an\nenemy in command battle, a Chain Effect will occur,\nincreasing the amount of damage done to them. Hits will\ncontinue to accumulate as long as allies continue to attack."
+				},
+				{
+					"long1": 36700,
+					"array": [],
+					"empty1": 0,
+					"id": 26,
+					"text_1": "Command Attribute Icon",
+					"text_2": "The icon displayed to the left of a command displays the\nattack's attribute. <s32><I290><s24> represents physical damage, <s32><I291><s24>\nrepresents arts damage. This allows you to check normal\nattack and craft attack attributes."
+				},
+				{
+					"long1": 36700,
+					"array": [],
+					"empty1": 0,
+					"id": 27,
+					"text_1": "Crafts (Coin Bullets)",
+					"text_2": "Van's 'Coin Bullets' craft has a <s30><I361><s24> Hate Up effect, which\nserves to draw the enemy's attention. There are also several\nquartz that can manipulate Hate."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 28,
+					"text_1": "S-Crafts",
+					"text_2": "By expending 100 CP during a Boost, you can activate a\ncharacter's S-Craft. Activate an S-Break with <s30><I1086><s24> when your\nboost gauge is at two or more."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 29,
+					"text_1": "Boost Gauge",
+					"text_2": "The boost gauge fills when attacking enemies or receiving\ndamage. Breaking objects out on the field will also fill\nthe gauge."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 30,
+					"text_1": "AT Bonus (Zero Arts)",
+					"text_2": "When you acquire the Zero Arts AT Bonus, you can instantly\ncast arts without expending EP. It's the perfect chance to fire\noff expensive and powerful arts!"
+				},
+				{
+					"long1": 36700,
+					"array": [],
+					"empty1": 0,
+					"id": 31,
+					"text_1": "Stealing Enemy's AT Bonus",
+					"text_2": "By defeating or stunning an enemy with an AT Bonus, you\ncan steal it from them. You can have up to three AT Bonuses."
+				},
+				{
+					"long1": 36700,
+					"array": [],
+					"empty1": 0,
+					"id": 0,
+					"text_1": "Delay and AT Bonus",
+					"text_2": "When a player character is <s30><I359><s24> Delayed, there is a 50%\nchance that their AT bonus will be lost. However, a character\nwho causes Delay gains AT bonuses during their next turn."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 32,
+					"text_1": "Retreating From Enemy Advantage",
+					"text_2": "If a command battle starts with the enemy having the\nadvantage, you won't be able to disengage shards or retreat for\na set number of turns. You can check how many turns you\nhave left via the Retreat icon."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 33,
+					"text_1": "Perfect Dodge",
+					"text_2": "By dodging an enemy attack at the last possible moment, you\ncan trigger a Perfect Dodge. This will greatly increase your\ncharge gauge, which is required for charge attacks."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 34,
+					"text_1": "Actions Canceled via Status Ailments",
+					"text_2": "When afflicted with <s30><I316><s24> Freeze, <s30><I317><s24> Seal, <s30><I318><s24> Mute, or\n<s30><I321><s24> Fear, your action after selecting a command has a certain\nchance of being canceled. Commands that might be canceled\nare displayed in red."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 35,
+					"text_1": "Rot",
+					"text_2": "Upon being afflicted with <s30><I322><s24> Rot, in addition to taking\ndamage after each turn, the character will deal less damage\nto enemies."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 36,
+					"text_1": "Deadly Strike by an Enemy",
+					"text_2": "While engaged in a field battle, enemies will periodically\ncharge at characters while using Deadly Strike, an attack that\ncannot be dodged. Either put distance between yourself and\nthe enemy, or activate shards!"
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 37,
+					"text_1": "Boost Gauge Extension",
+					"text_2": "Upon activating your S-Craft, the boost gauge limit will\nincrease by one. You can continue increasing the limit up to\nnine. However, it will go back to normal after the end of\nthe battle."
+				},
+				{
+					"long1": 36700,
+					"array": [],
+					"empty1": 0,
+					"id": 38,
+					"text_1": "Side Attacks & Back Attacks",
+					"text_2": "When attacking from the side or back with a craft that has a\nside attack or back attack bonus, the craft will receive a 30%\nincrease in power. Whichever direction is most effective will\nbe displayed as an icon on the enemy."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 50,
+					"text_1": "Attribute Exclusive Slots & Values",
+					"text_2": "In exchange for only being able to set quartz of specific\nattributes into an orbment's attribute exclusive slot, the\nattribute value of the set quartz will be multiplied by two."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 51,
+					"text_1": "Shard Boost Effects",
+					"text_2": "When activating shard boost, your holo core's ability is\nactivated. The abilities' effects vary by holo core. You can\ncheck them by holding <s30><I1088><s24> when selecting a command."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 52,
+					"text_1": "Line-Exclusive Quartz",
+					"text_2": "There are certain quartz that can only be set in the Weapon,\nShield, and Drive lines respectively. However, all quartz can\nbe set in the Extra line."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 53,
+					"text_1": "Arts Drivers & Plugins",
+					"text_2": "Purchased arts plugins can be set freely into an arts driver's\ncustom slot. This can be done at any time from the Arts tab\nin the Orbment Menu."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 54,
+					"text_1": "Changing Arts Drivers",
+					"text_2": "The arts a character can use depend on which arts driver is\nequipped. The driver can be changed from the Arts tab in the\nOrbment menu. Even if you change your driver, the plugins\nset into each driver are saved."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 55,
+					"text_1": "Setting Arts Plugins",
+					"text_2": "A single plugin can be set to multiple arts drivers.\nHowever, you cannot set a plugin into a driver that already\nhas that art equipped."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 56,
+					"text_1": "Leveling Up Holo Cores",
+					"text_2": "Doing battle with a holo core equipped will level it up.\nWhen it levels up, the ability effects during its boost period\nare strengthened, and the arts set to the arts driver\nare unlocked."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 57,
+					"text_1": "Opening Orbment Slots",
+					"text_2": "You can spend sepith to open slots from a workshop's Custom\nmenu. Upon opening a slot, your maximum EP will be\nincreased as well."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 58,
+					"text_1": "Changing Holo Cores",
+					"text_2": "In the Quartz screen, you can change holo cores with <s30><I1011><s24>.\nTheir performance during a Shard Boost varies from core to\ncore and each of them has their own unique navigation voice!"
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 59,
+					"text_1": "Holo Core Voices",
+					"text_2": "Each holo core has its own AI; their varied personalities\ncontribute to their differing navigation styles. When changing\na holo core, their voices can be disabled by pressing <s30><I1010><s24>."
+				},
+				{
+					"long1": 36704,
+					"array": [],
+					"empty1": 0,
+					"id": 60,
+					"text_1": "Orbment Modification",
+					"text_2": "Press <s30><I1010><s24> to open the customization screen in the\nOrbment menu, where you can freely open slots and\nchange Xipha covers whenever you want."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 80,
+					"text_1": "Additional Attribute Damage",
+					"text_2": "Additional attribute damage dealt via shard skills will vary\ndepending on how effective the attribute is against the enemy.\nIf you have multiple sets, only the most effective one\nwill activate."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 81,
+					"text_1": "Shard Skill Activation Rate",
+					"text_2": "Shard skills have a percentage chance of activating.\nWhen an S-Boost is activated, that percentage can\ngo up to 100%."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 82,
+					"text_1": "Defensive Skills",
+					"text_2": "There are certain shard skills that activate upon defending,\nsuch as Impassion Guard, which restores some CP, and Forte\nGuard, which increases your attack power."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 120,
+					"text_1": "Shard Skill (Guardian)",
+					"text_2": "Guardian activates on the Shield line. When an ally is\nattacked, there's a chance of deploying a shield that reduces\ndamage. Any allies with SCLM activated have a much greater\nchance of the shield activating."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 140,
+					"text_1": "Shard Skill (Golden Eye)",
+					"text_2": "Golden Eye activates on the Extra line. It displays the\nlocation of treasure chests and enemies in the area on the\nminimap. As long as it's active on a single party member,\nit will remain displayed."
+				},
+				{
+					"long1": 36704,
+					"array": [],
+					"empty1": 0,
+					"id": 83,
+					"text_1": "Post-Battle Skills",
+					"text_2": "Among the various skills that activate on the Extra line, there\nare some that can recover HP, EP, and CP after the\nconclusion of a command battle."
+				},
+				{
+					"long1": 36704,
+					"array": [],
+					"empty1": 0,
+					"id": 100,
+					"text_1": "Shard Skill (Fatal Lance)",
+					"text_2": "Fatal Lance activates on the Weapon line. After an attack, if\nthe enemy has a small amount of HP remaining, you will\nalways follow up with a finishing attack. This additional\nattack will deal damage to enemies around the target as well."
+				},
+				{
+					"long1": 36704,
+					"array": [],
+					"empty1": 0,
+					"id": 101,
+					"text_1": "Shard Skill (Executioner)",
+					"text_2": "Executioner activates on the Weapon line. When an enemy\nis stunned or attacked while stunned, it activates a powerful\nadditional attack on said enemy."
+				},
+				{
+					"long1": 36704,
+					"array": [],
+					"empty1": 0,
+					"id": 121,
+					"text_1": "Shard Skill (Avenging Arrow)",
+					"text_2": "Avenging Arrow activates on the Shield line. It responds\nwhen an ally is attacked and fires off a powerful counterattack!"
+				},
+				{
+					"long1": 36704,
+					"array": [],
+					"empty1": 0,
+					"id": 130,
+					"text_1": "Shard Skill (Ark Feather)",
+					"text_2": "Ark Feather activates on the Drive line. After an arts attack, it\nmay activate an additional attack that causes some delay.\nJudgment Feather causes additional delay."
+				},
+				{
+					"long1": 36704,
+					"array": [],
+					"empty1": 0,
+					"id": 142,
+					"text_1": "Shard Skill (SCLM Boost)",
+					"text_2": "SCLM Boost activates on the Extra line. The range for\nforming SCLMs is greatly increased, making it easier to\nactivate with allies."
+				},
+				{
+					"long1": 36705,
+					"array": [],
+					"empty1": 0,
+					"id": 122,
+					"text_1": "Shard Skill (Seraphic Force)",
+					"text_2": "Seraphic Force activates on the Shield line. When receiving\nfatal damage, it prevents a KO, instead restoring a medium\namount of HP, EP, and CP. However, it can only activate\nonce per battle."
+				},
+				{
+					"long1": 36705,
+					"array": [],
+					"empty1": 0,
+					"id": 131,
+					"text_1": "Shard Skill (Avenging Arts)",
+					"text_2": "Avenging Arts activates on the Drive Line. Activates upon\ndodging an enemy's arts attack or by chance. It then causes a\ncounterattack with an attack art without expending any EP."
+				},
+				{
+					"long1": 36705,
+					"array": [],
+					"empty1": 0,
+					"id": 143,
+					"text_1": "Shard Skill (Heavenly Luck)",
+					"text_2": "Heavenly Luck activates on the EXTRA line. It has\na chance of providing an AT Bonus following your\nactions."
+				},
+				{
+					"long1": 36700,
+					"array": [
+						36705
+					],
+					"empty1": 0,
+					"id": 200,
+					"text_1": "Changing Dash Button Behavior",
+					"text_2": "You can change how the dash button behaves via the Options\nmenu. Toggle allows you to press the button once and\ncontinue dashing until you stop moving. Toggle Locked\nallows you to continue dashing when moving until you press\nthe button again."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 202,
+					"text_1": "Skip Battle Animation",
+					"text_2": "Pressing <s30><I1090><s24> during an ally's S-Craft or certain arts allows\nyou to skip the entire animation."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 203,
+					"text_1": "Auto-Equipping Advanced Quartz",
+					"text_2": "Selecting 'Auto-Equip Advanced Quartz' from the\nAuto-Equip option on the Orbment menu's Quartz\nscreen allows you to automatically replace your\nequipped quartz with your higher level quartz."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 204,
+					"text_1": "Shard Skill List",
+					"text_2": "Pressing <s30><I1020><s24> when equipping quartz in the Orbment menu's\nQuartz screen allows you to view the Shard Skill List,\nwhich shows the shard skills that can be obtained on the\ncurrent line."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 205,
+					"text_1": "Checking the Message History Mid-Decision",
+					"text_2": "Holding down <s30><I1018><s24> hides the message and decision window.\nFurther pressing <s30><I1052><s24> allows you to check the message history."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 40,
+					"text_1": "Quick Art",
+					"text_2": "Holding down <s30><I1113><s24> during a field battle consumes EP to cast\nan art based on your currently equipped arts driver.\nThis allows you to switch arts simply by using a\ndifferent driver."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 41,
+					"text_1": "SCLM Charge",
+					"text_2": "Press <s30><I902><s24> after performing a perfect dodge to\ncause a teammate to perform a powerful charge attack."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 42,
+					"text_1": "EX Chain",
+					"text_2": "If you are boosted during a command battle and form an\nSCLM with an ally while performing a normal attack or craft\non a stunned enemy, it will initiate a high-powered\ncollaboration move called an EX Chain."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 43,
+					"text_1": "S-Craft Usage Limits",
+					"text_2": "Only a single S-Craft can be performed from a single full\nboost. In order to execute another one, you must build up to\nfull boost again after running out."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 211,
+					"text_1": "Changing Equipment on Reserve Party Members",
+					"text_2": "Pressing <s30><I1114><s24> and <s30><I1121><s24> will open the Party Lineup menu.\nFrom here, you can modify the equipment and quartz layout\nof team members who are currently on other routes or far\naway at the moment. Make use of it when you want to trade\nequipment with other party members."
+				},
+				{
+					"long1": 36701,
+					"array": [],
+					"empty1": 0,
+					"id": 212,
+					"text_1": "Hacking",
+					"text_2": "Treasure chests sealed with orbal locks will display a security\nlevel prior to unlocking them that indicates how difficult\nthey'll be to hack, and even if you've already begun hacking,\nyou can always push <s30><I1020><s24> and select 'End Game.'"
+				},
+				{
+					"long1": 33507,
+					"array": [],
+					"empty1": 0,
+					"id": 215,
+					"text_1": "Grim Garten",
+					"text_2": "The Grim Garten can be accessed via Grim Portals\nand charging stations. First Rank treasure is often\nthe most valuable, so it can be worthwhile to make\nseveral trips through."
+				},
+				{
+					"long1": 33507,
+					"array": [],
+					"empty1": 0,
+					"id": 44,
+					"text_1": "Craft Enhancement",
+					"text_2": "Craft efficacy can be upgraded with skill stones in\nthe Crafts menu. Different stones correspond to\ndifferent attributes, such as DMG and ADMG. There\nare even character-specific skill stones that can enhance\nany of their crafts."
+				},
+				{
+					"long1": 35171,
+					"array": [],
+					"empty1": 0,
+					"id": 210,
+					"text_1": "Fishing",
+					"text_2": "You can switch to fishing mode at any time by pressing <s30><I1114><s24>\nand <s30><I1126><s24>. While it is possible to fish at any body of water,\nusing shard search with <s30><I912><s24> will show you fishing points that\ncan net you a better catch."
+				},
+				{
+					"long1": 32071,
+					"array": [],
+					"empty1": 0,
+					"id": 213,
+					"text_1": "Shard Search",
+					"text_2": "By performing a shard search with <s30><I912><s24>, you can find and\ncollect G-Tokens throughout various locales. Sometimes, you\ncan find traces that are visible even without a shard search,\nso if something seems a little off, why not try to activate it?"
+				},
+				{
+					"long1": 33507,
+					"array": [],
+					"empty1": 0,
+					"id": 214,
+					"text_1": "Grim Tokens",
+					"text_2": "G-Tokens can be found by exploring the Grim Garten and by\nusing shard search in various locales. Once collected, they\ncan be used in the Garten via Grimoire Decryption. "
+				},
+				{
+					"long1": 33507,
+					"array": [],
+					"empty1": 0,
+					"id": 216,
+					"text_1": "Swapping BGM in the Grim Garten",
+					"text_2": "During Grimoire Decryption, you'll occasionally obtain\nunique items that allow you to change the music that\nplays within the Grim Garten. To do so, just use the\n'BGM Selection Service' via the Epstein Workshop."
+				},
+				{
+					"long1": 33507,
+					"array": [],
+					"empty1": 0,
+					"id": 217,
+					"text_1": "Workshop Points",
+					"text_2": "Various skill stones can be exchanged for Workshop Points\nin the Epstein Workshop. These points can then be redeemed\nfor different skill points or other items."
+				},
+				{
+					"long1": 36704,
+					"array": [],
+					"empty1": 0,
+					"id": 45,
+					"text_1": "Dual Arts ",
+					"text_2": "Dual Arts are arts with two elemental attributes. Enemies hit\nwith these arts will take damage based on the element that is\nmost effective against them."
+				}
+			]
+		}
+	]
+}

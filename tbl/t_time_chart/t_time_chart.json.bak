@@ -1,0 +1,247 @@
+{
+	"headers": [
+		{
+			"name": "TimeChartData",
+			"schema": "Kuro2"
+		},
+		{
+			"name": "TimeChartNode",
+			"schema": "Kuro2"
+		},
+		{
+			"name": "TimeChartTitleParam",
+			"schema": "Kuro2"
+		}
+	],
+	"data": [
+		{
+			"name": "TimeChartData",
+			"data": []
+		},
+		{
+			"name": "TimeChartNode",
+			"data": []
+		},
+		{
+			"name": "TimeChartTitleParam",
+			"data": [
+				{
+					"id": 0,
+					"arr1": [],
+					"empty1": 0,
+					"arr2": [],
+					"empty2": 0,
+					"title": "<R><c402>紅<c000>黎</Rあかぐろ>き咆吼",
+					"event": "",
+					"chapter": "プロローグ",
+					"route": ""
+				},
+				{
+					"id": 1,
+					"arr1": [],
+					"empty1": 0,
+					"arr2": [],
+					"empty2": 0,
+					"title": "<R><c402>お<c000>伽の庭城</Rメルヒェンガルテン>",
+					"event": "",
+					"chapter": "幕前",
+					"route": ""
+				},
+				{
+					"id": 2,
+					"arr1": [],
+					"empty1": 0,
+					"arr2": [],
+					"empty2": 0,
+					"title": "<c402>北<c000>の港の<R>狂騒曲</Rカ ブ リ チ オ>",
+					"event": "",
+					"chapter": "第Ⅰ部sideＡ",
+					"route": ""
+				},
+				{
+					"id": 3,
+					"arr1": [],
+					"empty1": 0,
+					"arr2": [],
+					"empty2": 0,
+					"title": "<R><c402>裏<c000>解決屋</Rス　プ　リ　ガ　ン>代理人",
+					"event": "",
+					"chapter": "第Ⅰ部sideＢ",
+					"route": ""
+				},
+				{
+					"id": 4,
+					"arr1": [],
+					"empty1": 0,
+					"arr2": [],
+					"empty2": 0,
+					"title": "<c402>煌<c000>都ふたたび",
+					"event": "～黒月<R>撩乱</Rりょうらん>～",
+					"chapter": "第Ⅱ部sideＡ",
+					"route": ""
+				},
+				{
+					"id": 5,
+					"arr1": [],
+					"empty1": 0,
+					"arr2": [],
+					"empty2": 0,
+					"title": "<c402>ア<c000>ラミス潜入",
+					"event": "～<R>或</Rあるい>はまったりしない日々～",
+					"chapter": "第Ⅱ部sideＢ",
+					"route": ""
+				},
+				{
+					"id": 6,
+					"arr1": [],
+					"empty1": 0,
+					"arr2": [],
+					"empty2": 0,
+					"title": "<c402>ネ<c000>メス島",
+					"event": "～もう一つの祝祭日～",
+					"chapter": "断章",
+					"route": ""
+				},
+				{
+					"id": 7,
+					"arr1": [
+						21500
+					],
+					"empty1": 0,
+					"arr2": [
+						18175
+					],
+					"empty2": 0,
+					"title": "<c402>も<c000>ろびとこぞりて",
+					"event": "",
+					"chapter": "第Ⅲ部",
+					"route": ""
+				},
+				{
+					"id": 7,
+					"arr1": [
+						18175
+					],
+					"empty1": 0,
+					"arr2": [],
+					"empty2": 0,
+					"title": "<c402>虚<c000>ろなる復讐",
+					"event": "",
+					"chapter": "第Ⅲ部　もろびとこぞりて",
+					"route": "<c402>A<c000>route"
+				},
+				{
+					"id": 7,
+					"arr1": [],
+					"empty1": 0,
+					"arr2": [],
+					"empty2": 0,
+					"title": "<c402>虚<c000>ろなる復讐",
+					"event": "",
+					"chapter": "第Ⅲ部　もろびとこぞりて",
+					"route": "<c402>A<c000>route"
+				},
+				{
+					"id": 8,
+					"arr1": [
+						18178
+					],
+					"empty1": 0,
+					"arr2": [
+						18181
+					],
+					"empty2": 0,
+					"title": "<c000>？？？",
+					"event": "",
+					"chapter": "第Ⅲ部　もろびとこぞりて",
+					"route": "<c402>B<c000>route"
+				},
+				{
+					"id": 8,
+					"arr1": [
+						18181
+					],
+					"empty1": 0,
+					"arr2": [],
+					"empty2": 0,
+					"title": "<c402>悲<c000>劇のＺ１レース",
+					"event": "",
+					"chapter": "第Ⅲ部　もろびとこぞりて",
+					"route": "<c402>B<c000>route"
+				},
+				{
+					"id": 9,
+					"arr1": [
+						18186
+					],
+					"empty1": 0,
+					"arr2": [
+						18189
+					],
+					"empty2": 0,
+					"title": "<c000>？？？",
+					"event": "",
+					"chapter": "第Ⅲ部　もろびとこぞりて",
+					"route": "<c402>C<c000>route"
+				},
+				{
+					"id": 9,
+					"arr1": [
+						18189
+					],
+					"empty1": 0,
+					"arr2": [],
+					"empty2": 0,
+					"title": "<R><c402>捻<c000></Rねじ>れた外法狩り",
+					"event": "",
+					"chapter": "第Ⅲ部　もろびとこぞりて",
+					"route": "<c402>C<c000>route"
+				},
+				{
+					"id": 10,
+					"arr1": [],
+					"empty1": 0,
+					"arr2": [],
+					"empty2": 0,
+					"title": "<c402>死<c000>線",
+					"event": "～断ち切られた絆～",
+					"chapter": "第Ⅲ部　もろびとこぞりて",
+					"route": "<c402>D<c000>route"
+				},
+				{
+					"id": 11,
+					"arr1": [],
+					"empty1": 0,
+					"arr2": [],
+					"empty2": 0,
+					"title": "<c402>明<c000>日への反攻",
+					"event": "～首都騒乱～",
+					"chapter": "第Ⅲ部　もろびとこぞりて",
+					"route": "<c402>E<c000>route"
+				},
+				{
+					"id": 12,
+					"arr1": [],
+					"empty1": 0,
+					"arr2": [],
+					"empty2": 0,
+					"title": "<c402>ガ<c000>ーデンマスター",
+					"event": "～暴かれた真実～",
+					"chapter": "第Ⅲ部　もろびとこぞりて",
+					"route": "<c402>F<c000>route"
+				},
+				{
+					"id": 13,
+					"arr1": [],
+					"empty1": 0,
+					"arr2": [],
+					"empty2": 0,
+					"title": "<c402>そ<c000>してめぐり、めぐる",
+					"event": "",
+					"chapter": "最終幕",
+					"route": ""
+				}
+			]
+		}
+	]
+}

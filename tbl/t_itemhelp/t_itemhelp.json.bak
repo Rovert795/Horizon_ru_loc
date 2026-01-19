@@ -1,0 +1,5671 @@
+{
+	"headers": [
+		{
+			"name": "ConditionHelpData",
+			"schema": "Kai"
+		},
+		{
+			"name": "SkillEffectTypeHelpData",
+			"schema": "Kai"
+		},
+		{
+			"name": "SkillEffectHelpData",
+			"schema": "Kai"
+		},
+		{
+			"name": "AttrTypeHelpData",
+			"schema": "Kai"
+		},
+		{
+			"name": "SkillTypeHelpData",
+			"schema": "Kai"
+		},
+		{
+			"name": "SkillRangeHelpData",
+			"schema": "Kai"
+		},
+		{
+			"name": "ItemKindHelpData",
+			"schema": "Kai"
+		},
+		{
+			"name": "SkillItemStatusData",
+			"schema": "Kai"
+		},
+		{
+			"name": "EquipLineHelpData",
+			"schema": "Kai"
+		},
+		{
+			"name": "SkillConnectListData",
+			"schema": "Kai"
+		},
+		{
+			"name": "SkillTextArrayData",
+			"schema": "Kai"
+		},
+		{
+			"name": "SkillRangeData",
+			"schema": "Kai"
+		},
+		{
+			"name": "SkillLevelHelpData",
+			"schema": "Kai"
+		}
+	],
+	"data": [
+		{
+			"name": "ConditionHelpData",
+			"data": [
+				{
+					"id": 1,
+					"text1": "Rot %d%%",
+					"text2": "Rot",
+					"text3": "%d%%",
+					"text4": ""
+				},
+				{
+					"id": 2,
+					"text1": "Freeze %d%%",
+					"text2": "Freeze",
+					"text3": "%d%%",
+					"text4": ""
+				},
+				{
+					"id": 3,
+					"text1": "Burn %d%%",
+					"text2": "Burn",
+					"text3": "%d%%",
+					"text4": ""
+				},
+				{
+					"id": 4,
+					"text1": "Seal %d%%",
+					"text2": "Seal",
+					"text3": "%d%%",
+					"text4": ""
+				},
+				{
+					"id": 5,
+					"text1": "Mute %d%%",
+					"text2": "Mute",
+					"text3": "%d%%",
+					"text4": ""
+				},
+				{
+					"id": 6,
+					"text1": "Blind %d%%",
+					"text2": "Blind",
+					"text3": "%d%%",
+					"text4": ""
+				},
+				{
+					"id": 7,
+					"text1": "Insight %d%%",
+					"text2": "Insight",
+					"text3": "%d%%",
+					"text4": ""
+				},
+				{
+					"id": 8,
+					"text1": "Deathblow %d%%",
+					"text2": "Deathblow",
+					"text3": "%d%%",
+					"text4": ""
+				},
+				{
+					"id": 9,
+					"text1": "Fear %d%%",
+					"text2": "Fear",
+					"text3": "%d%%",
+					"text4": ""
+				},
+				{
+					"id": 10,
+					"text1": "S-Boost",
+					"text2": "S-Boost",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 12,
+					"text1": "Shard Break",
+					"text2": "Shard Break",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 13,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 14,
+					"text1": "Slow",
+					"text2": "Slow",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 15,
+					"text1": "Quick",
+					"text2": "Quick",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 16,
+					"text1": "Temper",
+					"text2": "Temper",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 17,
+					"text1": "Temper",
+					"text2": "Temper",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 18,
+					"text1": "Strait",
+					"text2": "Strait",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 19,
+					"text1": "Bewitch",
+					"text2": "Bewitch",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 20,
+					"text1": "Vigor",
+					"text2": "Vigor",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 21,
+					"text1": "Stealth %d%%",
+					"text2": "Stealth",
+					"text3": "%d%%",
+					"text4": ""
+				},
+				{
+					"id": 22,
+					"text1": "Mark",
+					"text2": "Mark",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 23,
+					"text1": "Damage Cut %d",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 24,
+					"text1": "Immunity",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 25,
+					"text1": "Full Reflect",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 26,
+					"text1": "Physical Reflect",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 27,
+					"text1": "Magic Reflect",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 28,
+					"text1": "Demon Jewel",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 29,
+					"text1": "Infectious Poison",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 30,
+					"text1": "Haste",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 34,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 35,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 36,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 40,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 41,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 42,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 43,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 44,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 45,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 46,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 47,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 48,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 49,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 50,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 51,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 52,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 53,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 54,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 55,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 56,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 57,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 58,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 59,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 60,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 61,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 62,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 63,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 64,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 65,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 67,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				},
+				{
+					"id": 68,
+					"text1": "",
+					"text2": "",
+					"text3": "",
+					"text4": ""
+				}
+			]
+		},
+		{
+			"name": "SkillEffectTypeHelpData",
+			"data": [
+				{
+					"id": 0,
+					"skill_type_name": "Attack",
+					"text": ""
+				},
+				{
+					"id": 1,
+					"skill_type_name": "Recov.",
+					"text": ""
+				},
+				{
+					"id": 2,
+					"skill_type_name": "Support",
+					"text": ""
+				}
+			]
+		},
+		{
+			"name": "SkillEffectHelpData",
+			"data": [
+				{
+					"effect_id": 13,
+					"text1": "Side Attack Bonus",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 14,
+					"text1": "Back Attack Bonus",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 16,
+					"text1": "Side Attack Bonus",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 17,
+					"text1": "Back Attack Bonus",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 18,
+					"text1": "Magic Assist",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 21,
+					"text1": "%s Assist",
+					"array": [
+						16
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 22,
+					"text1": "HP Cost",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 31,
+					"text1": "Rot%s",
+					"array": [
+						10
+					],
+					"int1": 0,
+					"text2": "Rot",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 32,
+					"text1": "Freeze%s",
+					"array": [
+						10
+					],
+					"int1": 0,
+					"text2": "Freeze",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 33,
+					"text1": "Burn%s",
+					"array": [
+						10
+					],
+					"int1": 0,
+					"text2": "Burn",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 34,
+					"text1": "Seal%s",
+					"array": [
+						10
+					],
+					"int1": 0,
+					"text2": "Seal",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 35,
+					"text1": "Mute%s",
+					"array": [
+						10
+					],
+					"int1": 0,
+					"text2": "Mute",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 36,
+					"text1": "Blind%s",
+					"array": [
+						10
+					],
+					"int1": 0,
+					"text2": "Blind",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 37,
+					"text1": "Insight",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 38,
+					"text1": "Deathblow%s",
+					"array": [
+						10
+					],
+					"int1": 0,
+					"text2": "Deathblow",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 39,
+					"text1": "Fear%s",
+					"array": [
+						10
+					],
+					"int1": 0,
+					"text2": "Fear",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 40,
+					"text1": "Slow%s",
+					"array": [
+						12
+					],
+					"int1": 0,
+					"text2": "Slow",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 41,
+					"text1": "Quick%s",
+					"array": [
+						11
+					],
+					"int1": 0,
+					"text2": "Quick",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 334,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 42,
+					"text1": "Delay%s",
+					"array": [
+						13
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 43,
+					"text1": "Haste",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 44,
+					"text1": "Impede",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 45,
+					"text1": "Mark%s",
+					"array": [
+						10
+					],
+					"int1": 0,
+					"text2": "Mark",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 46,
+					"text1": "Temper",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 47,
+					"text1": "Khamsin",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 48,
+					"text1": "Strait",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 49,
+					"text1": "Vigor",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 50,
+					"text1": "Bewitch%s",
+					"array": [
+						10
+					],
+					"int1": 0,
+					"text2": "Bewitch",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 51,
+					"text1": "Demon Jewel",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 52,
+					"text1": "Infectious Poison",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 55,
+					"text1": "Divine Spirit",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 56,
+					"text1": "Godly Spirit",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 57,
+					"text1": "Stigma",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 58,
+					"text1": "Onyx Toxin",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 59,
+					"text1": "Asura Eye",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 60,
+					"text1": "Phys.",
+					"array": [],
+					"int1": 0,
+					"text2": "DMG+%d%%",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 348,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 61,
+					"text1": "Magic",
+					"array": [],
+					"int1": 0,
+					"text2": "ADMG+%d%%",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 350,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 62,
+					"text1": "Defense",
+					"array": [],
+					"int1": 0,
+					"text2": "Damage Received x%.1f",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 349,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 63,
+					"text1": "Speed",
+					"array": [],
+					"int1": 0,
+					"text2": "Cast Time/Post-Delay x%1.1f",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 334,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 64,
+					"text1": "Phys.",
+					"array": [],
+					"int1": 0,
+					"text2": "DMG+%d%%",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 65,
+					"text1": "Magic",
+					"array": [],
+					"int1": 0,
+					"text2": "ADMG+%d%%",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 66,
+					"text1": "Defense",
+					"array": [],
+					"int1": 0,
+					"text2": "Damage received %1.1f times",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 67,
+					"text1": "Speed",
+					"array": [],
+					"int1": 0,
+					"text2": "Cast Time/Post-Delay x%1.1f",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 72,
+					"text1": "DMG%s",
+					"array": [
+						11
+					],
+					"int1": 0,
+					"text2": "Attack",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 348,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 73,
+					"text1": "RES%s",
+					"array": [
+						11
+					],
+					"int1": 0,
+					"text2": "Defend",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 349,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 74,
+					"text1": "ADMG%s",
+					"array": [
+						11
+					],
+					"int1": 0,
+					"text2": "ADMG",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 350,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 75,
+					"text1": "ARES%s",
+					"array": [
+						11
+					],
+					"int1": 0,
+					"text2": "ARES",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 351,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 76,
+					"text1": "DMG%s",
+					"array": [
+						12
+					],
+					"int1": 0,
+					"text2": "DMG",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 352,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 77,
+					"text1": "RES%s",
+					"array": [
+						12
+					],
+					"int1": 0,
+					"text2": "RES",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 353,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 78,
+					"text1": "ADMG%s",
+					"array": [
+						12
+					],
+					"int1": 0,
+					"text2": "ADMG",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 354,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 79,
+					"text1": "ARES%s",
+					"array": [
+						12
+					],
+					"int1": 0,
+					"text2": "ARES",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 355,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 80,
+					"text1": "STR%s",
+					"array": [
+						11
+					],
+					"int1": 0,
+					"text2": "STR",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 81,
+					"text1": "DEF%s",
+					"array": [
+						11
+					],
+					"int1": 0,
+					"text2": "DEF",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 82,
+					"text1": "ATS%s",
+					"array": [
+						11
+					],
+					"int1": 0,
+					"text2": "ATS",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 83,
+					"text1": "ADF%s",
+					"array": [
+						11
+					],
+					"int1": 0,
+					"text2": "ADF",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 84,
+					"text1": "SPD%s",
+					"array": [
+						11
+					],
+					"int1": 0,
+					"text2": "SPD",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 85,
+					"text1": "MOV%s",
+					"array": [
+						11
+					],
+					"int1": 0,
+					"text2": "MOV",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 86,
+					"text1": "STR%s",
+					"array": [
+						12
+					],
+					"int1": 0,
+					"text2": "STR",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 87,
+					"text1": "DEF%s",
+					"array": [
+						12
+					],
+					"int1": 0,
+					"text2": "DEF",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 88,
+					"text1": "ATS%s",
+					"array": [
+						12
+					],
+					"int1": 0,
+					"text2": "ATS",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 89,
+					"text1": "ADF%s",
+					"array": [
+						12
+					],
+					"int1": 0,
+					"text2": "ADF",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 90,
+					"text1": "SPD%s",
+					"array": [
+						12
+					],
+					"int1": 0,
+					"text2": "SPD",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 91,
+					"text1": "MOV%s",
+					"array": [
+						12
+					],
+					"int1": 0,
+					"text2": "MOV",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 92,
+					"text1": "All Stats%s",
+					"array": [
+						11
+					],
+					"int1": 0,
+					"text2": "All Stats",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 93,
+					"text1": "All Stats%s",
+					"array": [
+						12
+					],
+					"int1": 0,
+					"text2": "All Stats",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 94,
+					"text1": "Removes Buffs",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 95,
+					"text1": "Cures Ailments",
+					"array": [],
+					"int1": 0,
+					"text2": "Status Ailment",
+					"text3": "Cures",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 389,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 96,
+					"text1": "Cures Stat Down",
+					"array": [],
+					"int1": 0,
+					"text2": "Stat Down",
+					"text3": "Cures",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 390,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 97,
+					"text1": "Debuff Immunity",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 98,
+					"text1": "Ailment Resist.%s",
+					"array": [
+						12
+					],
+					"int1": 0,
+					"text2": "Ailment Resist.",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 99,
+					"text1": "CRT Rate%s",
+					"array": [
+						11
+					],
+					"int1": 0,
+					"text2": "CRT Rate",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 100,
+					"text1": "CRT Rate%s",
+					"array": [
+						12
+					],
+					"int1": 0,
+					"text2": "CRT Rate",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 101,
+					"text1": "Hate%s",
+					"array": [
+						11
+					],
+					"int1": 0,
+					"text2": "Hate",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 102,
+					"text1": "Hate%s",
+					"array": [
+						12
+					],
+					"int1": 0,
+					"text2": "Hate",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 104,
+					"text1": "Freeze++ OR Burn++",
+					"array": [],
+					"int1": 0,
+					"text2": "Freeze++ OR Burn++",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 105,
+					"text1": "Physical damage to enemy with Burn",
+					"array": [],
+					"int1": 0,
+					"text2": "Physical damage to enemy with Burn",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 106,
+					"text1": "Magic damage to enemy with Freeze",
+					"array": [],
+					"int1": 0,
+					"text2": "Magic damage to enemy with Freeze",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 107,
+					"text1": "Burn OR Blind",
+					"array": [],
+					"int1": 0,
+					"text2": "Burn OR Blind",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 110,
+					"text1": "Cures Rot",
+					"array": [],
+					"int1": 0,
+					"text2": "Cures Rot",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 377,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 111,
+					"text1": "Cures Freeze",
+					"array": [],
+					"int1": 0,
+					"text2": "Cures Freeze",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 372,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 112,
+					"text1": "Cures Burn",
+					"array": [],
+					"int1": 0,
+					"text2": "Cures Burn",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 371,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 113,
+					"text1": "Cures Seal",
+					"array": [],
+					"int1": 0,
+					"text2": "Cures Seal",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 373,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 114,
+					"text1": "Cures Mute",
+					"array": [],
+					"int1": 0,
+					"text2": "Cures Mute",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 374,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 115,
+					"text1": "Cures Blind",
+					"array": [],
+					"int1": 0,
+					"text2": "Cures Blind",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 375,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 116,
+					"text1": "Cures Fear",
+					"array": [],
+					"int1": 0,
+					"text2": "Cures Fear",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 376,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 118,
+					"text1": "Revive",
+					"array": [
+						0,
+						4
+					],
+					"int1": 1,
+					"text2": "Revive",
+					"text3": "Restores %s HP",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 391,
+					"int3": 368,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 119,
+					"text1": "Revive",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 120,
+					"text1": "Restores %d HP",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "HP",
+					"text3": "Restores %s HP",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 368,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 121,
+					"text1": "Restores %s HP",
+					"array": [
+						4
+					],
+					"int1": 0,
+					"text2": "HP",
+					"text3": "Restores %s HP",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 368,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 122,
+					"text1": "Restores %d EP",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "EP",
+					"text3": "Restores %s EP",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 369,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 123,
+					"text1": "Restores %s EP",
+					"array": [
+						4
+					],
+					"int1": 0,
+					"text2": "EP",
+					"text3": "Restores %s EP",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 369,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 124,
+					"text1": "CP+%d",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "CP",
+					"text3": "+%d",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 370,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 125,
+					"text1": "Revive",
+					"array": [
+						0,
+						1
+					],
+					"int1": 1,
+					"text2": "Revive",
+					"text3": "Restores %d HP",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 391,
+					"int3": 368,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 126,
+					"text1": "HP Heal%s",
+					"array": [
+						14
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 127,
+					"text1": "HP Regen",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 128,
+					"text1": "EP Regen",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 129,
+					"text1": "CP Regen",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 130,
+					"text1": "CP Split",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 134,
+					"text1": "Stealth",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 135,
+					"text1": "Clone",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 140,
+					"text1": "Gain Sepith",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 141,
+					"text1": "Bait that lures out a Shining Pom. Summon to gain a level.\n<C1>Limited to once per fight. Only escapable battles.</C>",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 150,
+					"text1": "Increases base stats %s Max HP+%d",
+					"array": [
+						0,
+						1
+					],
+					"int1": 1,
+					"text2": "Increases base stats",
+					"text3": "Max HP+%d",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 392,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 151,
+					"text1": "Increases base stats %s STR+%d",
+					"array": [
+						0,
+						1
+					],
+					"int1": 1,
+					"text2": "Increases base stats",
+					"text3": "STR+%d",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 393,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 152,
+					"text1": "Increases base stats %s DEF+%d",
+					"array": [
+						0,
+						1
+					],
+					"int1": 1,
+					"text2": "Increases base stats",
+					"text3": "DEF+%d",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 394,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 153,
+					"text1": "Increases base stats %s ATS+%d",
+					"array": [
+						0,
+						1
+					],
+					"int1": 1,
+					"text2": "Increases base stats",
+					"text3": "ATS+%d",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 395,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 154,
+					"text1": "Increases base stats %s ADF+%d",
+					"array": [
+						0,
+						1
+					],
+					"int1": 1,
+					"text2": "Increases base stats",
+					"text3": "ADF+%d",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 396,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 155,
+					"text1": "EXP+%d",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "Up to Lv. %d",
+					"text3": "",
+					"text4": "<C3>",
+					"text5": "<C2>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 200,
+					"text1": "HP Absorb",
+					"array": [],
+					"int1": 0,
+					"text2": "HP",
+					"text3": " Absorb",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 201,
+					"text1": "EP Absorb",
+					"array": [],
+					"int1": 0,
+					"text2": "EP",
+					"text3": " Absorb",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 202,
+					"text1": "CP Absorb",
+					"array": [],
+					"int1": 0,
+					"text2": "CP",
+					"text3": " Absorb",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 210,
+					"text1": "HP Absorb",
+					"array": [],
+					"int1": 0,
+					"text2": "HP",
+					"text3": " Absorb",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 211,
+					"text1": "EP Absorb",
+					"array": [],
+					"int1": 0,
+					"text2": "EP",
+					"text3": " Absorb",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 212,
+					"text1": "CP Absorb",
+					"array": [],
+					"int1": 0,
+					"text2": "CP",
+					"text3": " Absorb",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 220,
+					"text1": "Boost Recovery",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 221,
+					"text1": "Steal Bonus",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 222,
+					"text1": "Reflect Damage",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 223,
+					"text1": "Physical Reflect",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 224,
+					"text1": "Magic Reflect",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 225,
+					"text1": "Shield%s",
+					"array": [
+						15
+					],
+					"int1": 0,
+					"text2": "Shield",
+					"text3": "%s",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 226,
+					"text1": "Immunity",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 230,
+					"text1": "Continuous Action",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 256,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 257,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 260,
+					"text1": "Reduces damage taken in Field Battles.",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<C3>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 261,
+					"text1": "Increases the power of Charge Attacks in Field Battles.",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<C3>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 262,
+					"text1": "Makes Perfect Evades easier to perform in Field Battles.",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<C3>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 263,
+					"text1": "Makes the Charge Gauge fill faster in Field Battles.",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<C3>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 264,
+					"text1": "Speeds up the cast times for Quick Arts in Field Battles.",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<C3>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 265,
+					"text1": "Increases the power of Quick Arts in Field Battles.",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<C3>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1004,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases STR",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1005,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases DEF",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1006,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases ATS",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1007,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "ADF Up",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1008,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases SPD",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1009,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases MOV",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1010,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Decreases DEF",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1011,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "ADF Down",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1012,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Phys. Up",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1013,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Magical damage up",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1014,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Regen HP After Acting",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1015,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Regen EP After Acting",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1016,
+					"text1": "Turn CP+%d",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Regen CP After Acting",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1017,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases Accuracy",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1018,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases Evasion",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1020,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases Critical Rate",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1021,
+					"text1": "Arts Cast Time x%1.1f",
+					"array": [
+						3
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Decreases Recovery Time",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1022,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases EP Consumption",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1024,
+					"text1": "EP Cost x%1.1f",
+					"array": [
+						3
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Decreases EP Consumption",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1025,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases S-Craft Power",
+					"text7": "+%d"
+				},
+				{
+					"effect_id": 1026,
+					"text1": "S-Craft Post-Delay x%1.1f",
+					"array": [
+						3
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Decreases S-Craft Post-Delay",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1027,
+					"text1": "Cuts post-delay after %s arts by %d%%.",
+					"array": [
+						6
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1028,
+					"text1": "Damage Dealt +%d%%, but delay afterward is %1.1fx longer.",
+					"array": [
+						9
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1029,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases Inflicted Evasion Counter Damage",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1030,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases Evasion Counter Rate",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1031,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases Healing Arts/Crafts HP Recovery",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1032,
+					"text1": "Recovery Arts Effect+%d%%",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1033,
+					"text1": "Healing Item Range+%dm",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1034,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases Arts Power",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1035,
+					"text1": "Ranged Arts Area of Effect+%dm",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases Arts Area of Effect",
+					"text7": "+%d"
+				},
+				{
+					"effect_id": 1036,
+					"text1": "Inflicted Stun+%d%%",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases Stun Damage",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1037,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases duration when attacking a stunned enemy.",
+					"text7": "+%d"
+				},
+				{
+					"effect_id": 1038,
+					"text1": "Absorbs physical attacks (%d%% chance).",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1039,
+					"text1": "Absorbs magic attacks (%d%% chance).",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Absorbs magic attacks (90%% chance).",
+					"text7": "Heal Amount %d%%"
+				},
+				{
+					"effect_id": 1040,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases S-Boost Turn Duration",
+					"text7": "+%d"
+				},
+				{
+					"effect_id": 1041,
+					"text1": "Sepith+%d%% upon defeating enemy in command battle.",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1042,
+					"text1": "Item Drop Rate+%d%% upon defeating enemy in a command battle.",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "Item Drop",
+					"text3": "+%d",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1047,
+					"text1": "Attacks/crafts can rot enemies (%d%% chance).",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1048,
+					"text1": "Attacks/crafts can freeze enemies (%d%% chance).",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1049,
+					"text1": "Attacks/crafts can burn enemies (%d%% chance).",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1050,
+					"text1": "Attacks/crafts can seal enemies (%d%% chance).",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1051,
+					"text1": "Attacks/crafts can mute enemies (%d%% chance).",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1052,
+					"text1": "Attacks/crafts can blind enemies (%d%% chance).",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1053,
+					"text1": "Attacks/crafts can fear enemies (%d%% chance).",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1054,
+					"text1": "Increases critical damage from attacks/crafts by %d%%.",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1058,
+					"text1": "Grants STR +%s when HP is low.",
+					"array": [
+						11
+					],
+					"int1": 0,
+					"text2": "Grants %s%s effect for %d turns when HP is low.",
+					"text3": "STR",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1059,
+					"text1": "Grants DEF +%s when HP is low.",
+					"array": [
+						11
+					],
+					"int1": 0,
+					"text2": "Grants %s%s effect for %d turns when HP is low.",
+					"text3": "DEF",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1060,
+					"text1": "Grants ATS +%s when HP is low.",
+					"array": [
+						11
+					],
+					"int1": 0,
+					"text2": "Grants %s%s effect for %d turns when HP is low.",
+					"text3": "ATS",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1061,
+					"text1": "Grants ADF +%s when HP is low.",
+					"array": [
+						11
+					],
+					"int1": 0,
+					"text2": "Grants %s%s effect for %d turns when HP is low.",
+					"text3": "ADF",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1062,
+					"text1": "Grants Quick %s when HP is low.",
+					"array": [
+						11
+					],
+					"int1": 0,
+					"text2": "Grants %s%s effect for %d turns when HP is low.",
+					"text3": "Quick",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1063,
+					"text1": "Grants HP Regen for %d %s when HP is low.",
+					"array": [
+						18
+					],
+					"int1": 0,
+					"text2": "turn",
+					"text3": "turns",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1064,
+					"text1": "Grants Insight effect for %d %s when HP is low.",
+					"array": [
+						18
+					],
+					"int1": 0,
+					"text2": "turn",
+					"text3": "turns",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1065,
+					"text1": "Grants Stealth effect for %d %s when HP is low.",
+					"array": [
+						18
+					],
+					"int1": 0,
+					"text2": "turn",
+					"text3": "turns",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1066,
+					"text1": "Damage done to stunned enemies increases by %d%%.",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases Damage to Stunned Enemies",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1067,
+					"text1": "Physical damage increases when HP is lower.",
+					"array": [
+						0,
+						1
+					],
+					"int1": 1,
+					"text2": "Physical damage increases when HP is lower.",
+					"text3": "(MAX: %d%%)",
+					"text4": "<c698>",
+					"text5": "<C2>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1068,
+					"text1": "Physical damage increases when HP is higher.",
+					"array": [
+						0,
+						1
+					],
+					"int1": 1,
+					"text2": "Physical damage increases when HP is higher.",
+					"text3": "(MAX: %d%%)",
+					"text4": "<c698>",
+					"text5": "<C2>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1069,
+					"text1": "Arts damage increases when HP is lower.",
+					"array": [
+						0,
+						1
+					],
+					"int1": 1,
+					"text2": "Arts damage increases when HP is lower.",
+					"text3": "(MAX: %d%%)",
+					"text4": "<c698>",
+					"text5": "<C2>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1070,
+					"text1": "Arts damage increases when HP is higher.",
+					"array": [
+						0,
+						1
+					],
+					"int1": 1,
+					"text2": "Arts damage increases when HP is higher.",
+					"text3": "(MAX: %d%%)",
+					"text4": "<c698>",
+					"text5": "<C2>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1071,
+					"text1": "Offensive arts deal critical damage (%d%% chance).",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1072,
+					"text1": "Increases appearance rate of AT Bonus by %d%%.",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1073,
+					"text1": "Increases preemptive shard attack damage by x%1.1f.",
+					"array": [
+						3
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1074,
+					"text1": "Increases CP gained when receiving damage by x%1.1f.",
+					"array": [
+						3
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1075,
+					"text1": "CP Increase +%d%%",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1077,
+					"text1": "Draws hate during command battles (%d%%).",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1078,
+					"text1": "Deflects hate during command battles (%d%%).",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1079,
+					"text1": "Status Change 'Shield' Effect %1.1fx",
+					"array": [
+						3
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1080,
+					"text1": "Shard Skill Activation Rate+%d%%",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1081,
+					"text1": "Increases boost gauge fill rate when attacking enemies by x%1.1f.",
+					"array": [
+						3
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1082,
+					"text1": "Critical Hit Rate+%d%% while at full HP during command battles.",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1083,
+					"text1": "EVA+%d%% when under %d%% HP during command battles.",
+					"array": [
+						7
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1084,
+					"text1": "EVA+%d%% while casting arts.",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1085,
+					"text1": "S-Craft Post-Delay x%1.1f",
+					"array": [
+						3
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1086,
+					"text1": "When recovering allies, CP+%d.",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1087,
+					"text1": "%d%% chance of granting a stealth effect when hit by an attack.",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1088,
+					"text1": "Boost Gauge Max+%d when deploying shards.",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1089,
+					"text1": "EVA+%d%% and AEV+%d%% while casting arts.",
+					"array": [
+						7
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1100,
+					"text1": "Rot Prevention %d%%",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "Rot",
+					"text3": "Prevents %s (%d%%)",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1101,
+					"text1": "Freeze Prevention %d%%",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "Freeze",
+					"text3": "Prevents %s (%d%%)",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1102,
+					"text1": "Burn Prevention %d%%",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "Burn",
+					"text3": "Prevents %s (%d%%)",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1103,
+					"text1": "Seal Prevention %d%%",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "Seal",
+					"text3": "Prevents %s (%d%%)",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1104,
+					"text1": "Mute Prevention %d%%",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "Mute",
+					"text3": "Prevents %s (%d%%)",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1105,
+					"text1": "Blind Prevention %d%%",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "Blind",
+					"text3": "Prevents %s (%d%%)",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1106,
+					"text1": "Fear Prevention %d%%",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "Fear",
+					"text3": "Prevents %s (%d%%)",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1107,
+					"text1": "Deathblow Prevention %d%%",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "Deathblow",
+					"text3": "Prevents %s (%d%%)",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1108,
+					"text1": "Stat Down Prevention %d%%",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "Stat Down",
+					"text3": "Prevents %s (%d%%)",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1109,
+					"text1": "Slow Prevention %d%%",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "Slow",
+					"text3": "Prevents %s (%d%%)",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1110,
+					"text1": "Delay Prevention %d%%",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "Delay",
+					"text3": "Prevents %s (%d%%)",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1111,
+					"text1": "Status Ailment Prevention %d%%",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "Status Ailment",
+					"text3": "Prevents %s (%d%%)",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1112,
+					"text1": "Bewitch Prevention %d%%",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "Bewitch",
+					"text3": "Prevents %s (%d%%)",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1113,
+					"text1": "Debuff Immunity (%d%%)",
+					"array": [
+						1
+					],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "<c698>",
+					"text5": "<c252>",
+					"int2": 0,
+					"int3": 0,
+					"text6": "",
+					"text7": ""
+				},
+				{
+					"effect_id": 1150,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases STR/ATS, DEF/ADF, SPD, MOV",
+					"text7": "STR/ATS+%d%%, DEF/ADF+%d%%, SPD+%d%%, MOV+%d%%"
+				},
+				{
+					"effect_id": 1151,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases STR/ATS, DEF/ADF",
+					"text7": "STR/ATS+%d%%, DEF/ADF+%d%%"
+				},
+				{
+					"effect_id": 1152,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases STR/ATS, SPD, MOV",
+					"text7": "STR/ATS+%d%%, SPD+%d%%, MOV+%d%%"
+				},
+				{
+					"effect_id": 1153,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases STR/ATS, SPD",
+					"text7": "STR/ATS+%d%%, SPD+%d%%"
+				},
+				{
+					"effect_id": 1154,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases STR/ATS",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1155,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases STR/DEF",
+					"text7": "STR+%d%%, DEF+%d%%"
+				},
+				{
+					"effect_id": 1156,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases DEF/ADF, SPD, MOV",
+					"text7": "DEF/ADF+%d%%, SPD+%d%%, MOV+%d%%"
+				},
+				{
+					"effect_id": 1157,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases DEF/ADF",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1158,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Decreases DEF/ADF",
+					"text7": "%d%%"
+				},
+				{
+					"effect_id": 1159,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases ATS/ADF",
+					"text7": "ATS+%d%%, ADF+%d%%"
+				},
+				{
+					"effect_id": 1160,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases ATS/SPD",
+					"text7": "ATS+%d%%, SPD+%d%%"
+				},
+				{
+					"effect_id": 1161,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases SPD, MOV",
+					"text7": "SPD+%d%%, MOV+%d%%"
+				},
+				{
+					"effect_id": 1162,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Every Turn: HP & EP Recovery・CP Increases",
+					"text7": "HP/EP%d%%, CP %d%%"
+				},
+				{
+					"effect_id": 1163,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Every Turn: HP & EP Recovery",
+					"text7": "HP/EP%d%%"
+				},
+				{
+					"effect_id": 1164,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases evasion & critical rate",
+					"text7": "Evasion & Critical Rate+%d%%"
+				},
+				{
+					"effect_id": 1165,
+					"text1": "",
+					"array": [],
+					"int1": 0,
+					"text2": "",
+					"text3": "",
+					"text4": "",
+					"text5": "",
+					"int2": 0,
+					"int3": 0,
+					"text6": "Increases arts power, but arts consume 1.5x more EP.",
+					"text7": "+%d"
+				}
+			]
+		},
+		{
+			"name": "AttrTypeHelpData",
+			"data": [
+				{
+					"id": 0,
+					"element_name": "None",
+					"long": 0
+				},
+				{
+					"id": 1,
+					"element_name": "Earth",
+					"long": 42
+				},
+				{
+					"id": 2,
+					"element_name": "Water",
+					"long": 43
+				},
+				{
+					"id": 3,
+					"element_name": "Fire",
+					"long": 44
+				},
+				{
+					"id": 4,
+					"element_name": "Wind",
+					"long": 45
+				},
+				{
+					"id": 5,
+					"element_name": "Time",
+					"long": 46
+				},
+				{
+					"id": 6,
+					"element_name": "Space",
+					"long": 47
+				},
+				{
+					"id": 7,
+					"element_name": "Mirage",
+					"long": 48
+				},
+				{
+					"id": 10,
+					"element_name": "Wind + Space",
+					"long": 66
+				},
+				{
+					"id": 11,
+					"element_name": "Earth + Water",
+					"long": 64
+				},
+				{
+					"id": 12,
+					"element_name": "Fire + Wind",
+					"long": 65
+				},
+				{
+					"id": 13,
+					"element_name": "Earth + Time",
+					"long": 63
+				},
+				{
+					"id": 14,
+					"element_name": "Time + Mirage",
+					"long": 67
+				},
+				{
+					"id": 15,
+					"element_name": "Fire + Space",
+					"long": 68
+				},
+				{
+					"id": 16,
+					"element_name": "Water + Mirage",
+					"long": 69
+				},
+				{
+					"id": 17,
+					"element_name": "Earth + Wind",
+					"long": 0
+				},
+				{
+					"id": 18,
+					"element_name": "Earth + Space",
+					"long": 0
+				},
+				{
+					"id": 19,
+					"element_name": "Water + Fire",
+					"long": 0
+				},
+				{
+					"id": 20,
+					"element_name": "Water + Time",
+					"long": 0
+				},
+				{
+					"id": 21,
+					"element_name": "Fire + Mirage",
+					"long": 0
+				},
+				{
+					"id": 22,
+					"element_name": "Wind + Mirage",
+					"long": 0
+				},
+				{
+					"id": 23,
+					"element_name": "Time + Space",
+					"long": 0
+				}
+			]
+		},
+		{
+			"name": "SkillTypeHelpData",
+			"data": [
+				{
+					"id": 0,
+					"text1": "Field Attack",
+					"text2": ""
+				},
+				{
+					"id": 1,
+					"text1": "Attack",
+					"text2": ""
+				},
+				{
+					"id": 2,
+					"text1": "Crafts",
+					"text2": ""
+				},
+				{
+					"id": 3,
+					"text1": "S-Crafts",
+					"text2": ""
+				},
+				{
+					"id": 4,
+					"text1": "Arts",
+					"text2": ""
+				},
+				{
+					"id": 5,
+					"text1": "Defend",
+					"text2": ""
+				},
+				{
+					"id": 6,
+					"text1": "Item",
+					"text2": ""
+				},
+				{
+					"id": 7,
+					"text1": "Link Attack (SLCM Chain)",
+					"text2": ""
+				},
+				{
+					"id": 8,
+					"text1": "Shard Skill",
+					"text2": ""
+				},
+				{
+					"id": 10,
+					"text1": "Equipment",
+					"text2": ""
+				},
+				{
+					"id": 11,
+					"text1": "Counter",
+					"text2": ""
+				},
+				{
+					"id": 12,
+					"text1": "Cover",
+					"text2": ""
+				},
+				{
+					"id": 13,
+					"text1": "EX Chains",
+					"text2": ""
+				},
+				{
+					"id": 14,
+					"text1": "Quick Arts",
+					"text2": ""
+				},
+				{
+					"id": 15,
+					"text1": "Reflect",
+					"text2": ""
+				},
+				{
+					"id": 16,
+					"text1": "Shard Command",
+					"text2": ""
+				}
+			]
+		},
+		{
+			"name": "SkillRangeHelpData",
+			"data": [
+				{
+					"id": 1,
+					"text1": "Single/Movement",
+					"icon": 294,
+					"text2": "",
+					"text3": "<C3>"
+				},
+				{
+					"id": 2,
+					"text1": "One",
+					"icon": 294,
+					"text2": "",
+					"text3": "<C3>"
+				},
+				{
+					"id": 3,
+					"text1": "Ally/Single",
+					"icon": 299,
+					"text2": "One",
+					"text3": "<C3>"
+				},
+				{
+					"id": 4,
+					"text1": "Self",
+					"icon": 299,
+					"text2": "One",
+					"text3": "<C3>"
+				},
+				{
+					"id": 5,
+					"text1": "Short Cone",
+					"icon": 297,
+					"text2": "",
+					"text3": "<C3>"
+				},
+				{
+					"id": 6,
+					"text1": "Cone",
+					"icon": 302,
+					"text2": "",
+					"text3": "<C3>"
+				},
+				{
+					"id": 7,
+					"text1": "Self/Targeted Circle",
+					"icon": 300,
+					"text2": "",
+					"text3": "<C3>"
+				},
+				{
+					"id": 8,
+					"text1": "Set Circle",
+					"icon": 295,
+					"text2": "",
+					"text3": "<C3>"
+				},
+				{
+					"id": 9,
+					"text1": "Ally/Set Circle",
+					"icon": 300,
+					"text2": "",
+					"text3": "<C3>"
+				},
+				{
+					"id": 10,
+					"text1": "Movement/Line",
+					"icon": 296,
+					"text2": "",
+					"text3": "<C3>"
+				},
+				{
+					"id": 11,
+					"text1": "Straight Line",
+					"icon": 296,
+					"text2": "",
+					"text3": "<C3>"
+				},
+				{
+					"id": 12,
+					"text1": "Single/Line",
+					"icon": 296,
+					"text2": "",
+					"text3": "<C3>"
+				},
+				{
+					"id": 13,
+					"text1": "Circle",
+					"icon": 295,
+					"text2": "",
+					"text3": "<C3>"
+				},
+				{
+					"id": 14,
+					"text1": "Party/Targeted Circle",
+					"icon": 300,
+					"text2": "",
+					"text3": "<C3>"
+				},
+				{
+					"id": 15,
+					"text1": "Character/Targeted Circle/Movement",
+					"icon": 295,
+					"text2": "",
+					"text3": "<C3>"
+				},
+				{
+					"id": 16,
+					"text1": "All",
+					"icon": 298,
+					"text2": "",
+					"text3": "<C3>"
+				},
+				{
+					"id": 17,
+					"text1": "All Allies",
+					"icon": 301,
+					"text2": "All (Out of Battle)",
+					"text3": "<C3>"
+				}
+			]
+		},
+		{
+			"name": "ItemKindHelpData",
+			"data": [
+				{
+					"category_id": 2,
+					"subcategory_id": 8,
+					"short1": 0,
+					"short2": 0,
+					"text1": "<c698>Viewable in the Books tab in the Notebook.</C>",
+					"long": 0,
+					"text2": "Documents"
+				},
+				{
+					"category_id": 2,
+					"subcategory_id": 34,
+					"short1": 0,
+					"short2": 0,
+					"text1": "Fishing Gear",
+					"long": 1,
+					"text2": "Fishing Gear"
+				},
+				{
+					"category_id": 2,
+					"subcategory_id": 9,
+					"short1": 0,
+					"short2": 0,
+					"text1": "<c698>Viewable in Connect on the To-Do List. Gift for %s.</C>",
+					"long": 2,
+					"text2": "Gifts"
+				},
+				{
+					"category_id": 1,
+					"subcategory_id": 19,
+					"short1": 0,
+					"short2": 0,
+					"text1": "<c698>Use via Items on the main menu.</C>",
+					"long": 0,
+					"text2": "Recipe"
+				},
+				{
+					"category_id": 30,
+					"subcategory_id": 5,
+					"short1": 0,
+					"short2": 0,
+					"text1": "<c698>Used for exchanging and upgrading at shops.</C>",
+					"long": 0,
+					"text2": "Materials"
+				},
+				{
+					"category_id": 30,
+					"subcategory_id": 34,
+					"short1": 0,
+					"short2": 0,
+					"text1": "<s30><I1114><s22>+<s30><I1126><s22><c698> by a body of water to fish.</C>",
+					"long": 0,
+					"text2": "Fishing Bait"
+				},
+				{
+					"category_id": 30,
+					"subcategory_id": 6,
+					"short1": 0,
+					"short2": 0,
+					"text1": "%s",
+					"long": 9,
+					"text2": "Trade"
+				},
+				{
+					"category_id": 30,
+					"subcategory_id": 38,
+					"short1": 0,
+					"short2": 0,
+					"text1": "<c698>Use via Support Item in the Mystic Cube Analysis Menu.</C>",
+					"long": 0,
+					"text2": "Analysis Support"
+				},
+				{
+					"category_id": 1,
+					"subcategory_id": 1,
+					"short1": 0,
+					"short2": 0,
+					"text1": "Recov. ",
+					"long": 3,
+					"text2": "Recov. "
+				},
+				{
+					"category_id": 1,
+					"subcategory_id": 2,
+					"short1": 0,
+					"short2": 0,
+					"text1": "Recov. ",
+					"long": 3,
+					"text2": "Support"
+				},
+				{
+					"category_id": 1,
+					"subcategory_id": 36,
+					"short1": 0,
+					"short2": 0,
+					"text1": "Strengthen",
+					"long": 3,
+					"text2": "Upgrade Item"
+				},
+				{
+					"category_id": 2,
+					"subcategory_id": 20,
+					"short1": 0,
+					"short2": 0,
+					"text1": "<c698><c698>Use via Craft Enhancement.</C>",
+					"long": 0,
+					"text2": "Skill Stone"
+				},
+				{
+					"category_id": 30,
+					"subcategory_id": 7,
+					"short1": 0,
+					"short2": 0,
+					"text1": "<c698>Used in cooking recipes.</C>",
+					"long": 0,
+					"text2": "Ingredient"
+				},
+				{
+					"category_id": 30,
+					"subcategory_id": 33,
+					"short1": 0,
+					"short2": 0,
+					"text1": "<c698>Detailed information viewable in the Fishing tab in the Notebook.</C>",
+					"long": 0,
+					"text2": "Fish"
+				},
+				{
+					"category_id": 1,
+					"subcategory_id": 3,
+					"short1": 9,
+					"short2": 0,
+					"text1": "Homemade",
+					"long": 3,
+					"text2": "Meals"
+				},
+				{
+					"category_id": 1,
+					"subcategory_id": 3,
+					"short1": 10,
+					"short2": 0,
+					"text1": "Hood",
+					"long": 3,
+					"text2": "Meals"
+				},
+				{
+					"category_id": 1,
+					"subcategory_id": 3,
+					"short1": 11,
+					"short2": 0,
+					"text1": "Premium Sweets",
+					"long": 3,
+					"text2": "Meals"
+				},
+				{
+					"category_id": 1,
+					"subcategory_id": 3,
+					"short1": 12,
+					"short2": 0,
+					"text1": "Drinks",
+					"long": 3,
+					"text2": "Meals"
+				},
+				{
+					"category_id": 1,
+					"subcategory_id": 4,
+					"short1": 9,
+					"short2": 0,
+					"text1": "Homemade",
+					"long": 3,
+					"text2": "Homemade"
+				},
+				{
+					"category_id": 1,
+					"subcategory_id": 4,
+					"short1": 10,
+					"short2": 0,
+					"text1": "Hood",
+					"long": 3,
+					"text2": "Snacks"
+				},
+				{
+					"category_id": 1,
+					"subcategory_id": 4,
+					"short1": 11,
+					"short2": 0,
+					"text1": "Premium Sweets",
+					"long": 3,
+					"text2": "Sweets"
+				},
+				{
+					"category_id": 1,
+					"subcategory_id": 4,
+					"short1": 12,
+					"short2": 0,
+					"text1": "Drinks",
+					"long": 3,
+					"text2": "Drinks"
+				},
+				{
+					"category_id": 12,
+					"subcategory_id": 10,
+					"short1": 0,
+					"short2": 0,
+					"text1": "%s Exclusive",
+					"long": 4,
+					"text2": "Weapons"
+				},
+				{
+					"category_id": 13,
+					"subcategory_id": 11,
+					"short1": 0,
+					"short2": 0,
+					"text1": "Sub Parts",
+					"long": 3,
+					"text2": "Sub Parts"
+				},
+				{
+					"category_id": 14,
+					"subcategory_id": 12,
+					"short1": 0,
+					"short2": 0,
+					"text1": "",
+					"long": 6,
+					"text2": "Armor"
+				},
+				{
+					"category_id": 15,
+					"subcategory_id": 13,
+					"short1": 0,
+					"short2": 0,
+					"text1": "",
+					"long": 6,
+					"text2": "Footwear"
+				},
+				{
+					"category_id": 16,
+					"subcategory_id": 14,
+					"short1": 0,
+					"short2": 0,
+					"text1": "",
+					"long": 6,
+					"text2": "Accessories"
+				},
+				{
+					"category_id": 20,
+					"subcategory_id": 28,
+					"short1": 0,
+					"short2": 0,
+					"text1": "<c698>Swappable in the Orbment menu.</C>",
+					"long": 2,
+					"text2": "Holo Core"
+				},
+				{
+					"category_id": 21,
+					"subcategory_id": 29,
+					"short1": 0,
+					"short2": 0,
+					"text1": "<c698>Swappable in Arts on the Orbment menu.</C>",
+					"long": 0,
+					"text2": "Arts Driver"
+				},
+				{
+					"category_id": 23,
+					"subcategory_id": 30,
+					"short1": 0,
+					"short2": 0,
+					"text1": "Sets %s to an Arts Driver.",
+					"long": 7,
+					"text2": "Arts Plugin"
+				},
+				{
+					"category_id": 22,
+					"subcategory_id": 21,
+					"short1": 0,
+					"short2": 0,
+					"text1": "Element Value: %s",
+					"long": 8,
+					"text2": "Earth Quartz"
+				},
+				{
+					"category_id": 22,
+					"subcategory_id": 22,
+					"short1": 0,
+					"short2": 0,
+					"text1": "Element Value: %s",
+					"long": 8,
+					"text2": "Water Quartz"
+				},
+				{
+					"category_id": 22,
+					"subcategory_id": 23,
+					"short1": 0,
+					"short2": 0,
+					"text1": "Element Value: %s",
+					"long": 8,
+					"text2": "Fire Quartz"
+				},
+				{
+					"category_id": 22,
+					"subcategory_id": 24,
+					"short1": 0,
+					"short2": 0,
+					"text1": "Element Value: %s",
+					"long": 8,
+					"text2": "Wind Quartz"
+				},
+				{
+					"category_id": 22,
+					"subcategory_id": 25,
+					"short1": 0,
+					"short2": 0,
+					"text1": "Element Value: %s",
+					"long": 8,
+					"text2": "Time Quartz"
+				},
+				{
+					"category_id": 22,
+					"subcategory_id": 26,
+					"short1": 0,
+					"short2": 0,
+					"text1": "Element Value: %s",
+					"long": 8,
+					"text2": "Space Quartz"
+				},
+				{
+					"category_id": 22,
+					"subcategory_id": 27,
+					"short1": 0,
+					"short2": 0,
+					"text1": "Element Value: %s",
+					"long": 8,
+					"text2": "Mirage Quartz"
+				},
+				{
+					"category_id": 17,
+					"subcategory_id": 16,
+					"short1": 0,
+					"short2": 0,
+					"text1": "<c698>Changeable in Costume on the Equip menu.</C>",
+					"long": 0,
+					"text2": "Costume"
+				},
+				{
+					"category_id": 18,
+					"subcategory_id": 16,
+					"short1": 0,
+					"short2": 0,
+					"text1": "<c698>Changeable in Costume on the Equip menu.</C>",
+					"long": 0,
+					"text2": "Hair Color"
+				},
+				{
+					"category_id": 19,
+					"subcategory_id": 16,
+					"short1": 0,
+					"short2": 0,
+					"text1": "<c698>Changeable in Costume on the Equip menu.</C>",
+					"long": 0,
+					"text2": "Attachment"
+				},
+				{
+					"category_id": 24,
+					"subcategory_id": 18,
+					"short1": 0,
+					"short2": 0,
+					"text1": "<c698>Swappable via the Modify Orbment option at workshops.</C>",
+					"long": 0,
+					"text2": "Covers"
+				},
+				{
+					"category_id": 26,
+					"subcategory_id": 35,
+					"short1": 0,
+					"short2": 0,
+					"text1": "[<c698>Usable at the Epstein Workshop.<C0>]",
+					"long": 0,
+					"text2": "BGM"
+				},
+				{
+					"category_id": 25,
+					"subcategory_id": 31,
+					"short1": 0,
+					"short2": 0,
+					"text1": "[<c698>Change Holo Core > Change Voice Settings on the Orbment menu.</C>]",
+					"long": 0,
+					"text2": "Holo Core Voice"
+				},
+				{
+					"category_id": 2,
+					"subcategory_id": 37,
+					"short1": 0,
+					"short2": 0,
+					"text1": "<c698>Exchange for special items in Epstein Factory's <C3>fragment repair<c698> menu.<C0>",
+					"long": 0,
+					"text2": "Fragment"
+				},
+				{
+					"category_id": 27,
+					"subcategory_id": 40,
+					"short1": 0,
+					"short2": 0,
+					"text1": "[<c698>Swappable via the Change Avatar option in the Grim Garten.</C>]",
+					"long": 0,
+					"text2": "Avatar"
+				},
+				{
+					"category_id": 2,
+					"subcategory_id": 17,
+					"short1": 0,
+					"short2": 0,
+					"text1": "",
+					"long": 9,
+					"text2": "Events"
+				}
+			]
+		},
+		{
+			"name": "SkillItemStatusData",
+			"data": [
+				{
+					"id": 0,
+					"text1": "Max HP+%d",
+					"text2": "Max HP",
+					"text3": "+%d",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 1,
+					"text1": "Max EP+%d",
+					"text2": "Max EP",
+					"text3": "+%d",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 2,
+					"text1": "DMG+%d",
+					"text2": "DMG",
+					"text3": "+%d",
+					"long": 49,
+					"text4": "<c698>"
+				},
+				{
+					"id": 3,
+					"text1": "RES+%d",
+					"text2": "RES",
+					"text3": "+%d",
+					"long": 51,
+					"text4": "<c698>"
+				},
+				{
+					"id": 4,
+					"text1": "ADMG+%d",
+					"text2": "ADMG",
+					"text3": "+%d",
+					"long": 50,
+					"text4": "<c698>"
+				},
+				{
+					"id": 5,
+					"text1": "ARES+%d",
+					"text2": "ARES",
+					"text3": "+%d",
+					"long": 52,
+					"text4": "<c698>"
+				},
+				{
+					"id": 6,
+					"text1": "STR+%d",
+					"text2": "STR",
+					"text3": "+%d",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 7,
+					"text1": "DEF+%d",
+					"text2": "DEF",
+					"text3": "+%d",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 8,
+					"text1": "ATS+%d",
+					"text2": "ATS",
+					"text3": "+%d",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 9,
+					"text1": "ADF+%d",
+					"text2": "ADF",
+					"text3": "+%d",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 10,
+					"text1": "ACC+%d",
+					"text2": "ACC",
+					"text3": "+%d%%",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 11,
+					"text1": "EVA+%d",
+					"text2": "EVA",
+					"text3": "+%d%%",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 12,
+					"text1": "AEV+%d",
+					"text2": "AEV",
+					"text3": "+%d%%",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 13,
+					"text1": "CRT+%d%%",
+					"text2": "CRT",
+					"text3": "+%d%%",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 14,
+					"text1": "SPD+%d",
+					"text2": "SPD",
+					"text3": "+%d",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 15,
+					"text1": "MOV+%d",
+					"text2": "MOV",
+					"text3": "+%d",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 16,
+					"text1": "Max HP%d",
+					"text2": "Max HP",
+					"text3": "%d",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 17,
+					"text1": "Max EP%d",
+					"text2": "Max EP",
+					"text3": "%d",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 18,
+					"text1": "DMG%d",
+					"text2": "DMG",
+					"text3": "%d",
+					"long": 49,
+					"text4": "<c698>"
+				},
+				{
+					"id": 19,
+					"text1": "RES%d",
+					"text2": "RES",
+					"text3": "%d",
+					"long": 51,
+					"text4": "<c698>"
+				},
+				{
+					"id": 20,
+					"text1": "ADMG%d",
+					"text2": "ADMG",
+					"text3": "%d",
+					"long": 50,
+					"text4": "<c698>"
+				},
+				{
+					"id": 21,
+					"text1": "ARES%d",
+					"text2": "ARES",
+					"text3": "%d",
+					"long": 52,
+					"text4": "<c698>"
+				},
+				{
+					"id": 22,
+					"text1": "STR%d",
+					"text2": "STR",
+					"text3": "%d",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 23,
+					"text1": "DEF%d",
+					"text2": "DEF",
+					"text3": "%d",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 24,
+					"text1": "ATS%d",
+					"text2": "ATS",
+					"text3": "%d",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 25,
+					"text1": "ADF%d",
+					"text2": "ADF",
+					"text3": "%d",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 26,
+					"text1": "ACC%d",
+					"text2": "ACC",
+					"text3": "%d%%",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 27,
+					"text1": "EVA%d",
+					"text2": "EVA",
+					"text3": "%d%%",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 28,
+					"text1": "AEV%d",
+					"text2": "AEV",
+					"text3": "%d%%",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 39,
+					"text1": "CRT%d",
+					"text2": "CRT",
+					"text3": "%d%%",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 30,
+					"text1": "SPD%d",
+					"text2": "SPD",
+					"text3": "%d",
+					"long": 0,
+					"text4": "<c698>"
+				},
+				{
+					"id": 31,
+					"text1": "MOV%d",
+					"text2": "MOV",
+					"text3": "%d",
+					"long": 0,
+					"text4": "<c698>"
+				}
+			]
+		},
+		{
+			"name": "EquipLineHelpData",
+			"data": [
+				{
+					"id": 1,
+					"text1": "Weapon Line Only",
+					"text2": "Weapon",
+					"text3": " Line Only",
+					"text4": "<C2>"
+				},
+				{
+					"id": 3,
+					"text1": "Drive Line Only",
+					"text2": "Drive",
+					"text3": " Line Only",
+					"text4": "<C2>"
+				},
+				{
+					"id": 2,
+					"text1": "Shield Line Only",
+					"text2": "Shield",
+					"text3": " Line Only",
+					"text4": "<C2>"
+				},
+				{
+					"id": 4,
+					"text1": "Extra Line Only",
+					"text2": "Extra",
+					"text3": " Line Only",
+					"text4": "<C2>"
+				}
+			]
+		},
+		{
+			"name": "SkillConnectListData",
+			"data": [
+				{
+					"id": 1,
+					"array": [
+						1100,
+						1101,
+						1102,
+						1103,
+						1104,
+						1105,
+						1106,
+						1107,
+						1108,
+						1109,
+						1110,
+						1112
+					],
+					"int": 0
+				},
+				{
+					"id": 2,
+					"array": [
+						1058,
+						1059,
+						1060,
+						1061,
+						1062
+					],
+					"int": 0
+				},
+				{
+					"id": 3,
+					"array": [
+						72,
+						73,
+						74,
+						75,
+						41
+					],
+					"int": 0
+				},
+				{
+					"id": 4,
+					"array": [
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						92
+					],
+					"int": 0
+				},
+				{
+					"id": 5,
+					"array": [
+						76,
+						77,
+						78,
+						79,
+						40
+					],
+					"int": 0
+				},
+				{
+					"id": 6,
+					"array": [
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						93
+					],
+					"int": 0
+				},
+				{
+					"id": 7,
+					"array": [
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						39,
+						50,
+						38
+					],
+					"int": 0
+				},
+				{
+					"id": 8,
+					"array": [
+						101
+					],
+					"int": 0
+				},
+				{
+					"id": 9,
+					"array": [
+						98,
+						102
+					],
+					"int": 0
+				},
+				{
+					"id": 10,
+					"array": [
+						95,
+						96
+					],
+					"int": 0
+				},
+				{
+					"id": 11,
+					"array": [
+						210,
+						211,
+						212
+					],
+					"int": 0
+				},
+				{
+					"id": 12,
+					"array": [
+						200,
+						201,
+						202
+					],
+					"int": 0
+				},
+				{
+					"id": 13,
+					"array": [
+						121,
+						123
+					],
+					"int": 0
+				},
+				{
+					"id": 14,
+					"array": [
+						95,
+						96
+					],
+					"int": 0
+				}
+			]
+		},
+		{
+			"name": "SkillTextArrayData",
+			"data": [
+				{
+					"id": 0,
+					"text1": "",
+					"text2": "<C3>"
+				},
+				{
+					"id": 65536,
+					"text1": "Phys.",
+					"text2": "<C3>"
+				},
+				{
+					"id": 131072,
+					"text1": "Magic",
+					"text2": "<C3>"
+				},
+				{
+					"id": 196608,
+					"text1": "%s Attribute",
+					"text2": "<C3>"
+				},
+				{
+					"id": 262144,
+					"text1": "Support",
+					"text2": "<C3>"
+				},
+				{
+					"id": 327680,
+					"text1": "Recov.",
+					"text2": "<C3>"
+				},
+				{
+					"id": 393216,
+					"text1": "Support",
+					"text2": "<C3>"
+				},
+				{
+					"id": 458752,
+					"text1": "Recov.",
+					"text2": "<C3>"
+				},
+				{
+					"id": 524288,
+					"text1": "DEF",
+					"text2": "<C0>"
+				},
+				{
+					"id": 589824,
+					"text1": "Enhance",
+					"text2": "<C3>"
+				},
+				{
+					"id": 655360,
+					"text1": "Debilitate",
+					"text2": "<C3>"
+				},
+				{
+					"id": 720896,
+					"text1": "Enhance",
+					"text2": "<C3>"
+				},
+				{
+					"id": 786432,
+					"text1": "%s ",
+					"text2": "<C0>"
+				},
+				{
+					"id": 851968,
+					"text1": "",
+					"text2": "<C0>"
+				},
+				{
+					"id": 917504,
+					"text1": "%s ",
+					"text2": "<C0>"
+				},
+				{
+					"id": 1,
+					"text1": " [Power:%s - Target:",
+					"text2": "<C3>"
+				},
+				{
+					"id": 262145,
+					"text1": " [Target:",
+					"text2": "<C3>"
+				},
+				{
+					"id": 327681,
+					"text1": " [Target:",
+					"text2": "<C3>"
+				},
+				{
+					"id": 393217,
+					"text1": " [Target:",
+					"text2": "<C3>"
+				},
+				{
+					"id": 458753,
+					"text1": " [Target:",
+					"text2": "<C3>"
+				},
+				{
+					"id": 524289,
+					"text1": " [Target:",
+					"text2": "<C3>"
+				},
+				{
+					"id": 589825,
+					"text1": " [Target:",
+					"text2": "<C3>"
+				},
+				{
+					"id": 655361,
+					"text1": " [Target:",
+					"text2": "<C3>"
+				},
+				{
+					"id": 720897,
+					"text1": " [Target:",
+					"text2": "<C3>"
+				},
+				{
+					"id": 786433,
+					"text1": " [For %d turns: <I%d>",
+					"text2": "<C3>"
+				},
+				{
+					"id": 851969,
+					"text1": "",
+					"text2": "<C0>"
+				},
+				{
+					"id": 917505,
+					"text1": " [%d turns",
+					"text2": "<C3>"
+				},
+				{
+					"id": 2,
+					"text1": "%s] ",
+					"text2": "<C3>"
+				},
+				{
+					"id": 851970,
+					"text1": "%s",
+					"text2": "<C0>"
+				}
+			]
+		},
+		{
+			"name": "SkillRangeData",
+			"data": [
+				{
+					"int": 5,
+					"float1": 2.25,
+					"float2": 10.0,
+					"float3": 36.0,
+					"float4": 64.0
+				},
+				{
+					"int": 7,
+					"float1": 2.25,
+					"float2": 9.0,
+					"float3": 36.0,
+					"float4": 64.0
+				},
+				{
+					"int": 8,
+					"float1": 2.25,
+					"float2": 9.0,
+					"float3": 36.0,
+					"float4": 64.0
+				},
+				{
+					"int": 9,
+					"float1": 2.25,
+					"float2": 9.0,
+					"float3": 36.0,
+					"float4": 64.0
+				},
+				{
+					"int": 10,
+					"float1": 2.0,
+					"float2": 4.0,
+					"float3": 5.0,
+					"float4": 8.0
+				},
+				{
+					"int": 11,
+					"float1": 2.0,
+					"float2": 4.0,
+					"float3": 5.0,
+					"float4": 8.0
+				},
+				{
+					"int": 12,
+					"float1": 2.0,
+					"float2": 4.0,
+					"float3": 5.0,
+					"float4": 8.0
+				},
+				{
+					"int": 13,
+					"float1": 2.25,
+					"float2": 9.0,
+					"float3": 36.0,
+					"float4": 64.0
+				},
+				{
+					"int": 14,
+					"float1": 2.25,
+					"float2": 9.0,
+					"float3": 36.0,
+					"float4": 64.0
+				},
+				{
+					"int": 15,
+					"float1": 2.25,
+					"float2": 9.0,
+					"float3": 36.0,
+					"float4": 64.0
+				}
+			]
+		},
+		{
+			"name": "SkillLevelHelpData",
+			"data": [
+				{
+					"id": 1,
+					"text1": "CP Cost",
+					"text2": "%d"
+				},
+				{
+					"id": 2,
+					"text1": "Power",
+					"text2": "+%d"
+				},
+				{
+					"id": 3,
+					"text1": "Stun",
+					"text2": "+%d"
+				},
+				{
+					"id": 4,
+					"text1": "Post-Delay",
+					"text2": "+%d"
+				},
+				{
+					"id": 5,
+					"text1": "Side Attack Bonus",
+					"text2": "+%d"
+				},
+				{
+					"id": 6,
+					"text1": "Back Attack Bonus",
+					"text2": "+%d"
+				},
+				{
+					"id": 7,
+					"text1": "HP Recovery",
+					"text2": "+%d"
+				},
+				{
+					"id": 8,
+					"text1": "CP Increase",
+					"text2": "+%d"
+				},
+				{
+					"id": 9,
+					"text1": "HP Turn Recovery",
+					"text2": "+%d"
+				},
+				{
+					"id": 10,
+					"text1": "EP Turn Recovery",
+					"text2": "+%d"
+				},
+				{
+					"id": 11,
+					"text1": "CP Turn Recovery",
+					"text2": "+%d"
+				},
+				{
+					"id": 12,
+					"text1": "HP Absorb",
+					"text2": "+%d"
+				},
+				{
+					"id": 13,
+					"text1": "EP Absorb",
+					"text2": "+%d"
+				},
+				{
+					"id": 14,
+					"text1": "HP Cost",
+					"text2": "%d"
+				},
+				{
+					"id": 15,
+					"text1": "Shield Value",
+					"text2": "+%d"
+				},
+				{
+					"id": 16,
+					"text1": "Boost Recovery",
+					"text2": "+%d"
+				},
+				{
+					"id": 17,
+					"text1": "Burn Level",
+					"text2": "+%d"
+				},
+				{
+					"id": 18,
+					"text1": "Freeze Level",
+					"text2": "+%d"
+				},
+				{
+					"id": 19,
+					"text1": "Burn Chance +",
+					"text2": "+%d%%"
+				},
+				{
+					"id": 20,
+					"text1": "Freeze Chance +",
+					"text2": "+%d%%"
+				},
+				{
+					"id": 21,
+					"text1": "Seal Chance +",
+					"text2": "+%d%%"
+				},
+				{
+					"id": 22,
+					"text1": "Bewitch Chance +",
+					"text2": "+%d%%"
+				},
+				{
+					"id": 23,
+					"text1": "Deathblow Chance +",
+					"text2": "+%d%%"
+				},
+				{
+					"id": 24,
+					"text1": "Blind Chance +",
+					"text2": "+%d%%"
+				},
+				{
+					"id": 25,
+					"text1": "Temper Turns",
+					"text2": "+%d Turn(s)"
+				},
+				{
+					"id": 26,
+					"text1": "Strait Turns",
+					"text2": "+%d Turn(s)"
+				},
+				{
+					"id": 27,
+					"text1": "Quick Turns",
+					"text2": "+%d Turn(s)"
+				},
+				{
+					"id": 28,
+					"text1": "All Stats Down Turns",
+					"text2": "+%d Turn(s)"
+				},
+				{
+					"id": 29,
+					"text1": "ATK Down",
+					"text2": "%d%%"
+				},
+				{
+					"id": 30,
+					"text1": "ATK Up",
+					"text2": "+%d%%"
+				},
+				{
+					"id": 31,
+					"text1": "DEF Down",
+					"text2": "%d%%"
+				},
+				{
+					"id": 32,
+					"text1": "DEF Up",
+					"text2": "+%d%%"
+				},
+				{
+					"id": 33,
+					"text1": "ADMG Down",
+					"text2": "%d%%"
+				},
+				{
+					"id": 34,
+					"text1": "ADMG Up",
+					"text2": "+%d%%"
+				},
+				{
+					"id": 35,
+					"text1": "ARES Down",
+					"text2": "%d%%"
+				},
+				{
+					"id": 36,
+					"text1": "ARES Up",
+					"text2": "+%d%%"
+				},
+				{
+					"id": 37,
+					"text1": "EP Recovery",
+					"text2": "+%d"
+				},
+				{
+					"id": 38,
+					"text1": "All Stats Up Turns",
+					"text2": "+%d Turn(s)"
+				},
+				{
+					"id": 39,
+					"text1": "Mute Chance +",
+					"text2": "+%d%%"
+				}
+			]
+		}
+	]
+}

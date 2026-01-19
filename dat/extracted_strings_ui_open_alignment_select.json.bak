@@ -1,0 +1,182 @@
+[
+    {
+        "FileName": "a0000.ing",
+        "StringNumber": 470,
+        "Text1": ""
+    },
+    {
+        "FileName": "a0000.ing",
+        "StringNumber": 3550,
+        "Text1": "What should I do...?"
+    },
+    {
+        "FileName": "a0000.ing",
+        "StringNumber": 3569,
+        "Text1": "What should I do...?"
+    },
+    {
+        "FileName": "a0000.ing",
+        "StringNumber": 3665,
+        "Text1": "What should I do...?"
+    },
+    {
+        "FileName": "a0000.ing",
+        "StringNumber": 3684,
+        "Text1": "What should I do...?"
+    },
+    {
+        "FileName": "c0000_ev.ing",
+        "StringNumber": 332,
+        "Text1": ""
+    },
+    {
+        "FileName": "c0000_ev.ing",
+        "StringNumber": 19022,
+        "Text1": "What should his punishment be?"
+    },
+    {
+        "FileName": "c0200.ing",
+        "StringNumber": 311,
+        "Text1": ""
+    },
+    {
+        "FileName": "c0200.ing",
+        "StringNumber": 9158,
+        "Text1": "What should we suggest Kisara do?"
+    },
+    {
+        "FileName": "c1400.ing",
+        "StringNumber": 296,
+        "Text1": ""
+    },
+    {
+        "FileName": "c1400.ing",
+        "StringNumber": 6405,
+        "Text1": "In a tight spot here. What do we do?"
+    },
+    {
+        "FileName": "c1910.ing",
+        "StringNumber": 89,
+        "Text1": ""
+    },
+    {
+        "FileName": "c1910.ing",
+        "StringNumber": 706,
+        "Text1": "What should we do?"
+    },
+    {
+        "FileName": "c2000.ing",
+        "StringNumber": 259,
+        "Text1": ""
+    },
+    {
+        "FileName": "c2000.ing",
+        "StringNumber": 8773,
+        "Text1": "Which group's name should I use?"
+    },
+    {
+        "FileName": "c2000.ing",
+        "StringNumber": 9126,
+        "Text1": "What should I do about the limiter?"
+    },
+    {
+        "FileName": "d0500.ing",
+        "StringNumber": 71,
+        "Text1": ""
+    },
+    {
+        "FileName": "d0500.ing",
+        "StringNumber": 679,
+        "Text1": "What should we do here?"
+    },
+    {
+        "FileName": "d7500.ing",
+        "StringNumber": 199,
+        "Text1": ""
+    },
+    {
+        "FileName": "d7500.ing",
+        "StringNumber": 4946,
+        "Text1": "What will you do?"
+    },
+    {
+        "FileName": "d7500.ing",
+        "StringNumber": 5575,
+        "Text1": "What kind of talking-to should I give her?"
+    },
+    {
+        "FileName": "m0000.ing",
+        "StringNumber": 118,
+        "Text1": ""
+    },
+    {
+        "FileName": "m0000.ing",
+        "StringNumber": 1745,
+        "Text1": "What will you do with Candace?"
+    },
+    {
+        "FileName": "m0100.ing",
+        "StringNumber": 136,
+        "Text1": ""
+    },
+    {
+        "FileName": "m0100.ing",
+        "StringNumber": 2419,
+        "Text1": "What should I remind him about...?"
+    },
+    {
+        "FileName": "t2000.ing",
+        "StringNumber": 359,
+        "Text1": ""
+    },
+    {
+        "FileName": "t2000.ing",
+        "StringNumber": 16017,
+        "Text1": "What should we do about the counterfeits?"
+    },
+    {
+        "FileName": "t2200.ing",
+        "StringNumber": 339,
+        "Text1": ""
+    },
+    {
+        "FileName": "t2200.ing",
+        "StringNumber": 15025,
+        "Text1": "How should we deal with Nasri?"
+    },
+    {
+        "FileName": "t3000.ing",
+        "StringNumber": 271,
+        "Text1": ""
+    },
+    {
+        "FileName": "t3000.ing",
+        "StringNumber": 8867,
+        "Text1": "What should we recommend...?"
+    },
+    {
+        "FileName": "t3000.ing",
+        "StringNumber": 9769,
+        "Text1": "This problem should be settled if we..."
+    },
+    {
+        "FileName": "t4000.ing",
+        "StringNumber": 297,
+        "Text1": ""
+    },
+    {
+        "FileName": "t4000.ing",
+        "StringNumber": 14023,
+        "Text1": "What should we tell Jed?"
+    },
+    {
+        "FileName": "t7000_ev.ing",
+        "StringNumber": 303,
+        "Text1": ""
+    },
+    {
+        "FileName": "t7000_ev.ing",
+        "StringNumber": 27856,
+        "Text1": "How will you deal with Gracio?"
+    }
+]

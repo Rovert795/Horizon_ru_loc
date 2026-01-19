@@ -1,0 +1,5671 @@
+{
+  "headers": [
+    {
+      "name": "ConditionHelpData",
+      "schema": "Kai"
+    },
+    {
+      "name": "SkillEffectTypeHelpData",
+      "schema": "Kai"
+    },
+    {
+      "name": "SkillEffectHelpData",
+      "schema": "Kai"
+    },
+    {
+      "name": "AttrTypeHelpData",
+      "schema": "Kai"
+    },
+    {
+      "name": "SkillTypeHelpData",
+      "schema": "Kai"
+    },
+    {
+      "name": "SkillRangeHelpData",
+      "schema": "Kai"
+    },
+    {
+      "name": "ItemKindHelpData",
+      "schema": "Kai"
+    },
+    {
+      "name": "SkillItemStatusData",
+      "schema": "Kai"
+    },
+    {
+      "name": "EquipLineHelpData",
+      "schema": "Kai"
+    },
+    {
+      "name": "SkillConnectListData",
+      "schema": "Kai"
+    },
+    {
+      "name": "SkillTextArrayData",
+      "schema": "Kai"
+    },
+    {
+      "name": "SkillRangeData",
+      "schema": "Kai"
+    },
+    {
+      "name": "SkillLevelHelpData",
+      "schema": "Kai"
+    }
+  ],
+  "data": [
+    {
+      "name": "ConditionHelpData",
+      "data": [
+        {
+          "id": 1,
+          "text1": "Гниение %d%%",
+          "text2": "Гниение",
+          "text3": "%d%%",
+          "text4": ""
+        },
+        {
+          "id": 2,
+          "text1": "Заморозка %d%%",
+          "text2": "Заморозка",
+          "text3": "%d%%",
+          "text4": ""
+        },
+        {
+          "id": 3,
+          "text1": "Ожог %d%%",
+          "text2": "Ожог",
+          "text3": "%d%%",
+          "text4": ""
+        },
+        {
+          "id": 4,
+          "text1": "Печать %d%%",
+          "text2": "Печать",
+          "text3": "%d%%",
+          "text4": ""
+        },
+        {
+          "id": 5,
+          "text1": "Немота %d%%",
+          "text2": "Немота",
+          "text3": "%d%%",
+          "text4": ""
+        },
+        {
+          "id": 6,
+          "text1": "Ослепление %d%%",
+          "text2": "Слепота",
+          "text3": "%d%%",
+          "text4": ""
+        },
+        {
+          "id": 7,
+          "text1": "Прозрение %d%%",
+          "text2": "Прозрение",
+          "text3": "%d%%",
+          "text4": ""
+        },
+        {
+          "id": 8,
+          "text1": "Смерт. удар %d%%",
+          "text2": "Смерт. удар",
+          "text3": "%d%%",
+          "text4": ""
+        },
+        {
+          "id": 9,
+          "text1": "Страх %d%%",
+          "text2": "Страх",
+          "text3": "%d%%",
+          "text4": ""
+        },
+        {
+          "id": 10,
+          "text1": "Сверх-усиление",
+          "text2": "Сверх-Усиление",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 12,
+          "text1": "Разлом осколка",
+          "text2": "Разлом осколка",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 13,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 14,
+          "text1": "Замедление",
+          "text2": "Замедление",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 15,
+          "text1": "Ускорение",
+          "text2": "Ускорение",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 16,
+          "text1": "Закалка",
+          "text2": "Закалка",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 17,
+          "text1": "Закалка",
+          "text2": "Закалка",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 18,
+          "text1": "Пролив",
+          "text2": "Теснина",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 19,
+          "text1": "Очарование",
+          "text2": "Очарование",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 20,
+          "text1": "Бодрость",
+          "text2": "Бодрость",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 21,
+          "text1": "Скрытность %d%%",
+          "text2": "Скрытность",
+          "text3": "%d%%",
+          "text4": ""
+        },
+        {
+          "id": 22,
+          "text1": "Метка",
+          "text2": "Метка",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 23,
+          "text1": "Снижение урона %d",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 24,
+          "text1": "Иммунитет",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 25,
+          "text1": "Полное отражение",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 26,
+          "text1": "Отражение физических атак",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 27,
+          "text1": "Отражение магии",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 28,
+          "text1": "Демоническая жемчужина",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 29,
+          "text1": "Заразный яд",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 30,
+          "text1": "Спешка",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 34,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 35,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 36,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 40,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 41,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 42,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 43,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 44,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 45,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 46,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 47,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 48,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 49,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 50,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 51,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 52,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 53,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 54,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 55,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 56,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 57,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 58,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 59,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 60,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 61,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 62,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 63,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 64,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 65,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 67,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        },
+        {
+          "id": 68,
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": ""
+        }
+      ]
+    },
+    {
+      "name": "SkillEffectTypeHelpData",
+      "data": [
+        {
+          "id": 0,
+          "skill_type_name": "Атака",
+          "text": ""
+        },
+        {
+          "id": 1,
+          "skill_type_name": "Лечение",
+          "text": ""
+        },
+        {
+          "id": 2,
+          "skill_type_name": "Поддержка",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "SkillEffectHelpData",
+      "data": [
+        {
+          "effect_id": 13,
+          "text1": "Бонус при атаке с фланга",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 14,
+          "text1": "Бонус при атаке с тыла",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 16,
+          "text1": "Бонус при атаке с фланга",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 17,
+          "text1": "Бонус при атаке с тыла",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 18,
+          "text1": "Магическая помощь",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 21,
+          "text1": "%s Помощь",
+          "array": [
+            16
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 22,
+          "text1": "Цена ОЗ",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 31,
+          "text1": "Гниль%s",
+          "array": [
+            10
+          ],
+          "int1": 0,
+          "text2": "Гниение",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 32,
+          "text1": "Замораживание%s",
+          "array": [
+            10
+          ],
+          "int1": 0,
+          "text2": "Оледенение",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 33,
+          "text1": "Ожог%s",
+          "array": [
+            10
+          ],
+          "int1": 0,
+          "text2": "Ожог",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 34,
+          "text1": "Печать%s",
+          "array": [
+            10
+          ],
+          "int1": 0,
+          "text2": "Печать",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 35,
+          "text1": "Немота%s",
+          "array": [
+            10
+          ],
+          "int1": 0,
+          "text2": "Немота",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 36,
+          "text1": "Ослепление%s",
+          "array": [
+            10
+          ],
+          "int1": 0,
+          "text2": "Ослепление",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 37,
+          "text1": "Прозрение",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 38,
+          "text1": "Смерт. удар%s",
+          "array": [
+            10
+          ],
+          "int1": 0,
+          "text2": "Смерт. удар",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 39,
+          "text1": "Страх%s",
+          "array": [
+            10
+          ],
+          "int1": 0,
+          "text2": "Страх",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 40,
+          "text1": "Замедление%s",
+          "array": [
+            12
+          ],
+          "int1": 0,
+          "text2": "Замедление",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 41,
+          "text1": "Ускорение%s",
+          "array": [
+            11
+          ],
+          "int1": 0,
+          "text2": "Ускорение",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 334,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 42,
+          "text1": "Задержка%s",
+          "array": [
+            13
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 43,
+          "text1": "Спешка",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 44,
+          "text1": "Помеха",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 45,
+          "text1": "Метка%s",
+          "array": [
+            10
+          ],
+          "int1": 0,
+          "text2": "Метка",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 46,
+          "text1": "Закалка",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 47,
+          "text1": "Хамсин",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 48,
+          "text1": "Пролив",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 49,
+          "text1": "Энергия",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 50,
+          "text1": "Очарование%s",
+          "array": [
+            10
+          ],
+          "int1": 0,
+          "text2": "Очарование",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 51,
+          "text1": "Демоническая жемчужина",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 52,
+          "text1": "Заразный яд",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 55,
+          "text1": "Божественный дух",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 56,
+          "text1": "Богоподобный дух",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 57,
+          "text1": "Стигма",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 58,
+          "text1": "Ониксовый токсин",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 59,
+          "text1": "Глаз Асуры",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 60,
+          "text1": "Физ.",
+          "array": [],
+          "int1": 0,
+          "text2": "УРН+%d%%",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 348,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 61,
+          "text1": "Магия",
+          "array": [],
+          "int1": 0,
+          "text2": "ИУРН+%d%%",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 350,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 62,
+          "text1": "Защита",
+          "array": [],
+          "int1": 0,
+          "text2": "Получаемый урон x%.1f",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 349,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 63,
+          "text1": "Скорость",
+          "array": [],
+          "int1": 0,
+          "text2": "Время каста/Задержка x%1.1f",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 334,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 64,
+          "text1": "Физ.",
+          "array": [],
+          "int1": 0,
+          "text2": "УРН+%d%%",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 65,
+          "text1": "Магия",
+          "array": [],
+          "int1": 0,
+          "text2": "ИУРН+%d%%",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 66,
+          "text1": "Защита",
+          "array": [],
+          "int1": 0,
+          "text2": "Получаемый урон x%1.1f",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 67,
+          "text1": "Скорость",
+          "array": [],
+          "int1": 0,
+          "text2": "Время каста/Задержка x%1.1f",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 72,
+          "text1": "УРН%s",
+          "array": [
+            11
+          ],
+          "int1": 0,
+          "text2": "Атака",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 348,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 73,
+          "text1": "СПР%s",
+          "array": [
+            11
+          ],
+          "int1": 0,
+          "text2": "Защита",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 349,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 74,
+          "text1": "ИУРН%s",
+          "array": [
+            11
+          ],
+          "int1": 0,
+          "text2": "ИУРН",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 350,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 75,
+          "text1": "ИСПР%s",
+          "array": [
+            11
+          ],
+          "int1": 0,
+          "text2": "ИСПР",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 351,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 76,
+          "text1": "УРН%s",
+          "array": [
+            12
+          ],
+          "int1": 0,
+          "text2": "УРН",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 352,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 77,
+          "text1": "СПР%s",
+          "array": [
+            12
+          ],
+          "int1": 0,
+          "text2": "СПР",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 353,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 78,
+          "text1": "ИУРН%s",
+          "array": [
+            12
+          ],
+          "int1": 0,
+          "text2": "ИУРН",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 354,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 79,
+          "text1": "ИСПР%s",
+          "array": [
+            12
+          ],
+          "int1": 0,
+          "text2": "ИСПР",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 355,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 80,
+          "text1": "СИЛ%s",
+          "array": [
+            11
+          ],
+          "int1": 0,
+          "text2": "СИЛ",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 81,
+          "text1": "ЗЩТ%s",
+          "array": [
+            11
+          ],
+          "int1": 0,
+          "text2": "ЗЩТ",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 82,
+          "text1": "СИС%s",
+          "array": [
+            11
+          ],
+          "int1": 0,
+          "text2": "СИС",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 83,
+          "text1": "ИЗЩ%s",
+          "array": [
+            11
+          ],
+          "int1": 0,
+          "text2": "ИЗЩ",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 84,
+          "text1": "СКР%s",
+          "array": [
+            11
+          ],
+          "int1": 0,
+          "text2": "СКР",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 85,
+          "text1": "ПДВ%s",
+          "array": [
+            11
+          ],
+          "int1": 0,
+          "text2": "ПДВ",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 86,
+          "text1": "СИЛ%s",
+          "array": [
+            12
+          ],
+          "int1": 0,
+          "text2": "СИЛ",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 87,
+          "text1": "ЗЩТ%s",
+          "array": [
+            12
+          ],
+          "int1": 0,
+          "text2": "ЗЩТ",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 88,
+          "text1": "СИС%s",
+          "array": [
+            12
+          ],
+          "int1": 0,
+          "text2": "СИС",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 89,
+          "text1": "ИЗЩ%s",
+          "array": [
+            12
+          ],
+          "int1": 0,
+          "text2": "ИЗЩ",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 90,
+          "text1": "СКР%s",
+          "array": [
+            12
+          ],
+          "int1": 0,
+          "text2": "СКР",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 91,
+          "text1": "ПДВ%s",
+          "array": [
+            12
+          ],
+          "int1": 0,
+          "text2": "ПДВ",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 92,
+          "text1": "Все хар-ки%s",
+          "array": [
+            11
+          ],
+          "int1": 0,
+          "text2": "Все статы",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 93,
+          "text1": "Все хар-ки%s",
+          "array": [
+            12
+          ],
+          "int1": 0,
+          "text2": "Все статы",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 94,
+          "text1": "Снимает усиления",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 95,
+          "text1": "Лечит статусы",
+          "array": [],
+          "int1": 0,
+          "text2": "Статусные эффекты",
+          "text3": "Лечит",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 389,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 96,
+          "text1": "Лечит снижение хар-к",
+          "array": [],
+          "int1": 0,
+          "text2": "Понижение статов",
+          "text3": "Лечит",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 390,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 97,
+          "text1": "Иммунитет к ослаблениям",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 98,
+          "text1": "Сопр. статусам%s",
+          "array": [
+            12
+          ],
+          "int1": 0,
+          "text2": "Сопр. эффектам",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 99,
+          "text1": "Шанс крита%s",
+          "array": [
+            11
+          ],
+          "int1": 0,
+          "text2": "Шанс КРТ",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 100,
+          "text1": "Шанс крита%s",
+          "array": [
+            12
+          ],
+          "int1": 0,
+          "text2": "Шанс КРТ",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 101,
+          "text1": "Ненависть%s",
+          "array": [
+            11
+          ],
+          "int1": 0,
+          "text2": "Угроза",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 102,
+          "text1": "Ненависть%s",
+          "array": [
+            12
+          ],
+          "int1": 0,
+          "text2": "Угроза",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 104,
+          "text1": "Замораживание++ ИЛИ Ожог++",
+          "array": [],
+          "int1": 0,
+          "text2": "Оледенение++ ИЛИ Ожог++",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 105,
+          "text1": "Физ. урон врагу с Ожогом",
+          "array": [],
+          "int1": 0,
+          "text2": "Физ. урон врагу с Ожогом",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 106,
+          "text1": "Маг. урон врагу с Замораживанием",
+          "array": [],
+          "int1": 0,
+          "text2": "Урон иск. врагу с Оледенением",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 107,
+          "text1": "Ожог ИЛИ Ослепление",
+          "array": [],
+          "int1": 0,
+          "text2": "Ожог ИЛИ Ослепление",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 110,
+          "text1": "Лечит Гниль",
+          "array": [],
+          "int1": 0,
+          "text2": "Лечит Гниение",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 377,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 111,
+          "text1": "Лечит Замораживание",
+          "array": [],
+          "int1": 0,
+          "text2": "Лечит Оледенение",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 372,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 112,
+          "text1": "Лечит Ожог",
+          "array": [],
+          "int1": 0,
+          "text2": "Лечит Ожог",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 371,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 113,
+          "text1": "Лечит Печать",
+          "array": [],
+          "int1": 0,
+          "text2": "Лечит Печать",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 373,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 114,
+          "text1": "Лечит Немоту",
+          "array": [],
+          "int1": 0,
+          "text2": "Лечит Немоту",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 374,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 115,
+          "text1": "Лечит Ослепление",
+          "array": [],
+          "int1": 0,
+          "text2": "Лечит Ослепление",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 375,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 116,
+          "text1": "Лечит Страх",
+          "array": [],
+          "int1": 0,
+          "text2": "Лечит Страх",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 376,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 118,
+          "text1": "Воскрешение",
+          "array": [
+            0,
+            4
+          ],
+          "int1": 1,
+          "text2": "Воскрешение",
+          "text3": "Восст. %s ОЗ",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 391,
+          "int3": 368,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 119,
+          "text1": "Воскрешение",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 120,
+          "text1": "Восст. %d ОЗ",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "ОЗ",
+          "text3": "Восст. %s ОЗ",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 368,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 121,
+          "text1": "Восст. %s ОЗ",
+          "array": [
+            4
+          ],
+          "int1": 0,
+          "text2": "ОЗ",
+          "text3": "Восст. %s ОЗ",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 368,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 122,
+          "text1": "Восст. %d ОЭ",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "ОЭ",
+          "text3": "Восст. %s ОЭ",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 369,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 123,
+          "text1": "Восст. %s ОЭ",
+          "array": [
+            4
+          ],
+          "int1": 0,
+          "text2": "ОЭ",
+          "text3": "Восст. %s ОЭ",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 369,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 124,
+          "text1": "ОН+%d",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "ОН",
+          "text3": "+%d",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 370,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 125,
+          "text1": "Воскрешение",
+          "array": [
+            0,
+            1
+          ],
+          "int1": 1,
+          "text2": "Воскрешение",
+          "text3": "Восст. %d ОЗ",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 391,
+          "int3": 368,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 126,
+          "text1": "Восст. ОЗ%s",
+          "array": [
+            14
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 127,
+          "text1": "Реген. ОЗ",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 128,
+          "text1": "Реген. ОЭ",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 129,
+          "text1": "Реген. ОН",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 130,
+          "text1": "Разделение ОН",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 134,
+          "text1": "Скрытность",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 135,
+          "text1": "Клон",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 140,
+          "text1": "Получить сепит",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 141,
+          "text1": "Приманка для вызова Сияющего Пом-Пома. При использовании даёт уровень.\n<C1>Один раз за бой. Только в сбегаемых битвах.</C>",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 150,
+          "text1": "Повышает базовые параметры %s Макс. ОЗ+%d",
+          "array": [
+            0,
+            1
+          ],
+          "int1": 1,
+          "text2": "Повышает базовые статы",
+          "text3": "Макс. ОЗ+%d",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 392,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 151,
+          "text1": "Повышает базовые параметры %s СИЛ+%d",
+          "array": [
+            0,
+            1
+          ],
+          "int1": 1,
+          "text2": "Повышает базовые статы",
+          "text3": "СИЛ+%d",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 393,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 152,
+          "text1": "Повышает базовые параметры %s ЗЩТ+%d",
+          "array": [
+            0,
+            1
+          ],
+          "int1": 1,
+          "text2": "Повышает базовые статы",
+          "text3": "ЗЩТ+%d",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 394,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 153,
+          "text1": "Повышает базовые параметры %s СИС+%d",
+          "array": [
+            0,
+            1
+          ],
+          "int1": 1,
+          "text2": "Повышает базовые статы",
+          "text3": "СИС+%d",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 395,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 154,
+          "text1": "Повышает базовые параметры %s ИЗЩ+%d",
+          "array": [
+            0,
+            1
+          ],
+          "int1": 1,
+          "text2": "Повышает базовые статы",
+          "text3": "ИЗЩ+%d",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 396,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 155,
+          "text1": "ОПЫТ+%d",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "До ур. %d",
+          "text3": "",
+          "text4": "<C3>",
+          "text5": "<C2>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 200,
+          "text1": "Поглощение ОЗ",
+          "array": [],
+          "int1": 0,
+          "text2": "ОЗ",
+          "text3": " Поглощение",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 201,
+          "text1": "Поглощение ОЭ",
+          "array": [],
+          "int1": 0,
+          "text2": "ОЭ",
+          "text3": " Поглощение",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 202,
+          "text1": "Поглощение ОН",
+          "array": [],
+          "int1": 0,
+          "text2": "ОН",
+          "text3": " Поглощение",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 210,
+          "text1": "Поглощение ОЗ",
+          "array": [],
+          "int1": 0,
+          "text2": "ОЗ",
+          "text3": " Поглощение",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 211,
+          "text1": "Поглощение ОЭ",
+          "array": [],
+          "int1": 0,
+          "text2": "ОЭ",
+          "text3": " Поглощение",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 212,
+          "text1": "Поглощение ОН",
+          "array": [],
+          "int1": 0,
+          "text2": "ОН",
+          "text3": " Поглощение",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 220,
+          "text1": "Усиление восстановления",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 221,
+          "text1": "Бонус кражи",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 222,
+          "text1": "Отражение урона",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 223,
+          "text1": "Отражение физ. атак",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 224,
+          "text1": "Отражение магии",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 225,
+          "text1": "Щит%s",
+          "array": [
+            15
+          ],
+          "int1": 0,
+          "text2": "Щит",
+          "text3": "%s",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 226,
+          "text1": "Неуязвимость",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 230,
+          "text1": "Непрерывное действие",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 256,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 257,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 260,
+          "text1": "Снижает получаемый урон в полевых битвах.",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<C3>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 261,
+          "text1": "Усиливает заряженные атаки в полевых битвах.",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<C3>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 262,
+          "text1": "Облегчает выполнение идеальных уклонений в полевых битвах.",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<C3>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 263,
+          "text1": "Ускоряет заполнение шкалы заряда в полевых битвах.",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<C3>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 264,
+          "text1": "Ускоряет применение быстрых искусств в полевых битвах.",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<C3>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 265,
+          "text1": "Усиливает быстрые искусства в полевых битвах.",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<C3>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1004,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает СИЛ",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1005,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает ЗЩТ",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1006,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает СИС",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1007,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает ИЗЩ",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1008,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает СКР",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1009,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает ПДВ",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1010,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Снижает ЗЩТ",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1011,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Снижает ИЗЩ",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1012,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повыш. Физ. урона",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1013,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повыш Маг. урона",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1014,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Восст. ОЗ после действия",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1015,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Восст. ОЭ после действия",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1016,
+          "text1": "ОН за ход+%d",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Восст. ОП после действия",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1017,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает точность",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1018,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает уклонение",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1020,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает шанс крита",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1021,
+          "text1": "Время применения искусств x%1.1f",
+          "array": [
+            3
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Сокращает время восстановления",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1022,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Увеличивает расход ОЭ",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1024,
+          "text1": "Стоимость ОЭ x%1.1f",
+          "array": [
+            3
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Снижает расход ОЭ",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1025,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает силу Сверх-Навыка",
+          "text7": "+%d"
+        },
+        {
+          "effect_id": 1026,
+          "text1": "Задержка после Сверх-Навыка x%1.1f",
+          "array": [
+            3
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Сокращает задержку после Сверх-Навыка",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1027,
+          "text1": "Сокращает задержку после искусств %s на %d%%.",
+          "array": [
+            6
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1028,
+          "text1": "Наносимый урон +%d%%, но задержка после атаки дольше в %1.1fx.",
+          "array": [
+            9
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1029,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Увеличивает урон при контрударе уклонением",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1030,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает шанс контрудара уклонением",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1031,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Увеличивает восстановление ОЗ от исцеляющих искусств/навыков",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1032,
+          "text1": "Эффект исцеляющих искусств+%d%%",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1033,
+          "text1": "Радиус лечебных предметов+%dм",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1034,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает силу искусств",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1035,
+          "text1": "Область дальнобойных искусств+%dм",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Увеличивает область действия искусств",
+          "text7": "+%d"
+        },
+        {
+          "effect_id": 1036,
+          "text1": "Накладываемое оглушение+%d%%",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Увеличивает урон оглушения",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1037,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Увеличивает длительность при атаке оглушенного врага.",
+          "text7": "+%d"
+        },
+        {
+          "effect_id": 1038,
+          "text1": "Поглощает физ. атаки (%d%% шанс).",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1039,
+          "text1": "Поглощает магические атаки (%d%% шанс).",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Поглощает магические атаки (90%% шанс).",
+          "text7": "Кол-во лечения %d%%"
+        },
+        {
+          "effect_id": 1040,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Увеличивает длительность хода Сверх-буста",
+          "text7": "+%d"
+        },
+        {
+          "effect_id": 1041,
+          "text1": "Сепит+%d%% при победе над врагом в тактической битве.",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1042,
+          "text1": "Шанс выпадения предметов+%d%% при победе над врагом в тактической битве.",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "Выпадение предметов",
+          "text3": "+%d",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1047,
+          "text1": "Атаки/навыки могут накладывать гниение на врагов (%d%% шанс).",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1048,
+          "text1": "Атаки/навыки могут замораживать врагов (%d%% шанс).",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1049,
+          "text1": "Атаки/навыки могут поджигать врагов (%d%% шанс).",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1050,
+          "text1": "Атаки/навыки могут блокировать врагов (%d%% шанс).",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1051,
+          "text1": "Атаки/навыки могут заглушать врагов (%d%% шанс).",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1052,
+          "text1": "Атаки/навыки могут ослеплять врагов (%d%% шанс).",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1053,
+          "text1": "Атаки/навыки могут пугать врагов (%d%% шанс).",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1054,
+          "text1": "Увеличивает критический урон от атак/техник на %d%%.",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1058,
+          "text1": "Даёт СИЛ +%s при низком ОЗ.",
+          "array": [
+            11
+          ],
+          "int1": 0,
+          "text2": "Даёт эффект %s%s на %d ход при низком ОЗ.",
+          "text3": "СИЛ",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1059,
+          "text1": "Даёт ЗЩТ +%s при низком ОЗ.",
+          "array": [
+            11
+          ],
+          "int1": 0,
+          "text2": "Даёт эффект %s%s на %d ход при низком ОЗ.",
+          "text3": "ЗЩТ",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1060,
+          "text1": "Даёт СИС +%s при низком ОЗ.",
+          "array": [
+            11
+          ],
+          "int1": 0,
+          "text2": "Даёт эффект %s%s на %d ход при низком ОЗ.",
+          "text3": "СИС",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1061,
+          "text1": "Даёт ИЗЩ +%s при низком ОЗ.",
+          "array": [
+            11
+          ],
+          "int1": 0,
+          "text2": "Даёт эффект %s%s на %d ход при низком ОЗ.",
+          "text3": "ИЗЩ",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1062,
+          "text1": "Даёт Быстроту %s при низком ОЗ.",
+          "array": [
+            11
+          ],
+          "int1": 0,
+          "text2": "Даёт эффект %s%s на %d ход при низком ОЗ.",
+          "text3": "Быстро",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1063,
+          "text1": "Даёт регенерацию ОЗ на %d %s при низком ОЗ.",
+          "array": [
+            18
+          ],
+          "int1": 0,
+          "text2": "ход",
+          "text3": "ходов",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1064,
+          "text1": "Даёт эффект Прозрения на %d %s при низком ОЗ.",
+          "array": [
+            18
+          ],
+          "int1": 0,
+          "text2": "ход",
+          "text3": "ходов",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1065,
+          "text1": "Даёт эффект Скрытности на %d %s при низком ОЗ.",
+          "array": [
+            18
+          ],
+          "int1": 0,
+          "text2": "ход",
+          "text3": "ходов",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1066,
+          "text1": "Урон по оглушённым врагам увеличивается на %d%%.",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Увеличивает урон по оглушенным врагам",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1067,
+          "text1": "Физ. урон увеличивается при низком ОЗ.",
+          "array": [
+            0,
+            1
+          ],
+          "int1": 1,
+          "text2": "Физ. урон растёт при низком ОЗ.",
+          "text3": "(МАКС: %d%%)",
+          "text4": "<c698>",
+          "text5": "<C2>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1068,
+          "text1": "Физ. урон увеличивается при высоком ОЗ.",
+          "array": [
+            0,
+            1
+          ],
+          "int1": 1,
+          "text2": "Физ. урон растёт при высоком ОЗ.",
+          "text3": "(МАКС: %d%%)",
+          "text4": "<c698>",
+          "text5": "<C2>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1069,
+          "text1": "Урон искусств увеличивается при низком ОЗ.",
+          "array": [
+            0,
+            1
+          ],
+          "int1": 1,
+          "text2": "Урон иск. растёт при низком ОЗ.",
+          "text3": "(МАКС: %d%%)",
+          "text4": "<c698>",
+          "text5": "<C2>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1070,
+          "text1": "Урон искусств увеличивается при высоком ОЗ.",
+          "array": [
+            0,
+            1
+          ],
+          "int1": 1,
+          "text2": "Урон иск. растёт при высоком ОЗ.",
+          "text3": "(МАКС: %d%%)",
+          "text4": "<c698>",
+          "text5": "<C2>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1071,
+          "text1": "Атакующие искусства наносят критический урон (%d%% шанс).",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1072,
+          "text1": "Увеличивает шанс появления AT-бонуса на %d%%.",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1073,
+          "text1": "Увеличивает урон предварительной атаки осколками в x%1.1f.",
+          "array": [
+            3
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1074,
+          "text1": "Увеличивает получаемое ОН при получении урона в x%1.1f.",
+          "array": [
+            3
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1075,
+          "text1": "Увеличение ОН +%d%%",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1077,
+          "text1": "Привлекает ненависть в командных битвах (%d%%).",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1078,
+          "text1": "Отклоняет ненависть в командных битвах (%d%%).",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1079,
+          "text1": "Эффект статуса Щит %1.1fx",
+          "array": [
+            3
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1080,
+          "text1": "Шанс активации навыка осколков+%d%%",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1081,
+          "text1": "Увеличивает скорость заполнения шкалы буста при атаке врагов в x%1.1f.",
+          "array": [
+            3
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1082,
+          "text1": "Шанс крит. удара+%d%% при полном ОЗ в командных битвах.",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1083,
+          "text1": "УКЛ+%d%% при ОЗ ниже %d%% в командных битвах.",
+          "array": [
+            7
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1084,
+          "text1": "УКЛ+%d%% при применении искусств.",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1085,
+          "text1": "Задержка после Сверх-навыка x%1.1f",
+          "array": [
+            3
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1086,
+          "text1": "При исцелении союзников ОН+%d.",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1087,
+          "text1": "%d%% шанс получить эффект скрытности при попадании атакой.",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1088,
+          "text1": "Максимум шкалы буста+%d при установке осколков.",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1089,
+          "text1": "УКЛ+%d%% и ИУК+%d%% при применении искусств.",
+          "array": [
+            7
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1100,
+          "text1": "Защита от гниения %d%%",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "Гниение",
+          "text3": "Предотвр. %s (%d%%)",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1101,
+          "text1": "Защита от заморозки %d%%",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "Оледенение",
+          "text3": "Предотвр. %s (%d%%)",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1102,
+          "text1": "Защита от ожога %d%%",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "Ожог",
+          "text3": "Предотвр. %s (%d%%)",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1103,
+          "text1": "Защита от блокировки %d%%",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "Печать",
+          "text3": "Предотвр. %s (%d%%)",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1104,
+          "text1": "Защита от заглушения %d%%",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "Немота",
+          "text3": "Предотвр. %s (%d%%)",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1105,
+          "text1": "Защита от ослепления %d%%",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "Ослепление",
+          "text3": "Предотвр. %s (%d%%)",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1106,
+          "text1": "Защита от страха %d%%",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "Страх",
+          "text3": "Предотвр. %s (%d%%)",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1107,
+          "text1": "Защита от смертельного удара %d%%",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "Смерт. удар",
+          "text3": "Предотвр. %s (%d%%)",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1108,
+          "text1": "Защита от снижения параметров %d%%",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "Снижение характеристик",
+          "text3": "Предотвр. %s (%d%%)",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1109,
+          "text1": "Защита от замедления %d%%",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "Замедление",
+          "text3": "Предотвр. %s (%d%%)",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1110,
+          "text1": "Защита от задержки %d%%",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "Задержка",
+          "text3": "Предотвр. %s (%d%%)",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1111,
+          "text1": "Защита от статусных атак %d%%",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "Негативный статус",
+          "text3": "Предотвр. %s (%d%%)",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1112,
+          "text1": "Защита от очарования %d%%",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "Очарование",
+          "text3": "Предотвр. %s (%d%%)",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1113,
+          "text1": "Иммунитет к ослаблениям (%d%%)",
+          "array": [
+            1
+          ],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "<c698>",
+          "text5": "<c252>",
+          "int2": 0,
+          "int3": 0,
+          "text6": "",
+          "text7": ""
+        },
+        {
+          "effect_id": 1150,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает СИЛ/СИС, ЗЩТ/ИЗЩ, СКР, ПДВ",
+          "text7": "СИЛ/СИС+%d%%, ЗЩТ/ИЗЩ+%d%%, СКР+%d%%, ПДВ+%d%%"
+        },
+        {
+          "effect_id": 1151,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает СИЛ/СИС, ЗЩТ/ИЗЩ",
+          "text7": "СИЛ/СИС+%d%%, ЗЩТ/ИЗЩ+%d%%"
+        },
+        {
+          "effect_id": 1152,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает СИЛ/СИС, СКР, ПДВ",
+          "text7": "СИЛ/СИС+%d%%, СКР+%d%%, ПДВ+%d%%"
+        },
+        {
+          "effect_id": 1153,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает СИЛ/СИС, СКР",
+          "text7": "СИЛ/СИС+%d%%, СКР+%d%%"
+        },
+        {
+          "effect_id": 1154,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает СИЛ/СИС",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1155,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает СИЛ/ЗЩТ",
+          "text7": "СИЛ+%d%%, ЗЩТ+%d%%"
+        },
+        {
+          "effect_id": 1156,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает ЗЩТ/ИЗЩ, СКР, ПДВ",
+          "text7": "ЗЩТ/ИЗЩ+%d%%, СКР+%d%%, ПДВ+%d%%"
+        },
+        {
+          "effect_id": 1157,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает ЗЩТ/ИЗЩ",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1158,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Снижает ЗЩТ/ИЗЩ",
+          "text7": "%d%%"
+        },
+        {
+          "effect_id": 1159,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает СИС/ИЗЩ",
+          "text7": "СИС+%d%%, ИЗЩ+%d%%"
+        },
+        {
+          "effect_id": 1160,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает СИС/СКР",
+          "text7": "СИС+%d%%, СКР+%d%%"
+        },
+        {
+          "effect_id": 1161,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает СКР, ПДВ",
+          "text7": "СКР+%d%%, ПДВ+%d%%"
+        },
+        {
+          "effect_id": 1162,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Каждый ход: восстановление ОЗ и ОЭ・рост ОН",
+          "text7": "ОЗ/ОЭ %d%%, ОН %d%%"
+        },
+        {
+          "effect_id": 1163,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Каждый ход: восстановление ОЗ и ОЭ",
+          "text7": "ОЗ/ОЭ %d%%"
+        },
+        {
+          "effect_id": 1164,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает уклонение и шанс крита",
+          "text7": "Уклонение и крит. шанс+%d%%"
+        },
+        {
+          "effect_id": 1165,
+          "text1": "",
+          "array": [],
+          "int1": 0,
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "int2": 0,
+          "int3": 0,
+          "text6": "Повышает силу искусств, но они тратят в 1,5 раза больше ОЭ.",
+          "text7": "+%d"
+        }
+      ]
+    },
+    {
+      "name": "AttrTypeHelpData",
+      "data": [
+        {
+          "id": 0,
+          "element_name": "Нет",
+          "long": 0
+        },
+        {
+          "id": 1,
+          "element_name": "Земля",
+          "long": 42
+        },
+        {
+          "id": 2,
+          "element_name": "Вода",
+          "long": 43
+        },
+        {
+          "id": 3,
+          "element_name": "Огонь",
+          "long": 44
+        },
+        {
+          "id": 4,
+          "element_name": "Ветер",
+          "long": 45
+        },
+        {
+          "id": 5,
+          "element_name": "Время",
+          "long": 46
+        },
+        {
+          "id": 6,
+          "element_name": "Простр.",
+          "long": 47
+        },
+        {
+          "id": 7,
+          "element_name": "Мираж",
+          "long": 48
+        },
+        {
+          "id": 10,
+          "element_name": "Ветер + Простр.",
+          "long": 66
+        },
+        {
+          "id": 11,
+          "element_name": "Земля + Вода",
+          "long": 64
+        },
+        {
+          "id": 12,
+          "element_name": "Огонь + Ветер",
+          "long": 65
+        },
+        {
+          "id": 13,
+          "element_name": "Земля + Время",
+          "long": 63
+        },
+        {
+          "id": 14,
+          "element_name": "Время + Мираж",
+          "long": 67
+        },
+        {
+          "id": 15,
+          "element_name": "Огонь + Простр.",
+          "long": 68
+        },
+        {
+          "id": 16,
+          "element_name": "Вода + Мираж",
+          "long": 69
+        },
+        {
+          "id": 17,
+          "element_name": "Земля + Ветер",
+          "long": 0
+        },
+        {
+          "id": 18,
+          "element_name": "Земля + Простр.",
+          "long": 0
+        },
+        {
+          "id": 19,
+          "element_name": "Вода + Огонь",
+          "long": 0
+        },
+        {
+          "id": 20,
+          "element_name": "Вода + Время",
+          "long": 0
+        },
+        {
+          "id": 21,
+          "element_name": "Огонь + Мираж",
+          "long": 0
+        },
+        {
+          "id": 22,
+          "element_name": "Ветер + Мираж",
+          "long": 0
+        },
+        {
+          "id": 23,
+          "element_name": "Время + Простр.",
+          "long": 0
+        }
+      ]
+    },
+    {
+      "name": "SkillTypeHelpData",
+      "data": [
+        {
+          "id": 0,
+          "text1": "Свободная атака",
+          "text2": ""
+        },
+        {
+          "id": 1,
+          "text1": "Атака",
+          "text2": ""
+        },
+        {
+          "id": 2,
+          "text1": "Навыки",
+          "text2": ""
+        },
+        {
+          "id": 3,
+          "text1": "Сверх-Навыки",
+          "text2": ""
+        },
+        {
+          "id": 4,
+          "text1": "Искусства",
+          "text2": ""
+        },
+        {
+          "id": 5,
+          "text1": "Защита",
+          "text2": ""
+        },
+        {
+          "id": 6,
+          "text1": "Предметы",
+          "text2": ""
+        },
+        {
+          "id": 7,
+          "text1": "Комбо-атака (SLCM цепь)",
+          "text2": ""
+        },
+        {
+          "id": 8,
+          "text1": "Навык Осколков",
+          "text2": ""
+        },
+        {
+          "id": 10,
+          "text1": "Экипировка",
+          "text2": ""
+        },
+        {
+          "id": 11,
+          "text1": "Контратака",
+          "text2": ""
+        },
+        {
+          "id": 12,
+          "text1": "Обложка",
+          "text2": ""
+        },
+        {
+          "id": 13,
+          "text1": "EX-цепи",
+          "text2": ""
+        },
+        {
+          "id": 14,
+          "text1": "Быстрые искусства",
+          "text2": ""
+        },
+        {
+          "id": 15,
+          "text1": "Отражение",
+          "text2": ""
+        },
+        {
+          "id": 16,
+          "text1": "Команда Осколков",
+          "text2": ""
+        }
+      ]
+    },
+    {
+      "name": "SkillRangeHelpData",
+      "data": [
+        {
+          "id": 1,
+          "text1": "Одиночная/Перемещение",
+          "icon": 294,
+          "text2": "",
+          "text3": "<C3>"
+        },
+        {
+          "id": 2,
+          "text1": "Одна цель",
+          "icon": 294,
+          "text2": "",
+          "text3": "<C3>"
+        },
+        {
+          "id": 3,
+          "text1": "Союзник/Одиночная",
+          "icon": 299,
+          "text2": "Один",
+          "text3": "<C3>"
+        },
+        {
+          "id": 4,
+          "text1": "На себя",
+          "icon": 299,
+          "text2": "Один",
+          "text3": "<C3>"
+        },
+        {
+          "id": 5,
+          "text1": "Короткий конус",
+          "icon": 297,
+          "text2": "",
+          "text3": "<C3>"
+        },
+        {
+          "id": 6,
+          "text1": "Конус",
+          "icon": 302,
+          "text2": "",
+          "text3": "<C3>"
+        },
+        {
+          "id": 7,
+          "text1": "На себя/Круг на цель",
+          "icon": 300,
+          "text2": "",
+          "text3": "<C3>"
+        },
+        {
+          "id": 8,
+          "text1": "Круг",
+          "icon": 295,
+          "text2": "",
+          "text3": "<C3>"
+        },
+        {
+          "id": 9,
+          "text1": "Союзник/Круг",
+          "icon": 300,
+          "text2": "",
+          "text3": "<C3>"
+        },
+        {
+          "id": 10,
+          "text1": "Перемещение/Линия",
+          "icon": 296,
+          "text2": "",
+          "text3": "<C3>"
+        },
+        {
+          "id": 11,
+          "text1": "Прямая линия",
+          "icon": 296,
+          "text2": "",
+          "text3": "<C3>"
+        },
+        {
+          "id": 12,
+          "text1": "Одиночная/Линия",
+          "icon": 296,
+          "text2": "",
+          "text3": "<C3>"
+        },
+        {
+          "id": 13,
+          "text1": "Круг",
+          "icon": 295,
+          "text2": "",
+          "text3": "<C3>"
+        },
+        {
+          "id": 14,
+          "text1": "Группа/Круг на цель",
+          "icon": 300,
+          "text2": "",
+          "text3": "<C3>"
+        },
+        {
+          "id": 15,
+          "text1": "Персонаж/Круг на цель/Перемещение",
+          "icon": 295,
+          "text2": "",
+          "text3": "<C3>"
+        },
+        {
+          "id": 16,
+          "text1": "Все цели",
+          "icon": 298,
+          "text2": "",
+          "text3": "<C3>"
+        },
+        {
+          "id": 17,
+          "text1": "Все союзники",
+          "icon": 301,
+          "text2": "Все (Вне боя)",
+          "text3": "<C3>"
+        }
+      ]
+    },
+    {
+      "name": "ItemKindHelpData",
+      "data": [
+        {
+          "category_id": 2,
+          "subcategory_id": 8,
+          "short1": 0,
+          "short2": 0,
+          "text1": "<c698>Просмотр в разделе Книги в Блокноте.</C>",
+          "long": 0,
+          "text2": "Документы"
+        },
+        {
+          "category_id": 2,
+          "subcategory_id": 34,
+          "short1": 0,
+          "short2": 0,
+          "text1": "Рыболовные снасти",
+          "long": 1,
+          "text2": "Рыболовные снасти"
+        },
+        {
+          "category_id": 2,
+          "subcategory_id": 9,
+          "short1": 0,
+          "short2": 0,
+          "text1": "<c698>Просмотр в Связях в Списке дел. Подарок для %s.</C>",
+          "long": 2,
+          "text2": "Подарки"
+        },
+        {
+          "category_id": 1,
+          "subcategory_id": 19,
+          "short1": 0,
+          "short2": 0,
+          "text1": "<c698>Использование через Предметы в главном меню.</C>",
+          "long": 0,
+          "text2": "Рецепт"
+        },
+        {
+          "category_id": 30,
+          "subcategory_id": 5,
+          "short1": 0,
+          "short2": 0,
+          "text1": "<c698>Используется для обмена и улучшения в магазинах.</C>",
+          "long": 0,
+          "text2": "Материалы"
+        },
+        {
+          "category_id": 30,
+          "subcategory_id": 34,
+          "short1": 0,
+          "short2": 0,
+          "text1": "<s30><I1114><s22>+<s30><I1126><s22><c698> у водоёма для рыбалки.</C>",
+          "long": 0,
+          "text2": "Рыболовная наживка"
+        },
+        {
+          "category_id": 30,
+          "subcategory_id": 6,
+          "short1": 0,
+          "short2": 0,
+          "text1": "%s",
+          "long": 9,
+          "text2": "Обмен"
+        },
+        {
+          "category_id": 30,
+          "subcategory_id": 38,
+          "short1": 0,
+          "short2": 0,
+          "text1": "<c698>Использование через Вспом. предмет в меню Анализа Мистического Куба.</C>",
+          "long": 0,
+          "text2": "Поддержка анализа"
+        },
+        {
+          "category_id": 1,
+          "subcategory_id": 1,
+          "short1": 0,
+          "short2": 0,
+          "text1": "Восст. ",
+          "long": 3,
+          "text2": "Восст. "
+        },
+        {
+          "category_id": 1,
+          "subcategory_id": 2,
+          "short1": 0,
+          "short2": 0,
+          "text1": "Восст. ",
+          "long": 3,
+          "text2": "Поддержка"
+        },
+        {
+          "category_id": 1,
+          "subcategory_id": 36,
+          "short1": 0,
+          "short2": 0,
+          "text1": "Усиление",
+          "long": 3,
+          "text2": "Предмет улучшения"
+        },
+        {
+          "category_id": 2,
+          "subcategory_id": 20,
+          "short1": 0,
+          "short2": 0,
+          "text1": "<c698><c698>Использование через Улучшение навыка.</C>",
+          "long": 0,
+          "text2": "Камень навыков"
+        },
+        {
+          "category_id": 30,
+          "subcategory_id": 7,
+          "short1": 0,
+          "short2": 0,
+          "text1": "<c698>Используется в кулинарных рецептах.</C>",
+          "long": 0,
+          "text2": "Ингредиент"
+        },
+        {
+          "category_id": 30,
+          "subcategory_id": 33,
+          "short1": 0,
+          "short2": 0,
+          "text1": "<c698>Подробная информация доступна в разделе Рыбалка в Блокноте.</C>",
+          "long": 0,
+          "text2": "Рыба"
+        },
+        {
+          "category_id": 1,
+          "subcategory_id": 3,
+          "short1": 9,
+          "short2": 0,
+          "text1": "Домашняя",
+          "long": 3,
+          "text2": "Блюда"
+        },
+        {
+          "category_id": 1,
+          "subcategory_id": 3,
+          "short1": 10,
+          "short2": 0,
+          "text1": "Капюшон",
+          "long": 3,
+          "text2": "Блюда"
+        },
+        {
+          "category_id": 1,
+          "subcategory_id": 3,
+          "short1": 11,
+          "short2": 0,
+          "text1": "Премиум сладости",
+          "long": 3,
+          "text2": "Блюда"
+        },
+        {
+          "category_id": 1,
+          "subcategory_id": 3,
+          "short1": 12,
+          "short2": 0,
+          "text1": "Напитки",
+          "long": 3,
+          "text2": "Блюда"
+        },
+        {
+          "category_id": 1,
+          "subcategory_id": 4,
+          "short1": 9,
+          "short2": 0,
+          "text1": "Домашняя",
+          "long": 3,
+          "text2": "Домашняя"
+        },
+        {
+          "category_id": 1,
+          "subcategory_id": 4,
+          "short1": 10,
+          "short2": 0,
+          "text1": "Капюшон",
+          "long": 3,
+          "text2": "Закуски"
+        },
+        {
+          "category_id": 1,
+          "subcategory_id": 4,
+          "short1": 11,
+          "short2": 0,
+          "text1": "Премиум сладости",
+          "long": 3,
+          "text2": "Сладости"
+        },
+        {
+          "category_id": 1,
+          "subcategory_id": 4,
+          "short1": 12,
+          "short2": 0,
+          "text1": "Напитки",
+          "long": 3,
+          "text2": "Напитки"
+        },
+        {
+          "category_id": 12,
+          "subcategory_id": 10,
+          "short1": 0,
+          "short2": 0,
+          "text1": "Только для %s",
+          "long": 4,
+          "text2": "Оружие"
+        },
+        {
+          "category_id": 13,
+          "subcategory_id": 11,
+          "short1": 0,
+          "short2": 0,
+          "text1": "Доп. части",
+          "long": 3,
+          "text2": "Доп. части"
+        },
+        {
+          "category_id": 14,
+          "subcategory_id": 12,
+          "short1": 0,
+          "short2": 0,
+          "text1": "",
+          "long": 6,
+          "text2": "Броня"
+        },
+        {
+          "category_id": 15,
+          "subcategory_id": 13,
+          "short1": 0,
+          "short2": 0,
+          "text1": "",
+          "long": 6,
+          "text2": "Обувь"
+        },
+        {
+          "category_id": 16,
+          "subcategory_id": 14,
+          "short1": 0,
+          "short2": 0,
+          "text1": "",
+          "long": 6,
+          "text2": "Аксессуары"
+        },
+        {
+          "category_id": 20,
+          "subcategory_id": 28,
+          "short1": 0,
+          "short2": 0,
+          "text1": "<c698>Замена в меню Орбментов.</C>",
+          "long": 2,
+          "text2": "Голоядро"
+        },
+        {
+          "category_id": 21,
+          "subcategory_id": 29,
+          "short1": 0,
+          "short2": 0,
+          "text1": "<c698>Замена в Искусствах в меню Орбментов.</C>",
+          "long": 0,
+          "text2": "Драйвер искусств"
+        },
+        {
+          "category_id": 23,
+          "subcategory_id": 30,
+          "short1": 0,
+          "short2": 0,
+          "text1": "Устанавливает %s в Драйвер искусств.",
+          "long": 7,
+          "text2": "Плагин искусств"
+        },
+        {
+          "category_id": 22,
+          "subcategory_id": 21,
+          "short1": 0,
+          "short2": 0,
+          "text1": "Значение стихии: %s",
+          "long": 8,
+          "text2": "Кварц земли"
+        },
+        {
+          "category_id": 22,
+          "subcategory_id": 22,
+          "short1": 0,
+          "short2": 0,
+          "text1": "Значение стихии: %s",
+          "long": 8,
+          "text2": "Кварц воды"
+        },
+        {
+          "category_id": 22,
+          "subcategory_id": 23,
+          "short1": 0,
+          "short2": 0,
+          "text1": "Значение стихии: %s",
+          "long": 8,
+          "text2": "Кварц огня"
+        },
+        {
+          "category_id": 22,
+          "subcategory_id": 24,
+          "short1": 0,
+          "short2": 0,
+          "text1": "Значение стихии: %s",
+          "long": 8,
+          "text2": "Кварц ветра"
+        },
+        {
+          "category_id": 22,
+          "subcategory_id": 25,
+          "short1": 0,
+          "short2": 0,
+          "text1": "Значение стихии: %s",
+          "long": 8,
+          "text2": "Кварц времени"
+        },
+        {
+          "category_id": 22,
+          "subcategory_id": 26,
+          "short1": 0,
+          "short2": 0,
+          "text1": "Значение стихии: %s",
+          "long": 8,
+          "text2": "Кварц пространства"
+        },
+        {
+          "category_id": 22,
+          "subcategory_id": 27,
+          "short1": 0,
+          "short2": 0,
+          "text1": "Значение стихии: %s",
+          "long": 8,
+          "text2": "Кварц миража"
+        },
+        {
+          "category_id": 17,
+          "subcategory_id": 16,
+          "short1": 0,
+          "short2": 0,
+          "text1": "<c698>Смена в Костюмах в меню Экипировки.</C>",
+          "long": 0,
+          "text2": "Костюм"
+        },
+        {
+          "category_id": 18,
+          "subcategory_id": 16,
+          "short1": 0,
+          "short2": 0,
+          "text1": "<c698>Смена в Костюмах в меню Экипировки.</C>",
+          "long": 0,
+          "text2": "Цвет волос"
+        },
+        {
+          "category_id": 19,
+          "subcategory_id": 16,
+          "short1": 0,
+          "short2": 0,
+          "text1": "<c698>Смена в Костюмах в меню Экипировки.</C>",
+          "long": 0,
+          "text2": "Аксессуар"
+        },
+        {
+          "category_id": 24,
+          "subcategory_id": 18,
+          "short1": 0,
+          "short2": 0,
+          "text1": "<c698>Замена через 'Настроить орбмент' в мастерских.</C>",
+          "long": 0,
+          "text2": "Крышки"
+        },
+        {
+          "category_id": 26,
+          "subcategory_id": 35,
+          "short1": 0,
+          "short2": 0,
+          "text1": "[<c698>Использование в Мастерской Эпштейна.<C0>]",
+          "long": 0,
+          "text2": "Музыка"
+        },
+        {
+          "category_id": 25,
+          "subcategory_id": 31,
+          "short1": 0,
+          "short2": 0,
+          "text1": "[<c698>Смена Голоядра > Настройки голоса в меню Орбментов.</C>]",
+          "long": 0,
+          "text2": "Голос голоядра"
+        },
+        {
+          "category_id": 2,
+          "subcategory_id": 37,
+          "short1": 0,
+          "short2": 0,
+          "text1": "<c698>Обмен на особые предметы в меню <C3>восстановления фрагментов<c698> на Фабрике Эпштейна.<C0>",
+          "long": 0,
+          "text2": "Фрагмент"
+        },
+        {
+          "category_id": 27,
+          "subcategory_id": 40,
+          "short1": 0,
+          "short2": 0,
+          "text1": "[<c698>Замена через Сменить аватар в Мрачном Саду.</C>]",
+          "long": 0,
+          "text2": "Аватар"
+        },
+        {
+          "category_id": 2,
+          "subcategory_id": 17,
+          "short1": 0,
+          "short2": 0,
+          "text1": "",
+          "long": 9,
+          "text2": "События"
+        }
+      ]
+    },
+    {
+      "name": "SkillItemStatusData",
+      "data": [
+        {
+          "id": 0,
+          "text1": "Макс. ОЗ+%d",
+          "text2": "Макс. ОЗ",
+          "text3": "+%d",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 1,
+          "text1": "Макс. ОЭ+%d",
+          "text2": "Макс. ОЭ",
+          "text3": "+%d",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 2,
+          "text1": "УРН+%d",
+          "text2": "УРН",
+          "text3": "+%d",
+          "long": 49,
+          "text4": "<c698>"
+        },
+        {
+          "id": 3,
+          "text1": "СПР+%d",
+          "text2": "СПР.",
+          "text3": "+%d",
+          "long": 51,
+          "text4": "<c698>"
+        },
+        {
+          "id": 4,
+          "text1": "ИУРН+%d",
+          "text2": "ИУРН",
+          "text3": "+%d",
+          "long": 50,
+          "text4": "<c698>"
+        },
+        {
+          "id": 5,
+          "text1": "ИСПР+%d",
+          "text2": "ИСПР",
+          "text3": "+%d",
+          "long": 52,
+          "text4": "<c698>"
+        },
+        {
+          "id": 6,
+          "text1": "СИЛ+%d",
+          "text2": "СИЛ",
+          "text3": "+%d",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 7,
+          "text1": "ЗЩТ+%d",
+          "text2": "ЗЩТ",
+          "text3": "+%d",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 8,
+          "text1": "СИС+%d",
+          "text2": "СИС",
+          "text3": "+%d",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 9,
+          "text1": "ИЗЩ+%d",
+          "text2": "ИЗЩ",
+          "text3": "+%d",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 10,
+          "text1": "МЕТ+%d",
+          "text2": "МЕТ",
+          "text3": "+%d%%",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 11,
+          "text1": "УКЛ+%d",
+          "text2": "УКЛ",
+          "text3": "+%d%%",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 12,
+          "text1": "ИУК+%d",
+          "text2": "ИУК",
+          "text3": "+%d%%",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 13,
+          "text1": "КРТ+%d%%",
+          "text2": "КРТ",
+          "text3": "+%d%%",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 14,
+          "text1": "СКР+%d",
+          "text2": "СКР",
+          "text3": "+%d",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 15,
+          "text1": "ПДВ+%d",
+          "text2": "ПДВ",
+          "text3": "+%d",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 16,
+          "text1": "Макс. ОЗ%d",
+          "text2": "Макс. ОЗ",
+          "text3": "%d",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 17,
+          "text1": "Макс. ОЭ%d",
+          "text2": "Макс. ОЭ",
+          "text3": "%d",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 18,
+          "text1": "УРН%d",
+          "text2": "УРН",
+          "text3": "%d",
+          "long": 49,
+          "text4": "<c698>"
+        },
+        {
+          "id": 19,
+          "text1": "СПР%d",
+          "text2": "СПР",
+          "text3": "%d",
+          "long": 51,
+          "text4": "<c698>"
+        },
+        {
+          "id": 20,
+          "text1": "ИУРН%d",
+          "text2": "ИУРН",
+          "text3": "%d",
+          "long": 50,
+          "text4": "<c698>"
+        },
+        {
+          "id": 21,
+          "text1": "ИСПР%d",
+          "text2": "ИСПР",
+          "text3": "%d",
+          "long": 52,
+          "text4": "<c698>"
+        },
+        {
+          "id": 22,
+          "text1": "СИЛ%d",
+          "text2": "СИЛ",
+          "text3": "%d",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 23,
+          "text1": "ЗЩТ%d",
+          "text2": "ЗЩТ",
+          "text3": "%d",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 24,
+          "text1": "СИС%d",
+          "text2": "СИС",
+          "text3": "%d",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 25,
+          "text1": "ИЗЩ%d",
+          "text2": "ИЗЩ",
+          "text3": "%d",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 26,
+          "text1": "МЕТ%d",
+          "text2": "МЕТ",
+          "text3": "%d%%",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 27,
+          "text1": "УКЛ%d",
+          "text2": "УКЛ",
+          "text3": "%d%%",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 28,
+          "text1": "ИУК%d",
+          "text2": "ИУК",
+          "text3": "%d%%",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 39,
+          "text1": "КРТ%d",
+          "text2": "КРТ",
+          "text3": "%d%%",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 30,
+          "text1": "СКР%d",
+          "text2": "СКР",
+          "text3": "%d",
+          "long": 0,
+          "text4": "<c698>"
+        },
+        {
+          "id": 31,
+          "text1": "ПДВ%d",
+          "text2": "ПДВ",
+          "text3": "%d",
+          "long": 0,
+          "text4": "<c698>"
+        }
+      ]
+    },
+    {
+      "name": "EquipLineHelpData",
+      "data": [
+        {
+          "id": 1,
+          "text1": "Только линия оружия",
+          "text2": "Оружие",
+          "text3": " Только линия",
+          "text4": "<C2>"
+        },
+        {
+          "id": 3,
+          "text1": "Только линия привода",
+          "text2": "Драйвер",
+          "text3": " Только линия",
+          "text4": "<C2>"
+        },
+        {
+          "id": 2,
+          "text1": "Только линия щита",
+          "text2": "Щит",
+          "text3": " Только линия",
+          "text4": "<C2>"
+        },
+        {
+          "id": 4,
+          "text1": "Только доп. линия",
+          "text2": "Дополнительно",
+          "text3": " Только линия",
+          "text4": "<C2>"
+        }
+      ]
+    },
+    {
+      "name": "SkillConnectListData",
+      "data": [
+        {
+          "id": 1,
+          "array": [
+            1100,
+            1101,
+            1102,
+            1103,
+            1104,
+            1105,
+            1106,
+            1107,
+            1108,
+            1109,
+            1110,
+            1112
+          ],
+          "int": 0
+        },
+        {
+          "id": 2,
+          "array": [
+            1058,
+            1059,
+            1060,
+            1061,
+            1062
+          ],
+          "int": 0
+        },
+        {
+          "id": 3,
+          "array": [
+            72,
+            73,
+            74,
+            75,
+            41
+          ],
+          "int": 0
+        },
+        {
+          "id": 4,
+          "array": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            92
+          ],
+          "int": 0
+        },
+        {
+          "id": 5,
+          "array": [
+            76,
+            77,
+            78,
+            79,
+            40
+          ],
+          "int": 0
+        },
+        {
+          "id": 6,
+          "array": [
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            93
+          ],
+          "int": 0
+        },
+        {
+          "id": 7,
+          "array": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            39,
+            50,
+            38
+          ],
+          "int": 0
+        },
+        {
+          "id": 8,
+          "array": [
+            101
+          ],
+          "int": 0
+        },
+        {
+          "id": 9,
+          "array": [
+            98,
+            102
+          ],
+          "int": 0
+        },
+        {
+          "id": 10,
+          "array": [
+            95,
+            96
+          ],
+          "int": 0
+        },
+        {
+          "id": 11,
+          "array": [
+            210,
+            211,
+            212
+          ],
+          "int": 0
+        },
+        {
+          "id": 12,
+          "array": [
+            200,
+            201,
+            202
+          ],
+          "int": 0
+        },
+        {
+          "id": 13,
+          "array": [
+            121,
+            123
+          ],
+          "int": 0
+        },
+        {
+          "id": 14,
+          "array": [
+            95,
+            96
+          ],
+          "int": 0
+        }
+      ]
+    },
+    {
+      "name": "SkillTextArrayData",
+      "data": [
+        {
+          "id": 0,
+          "text1": "",
+          "text2": "<C3>"
+        },
+        {
+          "id": 65536,
+          "text1": "Физ.",
+          "text2": "<C3>"
+        },
+        {
+          "id": 131072,
+          "text1": "Магия",
+          "text2": "<C3>"
+        },
+        {
+          "id": 196608,
+          "text1": "%s Атрибут",
+          "text2": "<C3>"
+        },
+        {
+          "id": 262144,
+          "text1": "Поддержка",
+          "text2": "<C3>"
+        },
+        {
+          "id": 327680,
+          "text1": "Восст.",
+          "text2": "<C3>"
+        },
+        {
+          "id": 393216,
+          "text1": "Поддержка",
+          "text2": "<C3>"
+        },
+        {
+          "id": 458752,
+          "text1": "Восст.",
+          "text2": "<C3>"
+        },
+        {
+          "id": 524288,
+          "text1": "ЗЩТ",
+          "text2": "<C0>"
+        },
+        {
+          "id": 589824,
+          "text1": "Усиление",
+          "text2": "<C3>"
+        },
+        {
+          "id": 655360,
+          "text1": "Ослабление",
+          "text2": "<C3>"
+        },
+        {
+          "id": 720896,
+          "text1": "Усиление",
+          "text2": "<C3>"
+        },
+        {
+          "id": 786432,
+          "text1": "%s ",
+          "text2": "<C0>"
+        },
+        {
+          "id": 851968,
+          "text1": "",
+          "text2": "<C0>"
+        },
+        {
+          "id": 917504,
+          "text1": "%s ",
+          "text2": "<C0>"
+        },
+        {
+          "id": 1,
+          "text1": " [Сила:%s - Цель:",
+          "text2": "<C3>"
+        },
+        {
+          "id": 262145,
+          "text1": " [Цель:",
+          "text2": "<C3>"
+        },
+        {
+          "id": 327681,
+          "text1": " [Цель:",
+          "text2": "<C3>"
+        },
+        {
+          "id": 393217,
+          "text1": " [Цель:",
+          "text2": "<C3>"
+        },
+        {
+          "id": 458753,
+          "text1": " [Цель:",
+          "text2": "<C3>"
+        },
+        {
+          "id": 524289,
+          "text1": " [Цель:",
+          "text2": "<C3>"
+        },
+        {
+          "id": 589825,
+          "text1": " [Цель:",
+          "text2": "<C3>"
+        },
+        {
+          "id": 655361,
+          "text1": " [Цель:",
+          "text2": "<C3>"
+        },
+        {
+          "id": 720897,
+          "text1": " [Цель:",
+          "text2": "<C3>"
+        },
+        {
+          "id": 786433,
+          "text1": " [На %d ходов: <I%d>",
+          "text2": "<C3>"
+        },
+        {
+          "id": 851969,
+          "text1": "",
+          "text2": "<C0>"
+        },
+        {
+          "id": 917505,
+          "text1": " [%d ходов",
+          "text2": "<C3>"
+        },
+        {
+          "id": 2,
+          "text1": "%s] ",
+          "text2": "<C3>"
+        },
+        {
+          "id": 851970,
+          "text1": "%s",
+          "text2": "<C0>"
+        }
+      ]
+    },
+    {
+      "name": "SkillRangeData",
+      "data": [
+        {
+          "int": 5,
+          "float1": 2.25,
+          "float2": 10.0,
+          "float3": 36.0,
+          "float4": 64.0
+        },
+        {
+          "int": 7,
+          "float1": 2.25,
+          "float2": 9.0,
+          "float3": 36.0,
+          "float4": 64.0
+        },
+        {
+          "int": 8,
+          "float1": 2.25,
+          "float2": 9.0,
+          "float3": 36.0,
+          "float4": 64.0
+        },
+        {
+          "int": 9,
+          "float1": 2.25,
+          "float2": 9.0,
+          "float3": 36.0,
+          "float4": 64.0
+        },
+        {
+          "int": 10,
+          "float1": 2.0,
+          "float2": 4.0,
+          "float3": 5.0,
+          "float4": 8.0
+        },
+        {
+          "int": 11,
+          "float1": 2.0,
+          "float2": 4.0,
+          "float3": 5.0,
+          "float4": 8.0
+        },
+        {
+          "int": 12,
+          "float1": 2.0,
+          "float2": 4.0,
+          "float3": 5.0,
+          "float4": 8.0
+        },
+        {
+          "int": 13,
+          "float1": 2.25,
+          "float2": 9.0,
+          "float3": 36.0,
+          "float4": 64.0
+        },
+        {
+          "int": 14,
+          "float1": 2.25,
+          "float2": 9.0,
+          "float3": 36.0,
+          "float4": 64.0
+        },
+        {
+          "int": 15,
+          "float1": 2.25,
+          "float2": 9.0,
+          "float3": 36.0,
+          "float4": 64.0
+        }
+      ]
+    },
+    {
+      "name": "SkillLevelHelpData",
+      "data": [
+        {
+          "id": 1,
+          "text1": "Стоимость ОН",
+          "text2": "%d"
+        },
+        {
+          "id": 2,
+          "text1": "Сила",
+          "text2": "+%d"
+        },
+        {
+          "id": 3,
+          "text1": "Оглушение",
+          "text2": "+%d"
+        },
+        {
+          "id": 4,
+          "text1": "Задержка после",
+          "text2": "+%d"
+        },
+        {
+          "id": 5,
+          "text1": "Бонус при атаке сбоку",
+          "text2": "+%d"
+        },
+        {
+          "id": 6,
+          "text1": "Бонус при атаке со спины",
+          "text2": "+%d"
+        },
+        {
+          "id": 7,
+          "text1": "Восст. ОЗ",
+          "text2": "+%d"
+        },
+        {
+          "id": 8,
+          "text1": "Увеличение ОН",
+          "text2": "+%d"
+        },
+        {
+          "id": 9,
+          "text1": "Восст. ОЗ за ход",
+          "text2": "+%d"
+        },
+        {
+          "id": 10,
+          "text1": "Восст. ОЭ за ход",
+          "text2": "+%d"
+        },
+        {
+          "id": 11,
+          "text1": "Восст. ОН за ход",
+          "text2": "+%d"
+        },
+        {
+          "id": 12,
+          "text1": "Поглощение ОЗ",
+          "text2": "+%d"
+        },
+        {
+          "id": 13,
+          "text1": "Поглощение ОЭ",
+          "text2": "+%d"
+        },
+        {
+          "id": 14,
+          "text1": "Стоимость ОЗ",
+          "text2": "%d"
+        },
+        {
+          "id": 15,
+          "text1": "Значение щита",
+          "text2": "+%d"
+        },
+        {
+          "id": 16,
+          "text1": "Восст. усиления",
+          "text2": "+%d"
+        },
+        {
+          "id": 17,
+          "text1": "Уровень ожога",
+          "text2": "+%d"
+        },
+        {
+          "id": 18,
+          "text1": "Уровень заморозки",
+          "text2": "+%d"
+        },
+        {
+          "id": 19,
+          "text1": "Шанс ожога +",
+          "text2": "+%d%%"
+        },
+        {
+          "id": 20,
+          "text1": "Шанс заморозки +",
+          "text2": "+%d%%"
+        },
+        {
+          "id": 21,
+          "text1": "Шанс печати +",
+          "text2": "+%d%%"
+        },
+        {
+          "id": 22,
+          "text1": "Шанс очарования +",
+          "text2": "+%d%%"
+        },
+        {
+          "id": 23,
+          "text1": "Шанс смертельного удара +",
+          "text2": "+%d%%"
+        },
+        {
+          "id": 24,
+          "text1": "Шанс ослепления +",
+          "text2": "+%d%%"
+        },
+        {
+          "id": 25,
+          "text1": "Ходы ярости",
+          "text2": "+%d ход(ов)"
+        },
+        {
+          "id": 26,
+          "text1": "Ходы стрейта",
+          "text2": "+%d ход(ов)"
+        },
+        {
+          "id": 27,
+          "text1": "Ходы быстрого",
+          "text2": "+%d ход(ов)"
+        },
+        {
+          "id": 28,
+          "text1": "Ходы снижения всех статов",
+          "text2": "+%d ход(ов)"
+        },
+        {
+          "id": 29,
+          "text1": "Снижение АТК",
+          "text2": "%d%%"
+        },
+        {
+          "id": 30,
+          "text1": "Повышение АТК",
+          "text2": "+%d%%"
+        },
+        {
+          "id": 31,
+          "text1": "Снижение ЗЩТ",
+          "text2": "%d%%"
+        },
+        {
+          "id": 32,
+          "text1": "Повышение ЗЩТ",
+          "text2": "+%d%%"
+        },
+        {
+          "id": 33,
+          "text1": "Снижение ИУРН",
+          "text2": "%d%%"
+        },
+        {
+          "id": 34,
+          "text1": "Повышение ИУРН",
+          "text2": "+%d%%"
+        },
+        {
+          "id": 35,
+          "text1": "Снижение ИСПР",
+          "text2": "%d%%"
+        },
+        {
+          "id": 36,
+          "text1": "Повышение ИСПР",
+          "text2": "+%d%%"
+        },
+        {
+          "id": 37,
+          "text1": "Восст. ОЭ",
+          "text2": "+%d"
+        },
+        {
+          "id": 38,
+          "text1": "Ходы повышения всех статов",
+          "text2": "+%d ход(ов)"
+        },
+        {
+          "id": 39,
+          "text1": "Шанс немоты +",
+          "text2": "+%d%%"
+        }
+      ]
+    }
+  ]
+}

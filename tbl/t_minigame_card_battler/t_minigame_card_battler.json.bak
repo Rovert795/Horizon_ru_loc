@@ -1,0 +1,2387 @@
+{
+	"headers": [
+		{
+			"name": "CardData",
+			"schema": "Kai"
+		},
+		{
+			"name": "CardEffectText",
+			"schema": "Kai"
+		},
+		{
+			"name": "CardAttributeData",
+			"schema": "Kai"
+		},
+		{
+			"name": "AITypeList",
+			"schema": "Kai"
+		},
+		{
+			"name": "CardBattlerMessage",
+			"schema": "Kai"
+		},
+		{
+			"name": "ScoreCoefficient",
+			"schema": "Kai"
+		},
+		{
+			"name": "LogText",
+			"schema": "Kai"
+		}
+	],
+	"data": [
+		{
+			"name": "CardData",
+			"data": [
+				{
+					"id": 0,
+					"text": "Earth Breaker",
+					"short1": 6,
+					"short2": 0,
+					"short3": 0,
+					"short4": 0
+				},
+				{
+					"id": 1,
+					"text": "Earth Guard",
+					"short1": 4,
+					"short2": 0,
+					"short3": 1,
+					"short4": 1
+				},
+				{
+					"id": 2,
+					"text": "Hydro Cannon",
+					"short1": 6,
+					"short2": 1,
+					"short3": 0,
+					"short4": 0
+				},
+				{
+					"id": 3,
+					"text": "Tear",
+					"short1": 4,
+					"short2": 1,
+					"short3": 1,
+					"short4": 2
+				},
+				{
+					"id": 4,
+					"text": "Fire Bolt",
+					"short1": 6,
+					"short2": 2,
+					"short3": 0,
+					"short4": 0
+				},
+				{
+					"id": 5,
+					"text": "Forte",
+					"short1": 4,
+					"short2": 2,
+					"short3": 1,
+					"short4": 3
+				},
+				{
+					"id": 6,
+					"text": "Spark Edge",
+					"short1": 6,
+					"short2": 3,
+					"short3": 0,
+					"short4": 0
+				},
+				{
+					"id": 7,
+					"text": "Refreshing Veil",
+					"short1": 4,
+					"short2": 3,
+					"short3": 1,
+					"short4": 4
+				},
+				{
+					"id": 8,
+					"text": "Chrono Drive",
+					"short1": 2,
+					"short2": 4,
+					"short3": 1,
+					"short4": 5
+				},
+				{
+					"id": 9,
+					"text": "Lost Mobius",
+					"short1": 2,
+					"short2": 5,
+					"short3": 1,
+					"short4": 6
+				},
+				{
+					"id": 10,
+					"text": "Crescent Eye",
+					"short1": 2,
+					"short2": 6,
+					"short3": 1,
+					"short4": 7
+				}
+			]
+		},
+		{
+			"name": "CardEffectText",
+			"data": [
+				{
+					"id": 0,
+					"text1": "[Attack Card: %s]",
+					"text2": "Deals two damage to the next player in the turn order."
+				},
+				{
+					"id": 1,
+					"text1": "[Special Effect Card: <I42>]",
+					"text2": "Halves field damage. Functions as an attack card on the first turn."
+				},
+				{
+					"id": 2,
+					"text1": "[Special Effect Card: <I43>]",
+					"text2": "Restores two life."
+				},
+				{
+					"id": 3,
+					"text1": "[Special Effect Card: <I44>]",
+					"text2": "Doubles field damage."
+				},
+				{
+					"id": 4,
+					"text1": "[Special Effect Card: <I45>]",
+					"text2": "Reverses the order of play and wards off damage."
+				},
+				{
+					"id": 5,
+					"text1": "[Special Effect Card: <I46>]",
+					"text2": "Negates damage and allows you to draw two cards."
+				},
+				{
+					"id": 6,
+					"text1": "[Special Effect Card: <I47>]",
+					"text2": "Negates damage to self, but deals two damage to all other players."
+				},
+				{
+					"id": 7,
+					"text1": "[Special Effect Card: <I48>]",
+					"text2": "Negates damage and allows you to exchange hands with a player of your choice."
+				}
+			]
+		},
+		{
+			"name": "CardAttributeData",
+			"data": [
+				{
+					"id": 0,
+					"text": "<I42>"
+				},
+				{
+					"id": 1,
+					"text": "<I43>"
+				},
+				{
+					"id": 2,
+					"text": "<I44>"
+				},
+				{
+					"id": 3,
+					"text": "<I45>"
+				},
+				{
+					"id": 4,
+					"text": "<I46>"
+				},
+				{
+					"id": 5,
+					"text": "<I47>"
+				},
+				{
+					"id": 6,
+					"text": "<I48>"
+				}
+			]
+		},
+		{
+			"name": "AITypeList",
+			"data": [
+				{
+					"ushort1": 0,
+					"ushort2": 1
+				},
+				{
+					"ushort1": 11,
+					"ushort2": 1
+				},
+				{
+					"ushort1": 9,
+					"ushort2": 2
+				},
+				{
+					"ushort1": 1,
+					"ushort2": 0
+				},
+				{
+					"ushort1": 17,
+					"ushort2": 1
+				},
+				{
+					"ushort1": 18,
+					"ushort2": 2
+				},
+				{
+					"ushort1": 10,
+					"ushort2": 0
+				},
+				{
+					"ushort1": 4,
+					"ushort2": 2
+				},
+				{
+					"ushort1": 2,
+					"ushort2": 0
+				},
+				{
+					"ushort1": 3,
+					"ushort2": 0
+				},
+				{
+					"ushort1": 6,
+					"ushort2": 2
+				},
+				{
+					"ushort1": 19,
+					"ushort2": 1
+				},
+				{
+					"ushort1": 8,
+					"ushort2": 0
+				},
+				{
+					"ushort1": 63,
+					"ushort2": 1
+				},
+				{
+					"ushort1": 12,
+					"ushort2": 2
+				},
+				{
+					"ushort1": 151,
+					"ushort2": 0
+				},
+				{
+					"ushort1": 152,
+					"ushort2": 2
+				}
+			]
+		},
+		{
+			"name": "CardBattlerMessage",
+			"data": [
+				{
+					"uint1": 0,
+					"uint2": 0,
+					"text": "All right. Let the games begin.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 0,
+					"uint2": 1,
+					"text": "C'mon, let's get on with it!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 0,
+					"uint2": 2,
+					"text": "This'll do the trick!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 0,
+					"uint2": 3,
+					"text": "I'll go with this one!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 0,
+					"uint2": 4,
+					"text": "What about this?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 0,
+					"uint2": 5,
+					"text": "Taste my fury!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 0,
+					"uint2": 6,
+					"text": "Oop. Sucks for you.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 0,
+					"uint2": 8,
+					"text": "Oh, is that how it's gonna be?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 0,
+					"uint2": 9,
+					"text": "Talk about a tough spot...",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 0,
+					"uint2": 10,
+					"text": "Why you little...",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 0,
+					"uint2": 11,
+					"text": "Aaah! You got me.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 0,
+					"uint2": 13,
+					"text": "And that's how it's done.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 0,
+					"uint2": 12,
+					"text": "Damn it. Let's go again.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11,
+					"uint2": 0,
+					"text": "Shall we begin?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11,
+					"uint2": 1,
+					"text": "Hmm... What are you plotting?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11,
+					"uint2": 2,
+					"text": "I'll use this.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11,
+					"uint2": 3,
+					"text": "This one!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11,
+					"uint2": 4,
+					"text": "The advantage is mine.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11,
+					"uint2": 5,
+					"text": "I'll strike you down!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11,
+					"uint2": 6,
+					"text": "How about a trade?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11,
+					"uint2": 8,
+					"text": "So that's your move?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11,
+					"uint2": 9,
+					"text": "This...might be difficult.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11,
+					"uint2": 10,
+					"text": "How dare you!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11,
+					"uint2": 11,
+					"text": "*sigh* Unfortunate.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11,
+					"uint2": 13,
+					"text": "Heehee. A complete victory.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11,
+					"uint2": 12,
+					"text": "If you don't mind, let's have a rematch.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 9,
+					"uint2": 0,
+					"text": "Very well. Let us begin.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 9,
+					"uint2": 1,
+					"text": "What's your play...?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 9,
+					"uint2": 2,
+					"text": "Here we go.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 9,
+					"uint2": 3,
+					"text": "This should do.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 9,
+					"uint2": 4,
+					"text": "Pay me no mind.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 9,
+					"uint2": 5,
+					"text": "This may sting a little.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 9,
+					"uint2": 6,
+					"text": "Let's have a look at your hand.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 9,
+					"uint2": 8,
+					"text": "I see how it is.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 9,
+					"uint2": 9,
+					"text": "I'm in a bind.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 9,
+					"uint2": 10,
+					"text": "Well played.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 9,
+					"uint2": 11,
+					"text": "Well, I'm out of the game.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 9,
+					"uint2": 13,
+					"text": "Heh. I'm sure you'll win next time.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 9,
+					"uint2": 12,
+					"text": "*sigh* I suppose luck wasn't on my side.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 1,
+					"uint2": 0,
+					"text": "Heehee. Go easy on me, please.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 1,
+					"uint2": 1,
+					"text": "Take your time.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 1,
+					"uint2": 2,
+					"text": "Let's try this one!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 1,
+					"uint2": 3,
+					"text": "I'll use this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 1,
+					"uint2": 4,
+					"text": "And here's my trump card!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 1,
+					"uint2": 5,
+					"text": "Here I go!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 1,
+					"uint2": 6,
+					"text": "Sorry about what I'm about to do.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 1,
+					"uint2": 8,
+					"text": "Is that how it is?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 1,
+					"uint2": 9,
+					"text": "Oh... Oh, no...",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 1,
+					"uint2": 10,
+					"text": "Ahh! My cards...",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 1,
+					"uint2": 11,
+					"text": "No...",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 1,
+					"uint2": 13,
+					"text": "Heehee. I don't know how I pulled that off.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 1,
+					"uint2": 12,
+					"text": "*sigh* Guess that's that.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 17,
+					"uint2": 0,
+					"text": "Okay. I can do a game or two.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 17,
+					"uint2": 1,
+					"text": "Is something on your mind?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 17,
+					"uint2": 2,
+					"text": "My turn.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 17,
+					"uint2": 3,
+					"text": "This'll do.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 17,
+					"uint2": 4,
+					"text": "I think I'll use this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 17,
+					"uint2": 5,
+					"text": "Say your prayers!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 17,
+					"uint2": 6,
+					"text": "Sorry about this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 17,
+					"uint2": 8,
+					"text": "So that's your game.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 17,
+					"uint2": 9,
+					"text": "I'm in it deep now.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 17,
+					"uint2": 10,
+					"text": "Just great...",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 17,
+					"uint2": 11,
+					"text": "Guess that's it.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 17,
+					"uint2": 13,
+					"text": "Heh. No hard feelings, right?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 17,
+					"uint2": 12,
+					"text": "Well, that was disappointing.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 18,
+					"uint2": 0,
+					"text": "Wanna get started?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 18,
+					"uint2": 1,
+					"text": "Having second thoughts?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 18,
+					"uint2": 2,
+					"text": "I think this'll do!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 18,
+					"uint2": 3,
+					"text": "I'll play this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 18,
+					"uint2": 4,
+					"text": "Get ready to draw!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 18,
+					"uint2": 5,
+					"text": "Have a taste of this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 18,
+					"uint2": 6,
+					"text": "I'll take that!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 18,
+					"uint2": 8,
+					"text": "Oh, no, you didn't!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 18,
+					"uint2": 9,
+					"text": "Ouchies!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 18,
+					"uint2": 10,
+					"text": "My caaards!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 18,
+					"uint2": 11,
+					"text": "No way! Did I miscalculate this?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 18,
+					"uint2": 13,
+					"text": "Bet you feel real silly for challenging me now.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 18,
+					"uint2": 12,
+					"text": "Ugh. This game's rigged!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 2,
+					"uint2": 0,
+					"text": "Heehee. I'm ready!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 2,
+					"uint2": 1,
+					"text": "Huh? What's wrong?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 2,
+					"uint2": 2,
+					"text": "This one!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 2,
+					"uint2": 3,
+					"text": "This'll do!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 2,
+					"uint2": 4,
+					"text": "I'll go with this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 2,
+					"uint2": 5,
+					"text": "Brace yourself!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 2,
+					"uint2": 6,
+					"text": "Let's trade!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 2,
+					"uint2": 8,
+					"text": "Ugh!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 2,
+					"uint2": 9,
+					"text": "This might be bad.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 2,
+					"uint2": 10,
+					"text": "Aww, I was saving those!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 2,
+					"uint2": 11,
+					"text": "But how...?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 2,
+					"uint2": 13,
+					"text": "I owe this victory to Arusha!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 2,
+					"uint2": 12,
+					"text": "O-One more game!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 3,
+					"uint2": 0,
+					"text": "I'll wipe the floor with you!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 3,
+					"uint2": 1,
+					"text": "Anytime this century.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 3,
+					"uint2": 2,
+					"text": "Let's give this a try!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 3,
+					"uint2": 3,
+					"text": "This'll do.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 3,
+					"uint2": 4,
+					"text": "You're so screwed!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 3,
+					"uint2": 5,
+					"text": "A slice of pain for you!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 3,
+					"uint2": 6,
+					"text": "Time for a swap.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 3,
+					"uint2": 8,
+					"text": "Oh, it's on!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 3,
+					"uint2": 9,
+					"text": "Son of a bitch...",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 3,
+					"uint2": 10,
+					"text": "You'll pay for that.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 3,
+					"uint2": 11,
+					"text": "That's bullshit!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 3,
+					"uint2": 13,
+					"text": "Hah. I'm in a league of my own.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 3,
+					"uint2": 12,
+					"text": "Damn it! Rematch, NOW!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 6,
+					"uint2": 0,
+					"text": "Shall we begin?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 6,
+					"uint2": 1,
+					"text": "Is something the matter?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 6,
+					"uint2": 2,
+					"text": "I will play this next.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 6,
+					"uint2": 3,
+					"text": "Perhaps this will be of use.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 6,
+					"uint2": 4,
+					"text": "I will start these cards anew.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 6,
+					"uint2": 5,
+					"text": "Did that hurt?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 6,
+					"uint2": 6,
+					"text": "Let us exchange hands.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 6,
+					"uint2": 8,
+					"text": "I've no response to that.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 6,
+					"uint2": 9,
+					"text": "Well, then...",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 6,
+					"uint2": 10,
+					"text": "This may be problematic.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 6,
+					"uint2": 11,
+					"text": "How unfortunate.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 6,
+					"uint2": 13,
+					"text": "Heehee. I am victorious.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 6,
+					"uint2": 12,
+					"text": "Heehee. Why don't we play again?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 4,
+					"uint2": 0,
+					"text": "Very well. Let's begin.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 4,
+					"uint2": 1,
+					"text": "Is something on your mind?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 4,
+					"uint2": 2,
+					"text": "This will be my next move.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 4,
+					"uint2": 3,
+					"text": "I suppose this will do.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 4,
+					"uint2": 4,
+					"text": "Let me draw some more.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 4,
+					"uint2": 5,
+					"text": "Attack!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 4,
+					"uint2": 6,
+					"text": "Why don't we swap hands?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 4,
+					"uint2": 8,
+					"text": "I may be at a disadvantage.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 4,
+					"uint2": 9,
+					"text": "This...is very bad.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 4,
+					"uint2": 10,
+					"text": "Ahh!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 4,
+					"uint2": 11,
+					"text": "Urgh. Guess that's it.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 4,
+					"uint2": 13,
+					"text": "Not too surprising.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 4,
+					"uint2": 12,
+					"text": "Can we play again?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 10,
+					"uint2": 0,
+					"text": "Okay. Let's start the match.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 10,
+					"uint2": 1,
+					"text": "Quit stalling already!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 10,
+					"uint2": 2,
+					"text": "Here's my next play.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 10,
+					"uint2": 3,
+					"text": "Time to use this one!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 10,
+					"uint2": 4,
+					"text": "Draw!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 10,
+					"uint2": 5,
+					"text": "Try this on for size!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 10,
+					"uint2": 6,
+					"text": "I'll be taking that.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 10,
+					"uint2": 8,
+					"text": "Could you not, thanks?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 10,
+					"uint2": 9,
+					"text": "Wow, mean!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 10,
+					"uint2": 10,
+					"text": "That's some nerve, stealing from a thief!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 10,
+					"uint2": 11,
+					"text": "I lost? No way!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 10,
+					"uint2": 13,
+					"text": "Easier than taking candy from a baby.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 10,
+					"uint2": 12,
+					"text": "Ugh. We're playing again!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 19,
+					"uint2": 0,
+					"text": "Let's have a fair match.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 19,
+					"uint2": 1,
+					"text": "Please, take your time.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 19,
+					"uint2": 2,
+					"text": "How about this?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 19,
+					"uint2": 3,
+					"text": "This will do nicely.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 19,
+					"uint2": 4,
+					"text": "I have the upper hand.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 19,
+					"uint2": 5,
+					"text": "Lay siege!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 19,
+					"uint2": 6,
+					"text": "Let's do a trade.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 19,
+					"uint2": 8,
+					"text": "Impressive.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 19,
+					"uint2": 9,
+					"text": "Quite the play.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 19,
+					"uint2": 10,
+					"text": "Oh? Not bad at all.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 19,
+					"uint2": 11,
+					"text": "Well played.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 19,
+					"uint2": 13,
+					"text": "Heehee. Let's play again sometime.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 19,
+					"uint2": 12,
+					"text": "Oh, my. What a crushing defeat.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 63,
+					"uint2": 0,
+					"text": "Sure. I'll play.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 63,
+					"uint2": 1,
+					"text": "What're you up to?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 63,
+					"uint2": 2,
+					"text": "This should work.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 63,
+					"uint2": 3,
+					"text": "Okay, I'll do this.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 63,
+					"uint2": 4,
+					"text": "I'm gonna draw.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 63,
+					"uint2": 5,
+					"text": "‘Kay. Here it comes.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 63,
+					"uint2": 6,
+					"text": "Time for a trade.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 63,
+					"uint2": 8,
+					"text": "That kinda stings.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 63,
+					"uint2": 9,
+					"text": "It's not looking great for me.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 63,
+					"uint2": 10,
+					"text": "Hmph.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 63,
+					"uint2": 11,
+					"text": "Welp. I'm out.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 63,
+					"uint2": 13,
+					"text": "Huh. Actually won that.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 63,
+					"uint2": 12,
+					"text": "Ungh. Let's go again.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 8,
+					"uint2": 0,
+					"text": "Time to roll up my sleeves.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 8,
+					"uint2": 1,
+					"text": "Hmm... So what's my strategy...?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 8,
+					"uint2": 2,
+					"text": "Next up!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 8,
+					"uint2": 3,
+					"text": "I'll go with this one.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 8,
+					"uint2": 4,
+					"text": "A literal trump card.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 8,
+					"uint2": 5,
+					"text": "Brace for impact!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 8,
+					"uint2": 6,
+					"text": "Sorry, but I'm taking those cards.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 8,
+					"uint2": 8,
+					"text": "Interesting.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 8,
+					"uint2": 9,
+					"text": "I don't like the way this is going.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 8,
+					"uint2": 10,
+					"text": "You've got a knack for this, don't you?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 8,
+					"uint2": 11,
+					"text": "Well, shoot. Guess that's that.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 8,
+					"uint2": 13,
+					"text": "Haha. Things just have a way of workin' out for me.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 8,
+					"uint2": 12,
+					"text": "*sigh* You kiddin' me?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 12,
+					"uint2": 0,
+					"text": "Sure, I'll give it a spin.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 12,
+					"uint2": 1,
+					"text": "What's up?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 12,
+					"uint2": 2,
+					"text": "Maybe this'll be good next.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 12,
+					"uint2": 3,
+					"text": "I'll play this, I guess!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 12,
+					"uint2": 4,
+					"text": "Wonder if this is the best time to draw.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 12,
+					"uint2": 5,
+					"text": "I'll cut you down!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 12,
+					"uint2": 6,
+					"text": "How 'bout we swap hands?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 12,
+					"uint2": 8,
+					"text": "Oh, so that's how we're playing?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 12,
+					"uint2": 9,
+					"text": "Oof... This isn't going great.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 12,
+					"uint2": 10,
+					"text": "Nice one.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 12,
+					"uint2": 11,
+					"text": "Aww. That sucks.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 12,
+					"uint2": 13,
+					"text": "Heehee. That was so much fun!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 12,
+					"uint2": 12,
+					"text": "I wanna go again.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 151,
+					"uint2": 0,
+					"text": "Eh. Might as well.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 151,
+					"uint2": 1,
+					"text": "I ain't got all day.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 151,
+					"uint2": 2,
+					"text": "Let's see how you like this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 151,
+					"uint2": 3,
+					"text": "Next up!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 151,
+					"uint2": 4,
+					"text": "These are mine now!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 151,
+					"uint2": 5,
+					"text": "Eat this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 151,
+					"uint2": 6,
+					"text": "All right. Hand 'em over.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 151,
+					"uint2": 8,
+					"text": "Tch! That's how we're playing, huh?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 151,
+					"uint2": 9,
+					"text": "I'll get you back for this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 151,
+					"uint2": 10,
+					"text": "Damn it, my hand.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 151,
+					"uint2": 11,
+					"text": "Are you shitting me right now?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 151,
+					"uint2": 13,
+					"text": "Heh. 'Course I won.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 151,
+					"uint2": 12,
+					"text": "Ugh. You better make time for another round.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 152,
+					"uint2": 0,
+					"text": "Very well. Shall we?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 152,
+					"uint2": 1,
+					"text": "Let's see what you're made of.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 152,
+					"uint2": 2,
+					"text": "Let's give this a try.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 152,
+					"uint2": 3,
+					"text": "I'll use this next.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 152,
+					"uint2": 4,
+					"text": "Now, don't mind me!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 152,
+					"uint2": 5,
+					"text": "This may hurt a bit.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 152,
+					"uint2": 6,
+					"text": "Let's have a look at your hand.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 152,
+					"uint2": 8,
+					"text": "Fascinating.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 152,
+					"uint2": 9,
+					"text": "Clever move.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 152,
+					"uint2": 10,
+					"text": "This could certainly be going better.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 152,
+					"uint2": 11,
+					"text": "*sigh* I suppose that's it, then.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 152,
+					"uint2": 13,
+					"text": "Heheh. I suppose there are worse ways to pass the time.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 152,
+					"uint2": 12,
+					"text": "Oh, dear. What an unfortunate twist of fate.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11912,
+					"uint2": 1,
+					"text": "Well? What's your move?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11912,
+					"uint2": 2,
+					"text": "I think I'll play this next!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11912,
+					"uint2": 3,
+					"text": "This should do!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11912,
+					"uint2": 4,
+					"text": "Get a load of this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11912,
+					"uint2": 5,
+					"text": "Get a load of this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11912,
+					"uint2": 6,
+					"text": "Get a load of this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11912,
+					"uint2": 8,
+					"text": "I barely felt that!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11912,
+					"uint2": 9,
+					"text": "This doesn't look good.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11912,
+					"uint2": 10,
+					"text": "Aww, man!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11912,
+					"uint2": 11,
+					"text": "Gah!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11912,
+					"uint2": 13,
+					"text": "Is that the best you can do?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 11912,
+					"uint2": 12,
+					"text": "I hope you enjoyed yourself.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 134,
+					"uint2": 1,
+					"text": "Just kick back and relax.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 134,
+					"uint2": 2,
+					"text": "Let's see how you handle this.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 134,
+					"uint2": 3,
+					"text": "How about this next?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 134,
+					"uint2": 4,
+					"text": "This one's my trump card!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 134,
+					"uint2": 5,
+					"text": "This one's my trump card!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 134,
+					"uint2": 6,
+					"text": "This one's my trump card!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 134,
+					"uint2": 8,
+					"text": "I'm just getting started!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 134,
+					"uint2": 9,
+					"text": "Tch! I'm screwed.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 134,
+					"uint2": 10,
+					"text": "Oh? We're playing for keeps, huh?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 134,
+					"uint2": 11,
+					"text": "Aww, man. Shit outta luck.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 134,
+					"uint2": 13,
+					"text": "Victory Jack chalks up another win.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 134,
+					"uint2": 12,
+					"text": "Can't believe you snatched a win. Not half bad.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 135,
+					"uint2": 1,
+					"text": "I can see the gears turning in your head.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 135,
+					"uint2": 2,
+					"text": "Here's my next play.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 135,
+					"uint2": 3,
+					"text": "I'll go with this.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 135,
+					"uint2": 4,
+					"text": "This should do it!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 135,
+					"uint2": 5,
+					"text": "This should do it!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 135,
+					"uint2": 6,
+					"text": "This should do it!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 135,
+					"uint2": 8,
+					"text": "So that's your move?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 135,
+					"uint2": 9,
+					"text": "Might be tough to turn this around.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 135,
+					"uint2": 10,
+					"text": "Of all the timing!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 135,
+					"uint2": 11,
+					"text": "Phew... You're pretty good.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 135,
+					"uint2": 13,
+					"text": "You're a long ways away from hoping to beat me.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 135,
+					"uint2": 12,
+					"text": "It's your win. Nicely done.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 550,
+					"uint2": 1,
+					"text": "Well? What's your move?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 550,
+					"uint2": 2,
+					"text": "Here goes!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 550,
+					"uint2": 3,
+					"text": "I know, I'll play this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 550,
+					"uint2": 4,
+					"text": "Get a load of this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 550,
+					"uint2": 5,
+					"text": "Get a load of this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 550,
+					"uint2": 6,
+					"text": "Get a load of this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 550,
+					"uint2": 8,
+					"text": "I'm not done yet!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 550,
+					"uint2": 9,
+					"text": "N-No way!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 550,
+					"uint2": 10,
+					"text": "What the—?!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 550,
+					"uint2": 11,
+					"text": "Gah!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 550,
+					"uint2": 13,
+					"text": "Looks like I win this one!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 550,
+					"uint2": 12,
+					"text": "Ugh... One more game!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 551,
+					"uint2": 1,
+					"text": "Heehee. What's wrong?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 551,
+					"uint2": 2,
+					"text": "I'll choose this next.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 551,
+					"uint2": 3,
+					"text": "This will do the trick!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 551,
+					"uint2": 4,
+					"text": "Take this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 551,
+					"uint2": 5,
+					"text": "Take this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 551,
+					"uint2": 6,
+					"text": "Take this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 551,
+					"uint2": 8,
+					"text": "I'm not in trouble yet.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 551,
+					"uint2": 9,
+					"text": "This might be hard to recover from.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 551,
+					"uint2": 10,
+					"text": "No way!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 551,
+					"uint2": 11,
+					"text": "My precious life points...",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 551,
+					"uint2": 13,
+					"text": "Victory is mine.",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 551,
+					"uint2": 12,
+					"text": "I'll get you next time!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 116,
+					"uint2": 0,
+					"text": "Yaaay! Let's play!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 116,
+					"uint2": 1,
+					"text": "What'cha doin'?",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 116,
+					"uint2": 2,
+					"text": "Ooh, I'll play this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 116,
+					"uint2": 3,
+					"text": "This one!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 116,
+					"uint2": 4,
+					"text": "Hope I get some good cards!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 116,
+					"uint2": 5,
+					"text": "I'll use this!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 116,
+					"uint2": 6,
+					"text": "Let's trade!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 116,
+					"uint2": 8,
+					"text": "That didn't hurt even a little!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 116,
+					"uint2": 9,
+					"text": "Ouch...",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 116,
+					"uint2": 10,
+					"text": "My cards...",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 116,
+					"uint2": 11,
+					"text": "No... I lost...",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 116,
+					"uint2": 13,
+					"text": "Really? I won? Yay!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				},
+				{
+					"uint1": 116,
+					"uint2": 12,
+					"text": "Hnng. I wanna play again!",
+					"uint3": 0,
+					"float": 0.800000011920929
+				}
+			]
+		},
+		{
+			"name": "ScoreCoefficient",
+			"data": [
+				{
+					"ushort1": 0,
+					"ushort2": 1
+				},
+				{
+					"ushort1": 1,
+					"ushort2": 1
+				}
+			]
+		},
+		{
+			"name": "LogText",
+			"data": [
+				{
+					"id": 0,
+					"text": "%s uses %s! Field damage: <c900>%d</C>."
+				},
+				{
+					"id": 1,
+					"text": "%s recovers <c099>two</C> Life. %s:<c990>%d</C>"
+				},
+				{
+					"id": 2,
+					"text": "All players take two damage."
+				},
+				{
+					"id": 3,
+					"text": "%s: <c990>%d</C>　%s: <c990>%d</C>　%s: <c990>%d</C>"
+				},
+				{
+					"id": 4,
+					"text": "%s and %s swap hands."
+				},
+				{
+					"id": 5,
+					"text": "%s draws 2 cards."
+				},
+				{
+					"id": 6,
+					"text": "%s takes <c900>%d</C> damage. %s: <c990>%d</C>"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,2676 @@
+{
+	"headers": [
+		{
+			"name": "ConditionInfoTableData",
+			"schema": "Kai"
+		},
+		{
+			"name": "ConditionTypeParam",
+			"schema": "Kuro1"
+		}
+	],
+	"data": [
+		{
+			"name": "ConditionInfoTableData",
+			"data": [
+				{
+					"id": 1,
+					"int1": 0,
+					"state_name": "Rot",
+					"int2": 3,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": 4,
+							"value2": 8,
+							"value3": 12,
+							"value4": 0
+						},
+						{
+							"value1": 15,
+							"value2": 30,
+							"value3": 45,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.30000001192092896,
+					"float2": 0.0,
+					"int5": 322,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "NZ"
+				},
+				{
+					"id": 2,
+					"int1": 0,
+					"state_name": "Freeze",
+					"int2": 3,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": 2,
+							"value2": 4,
+							"value3": 6,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 30,
+							"value2": 60,
+							"value3": 90,
+							"value4": 0
+						}
+					],
+					"float1": 0.30000001192092896,
+					"float2": 0.5,
+					"int5": 316,
+					"int6": 0,
+					"int7": 0,
+					"int8": 3,
+					"int9": 0,
+					"flag": "NZ"
+				},
+				{
+					"id": 3,
+					"int1": 0,
+					"state_name": "Burn",
+					"int2": 3,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": 6,
+							"value2": 12,
+							"value3": 18,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.30000001192092896,
+					"float2": 0.0,
+					"int5": 315,
+					"int6": 0,
+					"int7": 0,
+					"int8": 2,
+					"int9": 0,
+					"flag": "NZ"
+				},
+				{
+					"id": 4,
+					"int1": 0,
+					"state_name": "Seal",
+					"int2": 3,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 50,
+							"value2": 75,
+							"value3": 100,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.5,
+					"int5": 317,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "NZ"
+				},
+				{
+					"id": 5,
+					"int1": 0,
+					"state_name": "Mute",
+					"int2": 3,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 50,
+							"value2": 75,
+							"value3": 100,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.5,
+					"int5": 318,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "NZ"
+				},
+				{
+					"id": 6,
+					"int1": 0,
+					"state_name": "Blind",
+					"int2": 1,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": -120,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": -60,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 320,
+					"int6": 0,
+					"int7": 0,
+					"int8": 7,
+					"int9": 0,
+					"flag": "NZ"
+				},
+				{
+					"id": 7,
+					"int1": 0,
+					"state_name": "Insight",
+					"int2": 1,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 120,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 60,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 325,
+					"int6": 0,
+					"int7": 0,
+					"int8": 6,
+					"int9": 0,
+					"flag": "PZ"
+				},
+				{
+					"id": 8,
+					"int1": 0,
+					"state_name": "Deathblow",
+					"int2": 3,
+					"int3": 1,
+					"int4": 1,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 319,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "NZ"
+				},
+				{
+					"id": 9,
+					"int1": 0,
+					"state_name": "Fear",
+					"int2": 3,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": 15,
+							"value2": 30,
+							"value3": 45,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 50,
+							"value2": 75,
+							"value3": 100,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.5,
+					"int5": 321,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "NZ"
+				},
+				{
+					"id": 10,
+					"int1": 0,
+					"state_name": "S-Boost",
+					"int2": 2,
+					"int3": 2,
+					"int4": 0,
+					"effects": [
+						{
+							"value1": 150,
+							"value2": 150,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 2,
+							"value2": 3,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 326,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "PZ"
+				},
+				{
+					"id": 23,
+					"int1": 0,
+					"state_name": "HP Shield",
+					"int2": 1,
+					"int3": 16,
+					"int4": 255,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 0,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "PZ"
+				},
+				{
+					"id": 12,
+					"int1": 0,
+					"state_name": "Shard Break (Not implemented)",
+					"int2": 1,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 0,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "NZ"
+				},
+				{
+					"id": 13,
+					"int1": 0,
+					"state_name": "Additional Elemental Damage",
+					"int2": 1,
+					"int3": 1,
+					"int4": 1,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 332,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "PZ"
+				},
+				{
+					"id": 14,
+					"int1": 0,
+					"state_name": "Slow",
+					"int2": 3,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": 110,
+							"value2": 120,
+							"value3": 130,
+							"value4": 0
+						},
+						{
+							"value1": -2,
+							"value2": -4,
+							"value3": -6,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 333,
+					"int6": 0,
+					"int7": 0,
+					"int8": 15,
+					"int9": 0,
+					"flag": "NZ"
+				},
+				{
+					"id": 15,
+					"int1": 0,
+					"state_name": "Quick",
+					"int2": 3,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 90,
+							"value2": 80,
+							"value3": 70,
+							"value4": 0
+						},
+						{
+							"value1": 2,
+							"value2": 4,
+							"value3": 6,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 334,
+					"int6": 0,
+					"int7": 0,
+					"int8": 14,
+					"int9": 0,
+					"flag": "PZ"
+				},
+				{
+					"id": 30,
+					"int1": 0,
+					"state_name": "Haste",
+					"int2": 1,
+					"int3": 33,
+					"int4": 1,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 0,
+					"int6": 0,
+					"int7": 0,
+					"int8": 14,
+					"int9": 0,
+					"flag": "PZ"
+				},
+				{
+					"id": 67,
+					"int1": 0,
+					"state_name": "Delay",
+					"int2": 0,
+					"int3": 1,
+					"int4": 0,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.5,
+					"int5": 0,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "N"
+				},
+				{
+					"id": 16,
+					"int1": 0,
+					"state_name": "Temper (Van)",
+					"int2": 1,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 314,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "PC"
+				},
+				{
+					"id": 17,
+					"int1": 0,
+					"state_name": "Temper (Kasim)",
+					"int2": 1,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 365,
+					"int6": 381,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "PZLC"
+				},
+				{
+					"id": 31,
+					"int1": 0,
+					"state_name": "Spirit (Rean)",
+					"int2": 1,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 382,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "PC"
+				},
+				{
+					"id": 32,
+					"int1": 0,
+					"state_name": "Spirit (Shizuna)",
+					"int2": 1,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 383,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "PC"
+				},
+				{
+					"id": 33,
+					"int1": 0,
+					"state_name": "Stigma",
+					"int2": 1,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 50,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 50,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 384,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "PC"
+				},
+				{
+					"id": 18,
+					"int1": 0,
+					"state_name": "Strait (Aaron)",
+					"int2": 1,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 335,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "PC"
+				},
+				{
+					"id": 19,
+					"int1": 0,
+					"state_name": "Bewitch (Confuse) (Judith, etc.)",
+					"int2": 1,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 312,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "NZ"
+				},
+				{
+					"id": 20,
+					"int1": 0,
+					"state_name": "Vigor (Bergard)",
+					"int2": 1,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 313,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "PC"
+				},
+				{
+					"id": 21,
+					"int1": 0,
+					"state_name": "Stealth (Fie)",
+					"int2": 1,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 100,
+							"value2": 100,
+							"value3": 100,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 324,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "P"
+				},
+				{
+					"id": 24,
+					"int1": 0,
+					"state_name": "Immunity",
+					"int2": 1,
+					"int3": 8,
+					"int4": 1,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 310,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "PZ"
+				},
+				{
+					"id": 25,
+					"int1": 0,
+					"state_name": "Full Reflect",
+					"int2": 1,
+					"int3": 8,
+					"int4": 1,
+					"effects": [
+						{
+							"value1": 10,
+							"value2": 10,
+							"value3": 10,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 388,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "PZ"
+				},
+				{
+					"id": 26,
+					"int1": 0,
+					"state_name": "Physical Reflect",
+					"int2": 1,
+					"int3": 8,
+					"int4": 1,
+					"effects": [
+						{
+							"value1": 10,
+							"value2": 10,
+							"value3": 10,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 386,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "PZ"
+				},
+				{
+					"id": 27,
+					"int1": 0,
+					"state_name": "Magic Reflect",
+					"int2": 1,
+					"int3": 8,
+					"int4": 1,
+					"effects": [
+						{
+							"value1": 10,
+							"value2": 10,
+							"value3": 10,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 387,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "PZ"
+				},
+				{
+					"id": 22,
+					"int1": 0,
+					"state_name": "Mark",
+					"int2": 1,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 311,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "N"
+				},
+				{
+					"id": 28,
+					"int1": 0,
+					"state_name": "Demon Jewel",
+					"int2": 1,
+					"int3": 2,
+					"int4": 255,
+					"effects": [
+						{
+							"value1": 10,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 356,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "N"
+				},
+				{
+					"id": 38,
+					"int1": 0,
+					"state_name": "Onyx Toxin",
+					"int2": 1,
+					"int3": 2,
+					"int4": 255,
+					"effects": [
+						{
+							"value1": 10,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 356,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "N"
+				},
+				{
+					"id": 29,
+					"int1": 0,
+					"state_name": "Infectious Poison",
+					"int2": 1,
+					"int3": 257,
+					"int4": 3,
+					"effects": [
+						{
+							"value1": 25,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.30000001192092896,
+					"float2": 0.0,
+					"int5": 357,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "N"
+				},
+				{
+					"id": 34,
+					"int1": 0,
+					"state_name": "Gradual HP Heal",
+					"int2": 1,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 10,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 327,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "PZ1"
+				},
+				{
+					"id": 35,
+					"int1": 0,
+					"state_name": "Gradual EP Heal",
+					"int2": 1,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 10,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 328,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "PZ1"
+				},
+				{
+					"id": 36,
+					"int1": 0,
+					"state_name": "Gradual CP Heal",
+					"int2": 1,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 10,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 329,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "PZ1"
+				},
+				{
+					"id": 66,
+					"int1": 0,
+					"state_name": "E-Factor Contamination",
+					"int2": 1,
+					"int3": 4,
+					"int4": 255,
+					"effects": [
+						{
+							"value1": 10,
+							"value2": 20,
+							"value3": 30,
+							"value4": 0
+						},
+						{
+							"value1": 40,
+							"value2": 80,
+							"value3": 120,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 385,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "P"
+				},
+				{
+					"id": 39,
+					"int1": 0,
+					"state_name": "E-Factor Contamination Debuff",
+					"int2": 1,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 0,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "N"
+				},
+				{
+					"id": 37,
+					"int1": 0,
+					"state_name": "White Light, Golden Light, Bright Light",
+					"int2": 1,
+					"int3": 16,
+					"int4": 255,
+					"effects": [
+						{
+							"value1": 3,
+							"value2": 3,
+							"value3": 4,
+							"value4": 0
+						},
+						{
+							"value1": 10,
+							"value2": 30,
+							"value3": 20,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 264,
+					"int6": 266,
+					"int7": 265,
+					"int8": 0,
+					"int9": 0,
+					"flag": "PLZ"
+				},
+				{
+					"id": 40,
+					"int1": 0,
+					"state_name": "DMG Up",
+					"int2": 3,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 10,
+							"value2": 20,
+							"value3": 30,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 348,
+					"int6": 0,
+					"int7": 0,
+					"int8": 50,
+					"int9": 0,
+					"flag": "PZ1"
+				},
+				{
+					"id": 41,
+					"int1": 0,
+					"state_name": "RES Up",
+					"int2": 3,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 10,
+							"value2": 20,
+							"value3": 30,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 349,
+					"int6": 0,
+					"int7": 0,
+					"int8": 51,
+					"int9": 0,
+					"flag": "PZ1"
+				},
+				{
+					"id": 42,
+					"int1": 0,
+					"state_name": "ADMG Up",
+					"int2": 3,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 10,
+							"value2": 20,
+							"value3": 30,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 350,
+					"int6": 0,
+					"int7": 0,
+					"int8": 52,
+					"int9": 0,
+					"flag": "PZ1"
+				},
+				{
+					"id": 43,
+					"int1": 0,
+					"state_name": "ARES Up",
+					"int2": 3,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 10,
+							"value2": 20,
+							"value3": 30,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 351,
+					"int6": 0,
+					"int7": 0,
+					"int8": 53,
+					"int9": 0,
+					"flag": "PZ1"
+				},
+				{
+					"id": 44,
+					"int1": 0,
+					"state_name": "STR Up",
+					"int2": 3,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 10,
+							"value2": 20,
+							"value3": 30,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 336,
+					"int6": 0,
+					"int7": 0,
+					"int8": 54,
+					"int9": 0,
+					"flag": "PZ1"
+				},
+				{
+					"id": 45,
+					"int1": 0,
+					"state_name": "DEF Up",
+					"int2": 3,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 10,
+							"value2": 20,
+							"value3": 30,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 338,
+					"int6": 0,
+					"int7": 0,
+					"int8": 55,
+					"int9": 0,
+					"flag": "PZ1"
+				},
+				{
+					"id": 46,
+					"int1": 0,
+					"state_name": "ATS Up",
+					"int2": 3,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 10,
+							"value2": 20,
+							"value3": 30,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 340,
+					"int6": 0,
+					"int7": 0,
+					"int8": 56,
+					"int9": 0,
+					"flag": "PZ1"
+				},
+				{
+					"id": 47,
+					"int1": 0,
+					"state_name": "ADF Up",
+					"int2": 3,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 10,
+							"value2": 20,
+							"value3": 30,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 342,
+					"int6": 0,
+					"int7": 0,
+					"int8": 57,
+					"int9": 0,
+					"flag": "PZ1"
+				},
+				{
+					"id": 48,
+					"int1": 0,
+					"state_name": "SPD Up",
+					"int2": 3,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 10,
+							"value2": 20,
+							"value3": 30,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 344,
+					"int6": 0,
+					"int7": 0,
+					"int8": 58,
+					"int9": 0,
+					"flag": "PZ1"
+				},
+				{
+					"id": 49,
+					"int1": 0,
+					"state_name": "MOV Up",
+					"int2": 3,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 2,
+							"value2": 4,
+							"value3": 6,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 346,
+					"int6": 0,
+					"int7": 0,
+					"int8": 59,
+					"int9": 0,
+					"flag": "PZ1"
+				},
+				{
+					"id": 50,
+					"int1": 0,
+					"state_name": "DMG Down",
+					"int2": 3,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": -10,
+							"value2": -20,
+							"value3": -30,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 352,
+					"int6": 0,
+					"int7": 0,
+					"int8": 40,
+					"int9": 0,
+					"flag": "NZ1"
+				},
+				{
+					"id": 51,
+					"int1": 0,
+					"state_name": "RES Down",
+					"int2": 3,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": -10,
+							"value2": -20,
+							"value3": -30,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 353,
+					"int6": 0,
+					"int7": 0,
+					"int8": 41,
+					"int9": 0,
+					"flag": "NZ1"
+				},
+				{
+					"id": 52,
+					"int1": 0,
+					"state_name": "ADMG Down",
+					"int2": 3,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": -10,
+							"value2": -20,
+							"value3": -30,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 354,
+					"int6": 0,
+					"int7": 0,
+					"int8": 42,
+					"int9": 0,
+					"flag": "NZ1"
+				},
+				{
+					"id": 53,
+					"int1": 0,
+					"state_name": "ARES Down",
+					"int2": 3,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": -10,
+							"value2": -20,
+							"value3": -30,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 355,
+					"int6": 0,
+					"int7": 0,
+					"int8": 43,
+					"int9": 0,
+					"flag": "NZ1"
+				},
+				{
+					"id": 54,
+					"int1": 0,
+					"state_name": "STR Down",
+					"int2": 3,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": -15,
+							"value2": -30,
+							"value3": -45,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 337,
+					"int6": 0,
+					"int7": 0,
+					"int8": 44,
+					"int9": 0,
+					"flag": "NZ1"
+				},
+				{
+					"id": 55,
+					"int1": 0,
+					"state_name": "DEF Down",
+					"int2": 3,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": -15,
+							"value2": -30,
+							"value3": -45,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 339,
+					"int6": 0,
+					"int7": 0,
+					"int8": 45,
+					"int9": 0,
+					"flag": "NZ1"
+				},
+				{
+					"id": 56,
+					"int1": 0,
+					"state_name": "ATS Down",
+					"int2": 3,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": -15,
+							"value2": -30,
+							"value3": -45,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 341,
+					"int6": 0,
+					"int7": 0,
+					"int8": 46,
+					"int9": 0,
+					"flag": "NZ1"
+				},
+				{
+					"id": 57,
+					"int1": 0,
+					"state_name": "ADF Down",
+					"int2": 3,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": -15,
+							"value2": -30,
+							"value3": -45,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 343,
+					"int6": 0,
+					"int7": 0,
+					"int8": 47,
+					"int9": 0,
+					"flag": "NZ1"
+				},
+				{
+					"id": 58,
+					"int1": 0,
+					"state_name": "SPD Down",
+					"int2": 3,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": -15,
+							"value2": -30,
+							"value3": -45,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 345,
+					"int6": 0,
+					"int7": 0,
+					"int8": 48,
+					"int9": 0,
+					"flag": "NZ1"
+				},
+				{
+					"id": 59,
+					"int1": 0,
+					"state_name": "MOV Down",
+					"int2": 3,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": -2,
+							"value2": -4,
+							"value3": -6,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 347,
+					"int6": 0,
+					"int7": 0,
+					"int8": 49,
+					"int9": 0,
+					"flag": "NZ1"
+				},
+				{
+					"id": 60,
+					"int1": 0,
+					"state_name": "Debuff Immunity",
+					"int2": 1,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 330,
+					"int6": 0,
+					"int7": 0,
+					"int8": 61,
+					"int9": 0,
+					"flag": "PZ1"
+				},
+				{
+					"id": 61,
+					"int1": 0,
+					"state_name": "Status Resist Down",
+					"int2": 1,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": 200,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 331,
+					"int6": 0,
+					"int7": 0,
+					"int8": 60,
+					"int9": 0,
+					"flag": "NZ1"
+				},
+				{
+					"id": 62,
+					"int1": 0,
+					"state_name": "Hate Up",
+					"int2": 1,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 90,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 361,
+					"int6": 0,
+					"int7": 0,
+					"int8": 63,
+					"int9": 0,
+					"flag": "NZ1"
+				},
+				{
+					"id": 63,
+					"int1": 0,
+					"state_name": "Hate Down",
+					"int2": 1,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": -90,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 362,
+					"int6": 0,
+					"int7": 0,
+					"int8": 62,
+					"int9": 0,
+					"flag": "PZ1"
+				},
+				{
+					"id": 64,
+					"int1": 0,
+					"state_name": "Crit Up",
+					"int2": 3,
+					"int3": 1,
+					"int4": 4,
+					"effects": [
+						{
+							"value1": 10,
+							"value2": 20,
+							"value3": 30,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 363,
+					"int6": 0,
+					"int7": 0,
+					"int8": 65,
+					"int9": 0,
+					"flag": "PZ1"
+				},
+				{
+					"id": 65,
+					"int1": 0,
+					"state_name": "Crit Down",
+					"int2": 3,
+					"int3": 1,
+					"int4": 2,
+					"effects": [
+						{
+							"value1": -10,
+							"value2": -20,
+							"value3": -30,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 364,
+					"int6": 0,
+					"int7": 0,
+					"int8": 64,
+					"int9": 0,
+					"flag": "NZ1"
+				},
+				{
+					"id": 69,
+					"int1": 0,
+					"state_name": "Grendel",
+					"int2": 1,
+					"int3": 1,
+					"int4": 0,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 250,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "PC"
+				},
+				{
+					"id": 70,
+					"int1": 0,
+					"state_name": "Grimcat",
+					"int2": 1,
+					"int3": 1,
+					"int4": 0,
+					"effects": [
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						},
+						{
+							"value1": 0,
+							"value2": 0,
+							"value3": 0,
+							"value4": 0
+						}
+					],
+					"float1": 0.0,
+					"float2": 0.0,
+					"int5": 251,
+					"int6": 0,
+					"int7": 0,
+					"int8": 0,
+					"int9": 0,
+					"flag": "PC"
+				}
+			]
+		},
+		{
+			"name": "ConditionTypeParam",
+			"data": [
+				{
+					"id": 1,
+					"value": 0
+				},
+				{
+					"id": 2,
+					"value": 0
+				},
+				{
+					"id": 3,
+					"value": 0
+				},
+				{
+					"id": 4,
+					"value": 0
+				},
+				{
+					"id": 5,
+					"value": 0
+				},
+				{
+					"id": 6,
+					"value": 0
+				},
+				{
+					"id": 8,
+					"value": 0
+				},
+				{
+					"id": 9,
+					"value": 0
+				},
+				{
+					"id": 12,
+					"value": 0
+				},
+				{
+					"id": 61,
+					"value": 0
+				},
+				{
+					"id": 65,
+					"value": 0
+				},
+				{
+					"id": 19,
+					"value": 0
+				},
+				{
+					"id": 29,
+					"value": 0
+				},
+				{
+					"id": 34,
+					"value": 3
+				},
+				{
+					"id": 35,
+					"value": 3
+				},
+				{
+					"id": 36,
+					"value": 3
+				},
+				{
+					"id": 7,
+					"value": 3
+				},
+				{
+					"id": 60,
+					"value": 3
+				},
+				{
+					"id": 13,
+					"value": 3
+				},
+				{
+					"id": 23,
+					"value": 3
+				},
+				{
+					"id": 24,
+					"value": 3
+				},
+				{
+					"id": 25,
+					"value": 3
+				},
+				{
+					"id": 26,
+					"value": 3
+				},
+				{
+					"id": 27,
+					"value": 3
+				},
+				{
+					"id": 50,
+					"value": 2
+				},
+				{
+					"id": 51,
+					"value": 2
+				},
+				{
+					"id": 52,
+					"value": 2
+				},
+				{
+					"id": 53,
+					"value": 2
+				},
+				{
+					"id": 54,
+					"value": 2
+				},
+				{
+					"id": 55,
+					"value": 2
+				},
+				{
+					"id": 56,
+					"value": 2
+				},
+				{
+					"id": 57,
+					"value": 2
+				},
+				{
+					"id": 58,
+					"value": 2
+				},
+				{
+					"id": 59,
+					"value": 2
+				},
+				{
+					"id": 14,
+					"value": 2
+				},
+				{
+					"id": 40,
+					"value": 1
+				},
+				{
+					"id": 41,
+					"value": 1
+				},
+				{
+					"id": 42,
+					"value": 1
+				},
+				{
+					"id": 43,
+					"value": 1
+				},
+				{
+					"id": 44,
+					"value": 1
+				},
+				{
+					"id": 45,
+					"value": 1
+				},
+				{
+					"id": 46,
+					"value": 1
+				},
+				{
+					"id": 47,
+					"value": 1
+				},
+				{
+					"id": 48,
+					"value": 1
+				},
+				{
+					"id": 49,
+					"value": 1
+				},
+				{
+					"id": 15,
+					"value": 1
+				},
+				{
+					"id": 2,
+					"value": 5
+				},
+				{
+					"id": 4,
+					"value": 5
+				},
+				{
+					"id": 9,
+					"value": 5
+				},
+				{
+					"id": 19,
+					"value": 5
+				},
+				{
+					"id": 28,
+					"value": 5
+				}
+			]
+		}
+	]
+}

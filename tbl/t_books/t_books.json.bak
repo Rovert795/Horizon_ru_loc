@@ -1,0 +1,763 @@
+{
+	"headers": [
+		{
+			"name": "BooksTitle",
+			"schema": "Kai"
+		},
+		{
+			"name": "BooksText",
+			"schema": "Kuro2"
+		},
+		{
+			"name": "BooksTitleReplace",
+			"schema": "Kuro2"
+		}
+	],
+	"data": [
+		{
+			"name": "BooksTitle",
+			"data": [
+				{
+					"id": 100,
+					"int1": 1,
+					"empty1": 0,
+					"title": "Tyrell Times Issue 1",
+					"file_name": "newspaper01",
+					"short1": 320,
+					"short2": 0,
+					"empty2": 0
+				},
+				{
+					"id": 101,
+					"int1": 1,
+					"empty1": 0,
+					"title": "Tyrell Times Issue 2",
+					"file_name": "newspaper02",
+					"short1": 321,
+					"short2": 0,
+					"empty2": 0
+				},
+				{
+					"id": 102,
+					"int1": 1,
+					"empty1": 0,
+					"title": "Tyrell Times Extra Issue",
+					"file_name": "newspaper03",
+					"short1": 322,
+					"short2": 0,
+					"empty2": 0
+				},
+				{
+					"id": 103,
+					"int1": 1,
+					"empty1": 0,
+					"title": "Basel Tech Review July Issue",
+					"file_name": "newspaper06",
+					"short1": 323,
+					"short2": 2,
+					"empty2": 0
+				},
+				{
+					"id": 104,
+					"int1": 1,
+					"empty1": 0,
+					"title": "Tyrell Times Issue 3",
+					"file_name": "newspaper04",
+					"short1": 324,
+					"short2": 0,
+					"empty2": 0
+				},
+				{
+					"id": 105,
+					"int1": 1,
+					"empty1": 0,
+					"title": "Daily Tharbad 1",
+					"file_name": "newspaper05",
+					"short1": 325,
+					"short2": 1,
+					"empty2": 0
+				},
+				{
+					"id": 106,
+					"int1": 1,
+					"empty1": 0,
+					"title": "Eaton Newsletter Issue 1",
+					"file_name": "newspaper07",
+					"short1": 326,
+					"short2": 3,
+					"empty2": 0
+				},
+				{
+					"id": 107,
+					"int1": 1,
+					"empty1": 0,
+					"title": "Daily Tharbad 2",
+					"file_name": "newspaper08",
+					"short1": 327,
+					"short2": 1,
+					"empty2": 0
+				},
+				{
+					"id": 108,
+					"int1": 1,
+					"empty1": 0,
+					"title": "Eaton Newsletter Issue 2",
+					"file_name": "newspaper09",
+					"short1": 328,
+					"short2": 3,
+					"empty2": 0
+				},
+				{
+					"id": 109,
+					"int1": 1,
+					"empty1": 0,
+					"title": "Tyrell Times Special Issue",
+					"file_name": "newspaper10",
+					"short1": 329,
+					"short2": 0,
+					"empty2": 0
+				},
+				{
+					"id": 200,
+					"int1": 2,
+					"empty1": 0,
+					"title": "Shinobi Punk: Izayoi",
+					"file_name": "movie01",
+					"short1": 334,
+					"short2": 0,
+					"empty2": 0
+				},
+				{
+					"id": 201,
+					"int1": 2,
+					"empty1": 0,
+					"title": "Sacred Journey",
+					"file_name": "movie02",
+					"short1": 330,
+					"short2": 0,
+					"empty2": 0
+				},
+				{
+					"id": 202,
+					"int1": 2,
+					"empty1": 0,
+					"title": "Cheer Star",
+					"file_name": "movie03",
+					"short1": 336,
+					"short2": 0,
+					"empty2": 0
+				},
+				{
+					"id": 203,
+					"int1": 2,
+					"empty1": 0,
+					"title": "Bravely Legends",
+					"file_name": "movie04",
+					"short1": 332,
+					"short2": 0,
+					"empty2": 0
+				},
+				{
+					"id": 204,
+					"int1": 2,
+					"empty1": 0,
+					"title": "Crimson Fist",
+					"file_name": "movie05",
+					"short1": 333,
+					"short2": 0,
+					"empty2": 0
+				},
+				{
+					"id": 205,
+					"int1": 2,
+					"empty1": 0,
+					"title": "Detective Scoirot",
+					"file_name": "movie06",
+					"short1": 331,
+					"short2": 0,
+					"empty2": 0
+				},
+				{
+					"id": 206,
+					"int1": 2,
+					"empty1": 0,
+					"title": "Human Game",
+					"file_name": "movie07",
+					"short1": 335,
+					"short2": 0,
+					"empty2": 0
+				},
+				{
+					"id": 207,
+					"int1": 2,
+					"empty1": 0,
+					"title": "Mishy in Boots",
+					"file_name": "movie08",
+					"short1": 337,
+					"short2": 0,
+					"empty2": 0
+				},
+				{
+					"id": 208,
+					"int1": 2,
+					"empty1": 0,
+					"title": "Golden Blood R-15",
+					"file_name": "movie09",
+					"short1": 338,
+					"short2": 0,
+					"empty2": 0
+				},
+				{
+					"id": 209,
+					"int1": 2,
+					"empty1": 0,
+					"title": "Perfect Driver 2",
+					"file_name": "movie10",
+					"short1": 339,
+					"short2": 0,
+					"empty2": 0
+				},
+				{
+					"id": 210,
+					"int1": 2,
+					"empty1": 0,
+					"title": "Gloria",
+					"file_name": "movie11",
+					"short1": 340,
+					"short2": 0,
+					"empty2": 0
+				},
+				{
+					"id": 211,
+					"int1": 2,
+					"empty1": 0,
+					"title": "Wolves' Requiem",
+					"file_name": "movie12",
+					"short1": 341,
+					"short2": 0,
+					"empty2": 0
+				}
+			]
+		},
+		{
+			"name": "BooksText",
+			"data": [
+				{
+					"book_id": 100,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "[Technology] The Vision behind the Space Program\n　Project Startaker has officially kicked off its first phase\nwith the successful launch of its satellite, with preparations\nfor phase two already underway. Speaking as a proud citizen\nof the Republic, I cannot contain my palpable excitement\nover this monumental achievement. For those unaware of\nthe general concept of space, allow us to elucidate you on\nthe subject, dear reader.\n\n◆What IS Space, Anyway?◆\n　Space is hypothesized to be a mysterious realm left behind\nby the Goddess, stretching far above the world's\natmosphere. While the question of where its endpoint lies\nremains a mystery, we do know that it covers the length of\nthe continent's canopy—its boundless space embellished\nwith countless stars, moons, and suns. In theory, with\nenough speed, one could escape our gravity and break\nthrough the atmosphere to reach the space that lies beyond.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 100,
+					"line_id": 2,
+					"empty1": 0,
+					"book_text": "◆The Program's Importance◆\n　One of the primary goals of the program is to launch a\ncommunications and observation satellite into orbit,\nenabling wide-area, aboveground observation as well as\ntransmissions of broadcast orbal waves. The former is\nexpected to help researchers conduct detailed surveillance of\nthe environmental issues impacting eastern Zemuria. The\nlatter will provide further optimization of the orbal network\nand assist in bringing communications infrastructure to\nremote areas.\n\n◆The Ultimate Goal◆\n　The other principal goal is the realization of manned\nspaceflight, allowing mankind to take its first step into outer\nspace. If successful, this will be a historical turning point,\nopening up innumerable possibilities for humanity.\nThrough the program, the Calvard Republic will blaze a\ntrail into a new age.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 100,
+					"line_id": 3,
+					"empty1": 0,
+					"book_text": "[Economy] Unexpected Industries Prosper from the Space\nProgram\n　The Republic's economy, bolstered by an era of stability,\nhas hit an all-time high following the space program's\nannouncement. The timing of which couldn't have been\nmore perfect, in retrospect, particularly with the Verne\nCompany's substantial investments in space\nprogram-adjacent technology and the expansion of orbal\nnetwork-related businesses—wherein satellite\ncommunication is the focus. Additionally, other industries\nthat, at first blush, have little relation to the space program\nare also seeing a windfall in profits.\n\n◆Space Themes Dominate the Entertainment World◆\n　Within the film industry, a number of astronaut-themed\nprojects inspired by the space program are being put into\nproduction. However, said productions are reportedly being\nhampered by the lack of available information on the\n",
+					"long1": 0
+				},
+				{
+					"book_id": 100,
+					"line_id": 4,
+					"empty1": 0,
+					"book_text": "subject. Also, various companies are hosting many space\nprogram-themed events, and space merchandise can be\nfound on sale all over the city. Even in bookstores, books on\nastronomy and similar subjects are flying off the shelves,\nprompting publishers to issue reprints on the double. These\ntrends will no doubt produce positive effects on our nation's\neconomy.\n\n◆Competition in the Food Industry Heats Up◆\n　The sectors of the food industry which manufacture\npreserved goods are gearing up to compete for dominance\nin the space program arena. Professor Cronkite commented\nthat, should manned space travel continue in the future,\n'space food' will be a necessity for nutritional\nsupplementation during sustained flights. In light of this,\ncompanies are battling it out to secure investment funds and\nselection by the Aerospace Force, with them presenting\nproposals such as tube-shaped foods made for easy\n",
+					"long1": 0
+				},
+				{
+					"book_id": 100,
+					"line_id": 5,
+					"empty1": 0,
+					"book_text": "consumption in zero gravity or canned foods which can\nwithstand changes in atmospheric pressure.\n\n[Opinion] This Year's 'Best Places to Live' Rankings\n　The annual 'Top Ten Most Desired Places to Live within\nthe Republic' list has been posted! For this article, we've\npicked out three entries that, while not at the top of the list,\nhave been rising to prominence in recent years. They're all\nsuburban cities with excellent quality of life and unique\ncharacteristics that we think readers will find charming in\ntheir own right.\n\n◆Anchorville◆\n　Situated between the capital and Oración, Anchorville has\ndeveloped as a stopover city with its convenient access to\npublic transportation, and many large companies and\nbranch offices have laid roots there, making it an\nexceptionally comfortable place to live. Further, it's\n",
+					"long1": 0
+				},
+				{
+					"book_id": 100,
+					"line_id": 6,
+					"empty1": 0,
+					"book_text": "surrounded by relaxing, lush landscapes, like forests in the\noutskirts and rivers with abundant ecosystems. Another\nboon is that it houses the Republic's foremost hospital, so if\nany crises were to arise, residents can take comfort knowing\na medical facility of the finest repute is only a stone's throw\naway.\n\n◆Dijon◆\n　A midsized city south of Edith and the hometown of\nPresident Gramheart. It's in a convenient location, with\nrailway lines to both Langport and Tharbad. In recent years,\nthere has been an uptick in Eastern and Central Eastern\ncapital flowing into the city, funding multiple shops and\nthereby contributing to Dijon's flourishing economy. As\nsuch, it's attracted the eyes of many a homeowner. Despite\nconcerns over public safety at one point in time, stability has\nsince been restored, allowing its citizens to live with a\nrelative peace of mind. All things considered, the future of\n",
+					"long1": 0
+				},
+				{
+					"book_id": 100,
+					"line_id": 7,
+					"empty1": 0,
+					"book_text": "Dijon is quite bright indeed.\n\n◆Altair◆\n　A border city adjoining Crossbell on the western edge of\nthe Republic. From there, Crossbell is only a thirty-minute\ntrain ride away on the Transcontinental Railroad. As a\nresult, you can visit Crossbell's tourist hot spots, like the\ninimitable Mishelam Wonderland, practically every week.\nMoreover, as one would expect in a border city, money and\ncultural trends from the Empire and other places have\nflowed in, making it a must-experience destination for\nWestern brand and gourmet food enthusiasts.\n\n[Advertisement] Leno Orbal Scooters Now on Sale\n　Leno has released a new, lighter version of orbal bikes\ncalled 'orbal scooters'—made fit for quick outings. Anyone\nsixteen years or older can grab a license after taking a\nwritten test and a driving test. Students, why not buy one\n",
+					"long1": 0
+				},
+				{
+					"book_id": 100,
+					"line_id": 8,
+					"empty1": 0,
+					"book_text": "for school commutes or for riding on the streets with\nfriends?\n",
+					"long1": 0
+				},
+				{
+					"book_id": 101,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "[Feature] Launch Day Draws Near! Exclusive Interview\nwith Major Emilia\n　Major Emilia, who's been swamped preparing for the\nlaunch day, made time to sit down for an interview with our\npublication. For this article, we've picked out a few of the\nquestions she answered.\n　Q: What's the significance of manned spaceflight?\n　'So let's say we're successful and we prove humans can\nmake it in outer space. If that happens, then in the future,\npeople can conduct all sorts of experiments and establish\nbases there. Heck, there may even come a point one day\nwhen your average Joe can travel into space if they want to.\nHonestly, I feel pretty lucky being entrusted with leading\nthe charge into that kind of future. It's such a cool\nresponsibility, and it's an important one, too.'\n　Q: What sort of training does an astronaut undergo?\n　'All kinds, like balance training—to help withstand the\ng-forces created by sudden acceleration and for controlled\n",
+					"long1": 0
+				},
+				{
+					"book_id": 101,
+					"line_id": 2,
+					"empty1": 0,
+					"book_text": "locomotion in zero gravity. For example, I went round and\nround inside a centrifuge, and they had me go through\nsudden drops and rises onboard a high-speed airship. I also\nwent through simulations for practice with making\njudgment calls in different scenarios. As for what those\nscenarios were, well, I'll have to leave that to your\nimagination.'\n　Q: How excited are you about being a part of this\nhistorical-first achievement?\n　'Pretty stoked, seeing as this is going to be my biggest and\nbest adventure yet. I'm sure I'll be rubbing shoulders with\ndanger along the way, but when you get the chance to set\nfoot where no one else has set foot before, a little danger is\nnothing. The very thought of being the first to see what lies\nbeyond the skies has my heart going a hundred selge a\nminute. But anyway, this isn't just about me. This is all\nbeing done for the sake of humanity's future, so I'll do my\ndamnedest to play my part as the first astronaut and make\n",
+					"long1": 0
+				},
+				{
+					"book_id": 101,
+					"line_id": 3,
+					"empty1": 0,
+					"book_text": "this manned spaceflight a success. That way, we can pave\nthe way for future space development and exploration.'\n\n[Economy] Deputy Secretary Valentino Announces New\nUrban Development Plan\n　Deputy Secretary Anri Valentino of the Department of\nCommerce announced that their Edith outskirts\ndevelopment plan has officially received approval from the\npresident. Its purpose is to develop new tracts of land,\nconstruct highways, and improve the outskirt's\ninfrastructure to future proof for the rising population in the\ncapital and to honor the requests for a transportation hub.\n　This plan has been in the works since the previous\nadministration, with many related businesses and\norganizations involved and coordinated under the leadership\nof Deputy Secretary Valentino. Attracting businesses to\nnew city blocks and strengthening relations with rural areas\nby expanding highway interchanges is expected to bring in\n",
+					"long1": 0
+				},
+				{
+					"book_id": 101,
+					"line_id": 4,
+					"empty1": 0,
+					"book_text": "billions of mira every year.\n　Should the budget be approved in the next session of the\nRepublican Parliament, the Department of Commerce will\nbegin the implementation phase in the next fiscal year.\n\n[Entertainment] A Star-Studded Debut! Who is the Idol\nGroup 'Vega'?\n　Many of our readers have probably heard the name of the\nnewly-minted idol group, Vega. Belonging to M's\nProduction, the Vega idols debuted in May of this year.\nHowever, don't mistake them for starry-eyed rookies. The\nmembers of Vega, Rachel and Yulia, are both consummate\nprofessionals whose talents were unearthed by the\nproduction company and subsequently trained to perfection,\nthanks in part to the sky-high budget allotted. Their\nexceptional skills in singing and performing are a sight\nunseen in most underground idol groups.\n　Last month, the group was chosen to be goodwill\n",
+					"long1": 0
+				},
+				{
+					"book_id": 101,
+					"line_id": 5,
+					"empty1": 0,
+					"book_text": "ambassadors for Project Startaker, and this gave them a\nmassive spotlight, buttressing their exposure in media and\nevents. Evidently, they've been grabbing the eyeballs of\nthose unfamiliar with idols up to this point. This idol group\nhas a future more promising than any other, and we're\nsincerely looking forward to seeing what they have in store,\neven after Project Startaker has ended.\n\n[Historical Exploration] The Storied Past of Dirke\nMemorial Park and Its Historical Conservation Area\n　Do you know about the dark history of Dirke Memorial\nPark's historical conservation area—a place normally closed\noff to the general public?\n　The historical conservation area was once home to many\nan archaeological remnant of prehistoric animism—a rare\nsight in Edith. For that reason, it's been left untouched,\nwith no development efforts taking place since the days of\nthe old kingdom. Even after the memorial park opened its\n",
+					"long1": 0
+				},
+				{
+					"book_id": 101,
+					"line_id": 6,
+					"empty1": 0,
+					"book_text": "gates, archaeological surveys continued alongside\nconservation efforts, allowing the site to retain its\nbreathtaking scenery to this day.\n　Nevertheless, with it being located in an out-of-sight\nsuburban area, the park is also the site of historical tragedy.\nDuring the turbulent times of the old kingdom—as well as\nAuguste's First Republic which followed the revolution—it\nwas an execution ground for the purging of dissidents. The\nconservation efforts of the present day seek to preserve even\nthe negative sides of our history so that we may reflect on\nthe wounds inflicted by it—and remember the lives that\nwere lost.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 102,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "[Technology] Simulated Flight Frame Recovered, Official\nLaunch Day Determined\n　This afternoon, the simulated flight frame—commonly\nknown as a dummy unit—that launched during Project\nStartaker's second phase was retrieved from the oceans\nsouth of the Republic. With this, the Aerospace Force\ndeclared the final test before the manned spaceflight a\nsuccess. In addition, they announced that the final phase of\nProject Startaker, the official launch, will commence on July\n12.\n　The recovered simulated flight frame came equipped with\na dummy cockpit block and various measuring apparatuses.\nDuring this experiment, the flight frame remained in outer\nspace for twenty-four hours, but the temperature,\natmospheric pressure, oxygen concentration, and radiation\nlevels inside the cockpit were within acceptable limits for\nthe duration of the test—confirming that humans can\nsurvive inside it for extended periods of time. It's expected\n",
+					"long1": 0
+				},
+				{
+					"book_id": 102,
+					"line_id": 2,
+					"empty1": 0,
+					"book_text": "that a unit with the same type of life support equipment will\nbe used for the launch on the 12th.\n　This experiment also proved that a manned spacecraft can\nsafely return to Zemuria. While re-entering the atmosphere,\nthe intense wind pressure on the spacecraft creates\n'adiabatic compression,' which produces thermal energy and\nthereby raises the temperatures to white-hot levels. Despite\nthis, the simulated flight frame was able to withstand the\nheat with the fairing that was reused from the launch as a\nprotective shield during its descent. The shock and g-forces\nwere kept to manageable levels when it re-entered the\natmosphere and landed on the ocean's surface. If the official\nlaunch unit were to use a similar system, the passenger\nwould be able to return to the surface without issue.\n　With the tests going off without a hitch, the first manned\nspaceflight in history is set to take to the skies and beyond\non July 12. We can only pray to the Goddess that Major\nEmilia is successful during this feat of the century, and that\n",
+					"long1": 0
+				},
+				{
+					"book_id": 102,
+					"line_id": 3,
+					"empty1": 0,
+					"book_text": "she will make it back home safe and sound, as the simulated\nflight frame did.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 103,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "[Engineering] Technical Features of the Independence II\nOrbal Rocket\n　We would like to discuss some of the fascinating features\nand the development history of the Independence II,\nrevealed in a report by the Aerospace Force and the\nInstitute of Science.\n◆Basic Principles of an Orbal Rocket◆\n　A 'rocket' is a system propelled by a reactive force created\nby powerful jet propulsion. This idea dates back to the\nMiddle Ages, where Easterners used fire-arrow gunpowder\nweapons. In orbal rockets, propulsive power is generated by\na special orbal engine releasing energy under high\ntemperatures and pressure. Theoretically speaking, it has\nthe potential to reach acceleration and altitude levels\nunachievable with anti-gravity engines, but the Project\nStartaker launch is the first time in history that this\ntechnology is being put through its paces.\n◆The Design of the Independence II◆\n",
+					"long1": 0
+				},
+				{
+					"book_id": 103,
+					"line_id": 2,
+					"empty1": 0,
+					"book_text": "　The prototype for the Independence II was the\nIndependence I, devised by the late Professor Callaghan as a\nballistic missile and high-altitude atmospheric observation\nprobe made to counter the Empire's railway guns. Professor\nCronkite made numerous changes and revisions when\ndesigning the Independence II.\n　For example, to increase the propulsion, he improved its\nenergy efficiency by clustering engines and adding liquid\npropellants.\n　Though to create the massive amount of heat and\npropulsion needed to push it into space, the rocket\nconsumes orbal energy faster than it can naturally recover.\nOn top of that, the part of the spacecraft which houses the\ngenerator experiences wear and tear from the internal\npressure and heat. Although the rate of erosion is reduced\nby the liquid coolant, that alone isn't enough. The device\nwhich solves the problem is the multistage system which\ndisconnects the worn-out propulsion stages that have used\n",
+					"long1": 0
+				},
+				{
+					"book_id": 103,
+					"line_id": 3,
+					"empty1": 0,
+					"book_text": "up all their energy.\n　Thanks to inventions like these, space is now finally within\nhumanity's grasp.\n\n[International Relations] Two Months Passed Since Verne\nJoined the Tech Union\n　It's already been two months since the Verne Company\njoined the West Zemuria Tech Union in May. Although\nmany voiced their concerns at the time, the company is\nalready building fruitful relationships with the other\nmember organizations.\n　First and foremost, they have joined hands with the\nEpstein Foundation for the internationalization of the\nXipha standard. Collaboration will be key in the\ndevelopment of future communications technology,\nincluding satellite communication, and the foundation has\nmade their commitment to that end. Verne has signed\nseveral agreements with the Reinford Company, primarily\n",
+					"long1": 0
+				},
+				{
+					"book_id": 103,
+					"line_id": 4,
+					"empty1": 0,
+					"book_text": "in regard to joint development and licensed production in\nthe heavy industry sector, and as a result, these once-fierce\nrivals are now engaging in friendly co-opetition.\n　With the Verne Company putting pen to paper with other\norganizations in their industry as well, they've wasted no\ntime making major waves within the union. Since the Verne\nCompany sits among the highest in the union in terms of\nfinancial power, market share, and number of patents, it's\neasy to imagine their influence growing to new heights.\nGoing forward, the Verne Company and the Republic may\nvery well be leading the charge within the world of\ntechnology.\n\n[Medicine] Research on Artificial Limbs Progressing\nSmoothly. Could Artificial Organs Become a Reality?\n　The Basel Institute of Science has reported partially\nsuccessful results in its clinical trials of artificial biological\nlimbs, bringing it one step closer to practical use.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 103,
+					"line_id": 5,
+					"empty1": 0,
+					"book_text": "　Artificial limbs are a further development of\nnerve-connected mechanical limbs. Not only do they move\nlike real limbs, but they include functions like sensory\nfeedback through a network of artificial nerves and\ntemperature regulation via artificial blood circulation. If\nthey come to pass, they could reproduce sensations and fine\nmotor movements that are very much akin to what real\nlimbs can provide.\n　Parties involved have expressed their eagerness to bring\nthem to those who have lost limbs from injury or illness as\nsoon as they can. What's more, by applying the knowledge\ngained from artificial limbs, which can be organically\nconnected to the human body, it may be possible to create\nartificial organs in the future as well. Were this to happen,\ncountless lives could be saved, including those with serious\norgan diseases. On the other hand, many people harbor\ntrepidation over the continuing blurring of the boundaries\nbetween humans and machines.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 103,
+					"line_id": 6,
+					"empty1": 0,
+					"book_text": "[Astronomy] 'The Great Conjunction'—The Celestial\nShow of the Century to be Held in August\n　The Great Conjunction will be visible in the sky in late\nAugust 1209. The Great Conjunction is a phenomenon\nwherein the moon, the sun, and the Septian planets line up\nin a row, and when viewed from the ground, they appear to\noverlap in one spot. As this only occurs once every thousand\nyears, it's quite literally the celestial show of the century.\n　I hope all our readers will be able to make time to witness\nthis once-in-a-lifetime cosmic event.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 104,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "[Society] The Creil Reconstruction Fund Takes its Next\nStep in Rebuilding the Village\n　Murton, a representative of the Creil Reconstruction Fund\n(CRF), recently announced that an agreement had been\nbrokered with the government regarding the reconstruction\nand memorialization of the village.\n　What's left of Creil Village, which was annihilated by a\nnuclear weapon used by terrorists, is cordoned off and is\nbeing guarded by the military, but due to negotiations\nbetween the CRF and the government, the site will once\nagain be accessible to the public before the year is out.\nWhen that happens, Murton says he wants to visit Creil to\npay his respects.\n　The CRF is currently coordinating a proposal for after the\nblockade is lifted: constructing a memorial, redeveloping the\nland, and resettling its residents in conjunction with other\nagricultural communities in the Vichy County. As of now,\nthe surviving families of the village residents have agreed\n",
+					"long1": 0
+				},
+				{
+					"book_id": 104,
+					"line_id": 2,
+					"empty1": 0,
+					"book_text": "with these plans, and they hope to proceed with\nnegotiations with the relevant organizations and the\nsurrounding municipalities in order to implement the plans\nas early as next year.\n　Furthermore, the film and performing arts industry made a\nsubstantial contribution to the CRF, allowing them to reach\ntheir support goal in short order. A person involved with the\nfilm industry stated they want to leverage the power of\nmovies to not only provide monetary support, but to help\npass down the memory of Creil to future generations,\nthereby preventing the tragedy from disappearing from the\ncollective consciousness. The Tyrell Times shares their\nsentiment in wanting to keep the memory of Creil Village\nalive.\n\n[Entertainment] Gloria Stage Adaptation Announced,\nMovie to Return to Theaters\n　Gloria: Dawn of the Revolution, a box office hit last year,\n",
+					"long1": 0
+				},
+				{
+					"book_id": 104,
+					"line_id": 3,
+					"empty1": 0,
+					"book_text": "is getting a stage adaptation, called Gloria: La Revue.\n　Opening day is scheduled for July 19, and rehearsals are\ncurrently underway.\n　Similar to the movie, the part of Sheena Dirke will be\nplayed by Nina Fenly. In an interview for our magazine, she\nhad this to say: 'Acting in a play requires stage presence, as\nwell as the ability to resonate with the hearts of the audience\nin front of you. I won't rest on my laurels and simply deliver\nmy film performance again; I'm going straight back to\nbasics with Sheena.'\n　The film version of Gloria was a cultural phenomenon,\nsparking a renewed interest in the Calvardian Revolution\namong the younger generation. How will this adaptation\nportray that history, and what emotions and lessons will it\ninstill in us? Whatever the case, this is a show you won't\nwant to miss.\n　Additionally, Gloria will be re-released in local theaters to\ncoincide with the stage play. If anyone missed its original\n",
+					"long1": 0
+				},
+				{
+					"book_id": 104,
+					"line_id": 4,
+					"empty1": 0,
+					"book_text": "theatrical run or wants to see it again on the big silver\nscreen, now is your chance.\n\n[Culture] The GR Championship Begins Today!\n　Racing fans rejoice, because the GR Championship series\nstarts today at the Grand Circuit! Although less popular\nthan Z1, GR has been rapidly gaining traction among\nracing fans in recent years. Instead of using dedicated racing\ncars, racers compete with custom store-bought ones.\n　As with Z1, the roster consists of teams from the four big\nmanufacturers, but with the low barrier to entry, many\nsmall-to-medium-sized company and amateur teams are\nthrowing their hats in the ring. The diversity of the\nparticipant lineup is a large part of what sets GR apart from\nZ1.\n　For those reasons and more, GR's popularity is taking\nroot, mainly among orbal vehicle aficionados who tinker\nwith their beloved machines on a daily basis. Fans enjoy\n",
+					"long1": 0
+				},
+				{
+					"book_id": 104,
+					"line_id": 5,
+					"empty1": 0,
+					"book_text": "cheering for the teams who use their favorite car models,\nfashioning a sense of kinship between spectators and\nparticipants alike.\n　Tonight's GR Championship is scheduled to take place\nafter the Z1 exhibition race. If you're interested, why not\nwatch both?\n\n[Advertisement] Energy EXPLOSION! Get your drink on\nwith Maximum Energy! Dreadpower's all-new, all-powerful\nenergy drink Maximum Energy is here to give you the shot\nin the arm you need, with twice the arginine and twice the\nUMPH! We've mixed in Eastern medicines to rocket your\nsenses to maximum euphoria!\n　Need a boost to make it through studying, sports, or\nlate-night work? We've got you covered! Just one sip, and\nyou'll have more energy than a Pom on steroids!\n　Get Active. Go Maximum. Step up your game with\nDreadpower's Maximum Energy!\n",
+					"long1": 0
+				},
+				{
+					"book_id": 105,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "[Tourism] Tharbad Records 20% Year-Over-Year Increase\nin Visitors\n◆The Space Program's Effectiveness in Attracting Crowds◆\n　Despite Tharbad's downward trend in visitors during the\nsummer season, the number in early July shot up 20%\ncompared to this time last year. It may not be reaching the\nlofty highs of last year's film festival, but the headcount\nspike is still nothing to sneeze at. As you might expect, the\nspace program is a major contributing factor to the recent\nincrease in foot traffic. Scores of people from the Central\nEast are taking trips to the Republic, and are subsequently\nusing Tharbad as a stopover. Further, new businesses related\nto the space program have caught the eye of many a Central\nEastern investor, and quite a number of affluent individuals\nhave come to scope them out.\n◆Al-Jumeirah Hotel Full◆\n　With the swarm of well-to-do individuals and investors\nfrom all over the world—though primarily from the Central\n",
+					"long1": 0
+				},
+				{
+					"book_id": 105,
+					"line_id": 2,
+					"empty1": 0,
+					"book_text": "East—buzzing into Tharbad, the Al-Jumeirah Hotel is\ncompletely full. Many are on the waiting list as well, so\nthose looking to stay at Al-Jumeirah may have to look\nelsewhere. Likewise, all the rooms in the Cultural District's\ninns are also booked out, so those without reservations\nmight have a hard time finding lodging accommodations in\nTharbad.\n\n[Economy] Vegas Films' Revenue Soaring to New Heights\n　It's been some time since Vegas Films came under new\nmanagement after the sudden death of its former president,\nGaspard Dillon, but the current leadership seems to be\ndoing a fair job helming the ship. Adding to their string of\nbox office blowouts, which includes the joint productions\n'The Saga of Ravana' and 'Golden Requiem,' their new\nsmash hit 'Sacred Journey' opened this week to packed\ntheaters. Due to the popularity of these movies, Vegas'\nticket sales during the first half of this year have already\n",
+					"long1": 0
+				},
+				{
+					"book_id": 105,
+					"line_id": 3,
+					"empty1": 0,
+					"book_text": "surpassed the numbers during the same timeframe last year.\n　On top of that, according to Vegas Films employees, the\nculture is more open than before, and people feel\ncomfortable sharing honest feedback with their bosses.\nVegas Films appears to be making a concerted effort to\nchange for the better.\n　Additionally, the company has decided to hold its film\nfestival once again this year, with Director Gotti overseeing\nit. We're excited to see how the festival turns out under the\nnew corporate structure.\n\n[Weather] Raging Sandstorms Are Back with a Vengeance\n　Sandstorms are a common occurrence in the outskirts of\nTharbad in July, but this year, the frequency is expected to\ngo up. The large-scale storms will mainly be concentrated in\nthe areas outside the metropolitan area, so those inside the\ncity will be safe, provided you do not venture out towards\nthe Sandsea. However, there's a chance that a small quantity\n",
+					"long1": 0
+				},
+				{
+					"book_id": 105,
+					"line_id": 4,
+					"empty1": 0,
+					"book_text": "of sand will come flying into the city, so bring your laundry\nin ahead of time and make sure that all orbal-precision\nequipment is properly covered.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 106,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "[Local] Ceremony to be Held at City Hall on July 12\n　Anchorville City Hall announced that its 70th anniversary\nceremony has been moved up from July 16th to the 12th.\nWhile no reason for the schedule change has been given, we\nsuspect they want it to coincide with the day of the rocket\nlaunch (launch ceremonies will also be held in the capital\nand in other areas).\n　The anniversary ceremony will include an after-party\nreception for invited guests, a speech from Mayor Mason,\nand a concert, and the main event will be broadcast live to\nthe public. Naturally, the broadcast of the launch will be\nshown at the venue as well, and Mayor Mason will give a\ncongratulatory address upon its success.\n　On the other hand, City Hall's decision has sent their\nemployees and related businesspeople scrambling to meet\nthe new date. With the 12th being the day of the launch,\ntraffic jams and congestion are a certainty, which may well\ncreate disruptions in organization and coordination among\n",
+					"long1": 0
+				},
+				{
+					"book_id": 106,
+					"line_id": 2,
+					"empty1": 0,
+					"book_text": "those involved in planning the ceremony.\n　A City Hall representative had this to say in an interview\nwith Eaton Newsletter: 'This is just Mayor Mason's\nsad-sack attempt at a publicity stunt, and, of course, the\nones who have to suffer for it are the hardworking staff.'\nMany residents are similarly perplexed by the abruptness of\nthe change, and overall, the event seems to be on track to\nreceiving a lukewarm response.\n\n[Culture] The Cultural History of the Merceuil River, a\nSymbol of Anchorville\n　The Merceuil River, a familiar sight to the residents of\nAnchorville, has left a mark on history since ancient times\nin sundry ways. In this article, we will discuss the cultural\nhistory behind this river.\n　First, the Merceuil River's utility in transporting water has\nlong been treasured. Before the Orbal Revolution, it was\nused as a route connecting Oración to Edith, and then to\n",
+					"long1": 0
+				},
+				{
+					"book_id": 106,
+					"line_id": 3,
+					"empty1": 0,
+					"book_text": "Basel. Ever since, Anchorville has prospered as a\ntransportation and logistics hub.\n　The river also holds considerable value from a strategic\nperspective. During the revolution, the Revolutionary Army\nand the old kingdom's forces came to blows across the river,\nand the resulting battle would later be known as the turning\npoint of the conflict. They were not only fighting to capture\nthis stopover city; they wanted to secure a supply advantage\nin the form of a water route.\n　Today, the logistical value of the Merceuil River has\ndeclined, but it possesses meaning as a cultural symbol\nrooted in the lives of Anchorville's locals. For example, the\nfishing industry still makes use of the river, albeit on a small\nscale. Another feature of this river is its rich ecosystem, and\nmussels can be found there, among other freshwater\ncreatures. Hopefully, we can continue to pass down the\nculture and history of this river and preserve its scenery and\nnature for future generations.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 106,
+					"line_id": 4,
+					"empty1": 0,
+					"book_text": "[Gourmet] The Charm of La Nuit de Chat Noir, Known\nOnly to Locals!\n\nWithin Anchorville lies a brasserie café—known only\namong the locals—called 'La Nuit de Chat Noir.'\n　The flagship store, with its stylish signboard designed by\nthe founder and owner, is immediately visible from the city's\nsouth entrance. Both the interior and exterior have a chic,\nmature vibe, and the piano performances and chanson done\non occasion further enhance the atmosphere. The food is, in\na word, exquisite—the flavorful dishes and desserts\ninherited from the previous generation are all made with\nlove and care. Their cocktails are top-of-the-line, too.\n　The lovely owner is a natural conversationalist, and she\nalways ensures you leave the shop happier than when you\ncame in. There may be some who recognize her from\nelsewhere—but that is, perhaps, an article for another time.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 107,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "[International] Relationship Between the Republic and\nElsaim Holds Strong in the New Era\n　The Principality of Elsaim has been complying with the\nRepublic's requests for Project Startaker, including enacting\nflight restrictions south of the Ishgal Mountains. In fact, the\nproject's steady progress may well be owed to their tight\nrelations with Elsaim. The principality's Prince Sherid and\nPrincess Zita are scheduled to appear as representatives of\nElsaim at a ceremony in Edith tomorrow.\n　The Republic has received many a boon from its\nlongstanding relationship with Elsaim—its cooperation\nwith the space program being one of them. Similarly, they\nhave given us numerous cultural imports and intelligence\nthrough trade in the past. After the Orbal Revolution, the\ntop-grade septium produced in Elsaim was of considerable\nvalue, and they've always done business exchanges with\ncountries in the Eastern and Central Eastern parts of the\ncontinent.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 107,
+					"line_id": 2,
+					"empty1": 0,
+					"book_text": "　This friendship between the Principality of Elsaim and\nCalvard dates back to the time of the old kingdom. Back\nthen, the royal families of the two countries engaged in\ntrade, and even now, there are a bevy of commercial\ntransactions and other such dealings between their citizens.\nAnd after a democratic government was established after\nthe revolution, Elsaim recognized the new administration,\ncultivating a budding relationship that remains strong to\nthis day. In this new era where the stars are within\nhumanity's reach, we hope both countries continue to work\nhand in hand for a better, brighter tomorrow.\n\n[Entertainment] Z1 Stars and Central Eastern Dancer Duo\nArrive in Tharbad\n　In case you weren't aware, several celebrities have come to\nTharbad. Firstly, the Z1 racing superstars Maxim and Aslan\nare here for an event promoting the new Vegas Films\nproduction, 'Perfect Driver 0,' and the energy drink\n",
+					"long1": 0
+				},
+				{
+					"book_id": 107,
+					"line_id": 3,
+					"empty1": 0,
+					"book_text": "'Maximum Energy.' As a result, Z1 fans have flocked to\nTharbad, and the excitement in the air is palpably electric.\nAslan, in particular, is quite popular among those in\nTharbad due to his Central Eastern heritage, and the\ncitizens have welcomed him with open arms and great\ncheer.\n　Both racers competed in an exhibition race in the capital\nlast night, and the fact that Aslan finally claimed victory\nover the four-time champion has got everyone talking. This\nis just one more reason the newest racing superstar has\ngarnered so much attention of late.\n　Speaking of superstars, our very own Saara Ertur and\nShaheena Ertur, who often gave dancing performances in\nthe Cultural District, have returned to Tharbad. Since\ngaining a foothold in the entertainment industry through\nthe film festival last year, the Ertur sisters have been\nexceptionally busy, with their appearances in film, various\ntours, and homecoming performance in their Central\n",
+					"long1": 0
+				},
+				{
+					"book_id": 107,
+					"line_id": 4,
+					"empty1": 0,
+					"book_text": "Eastern hometown taking up much of their time. But now,\nthey've found their way back to Tharbad and are putting on\nshows in the Cultural District as they did in the past. Why\nnot come to the place where it all began for the legendary\nduo, and see them put on a dance for the ages?\n\n[Local] City Council Conflicted Over Optimal Utilization\nof Oasis\n　Regarding our city's abundant water source—restored\nthrough irrigation work 20 years ago—Tharbad diet\nmembers are discussing potential broader applications for it\nin the future, but opinions are currently split on the matter.\n　Diet members who underscore the importance of\nTharbad's development as a tourist city have proposed\nopening the oasis to the public for leisure activities like\nwater sports, and others are lobbying for the development of\nlarge-scale fruit farms by utilizing water resources for\nirrigation. On the other hand, conservatives with a base of\n",
+					"long1": 0
+				},
+				{
+					"book_id": 107,
+					"line_id": 5,
+					"empty1": 0,
+					"book_text": "supporters in the Cultural District are opposed to such\ncommercial uses, favoring the preservation of the\nenvironment and the conservation of water resources for the\nfuture.\n　As of now, no agreement nor compromise has been\nreached, but the city council is considering holding a public\nvote, should time and circumstances permit it.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 108,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "[Local] Recent Distrust of Hospital. And Commotion at\nNight?\n　In relation to the riots which occurred at Anchorville\nGeneral Hospital yesterday, an illegal drug manufacturing\nfacility was found beneath the site. According to police, it\nwas constructed by the previous medical director—who was\narrested last year—in collusion with the mafia. It's unclear\nwhy it remained undiscovered until now, but regardless, it's\nhard not to think of the hospital's management team,\nincluding with the current medical director, as anything but\nsuspect.\n　Incidentally, as you're all no doubt aware, a heavy fog\nsuddenly materialized in Anchorville on that same night.\nNo serious incidents have been reported as of yet, but there\nare whispers of bedlam in the wind among nervous citizens\nand tourists. A small number of indentations resembling\nbullet holes and traces of what appear to be monster\nfootprints have been found scattered about in one section of\n",
+					"long1": 0
+				},
+				{
+					"book_id": 108,
+					"line_id": 2,
+					"empty1": 0,
+					"book_text": "the city. While details remain unclear, it doesn't seem like\nthis can be written off as a simple case of false memories or\nmass hysteria.\n　What's more, a skirmish at the Anchorville Logistics\nCenter has taken place, and police and bracers are still\ninvestigating the scene. It's not out of the realm of\npossibility that this bears relation to the commotion within\nthe city. We will continue our coverage on this story as it\nunfolds, and if we receive further updates, you will be the\nfirst to know.\n\n[Society] It's Rocket Launch Day! Joint Military Exercise to\nCoincide\n　The final stage of Project Startaker has arrived at last.\nMany tourists have made the trek to Longlai, which is near\nthe space base, to watch the launch, and throngs of people\nhave gathered in front of broadcast trucks parked in\nAnchorville and other areas. All we can do now is watch\n",
+					"long1": 0
+				},
+				{
+					"book_id": 108,
+					"line_id": 3,
+					"empty1": 0,
+					"book_text": "this historic moment play out, with faith in our hearts that\nthis great undertaking—a first for humankind—will\nsucceed, and that Major Emilia will return home safely.\n　In addition, Republican Army joint exercises will be held\nall over Calvard to coincide with the launch. I'm sure our\nreaders have on occasion spotted flying cruisers or military\nvehicles moving about in the skies and on the roads. The\nexercises are a precautionary measure to ensure a quick\nresponse to objects falling from on high in the unlikely\nevent that the launch ends in failure, and to test data links\nbetween space and the earth's surface.\n　Some of these exercises will use live munitions as well, and\nas a result, certain areas around the Republic have been\ndesignated off limits. In the interest of safety, we hope that\nour readers will follow the instructions of the local\ngovernment and police when traveling to the outskirts.\n\n[Tourism] City Revitalization with a Focus on\n",
+					"long1": 0
+				},
+				{
+					"book_id": 108,
+					"line_id": 4,
+					"empty1": 0,
+					"book_text": "Microtourism\n　Have you ever heard of the term 'microtourism'? For the\nuninitiated, this refers to short trips to places relatively close\nto where you live. Easy trips, in other words. It's become a\ntrend in recent years, especially among the younger\ngeneration due to its cost-saving benefits, and Anchorville,\nin both the public and private sectors, is prepared to\ncapitalize on this to revitalize the city.\n　Although Anchorville isn't an unpopular tourist spot, it\npales in comparison to Oración and Langport, with their\nsmatterings of unique characteristics. However, its strength\nlies in its proximity to the capital and Oración, which the\ncity and the tourism bureau is honing in on.\n　At present, Anchorville is fervently molding an\nenvironment to make casual visits among the younger\ngeneration easier by developing a private lodging system\nand offering city-backed support for accommodations. At\nthe same time, Anchorville will be promoting\n",
+					"long1": 0
+				},
+				{
+					"book_id": 108,
+					"line_id": 5,
+					"empty1": 0,
+					"book_text": "widely-known local specialties and put its history and\nculture on display to broadcast the city's charms to as many\npeople as possible. As a news agency rooted in Anchorville,\nwe're more than happy to support this initiative in whatever\nways we can.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 109,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "[Feature] The Moment We've All Been Waiting For—the\nRocket Launch!\n\n◆Project Startaker Enters Its Final Phase At Last◆\n　At 1:00PM today, mankind's first manned rocket will\nlaunch, sending Major Emilia where no man or woman has\ngone before. This small step she takes into the unknown\nwill undoubtedly be a giant leap for humankind.\n　The weather over Zeku Space Base is clear, with little\ntrace of precipitation or crosswinds. The final preparations\nare proceeding smoothly, and, barring any unforeseen\ncircumstances arise, the launch will take place on schedule.\n◆Searing This Great Undertaking into Memory◆\n　Crowds are forming in Longlai, which sits near the space\nbase, to watch this historic moment from up close. Though\nthis town is renowned as an ideal tourist destination, it's\nnever been so inundated with visitors before, and\nconsequently, the locals seem just a little bit out of sorts.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 109,
+					"line_id": 2,
+					"empty1": 0,
+					"book_text": "That said, since police officers have been dispatched there\nfrom all over, no immediate problems have arisen.\n　Broadcast trucks will be stationed on the streets in every\ncity, including Edith, to televise the rocket launch and the\nspace flight. Droves of people have flocked here as well,\nillustrating just how fervid the anticipation is for this\nhistoric undertaking.\n◆The Dawn of a New Era◆\n　Should the launch today be deemed a success, the final\nobjective of Project Startaker—'Humans setting foot into\nspace, the largest and final frontier'—will be accomplished,\nand we will have secured a brand-new domain of activity.\n　Major Emilia will be piloting a highly-maneuverable unit\nthat will fly at blinding speeds through the zero-gravity\nvacuum of space. This will demonstrate the extent to which\nhumans can move and operate within space. Depending on\nthe outcome, it might be possible for people to perform\nmaintenance on satellites directly, and the opportunities for\n",
+					"long1": 0
+				},
+				{
+					"book_id": 109,
+					"line_id": 3,
+					"empty1": 0,
+					"book_text": "experiments in space will be as boundless as the stars which\ninhabit it.\n　Whether a new space program will be carried out after the\nconclusion of Project Startaker is yet to be determined.\nHowever, the knowledge acquired from this flight will pave\nthe way for further scientific and technological\nadvancements.\n　Humanity will be entering into a new era, with the\nCalvard Republic at the helm.\n　Now, with hearts full of hope and pride, let's watch this\ngreat step into the future together.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 200,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "Shinobi Punk: Izayoi (1209) - Sci-Fi/Action\n\nCast: Nike Marceau, et al.\nProduction: Orion Films\n\nSummary: Set in Onigawara Lot, a modern, Far Eastern\ncity that had developed in its own way. Under the thumb of\na megacorp known as the Evil Magis-C-Suite, Onigawara\nLot is where superhuman ninja operate in the shadows. The\nstrongest among these—the master ninja—is IZAYOI.\nDuring a mission, Izayoi has a chance meeting with\nKANATA (Nike Marceau), the leader of a resistance group\nthat dares oppose their corporate overlords. This encounter\nchanges the course of his destiny.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 200,
+					"line_id": 2,
+					"empty1": 0,
+					"book_text": "Mini-column: A novel Sci-Fi action blockbuster that\nweaves images of a mysterious, enigmatic Far Eastern\nculture into the setting of a contemporary city with a\ndistinct ambiance. This vision, which some might discount\nas eccentric and outlandish, faced significant pushback at\nthe outset of production, but now that it's finally released,\nit's plain for all to see what a riveting, absolutely stellar piece\nof entertainment Izayoi is. The production staff had this to\nsay: 'When we learned about the legends of the ninja in the\nFar East, we just knew that they and the setting—a dazzling\nmodern city tainted by corruption—would be a match made\nin heaven.' From my perspective, the flashy ninjutsu scenes\nwere even more impactful against the backdrop of the city's\nfuturistic neon landscape. I think this film could very well\npioneer a whole new genre of film and storytelling, due in\nlarge part to its unique setting. As an aside, Easterners\n",
+					"long1": 0
+				},
+				{
+					"book_id": 200,
+					"line_id": 3,
+					"empty1": 0,
+					"book_text": "have found the film's depiction of their culture amusing,\nand it's become popular in a comedic context as well.\n　　　　　　　　　　　　　　　　　　　　(Film Staff Writer)\n",
+					"long1": 0
+				},
+				{
+					"book_id": 201,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "Sacred Journey (1209) - Road Movie\n\nCast: Judith Lanster, et al.\nProduction: Vegas Films\n\nSummary: This film is about an iron-willed sister named\nBARBARA (Judith Lanster) who travels to remote regions\npreaching the teachings of the Septian Church. In an\nunexpected turn of events, she finds herself traveling with a\nyoung orphan named VINCE, who has a similar history to\nher own, and the two end up in a village under the heel of\ntyrannous brigands. Driven by righteous indignation,\nBarbara and Vince rise against these malicious malefactors\nto save the people of the village.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 201,
+					"line_id": 2,
+					"empty1": 0,
+					"book_text": "Mini-column: This heart-pumping thriller of a road movie\nis about a church sister with a scar on her face and an erratic\ntemperament who befriends a boy and resolves the problems\nof others wherever she goes. It's not often we see Judith\nLanster playing a character of this archetype, but that just\ngoes to show how much range she has as an actress. She\nplays the part of the badass, no-nonsense sister to\nperfection. Her performance as a scar-faced lady of the\ncloth was full of intensity, but it was also fresh at the same\ntime. Between her forceful yet decisive displays of strength\nused in the name of justice and her pious countenance\nduring prayer, the character is surprisingly complex, and has\nbecome wildly popular as a result. Apparently, Judith has\nattracted quite a number of female fans with the release of\nthis film.\n　　　　　　　　　　　　　　　　　　　　(Film Staff Writer)\n",
+					"long1": 0
+				},
+				{
+					"book_id": 202,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "Cheer Star (1203) - Coming of Age/Cheerleading\n\nCast: Judith Lanster, et al.\nProduction: United Star\n\nSummary: Inspired by the incredible cheerleading she saw\nat a high school sports tournament, RACHEL (Judith\nLanster) starts a cheerleading squad at her own school. In\nspite of the many obstacles standing in her path, she\nsingle-mindedly puts her nose to the grindstone, making\nfriends along the way. She sets her sights on surpassing\nJENNIFER—a cheerleader at another school and someone\nwho once captivated her—at the autumn cheerleading\ncompetition.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 202,
+					"line_id": 2,
+					"empty1": 0,
+					"book_text": "Mini-column: This was the breakout hit for Judith Lanster,\nwho's now a household name. The depiction of Rachel's\nstruggles and frustrations as she works toward her goal of\nforming a cheerleading squad—and the sense of\naccomplishment that comes upon her success—has\nresonated with the hearts of teenagers over the years. This\nfilm has inspired many young folk to take up cheerleading\nand has helped others gain a greater appreciation for sports\nas well. Judith Lanster was 17 when she starred in this film,\nand she was among those it influenced. Reflecting on the\nfilm, she said, 'As a rookie actress who went through her\nfair share of trial and error, I really related to Rachel, and I\nthink that's why—for the first time—I was able to deliver a\nflawless performance. It was that experience of becoming\nRachel that helped shape the person I am today.'\n　　　　　　　　　　　　　　　　　　　　(Film Staff Writer)\n",
+					"long1": 0
+				},
+				{
+					"book_id": 203,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "Bravely Legends: Awakening of the Flame (1209) -\nAnimation/Action\n\nProduction: Bravely Legends: Awakening of the Flame\nProduction Committee\n\nSummary: The ultra-popular comic has finally been adapted\nfor the big screen! A boy named AKIRA is caught up in a\nterrorist attack by Nebula, a villainous organization bent on\nconquering humankind. However, his life is saved by a man\nwielding a mysterious power, and what's more, his own\nbody gets infused with a flaming aura! Akira awakens as one\nof the Legends—chosen heroes who wield the power of fire!\nHe then makes it through rigorous training alongside his\nfriends. Will he be able to defeat the forces of evil and save\nthe world?!\n",
+					"long1": 0
+				},
+				{
+					"book_id": 203,
+					"line_id": 2,
+					"empty1": 0,
+					"book_text": "Mini-column: This is a film adaptation of the comic book\nseries 'Bravely Legends' by artist and writer J. Segal,\ncovering the events of the first three volumes. Based on the\nthemes of courage and emotional bonds, the comic's\npopularity stems from its gripping plot and punchy battle\nscenes, and this movie has been warmly received by\nhardcore fans due to its faithfulness to the source material.\nThe Bravely Legends following has grown considerably\nwith the release of the adaptation, and the anticipation for\nthe sequel is already feverish. The latest CG technology is\nappropriately weaved into the action scenes, infusing them\nwith depth and speed and thereby giving those sequences a\ngrounded feel on the level of a live-action movie. The voice\nactors all gave 110% to their performances, making the\npages of the comic really come to life. As a note, the\noriginal work is still in serialization, and it's entered a new\n",
+					"long1": 0
+				},
+				{
+					"book_id": 203,
+					"line_id": 3,
+					"empty1": 0,
+					"book_text": "arc this year, providing the story with a number of new plot\ndevelopments. This is the kind of media franchising I\nabsolutely want to throw my lot in with.\n　　　　　　　　　　　　　　　　　　　　(Film Staff Writer)\n",
+					"long1": 0
+				},
+				{
+					"book_id": 204,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "Crimson Fist (1209) - Boxing/Drama\n\nCast: Nina Fenly, et al.\nProduction: Kowloon Pictures\n\nSummary: BETH (Nina Fenly) is a delinquent girl who is\nall alone in the world. After turning to a life of crime and\nwinding up in jail, she has a fateful encounter with a man by\nthe name of MIKEY—a once-renowned boxing trainer. He\nsets her on the path to become a boxer, and while it wasn't\nan easy road to tread, gradually, Beth comes to recognize\nthe value of her own two fists. And then, the true test of her\nmettle arrives.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 204,
+					"line_id": 2,
+					"empty1": 0,
+					"book_text": "Mini-column: The core story of a delinquent girl finding\nher own worth, a reason to live, and a dear friend in her\nmentor—all through boxing—is what makes this passionate\ndrama so remarkable. Of course, there's also the legendary\nboxing scenes, which are so realistic that you can almost\nsmell the blood and sweat clinging to the characters' skins.\nThe actress for Beth is none other than Nina Fenly, and\nwhile this isn't normally the type of role she'd play, it should\ncome as no surprise that she knocked it out of the park.\nWhen asked why Nina was cast for the part, the director\nhad this to say, 'Beth's mind is a winding labyrinth of\ncomplexities, and there was no one more fit to inhabit the\npart and peel back its layers than Nina.' Nina herself\ndescribed the experience of playing against type as\n'refreshing,' and she was particularly motivated to nail it.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 204,
+					"line_id": 3,
+					"empty1": 0,
+					"book_text": "This film has greatly expanded the perception of Nina's\nrange, further widening her future casting opportunities.\n　　　　　　　　　　　　　　　　　　　　(Film Staff Writer)\n",
+					"long1": 0
+				},
+				{
+					"book_id": 205,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "Detective Scoirot: Murder on the\nTranscontinental Railroad (1209) - Mystery\n\nSummary: SCOIROT is an eminent detective who solved\nover ten cases in the span of a few days. At the suggestion\nof his assistant, WILSON, he goes on vacation aboard a\nlong-distance train on the transcontinental railroad.\nHowever, a locked-room murder mystery unfolds on the\nlocomotive while it's in motion. The more information he\ngathers on the case, the more confounding it all becomes.\nWill Detective Scoirot find his way to the truth?\n\n\n\n\n\n\n",
+					"long1": 0
+				},
+				{
+					"book_id": 206,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "Human Game (1209) - Dystopian Thriller\n\nSummary: GILL has been tricked by a friend into\nshouldering a crushing debt load as a co-signer. He receives\na written invitation to participate in a perverse 'gameshow'\nwhere debtors throw away their pride to compete for mira.\nGill reluctantly accepts, hurling himself at this ugly contest\nput on for the amusement of the rich. He takes this chance\nto turn his life around, but losing means he'll be in even\ngreater debt than before.\n\n\n\n\n\n\n",
+					"long1": 0
+				},
+				{
+					"book_id": 207,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "Mishy in Boots (1208) - Animation\n\nSummary: CONNOR is a young boy from a poor family\nwhose parents save up for their son's sake to take him on a\ntrip to Crossbell. There, at Mishelam Resort, Connor's\nparents buy him a stuffed animal of the mascot, Mishy. But\nthis stuffed Mishy is hiding a miraculous secret.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 208,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "Golden Blood (R-15 Version) (1209) - Action\n\nDirector: Salvatore Gotti\nScreenplay: Salvatore Gotti\nCast: Judith Lanster, et al.\nDistribution: Vegas Films\n\nSummary: The latest picture from the esteemed Salvatore\nGotti. ZOE (Judith Lanster) is a spy of the intelligence\nagency Gambit. While on a mission with her partner,\nRICK, she hears tell of a mysterious agent who goes by the\ncode name 'Golden Blood.' They are said to possess\ninhuman physical prowess—but their true identity is\nshrouded in mystery.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 208,
+					"line_id": 2,
+					"empty1": 0,
+					"book_text": "Mini-column: This is a new, re-edited cut of the acclaimed\nR-17 version of Golden Blood that came out last year. In\nthe interest of appealing to a wider audience, some of its\nmore raunchy scenes were removed, and the target age\nrange was lowered. However, it still retains many of the\nexhilarating scenes found in the R-17 rendition. Director\nGotti, who also had a hand in the re-editing, proudly stated,\n'I took great care picking out which scenes had to stay in the\nR-15 cut. To me, the R-17 one is the quintessential,\n'no-stone-unturned' Golden Blood experience, but I was\nable to work in all the parts I wanted to express in this cut,\ntoo.'\nThis is a prime opportunity to jump back into the world of\nthe explosively-popular Golden Blood. Now, more people\nthan ever will be able to experience all the scenes Director\nGotti put his heart and soul into creating.\n　　　　　　　　　　　　　　　　　　　　(Film Staff Writer)\n",
+					"long1": 0
+				},
+				{
+					"book_id": 209,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "Perfect Driver 2 (1208) - Human Drama\n\nCast: Albert Granger, et al., with special appearance by\nMaxim Lugan.\nSummary: A human drama that explores the love and\nstruggle between a young Z1 racer and his famous father.\nPHILLIP's rebelliousness causes a falling out between him\nand his father, a legendary racer of the past named LEWIS\n(Albert Granger). Before they can patch things up Louis\ntragically dies in a sudden accident. Phillip, now wrestling\nwith regret, speeds ever onward towards his next race.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 210,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "Gloria: Dawn of the Revolution (1208) - Historical Fiction\n\nCast: Nina Fenly, et al.\nSummary: 108 years ago, SHEENA DIRKE (Nina Fenly)\nlaid the foundations of the Republic in the Calvardian\nRevolution. Though she was just an ordinary student at the\ntime, Sheena gathered comrades from every caste and\nbackground who shared her cause. Follow their travels as,\nwith a love of country in their hearts, they make their way\nthrough their turbulent world until the Battle of Edith,\nwhen the Calvardian Revolution began.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 210,
+					"line_id": 2,
+					"empty1": 0,
+					"book_text": "Mini-column: This film is about the efforts of Sheena\nDirke, the woman who spearheaded the Calvardian\nRevolution in December 1100. Although it does depict the\npainful parts of the conflict, like her confinement in\nBaratier Prison and the death of one of her comrades, the\ntragic feel in those moments do not permeate the picture, as\nit is by and large an optimistic work showcasing a watershed\nmoment in our history that can only be described as\n'glorious'—or rather, 'Gloria.'\n\nThe star of the movie is the promising young actress Nina\nFenly. She is of Eastern descent, and opinions were evenly\nsplit when her casting as Sheena, a white aristocrat, was\nannounced. However, when the film released, her acting\nwas so exceptional that even her toughest critics said,\n'There's no one who could've played the part better than\n",
+					"long1": 0
+				},
+				{
+					"book_id": 210,
+					"line_id": 3,
+					"empty1": 0,
+					"book_text": "her.' Nina had expected some degree of backlash, but that\nonly emboldened her to give a performance for the ages. In\nan interview after principal photography wrapped, there was\na look of determination in her eyes that belied her gentle\ndemeanor as she said, 'I believe meeting expectations—and\nalso going beyond or even against them—is what it means\nto be a professional.'\n　　　　　　　　　　　　　　　　　　　　(Film Staff Writer)\n",
+					"long1": 0
+				},
+				{
+					"book_id": 211,
+					"line_id": 1,
+					"empty1": 0,
+					"book_text": "Wolves' Requiem (1208) - Action/Suspense\n\nDirector: Leslie Lam\nScreenplay: Leslie Lam\nCast: Lapharl Aznavour, Nina Fenly, et al.\nDistribution: Kowloon Pictures\nSummary: The latest film from the talented Leslie Lam.\nRON (Lapharl Aznavour) is a police officer on the trail of a\nseries of crimes committed by a gang he has old ties to when\nhe encounters a young woman named MICHELLE (Nina\nFenly). Their relationship continues even after the incident,\nuntil the memory of a certain young man Ron once shot\nresurfaces.\n",
+					"long1": 0
+				},
+				{
+					"book_id": 211,
+					"line_id": 2,
+					"empty1": 0,
+					"book_text": "Mini-column: The prestigious director Leslie Lam brings us\na film that's not only an action-packed romp with gun fights\nbetween the police and gangs, but also an entertaining, yet\ndark social satire. In this macho world, Michelle, a girl with\nthe ephemeral fragility of a flower—but also a strong will—\nis played by eighteen-year-old Nina Fenly. Although she's\ngravely wounded after shielding Ron, the smile on her face\nas she's held by the one she loves has a tinge of insanity in\nit. Nina, one of the most talented young actresses of her\ngeneration, said, 'I was particularly immersed into the part\nduring that scene, and I felt like I became one with\nMichelle. So much so that I hardly remember anything\nbefore the director called cut.' This film is proof positive of\nNina's innate talent.\n　　　　　　　　　　　　　　　　　　　　(Film Staff Writer)\n",
+					"long1": 0
+				}
+			]
+		},
+		{
+			"name": "BooksTitleReplace",
+			"data": []
+		}
+	]
+}

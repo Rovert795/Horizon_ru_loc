@@ -1,0 +1,262 @@
+[
+    {
+        "FileName": "a0000.ing",
+        "StringNumber": 3543,
+        "Text1": "Issue report"
+    },
+    {
+        "FileName": "a0000.ing",
+        "StringNumber": 3544,
+        "Text1": "Make your way there"
+    },
+    {
+        "FileName": "a0000.ing",
+        "StringNumber": 3561,
+        "Text1": "Restrain"
+    },
+    {
+        "FileName": "a0000.ing",
+        "StringNumber": 3562,
+        "Text1": "Set free"
+    },
+    {
+        "FileName": "a0000.ing",
+        "StringNumber": 3563,
+        "Text1": "Finish off"
+    },
+    {
+        "FileName": "a0000.ing",
+        "StringNumber": 3657,
+        "Text1": "Restrain"
+    },
+    {
+        "FileName": "a0000.ing",
+        "StringNumber": 3658,
+        "Text1": "Set free"
+    },
+    {
+        "FileName": "a0000.ing",
+        "StringNumber": 3659,
+        "Text1": "Finish off"
+    },
+    {
+        "FileName": "a0000.ing",
+        "StringNumber": 3676,
+        "Text1": "Restrain"
+    },
+    {
+        "FileName": "a0000.ing",
+        "StringNumber": 3677,
+        "Text1": "Set free"
+    },
+    {
+        "FileName": "a0000.ing",
+        "StringNumber": 3678,
+        "Text1": "Finish off"
+    },
+    {
+        "FileName": "c0000_ev.ing",
+        "StringNumber": 19018,
+        "Text1": "Perform Cleaning Duty"
+    },
+    {
+        "FileName": "c0000_ev.ing",
+        "StringNumber": 19019,
+        "Text1": "Hand Out Flyers"
+    },
+    {
+        "FileName": "c0000_ev.ing",
+        "StringNumber": 19020,
+        "Text1": "Banned from the Premises"
+    },
+    {
+        "FileName": "c0200.ing",
+        "StringNumber": 9154,
+        "Text1": "Express Her Bright Side"
+    },
+    {
+        "FileName": "c0200.ing",
+        "StringNumber": 9155,
+        "Text1": "Express Her Dark Side"
+    },
+    {
+        "FileName": "c0200.ing",
+        "StringNumber": 9156,
+        "Text1": "Express Both Sides"
+    },
+    {
+        "FileName": "c1400.ing",
+        "StringNumber": 6401,
+        "Text1": "Have Him Come Clean Himself"
+    },
+    {
+        "FileName": "c1400.ing",
+        "StringNumber": 6402,
+        "Text1": "Have Him Feign Ignorance"
+    },
+    {
+        "FileName": "c1400.ing",
+        "StringNumber": 6403,
+        "Text1": "Make a Deal with Reins"
+    },
+    {
+        "FileName": "c1910.ing",
+        "StringNumber": 703,
+        "Text1": "Ask Him About the Situation"
+    },
+    {
+        "FileName": "c1910.ing",
+        "StringNumber": 704,
+        "Text1": "Knock Him Out, No Questions Asked"
+    },
+    {
+        "FileName": "c2000.ing",
+        "StringNumber": 8770,
+        "Text1": "Marduk"
+    },
+    {
+        "FileName": "c2000.ing",
+        "StringNumber": 8771,
+        "Text1": "The CID"
+    },
+    {
+        "FileName": "c2000.ing",
+        "StringNumber": 9123,
+        "Text1": "Leave the Limiter On"
+    },
+    {
+        "FileName": "c2000.ing",
+        "StringNumber": 9124,
+        "Text1": "Remove It"
+    },
+    {
+        "FileName": "d0500.ing",
+        "StringNumber": 675,
+        "Text1": "Wipe the Data and Leave Things to the Guild"
+    },
+    {
+        "FileName": "d0500.ing",
+        "StringNumber": 676,
+        "Text1": "Leave the Data to the Affected Parties"
+    },
+    {
+        "FileName": "d0500.ing",
+        "StringNumber": 677,
+        "Text1": "Destroy the Hardware"
+    },
+    {
+        "FileName": "d7500.ing",
+        "StringNumber": 4943,
+        "Text1": "Stop Yaser"
+    },
+    {
+        "FileName": "d7500.ing",
+        "StringNumber": 4944,
+        "Text1": "Don't Stop Yaser"
+    },
+    {
+        "FileName": "d7500.ing",
+        "StringNumber": 5572,
+        "Text1": "Praise Her Efforts"
+    },
+    {
+        "FileName": "d7500.ing",
+        "StringNumber": 5573,
+        "Text1": "Attack Her Pride"
+    },
+    {
+        "FileName": "m0000.ing",
+        "StringNumber": 1742,
+        "Text1": "Arrest Her as a Criminal"
+    },
+    {
+        "FileName": "m0000.ing",
+        "StringNumber": 1743,
+        "Text1": "Send Her to the Eisenschild"
+    },
+    {
+        "FileName": "m0100.ing",
+        "StringNumber": 2415,
+        "Text1": "His Bond with His Brothers"
+    },
+    {
+        "FileName": "m0100.ing",
+        "StringNumber": 2416,
+        "Text1": "His Path as a Scoundrel"
+    },
+    {
+        "FileName": "m0100.ing",
+        "StringNumber": 2417,
+        "Text1": "His Sealed Memories"
+    },
+    {
+        "FileName": "t2000.ing",
+        "StringNumber": 16014,
+        "Text1": "Have the Fakes Turned In"
+    },
+    {
+        "FileName": "t2000.ing",
+        "StringNumber": 16015,
+        "Text1": "Leave the Fakes in Circulation"
+    },
+    {
+        "FileName": "t2200.ing",
+        "StringNumber": 15021,
+        "Text1": "Ask Fazil to Recommend a Job"
+    },
+    {
+        "FileName": "t2200.ing",
+        "StringNumber": 15022,
+        "Text1": "Suggest Nasri Go to Jail"
+    },
+    {
+        "FileName": "t2200.ing",
+        "StringNumber": 15023,
+        "Text1": "Suggest Nasri Leave Tharbad"
+    },
+    {
+        "FileName": "t3000.ing",
+        "StringNumber": 8863,
+        "Text1": "Take the Secretary and Ex-CEO to Court"
+    },
+    {
+        "FileName": "t3000.ing",
+        "StringNumber": 8864,
+        "Text1": "Corner the Ex-CEO at a Board Meeting"
+    },
+    {
+        "FileName": "t3000.ing",
+        "StringNumber": 8865,
+        "Text1": "Blackmail the Secretary and Ex-CEO"
+    },
+    {
+        "FileName": "t3000.ing",
+        "StringNumber": 9766,
+        "Text1": "Have Hongli Turn Himself In"
+    },
+    {
+        "FileName": "t3000.ing",
+        "StringNumber": 9767,
+        "Text1": "Pretend It Was a Trial Run"
+    },
+    {
+        "FileName": "t4000.ing",
+        "StringNumber": 14020,
+        "Text1": "Take Your Time Thinking It Over"
+    },
+    {
+        "FileName": "t4000.ing",
+        "StringNumber": 14021,
+        "Text1": "Be Honest With Yourself"
+    },
+    {
+        "FileName": "t7000_ev.ing",
+        "StringNumber": 27853,
+        "Text1": "Calm Him Down Through Reason"
+    },
+    {
+        "FileName": "t7000_ev.ing",
+        "StringNumber": 27854,
+        "Text1": "Pressure Him Into Shutting Up"
+    }
+]

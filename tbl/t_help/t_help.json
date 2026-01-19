@@ -1,0 +1,1575 @@
+{
+  "headers": [
+    {
+      "name": "HelpTableData",
+      "schema": "Kuro1"
+    },
+    {
+      "name": "RealTimeHelpTableData",
+      "schema": "Kuro1"
+    }
+  ],
+  "data": [
+    {
+      "name": "HelpTableData",
+      "data": [
+        {
+          "id": 0,
+          "short1": 5801,
+          "int1": 0,
+          "file_name1": "note_help0010",
+          "file_name2": "note_help0010_e",
+          "tab_name": "Основное управление: Поле",
+          "empty_text_offset": "",
+          "long1": 0
+        },
+        {
+          "id": 1,
+          "short1": 5802,
+          "int1": 0,
+          "file_name1": "note_help0020",
+          "file_name2": "",
+          "tab_name": "Как сохраниться",
+          "empty_text_offset": "",
+          "long1": 0
+        },
+        {
+          "id": 2,
+          "short1": 5803,
+          "int1": 0,
+          "file_name1": "note_help0030",
+          "file_name2": "",
+          "tab_name": "Магазин",
+          "empty_text_offset": "",
+          "long1": 0
+        },
+        {
+          "id": 3,
+          "short1": 5804,
+          "int1": 0,
+          "file_name1": "note_help0040",
+          "file_name2": "",
+          "tab_name": "Навигация",
+          "empty_text_offset": "",
+          "long1": 0
+        },
+        {
+          "id": 4,
+          "short1": 5805,
+          "int1": 0,
+          "file_name1": "note_help0050",
+          "file_name2": "",
+          "tab_name": "Сменить лидера",
+          "empty_text_offset": "",
+          "long1": 0
+        },
+        {
+          "id": 5,
+          "short1": 5806,
+          "int1": 0,
+          "file_name1": "note_help0060",
+          "file_name2": "",
+          "tab_name": "Результаты битвы",
+          "empty_text_offset": "",
+          "long1": 0
+        },
+        {
+          "id": 6,
+          "short1": 5807,
+          "int1": 0,
+          "file_name1": "note_help0070",
+          "file_name2": "",
+          "tab_name": "Маркер события",
+          "empty_text_offset": "",
+          "long1": 0
+        },
+        {
+          "id": 7,
+          "short1": 5808,
+          "int1": 0,
+          "file_name1": "note_help0080",
+          "file_name2": "",
+          "tab_name": "Контрольная точка подземелья",
+          "empty_text_offset": "",
+          "long1": 0
+        },
+        {
+          "id": 8,
+          "short1": 5809,
+          "int1": 0,
+          "file_name1": "note_help0090",
+          "file_name2": "",
+          "tab_name": "Зарядная станция",
+          "empty_text_offset": "",
+          "long1": 0
+        },
+        {
+          "id": 9,
+          "short1": 5810,
+          "int1": 0,
+          "file_name1": "note_help0100",
+          "file_name2": "",
+          "tab_name": "Поиск осколков",
+          "empty_text_offset": "",
+          "long1": 0
+        },
+        {
+          "id": 10,
+          "short1": 5811,
+          "int1": 0,
+          "file_name1": "note_help0110",
+          "file_name2": "",
+          "tab_name": "Разрушаемые объекты",
+          "empty_text_offset": "",
+          "long1": 0
+        },
+        {
+          "id": 11,
+          "short1": 5812,
+          "int1": 0,
+          "file_name1": "note_help0120",
+          "file_name2": "",
+          "tab_name": "Сундуки с орбальными замками",
+          "empty_text_offset": "",
+          "long1": 0
+        },
+        {
+          "id": 12,
+          "short1": 5813,
+          "int1": 0,
+          "file_name1": "note_help0130",
+          "file_name2": "",
+          "tab_name": "Мрачный жетон",
+          "empty_text_offset": "",
+          "long1": 0
+        },
+        {
+          "id": 13,
+          "short1": 5814,
+          "int1": 0,
+          "file_name1": "note_help0140",
+          "file_name2": "",
+          "tab_name": "Мрачный портал",
+          "empty_text_offset": "",
+          "long1": 0
+        },
+        {
+          "id": 145,
+          "short1": 5950,
+          "int1": 0,
+          "file_name1": "note_helpa300",
+          "file_name2": "",
+          "tab_name": "Магазин дронов",
+          "empty_text_offset": "",
+          "long1": 0
+        },
+        {
+          "id": 50,
+          "short1": 5851,
+          "int1": 0,
+          "file_name1": "note_help2110",
+          "file_name2": "",
+          "tab_name": "Основное управление: Битва",
+          "empty_text_offset": "",
+          "long1": 2
+        },
+        {
+          "id": 40,
+          "short1": 5841,
+          "int1": 0,
+          "file_name1": "note_help2010",
+          "file_name2": "",
+          "tab_name": "Полевая атака",
+          "empty_text_offset": "",
+          "long1": 2
+        },
+        {
+          "id": 41,
+          "short1": 5842,
+          "int1": 0,
+          "file_name1": "note_help2020",
+          "file_name2": "",
+          "tab_name": "Переключение на тактическую битву",
+          "empty_text_offset": "",
+          "long1": 2
+        },
+        {
+          "id": 42,
+          "short1": 5843,
+          "int1": 0,
+          "file_name1": "note_help2030",
+          "file_name2": "",
+          "tab_name": "Преимущество врага",
+          "empty_text_offset": "",
+          "long1": 2
+        },
+        {
+          "id": 43,
+          "short1": 5844,
+          "int1": 0,
+          "file_name1": "note_help2040",
+          "file_name2": "",
+          "tab_name": "Заряженная атака",
+          "empty_text_offset": "",
+          "long1": 2
+        },
+        {
+          "id": 44,
+          "short1": 5845,
+          "int1": 0,
+          "file_name1": "note_help2050",
+          "file_name2": "",
+          "tab_name": "Удар осколком",
+          "empty_text_offset": "",
+          "long1": 2
+        },
+        {
+          "id": 45,
+          "short1": 5846,
+          "int1": 0,
+          "file_name1": "note_help2060",
+          "file_name2": "",
+          "tab_name": "Смертельный удар врага",
+          "empty_text_offset": "",
+          "long1": 2
+        },
+        {
+          "id": 46,
+          "short1": 5847,
+          "int1": 0,
+          "file_name1": "note_help2070",
+          "file_name2": "",
+          "tab_name": "Цель и дальность",
+          "empty_text_offset": "",
+          "long1": 2
+        },
+        {
+          "id": 47,
+          "short1": 5848,
+          "int1": 0,
+          "file_name1": "note_help2080",
+          "file_name2": "",
+          "tab_name": "Быстрое искусство",
+          "empty_text_offset": "",
+          "long1": 2
+        },
+        {
+          "id": 48,
+          "short1": 5849,
+          "int1": 0,
+          "file_name1": "note_help2090",
+          "file_name2": "",
+          "tab_name": "Повторная активация быстрого искусства",
+          "empty_text_offset": "",
+          "long1": 2
+        },
+        {
+          "id": 49,
+          "short1": 5850,
+          "int1": 0,
+          "file_name1": "note_help2100",
+          "file_name2": "",
+          "tab_name": "SCLM Рывок",
+          "empty_text_offset": "",
+          "long1": 2
+        },
+        {
+          "id": 120,
+          "short1": 5923,
+          "int1": 0,
+          "file_name1": "note_helpa030",
+          "file_name2": "",
+          "tab_name": "Полевая битва ZOC",
+          "empty_text_offset": "",
+          "long1": 2
+        },
+        {
+          "id": 121,
+          "short1": 5924,
+          "int1": 0,
+          "file_name1": "note_helpa040",
+          "file_name2": "",
+          "tab_name": "Помеха заражения",
+          "empty_text_offset": "",
+          "long1": 2
+        },
+        {
+          "id": 122,
+          "short1": 5925,
+          "int1": 0,
+          "file_name1": "note_helpa050",
+          "file_name2": "",
+          "tab_name": "Пробуждение (Ван)",
+          "empty_text_offset": "",
+          "long1": 2
+        },
+        {
+          "id": 123,
+          "short1": 5926,
+          "int1": 0,
+          "file_name1": "note_helpa060",
+          "file_name2": "",
+          "tab_name": "Пробуждение (Рин)",
+          "empty_text_offset": "",
+          "long1": 2
+        },
+        {
+          "id": 124,
+          "short1": 5927,
+          "int1": 0,
+          "file_name1": "note_helpa070",
+          "file_name2": "",
+          "tab_name": "Пробуждение (Кевин)",
+          "empty_text_offset": "",
+          "long1": 2
+        },
+        {
+          "id": 125,
+          "short1": 5928,
+          "int1": 0,
+          "file_name1": "note_helpa080",
+          "file_name2": "",
+          "tab_name": "Грендель в поле",
+          "empty_text_offset": "",
+          "long1": 2
+        },
+        {
+          "id": 34,
+          "short1": 5835,
+          "int1": 0,
+          "file_name1": "note_help1200",
+          "file_name2": "",
+          "tab_name": "Превращение в Гримкэта",
+          "empty_text_offset": "",
+          "long1": 2
+        },
+        {
+          "id": 15,
+          "short1": 5816,
+          "int1": 0,
+          "file_name1": "note_help1010",
+          "file_name2": "",
+          "tab_name": "Тактическая битва",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 16,
+          "short1": 5817,
+          "int1": 0,
+          "file_name1": "note_help1020",
+          "file_name2": "",
+          "tab_name": "Атака / Передвижение",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 17,
+          "short1": 5818,
+          "int1": 0,
+          "file_name1": "note_help1030",
+          "file_name2": "",
+          "tab_name": "Защита",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 18,
+          "short1": 5819,
+          "int1": 0,
+          "file_name1": "note_help1040",
+          "file_name2": "",
+          "tab_name": "Навыки",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 21,
+          "short1": 5822,
+          "int1": 0,
+          "file_name1": "note_help1070",
+          "file_name2": "",
+          "tab_name": "Искусства",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 39,
+          "short1": 5840,
+          "int1": 0,
+          "file_name1": "note_help1250",
+          "file_name2": "",
+          "tab_name": "Двойные искусства",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 32,
+          "short1": 5833,
+          "int1": 0,
+          "file_name1": "note_help1180",
+          "file_name2": "",
+          "tab_name": "Навыки осколков",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 35,
+          "short1": 5836,
+          "int1": 0,
+          "file_name1": "note_help1210",
+          "file_name2": "",
+          "tab_name": "EX-цепь",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 19,
+          "short1": 5820,
+          "int1": 0,
+          "file_name1": "note_help1050",
+          "file_name2": "",
+          "tab_name": "Побег из тактических битв",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 20,
+          "short1": 5821,
+          "int1": 0,
+          "file_name1": "note_help1060",
+          "file_name2": "",
+          "tab_name": "Отображение информации о враге",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 22,
+          "short1": 5823,
+          "int1": 0,
+          "file_name1": "note_help1080",
+          "file_name2": "",
+          "tab_name": "Оглушение",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 23,
+          "short1": 5824,
+          "int1": 0,
+          "file_name1": "note_help1090",
+          "file_name2": "",
+          "tab_name": "Элементальная слабость врага",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 31,
+          "short1": 5832,
+          "int1": 0,
+          "file_name1": "note_help1170",
+          "file_name2": "",
+          "tab_name": "SCLM",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 24,
+          "short1": 5825,
+          "int1": 0,
+          "file_name1": "note_help1100",
+          "file_name2": "",
+          "tab_name": "SCLM-цепь",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 25,
+          "short1": 5826,
+          "int1": 0,
+          "file_name1": "note_help1110",
+          "file_name2": "",
+          "tab_name": "SCLM-поддержка",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 26,
+          "short1": 5827,
+          "int1": 0,
+          "file_name1": "note_help1120",
+          "file_name2": "",
+          "tab_name": "АТ-бонус",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 147,
+          "short1": 5952,
+          "int1": 0,
+          "file_name1": "note_helpa320",
+          "file_name2": "",
+          "tab_name": "АТ-бонус 2",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 27,
+          "short1": 5828,
+          "int1": 0,
+          "file_name1": "note_help1130",
+          "file_name2": "",
+          "tab_name": "Усиление осколков",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 28,
+          "short1": 5829,
+          "int1": 0,
+          "file_name1": "note_help1140",
+          "file_name2": "",
+          "tab_name": "S-техника",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 29,
+          "short1": 5830,
+          "int1": 0,
+          "file_name1": "note_help1150",
+          "file_name2": "",
+          "tab_name": "Расширение шкалы усиления",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 30,
+          "short1": 5831,
+          "int1": 0,
+          "file_name1": "note_help1160",
+          "file_name2": "",
+          "tab_name": "Смена",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 37,
+          "short1": 5838,
+          "int1": 0,
+          "file_name1": "note_help1230",
+          "file_name2": "",
+          "tab_name": "S-прорыв врага",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 126,
+          "short1": 5929,
+          "int1": 0,
+          "file_name1": "note_helpa090",
+          "file_name2": "",
+          "tab_name": "Тактическая битва ZOC",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 127,
+          "short1": 5930,
+          "int1": 0,
+          "file_name1": "note_helpa100",
+          "file_name2": "",
+          "tab_name": "BLTZ",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 128,
+          "short1": 5931,
+          "int1": 0,
+          "file_name1": "note_helpa110",
+          "file_name2": "",
+          "tab_name": "Команды осколков",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 129,
+          "short1": 5932,
+          "int1": 0,
+          "file_name1": "note_helpa120",
+          "file_name2": "",
+          "tab_name": "Анти-осколочные команды",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 130,
+          "short1": 5933,
+          "int1": 0,
+          "file_name1": "note_helpa130",
+          "file_name2": "",
+          "tab_name": "Зараженный противник",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 131,
+          "short1": 5934,
+          "int1": 0,
+          "file_name1": "note_helpa140",
+          "file_name2": "",
+          "tab_name": "Изменение статуса: Белый свет",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 38,
+          "short1": 5839,
+          "int1": 0,
+          "file_name1": "note_help1240",
+          "file_name2": "",
+          "tab_name": "Статусный недуг: Токсин",
+          "empty_text_offset": "",
+          "long1": 1
+        },
+        {
+          "id": 51,
+          "short1": 5852,
+          "int1": 0,
+          "file_name1": "note_help3010",
+          "file_name2": "note_help3010_e",
+          "tab_name": "Главное меню",
+          "empty_text_offset": "",
+          "long1": 3
+        },
+        {
+          "id": 52,
+          "short1": 5853,
+          "int1": 0,
+          "file_name1": "note_help3020",
+          "file_name2": "",
+          "tab_name": "Статус",
+          "empty_text_offset": "",
+          "long1": 3
+        },
+        {
+          "id": 53,
+          "short1": 5854,
+          "int1": 0,
+          "file_name1": "note_help3030",
+          "file_name2": "",
+          "tab_name": "Блокнот",
+          "empty_text_offset": "",
+          "long1": 3
+        },
+        {
+          "id": 55,
+          "short1": 5856,
+          "int1": 0,
+          "file_name1": "note_help3050",
+          "file_name2": "note_help3050_e",
+          "tab_name": "Меню орбментов",
+          "empty_text_offset": "",
+          "long1": 3
+        },
+        {
+          "id": 54,
+          "short1": 5855,
+          "int1": 0,
+          "file_name1": "note_help3040",
+          "file_name2": "",
+          "tab_name": "Набор кварцев",
+          "empty_text_offset": "",
+          "long1": 3
+        },
+        {
+          "id": 56,
+          "short1": 5857,
+          "int1": 0,
+          "file_name1": "note_help3060",
+          "file_name2": "",
+          "tab_name": "Изменение сложности битв",
+          "empty_text_offset": "",
+          "long1": 3
+        },
+        {
+          "id": 57,
+          "short1": 5858,
+          "int1": 0,
+          "file_name1": "note_help3070",
+          "file_name2": "",
+          "tab_name": "Меню путешествий",
+          "empty_text_offset": "",
+          "long1": 3
+        },
+        {
+          "id": 58,
+          "short1": 5859,
+          "int1": 0,
+          "file_name1": "note_help3080",
+          "file_name2": "",
+          "tab_name": "Список дел",
+          "empty_text_offset": "",
+          "long1": 3
+        },
+        {
+          "id": 59,
+          "short1": 5860,
+          "int1": 0,
+          "file_name1": "note_help3090",
+          "file_name2": "",
+          "tab_name": "Изменение порядка группы",
+          "empty_text_offset": "",
+          "long1": 3
+        },
+        {
+          "id": 60,
+          "short1": 5861,
+          "int1": 0,
+          "file_name1": "note_help3100",
+          "file_name2": "",
+          "tab_name": "Тактика",
+          "empty_text_offset": "",
+          "long1": 3
+        },
+        {
+          "id": 61,
+          "short1": 5862,
+          "int1": 0,
+          "file_name1": "note_help3110",
+          "file_name2": "",
+          "tab_name": "Модификация орбмента",
+          "empty_text_offset": "",
+          "long1": 3
+        },
+        {
+          "id": 62,
+          "short1": 5863,
+          "int1": 0,
+          "file_name1": "note_help3120",
+          "file_name2": "",
+          "tab_name": "Смена костюма",
+          "empty_text_offset": "",
+          "long1": 3
+        },
+        {
+          "id": 63,
+          "short1": 5864,
+          "int1": 0,
+          "file_name1": "note_help3130",
+          "file_name2": "",
+          "tab_name": "Меню состава группы",
+          "empty_text_offset": "",
+          "long1": 3
+        },
+        {
+          "id": 117,
+          "short1": 5920,
+          "int1": 0,
+          "file_name1": "note_helpa000",
+          "file_name2": "",
+          "tab_name": "Уровень техники",
+          "empty_text_offset": "",
+          "long1": 3
+        },
+        {
+          "id": 118,
+          "short1": 5921,
+          "int1": 0,
+          "file_name1": "note_helpa010",
+          "file_name2": "",
+          "tab_name": "Своевременные термины",
+          "empty_text_offset": "",
+          "long1": 3
+        },
+        {
+          "id": 119,
+          "short1": 5922,
+          "int1": 0,
+          "file_name1": "note_helpa020",
+          "file_name2": "",
+          "tab_name": "Драйвер искусств",
+          "empty_text_offset": "",
+          "long1": 3
+        },
+        {
+          "id": 133,
+          "short1": 5936,
+          "int1": 0,
+          "file_name1": "note_helpa160",
+          "file_name2": "",
+          "tab_name": "Мастерская Эпштейна",
+          "empty_text_offset": "",
+          "long1": 3
+        },
+        {
+          "id": 134,
+          "short1": 5937,
+          "int1": 0,
+          "file_name1": "note_helpa170",
+          "file_name2": "",
+          "tab_name": "Камни навыков",
+          "empty_text_offset": "",
+          "long1": 3
+        },
+        {
+          "id": 135,
+          "short1": 5938,
+          "int1": 0,
+          "file_name1": "note_helpa180",
+          "file_name2": "",
+          "tab_name": "Дополнительные члены",
+          "empty_text_offset": "",
+          "long1": 3
+        },
+        {
+          "id": 136,
+          "short1": 5939,
+          "int1": 0,
+          "file_name1": "note_helpa190",
+          "file_name2": "",
+          "tab_name": "Дополнительные члены 2",
+          "empty_text_offset": "",
+          "long1": 3
+        },
+        {
+          "id": 64,
+          "short1": 5865,
+          "int1": 0,
+          "file_name1": "note_help4010",
+          "file_name2": "",
+          "tab_name": "ОС и ранг",
+          "empty_text_offset": "",
+          "long1": 4
+        },
+        {
+          "id": 65,
+          "short1": 5866,
+          "int1": 0,
+          "file_name1": "note_help4020",
+          "file_name2": "",
+          "tab_name": "Готовка",
+          "empty_text_offset": "",
+          "long1": 4
+        },
+        {
+          "id": 66,
+          "short1": 5867,
+          "int1": 0,
+          "file_name1": "note_help4030",
+          "file_name2": "",
+          "tab_name": "Гастрономический рейтинг",
+          "empty_text_offset": "",
+          "long1": 4
+        },
+        {
+          "id": 146,
+          "short1": 5951,
+          "int1": 0,
+          "file_name1": "note_helpa310",
+          "file_name2": "",
+          "tab_name": "Блог сладостей",
+          "empty_text_offset": "",
+          "long1": 4
+        },
+        {
+          "id": 67,
+          "short1": 5868,
+          "int1": 0,
+          "file_name1": "note_help4040",
+          "file_name2": "",
+          "tab_name": "Достижения",
+          "empty_text_offset": "",
+          "long1": 4
+        },
+        {
+          "id": 68,
+          "short1": 5869,
+          "int1": 0,
+          "file_name1": "note_help4050",
+          "file_name2": "",
+          "tab_name": "Уценённый товар",
+          "empty_text_offset": "",
+          "long1": 4
+        },
+        {
+          "id": 74,
+          "short1": 5875,
+          "int1": 0,
+          "file_name1": "note_help4110",
+          "file_name2": "",
+          "tab_name": "Темы",
+          "empty_text_offset": "",
+          "long1": 4
+        },
+        {
+          "id": 69,
+          "short1": 5870,
+          "int1": 0,
+          "file_name1": "note_help4060",
+          "file_name2": "",
+          "tab_name": "4SPG",
+          "empty_text_offset": "",
+          "long1": 4
+        },
+        {
+          "id": 70,
+          "short1": 5871,
+          "int1": 0,
+          "file_name1": "note_help4070",
+          "file_name2": "",
+          "tab_name": "Мировозрение ЗСХ",
+          "empty_text_offset": "",
+          "long1": 4
+        },
+        {
+          "id": 71,
+          "short1": 5872,
+          "int1": 0,
+          "file_name1": "note_help4080",
+          "file_name2": "",
+          "tab_name": "Подарки",
+          "empty_text_offset": "",
+          "long1": 4
+        },
+        {
+          "id": 72,
+          "short1": 5873,
+          "int1": 0,
+          "file_name1": "note_help4090",
+          "file_name2": "",
+          "tab_name": "Покупка оружия/брони",
+          "empty_text_offset": "",
+          "long1": 4
+        },
+        {
+          "id": 73,
+          "short1": 5874,
+          "int1": 0,
+          "file_name1": "note_help4100",
+          "file_name2": "",
+          "tab_name": "Смена персонажа в магазине",
+          "empty_text_offset": "",
+          "long1": 4
+        },
+        {
+          "id": 75,
+          "short1": 5876,
+          "int1": 0,
+          "file_name1": "note_help4120",
+          "file_name2": "",
+          "tab_name": "Выбор мирвозрения",
+          "empty_text_offset": "",
+          "long1": 4
+        },
+        {
+          "id": 76,
+          "short1": 5877,
+          "int1": 0,
+          "file_name1": "note_help4130",
+          "file_name2": "",
+          "tab_name": "Направления и отчёты",
+          "empty_text_offset": "",
+          "long1": 4
+        },
+        {
+          "id": 77,
+          "short1": 5878,
+          "int1": 0,
+          "file_name1": "note_help4140",
+          "file_name2": "",
+          "tab_name": "Работник месяца",
+          "empty_text_offset": "",
+          "long1": 4
+        },
+        {
+          "id": 78,
+          "short1": 5879,
+          "int1": 0,
+          "file_name1": "note_help4150",
+          "file_name2": "",
+          "tab_name": "Стол в офисе",
+          "empty_text_offset": "",
+          "long1": 4
+        },
+        {
+          "id": 81,
+          "short1": 5882,
+          "int1": 0,
+          "file_name1": "note_help4240",
+          "file_name2": "",
+          "tab_name": "Обеды для персонала",
+          "empty_text_offset": "",
+          "long1": 4
+        },
+        {
+          "id": 79,
+          "short1": 5880,
+          "int1": 0,
+          "file_name1": "note_help4170",
+          "file_name2": "",
+          "tab_name": "События связи",
+          "empty_text_offset": "",
+          "long1": 4
+        },
+        {
+          "id": 80,
+          "short1": 5881,
+          "int1": 0,
+          "file_name1": "note_help4200",
+          "file_name2": "",
+          "tab_name": "Просмотр фильмов",
+          "empty_text_offset": "",
+          "long1": 4
+        },
+        {
+          "id": 82,
+          "short1": 5883,
+          "int1": 0,
+          "file_name1": "note_help5010",
+          "file_name2": "",
+          "tab_name": "Значения характеристик",
+          "empty_text_offset": "",
+          "long1": 5
+        },
+        {
+          "id": 83,
+          "short1": 5884,
+          "int1": 0,
+          "file_name1": "note_help5020",
+          "file_name2": "",
+          "tab_name": "Изменения статусов",
+          "empty_text_offset": "",
+          "long1": 5
+        },
+        {
+          "id": 86,
+          "short1": 5887,
+          "int1": 0,
+          "file_name1": "note_help5050",
+          "file_name2": "",
+          "tab_name": "Изменения статусов 2",
+          "empty_text_offset": "",
+          "long1": 5
+        },
+        {
+          "id": 85,
+          "short1": 5886,
+          "int1": 0,
+          "file_name1": "note_help5040",
+          "file_name2": "",
+          "tab_name": "Изменения статусов 3",
+          "empty_text_offset": "",
+          "long1": 5
+        },
+        {
+          "id": 84,
+          "short1": 5885,
+          "int1": 0,
+          "file_name1": "note_help5030",
+          "file_name2": "",
+          "tab_name": "Тактические бонусы",
+          "empty_text_offset": "",
+          "long1": 5
+        },
+        {
+          "id": 87,
+          "short1": 5888,
+          "int1": 0,
+          "file_name1": "note_help5060",
+          "file_name2": "",
+          "tab_name": "Оружие — навыки шардов",
+          "empty_text_offset": "",
+          "long1": 5
+        },
+        {
+          "id": 88,
+          "short1": 5889,
+          "int1": 0,
+          "file_name1": "note_help5070",
+          "file_name2": "",
+          "tab_name": "Щиты — навыки шардов",
+          "empty_text_offset": "",
+          "long1": 5
+        },
+        {
+          "id": 89,
+          "short1": 5890,
+          "int1": 0,
+          "file_name1": "note_help5080",
+          "file_name2": "",
+          "tab_name": "Привод — навыки шардов",
+          "empty_text_offset": "",
+          "long1": 5
+        },
+        {
+          "id": 90,
+          "short1": 5891,
+          "int1": 0,
+          "file_name1": "note_help5090",
+          "file_name2": "",
+          "tab_name": "Дополнительно — навыки шардов",
+          "empty_text_offset": "",
+          "long1": 5
+        },
+        {
+          "id": 91,
+          "short1": 5892,
+          "int1": 0,
+          "file_name1": "note_help6000",
+          "file_name2": "",
+          "tab_name": "Орбменты",
+          "empty_text_offset": "",
+          "long1": 6
+        },
+        {
+          "id": 92,
+          "short1": 5893,
+          "int1": 0,
+          "file_name1": "note_help6010",
+          "file_name2": "",
+          "tab_name": "Ксифа",
+          "empty_text_offset": "",
+          "long1": 6
+        },
+        {
+          "id": 93,
+          "short1": 5894,
+          "int1": 0,
+          "file_name1": "note_help6020",
+          "file_name2": "",
+          "tab_name": "Голо",
+          "empty_text_offset": "",
+          "long1": 6
+        },
+        {
+          "id": 94,
+          "short1": 5895,
+          "int1": 0,
+          "file_name1": "note_help6030",
+          "file_name2": "",
+          "tab_name": "Кварцы",
+          "empty_text_offset": "",
+          "long1": 6
+        },
+        {
+          "id": 95,
+          "short1": 5896,
+          "int1": 0,
+          "file_name1": "note_help6040",
+          "file_name2": "",
+          "tab_name": "Синтез кварцев",
+          "empty_text_offset": "",
+          "long1": 6
+        },
+        {
+          "id": 96,
+          "short1": 5897,
+          "int1": 0,
+          "file_name1": "note_help6050",
+          "file_name2": "",
+          "tab_name": "Открытие навыков шардов",
+          "empty_text_offset": "",
+          "long1": 6
+        },
+        {
+          "id": 97,
+          "short1": 5898,
+          "int1": 0,
+          "file_name1": "note_help6060",
+          "file_name2": "",
+          "tab_name": "Открытие слотов",
+          "empty_text_offset": "",
+          "long1": 6
+        },
+        {
+          "id": 98,
+          "short1": 5899,
+          "int1": 0,
+          "file_name1": "note_help6070",
+          "file_name2": "",
+          "tab_name": "Магазин орбментов",
+          "empty_text_offset": "",
+          "long1": 6
+        },
+        {
+          "id": 99,
+          "short1": 5900,
+          "int1": 0,
+          "file_name1": "note_help6080",
+          "file_name2": "",
+          "tab_name": "Установка арт-плагинов",
+          "empty_text_offset": "",
+          "long1": 6
+        },
+        {
+          "id": 100,
+          "short1": 5901,
+          "int1": 0,
+          "file_name1": "note_help6090",
+          "file_name2": "",
+          "tab_name": "Смена голо-ядер",
+          "empty_text_offset": "",
+          "long1": 6
+        },
+        {
+          "id": 33,
+          "short1": 5834,
+          "int1": 0,
+          "file_name1": "note_help1190",
+          "file_name2": "",
+          "tab_name": "Превращение в Гренделя",
+          "empty_text_offset": "",
+          "long1": 7
+        },
+        {
+          "id": 101,
+          "short1": 5902,
+          "int1": 0,
+          "file_name1": "note_help7010",
+          "file_name2": "",
+          "tab_name": "Грендель",
+          "empty_text_offset": "",
+          "long1": 7
+        },
+        {
+          "id": 102,
+          "short1": 5903,
+          "int1": 0,
+          "file_name1": "note_help7020",
+          "file_name2": "",
+          "tab_name": "Атаки Гренделя",
+          "empty_text_offset": "",
+          "long1": 7
+        },
+        {
+          "id": 103,
+          "short1": 5904,
+          "int1": 0,
+          "file_name1": "note_help7030",
+          "file_name2": "",
+          "tab_name": "Кол-во использований S-буста",
+          "empty_text_offset": "",
+          "long1": 7
+        },
+        {
+          "id": 104,
+          "short1": 5905,
+          "int1": 112,
+          "file_name1": "note_help8000",
+          "file_name2": "",
+          "tab_name": "Завоевание доски",
+          "empty_text_offset": "",
+          "long1": 8
+        },
+        {
+          "id": 106,
+          "short1": 5907,
+          "int1": 113,
+          "file_name1": "note_help8020",
+          "file_name2": "",
+          "tab_name": "Задание этапа",
+          "empty_text_offset": "",
+          "long1": 8
+        },
+        {
+          "id": 105,
+          "short1": 5906,
+          "int1": 114,
+          "file_name1": "note_help8010",
+          "file_name2": "",
+          "tab_name": "Появление врат и награды",
+          "empty_text_offset": "",
+          "long1": 8
+        },
+        {
+          "id": 132,
+          "short1": 5935,
+          "int1": 147,
+          "file_name1": "note_helpa150",
+          "file_name2": "",
+          "tab_name": "Расшифровка гримуара",
+          "empty_text_offset": "",
+          "long1": 8
+        },
+        {
+          "id": 137,
+          "short1": 5940,
+          "int1": 152,
+          "file_name1": "note_helpa200",
+          "file_name2": "",
+          "tab_name": "Промежуточное святилище",
+          "empty_text_offset": "",
+          "long1": 8
+        },
+        {
+          "id": 138,
+          "short1": 5941,
+          "int1": 153,
+          "file_name1": "note_helpa210",
+          "file_name2": "",
+          "tab_name": "Пьедестал воспоминаний",
+          "empty_text_offset": "",
+          "long1": 8
+        },
+        {
+          "id": 140,
+          "short1": 5943,
+          "int1": 155,
+          "file_name1": "note_helpa230",
+          "file_name2": "",
+          "tab_name": "Источник Святого Духа",
+          "empty_text_offset": "",
+          "long1": 8
+        },
+        {
+          "id": 141,
+          "short1": 5944,
+          "int1": 156,
+          "file_name1": "note_helpa240",
+          "file_name2": "",
+          "tab_name": "Смена аватаров",
+          "empty_text_offset": "",
+          "long1": 8
+        },
+        {
+          "id": 139,
+          "short1": 5942,
+          "int1": 154,
+          "file_name1": "note_helpa220",
+          "file_name2": "",
+          "tab_name": "Уничтожение монстров",
+          "empty_text_offset": "",
+          "long1": 8
+        },
+        {
+          "id": 110,
+          "short1": 5911,
+          "int1": 120,
+          "file_name1": "note_help9030",
+          "file_name2": "",
+          "tab_name": "Рыбалка: снаряжение",
+          "empty_text_offset": "",
+          "long1": 9
+        },
+        {
+          "id": 107,
+          "short1": 5908,
+          "int1": 117,
+          "file_name1": "note_help9000",
+          "file_name2": "",
+          "tab_name": "Выбор точки ловли",
+          "empty_text_offset": "",
+          "long1": 9
+        },
+        {
+          "id": 108,
+          "short1": 5909,
+          "int1": 118,
+          "file_name1": "note_help9010",
+          "file_name2": "",
+          "tab_name": "Рыбалка: подсечка",
+          "empty_text_offset": "",
+          "long1": 9
+        },
+        {
+          "id": 109,
+          "short1": 5910,
+          "int1": 119,
+          "file_name1": "note_help9020",
+          "file_name2": "",
+          "tab_name": "Рыбалка: действие",
+          "empty_text_offset": "",
+          "long1": 9
+        },
+        {
+          "id": 111,
+          "short1": 5912,
+          "int1": 121,
+          "file_name1": "note_help9100",
+          "file_name2": "",
+          "tab_name": "Режим взлома",
+          "empty_text_offset": "",
+          "long1": 9
+        },
+        {
+          "id": 112,
+          "short1": 5913,
+          "int1": 122,
+          "file_name1": "note_help9110",
+          "file_name2": "",
+          "tab_name": "Взлом: прорыв брандмауэров",
+          "empty_text_offset": "",
+          "long1": 9
+        },
+        {
+          "id": 113,
+          "short1": 5914,
+          "int1": 123,
+          "file_name1": "note_help9120",
+          "file_name2": "",
+          "tab_name": "Взлом: контрольные точки",
+          "empty_text_offset": "",
+          "long1": 9
+        },
+        {
+          "id": 114,
+          "short1": 5915,
+          "int1": 124,
+          "file_name1": "note_help9130",
+          "file_name2": "",
+          "tab_name": "Взлом: ловушки",
+          "empty_text_offset": "",
+          "long1": 9
+        },
+        {
+          "id": 115,
+          "short1": 5916,
+          "int1": 128,
+          "file_name1": "note_help9230",
+          "file_name2": "",
+          "tab_name": "Управление ФИО",
+          "empty_text_offset": "",
+          "long1": 9
+        },
+        {
+          "id": 116,
+          "short1": 5917,
+          "int1": 129,
+          "file_name1": "note_help9240",
+          "file_name2": "",
+          "tab_name": "Режим следования",
+          "empty_text_offset": "",
+          "long1": 9
+        },
+        {
+          "id": 142,
+          "short1": 5945,
+          "int1": 157,
+          "file_name1": "note_helpa250",
+          "file_name2": "",
+          "tab_name": "Карточные игры",
+          "empty_text_offset": "",
+          "long1": 9
+        },
+        {
+          "id": 144,
+          "short1": 5947,
+          "int1": 159,
+          "file_name1": "note_helpa270",
+          "file_name2": "",
+          "tab_name": "Спортивные ставки",
+          "empty_text_offset": "",
+          "long1": 9
+        },
+        {
+          "id": 143,
+          "short1": 5946,
+          "int1": 158,
+          "file_name1": "note_helpa260",
+          "file_name2": "",
+          "tab_name": "Вождение в Песчаном море",
+          "empty_text_offset": "",
+          "long1": 9
+        }
+      ]
+    },
+    {
+      "name": "RealTimeHelpTableData",
+      "data": [
+        {
+          "id": 0,
+          "uint1": 5960,
+          "text": "<I902>: Атака",
+          "float": 10.0,
+          "uint2": 0
+        },
+        {
+          "id": 1,
+          "uint1": 5961,
+          "text": "<I905>: Заряженная атака",
+          "float": 10.0,
+          "uint2": 0
+        },
+        {
+          "id": 2,
+          "uint1": 5962,
+          "text": "<I1113>: Быстрые искусства",
+          "float": 10.0,
+          "uint2": 0
+        },
+        {
+          "id": 3,
+          "uint1": 5963,
+          "text": "<I903>: Уворот",
+          "float": 10.0,
+          "uint2": 0
+        },
+        {
+          "id": 4,
+          "uint1": 5964,
+          "text": "<I912>: Удержание: ZOC",
+          "float": 10.0,
+          "uint2": 0
+        },
+        {
+          "id": 5,
+          "uint1": 5965,
+          "text": "<I1091>: Команда осколков",
+          "float": 0.0,
+          "uint2": 0
+        },
+        {
+          "id": 6,
+          "uint1": 5966,
+          "text": "<I1087>: Усиление осколков",
+          "float": 0.0,
+          "uint2": 0
+        },
+        {
+          "id": 7,
+          "uint1": 5967,
+          "text": "<I1087>: Активировать ZOC",
+          "float": 0.0,
+          "uint2": 0
+        },
+        {
+          "id": 8,
+          "uint1": 5968,
+          "text": "<I1116>+<I1117>: Пробуждение",
+          "float": 10.0,
+          "uint2": 0
+        },
+        {
+          "id": 9,
+          "uint1": 5969,
+          "text": "<I1114>: Меню быстрого доступа",
+          "float": 10.0,
+          "uint2": 0
+        },
+        {
+          "id": 10,
+          "uint1": 0,
+          "text": "<I1087>: Усиление осколков",
+          "float": 0.0,
+          "uint2": 0
+        },
+        {
+          "id": 11,
+          "uint1": 0,
+          "text": "<I1091>: Команда осколков",
+          "float": 0.0,
+          "uint2": 0
+        },
+        {
+          "id": 12,
+          "uint1": 0,
+          "text": "<I1082>: Регенерация",
+          "float": 0.0,
+          "uint2": 0
+        }
+      ]
+    }
+  ]
+}

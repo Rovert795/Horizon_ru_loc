@@ -1,0 +1,1003 @@
+{
+	"headers": [
+		{
+			"name": "BlackJackMessage",
+			"schema": "Kai"
+		},
+		{
+			"name": "BlackJackMedal",
+			"schema": "Kai"
+		},
+		{
+			"name": "BlackJackHelp",
+			"schema": "Kai"
+		},
+		{
+			"name": "BlackJackProb",
+			"schema": "Kai"
+		}
+	],
+	"data": [
+		{
+			"name": "BlackJackMessage",
+			"data": [
+				{
+					"uint": 65535,
+					"id": 0,
+					"text": "Not drawing a card? Perhaps you\nhave a pretty good hand already.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 1,
+					"text": "All right, let's see what I draw.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 2,
+					"text": "You drew quite a few cards there.\nAre you finally content with your hand?",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 3,
+					"text": "Welcome. Here you may enjoy\na game of blackjack.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 4,
+					"text": "Are you sure you want to surrender?\nI'll have to keep your wager.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 5,
+					"text": "You win! I must admit,\nyou're quite good at this.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 6,
+					"text": "Blackjack. Fantastic job.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 7,
+					"text": "Heehee... Blackjack.\nIt appears luck was on my side.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 8,
+					"text": "A whole seven cards without\nbusting? Now that's impressive.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 9,
+					"text": "Heehee! It appears the Goddess\nwas rooting for me.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 10,
+					"text": "Would you look at that? A draw.\nLet's play another round.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 11,
+					"text": "Bust... That's a shame. Make sure\nto think carefully before hitting.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 12,
+					"text": "Me? Busting? Mmm, I ought\nnot to have hit.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 13,
+					"text": "I can't believe my eyes!\nIt's a standoff!\nWhat a game, folks.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 14,
+					"text": "Incredible, both of us took seven\ncards without busting. Now that\nis rare. Let us have a rematch.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 15,
+					"text": "Drat, I lost. Very well, then,\nhere is your prize money.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 16,
+					"text": "That's a shame. Hopefully you'll\ntake on the challenge another time.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 17,
+					"text": "Okay, I'll deal the cards.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 18,
+					"text": "This will be our final game.\nBe prepared—I won't hold back.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 19,
+					"text": "Then let us resume the game.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 20,
+					"text": "Okay, time to place your wager.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 21,
+					"text": "Here is the prize money.\nIt's all yours.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 22,
+					"text": "The prize money will go up\nin the next game. Would you\nlike to give it another go?",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 23,
+					"text": "Oh, you don't have enough tokens.\nPlease purchase some at reception first.",
+					"long": 0
+				},
+				{
+					"uint": 65535,
+					"id": 24,
+					"text": "I look forward to playing with you again.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 0,
+					"text": "Not drawing a card? Perhaps you\nhave a pretty good hand already.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 1,
+					"text": "All right, let's see what I draw.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 2,
+					"text": "You drew quite a few cards there.\nAre you finally content with your hand?",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 3,
+					"text": "Welcome. Here you may enjoy\na game of blackjack.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 4,
+					"text": "Oh, you wanna fold?\nYou won't get your wager back.\nIs that okay with you?",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 5,
+					"text": "You win! I must admit,\nyou're quite good at this.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 6,
+					"text": "Blackjack. Fantastic job.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 7,
+					"text": "Heehee... Blackjack.\nIt appears luck was on my side.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 8,
+					"text": "A whole seven cards without\nbusting? Now that's impressive.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 9,
+					"text": "Heehee! It appears the Goddess\nwas rooting for me.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 10,
+					"text": "Would you look at that? A draw.\nLet's play another round.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 11,
+					"text": "Bust... That's a shame. Make sure\nto think carefully before hitting.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 12,
+					"text": "Me? Busting? Mmm, I ought\nnot to have hit.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 13,
+					"text": "I can't believe my eyes!\nIt's a standoff!\nWhat a game, folks.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 14,
+					"text": "Incredible, both of us took seven\ncards without busting. Now that\nis rare. Let us have a rematch.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 15,
+					"text": "Drat, I lost. Very well, then,\nhere is your prize money.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 16,
+					"text": "That's a shame. Hopefully you'll\ntake on the challenge another time.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 17,
+					"text": "Okay, I'll deal the cards.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 18,
+					"text": "This will be our final game.\nBe prepared—I won't hold back.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 19,
+					"text": "Then let us resume the game.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 20,
+					"text": "Okay, time to place your wager.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 21,
+					"text": "Here is the prize money.\nIt's all yours.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 22,
+					"text": "If you proceed to the next game, the prize money\nwill go up. Challenge again?",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 23,
+					"text": "Oh, you don't have enough tokens.\nPlease purchase some at reception first.",
+					"long": 0
+				},
+				{
+					"uint": 900,
+					"id": 24,
+					"text": "I look forward to playing with you again.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 0,
+					"text": "Not drawing a card? Perhaps you\nhave a pretty good hand already.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 1,
+					"text": "All right, let's see what I draw.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 2,
+					"text": "You drew quite a few cards there.\nAre you finally content with your hand?",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 3,
+					"text": "Welcome. Here you may enjoy\na game of blackjack.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 4,
+					"text": "Oh, you want to fold?\nYou won't get your wager back.\nIs that okay with you?",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 5,
+					"text": "You win! I must admit,\nyou're quite good at this.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 6,
+					"text": "Blackjack. Fantastic job.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 7,
+					"text": "Heehee... Blackjack.\nIt appears luck was on my side.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 8,
+					"text": "A whole seven cards without\nbusting? Now that's impressive.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 9,
+					"text": "Heehee. Seems like the Goddess\nwas on my side.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 10,
+					"text": "Would you look at that? A draw.\nLet's play another round.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 11,
+					"text": "Bust... That's a shame. Make sure\nto think carefully before hitting.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 12,
+					"text": "Me? Busting? Mmm, I ought\nnot to have hit.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 13,
+					"text": "I can't believe my eyes!\nIt's a standoff!\nWhat a game, folks.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 14,
+					"text": "Incredible, both of us took seven\ncards without busting. Now that\nis rare. Let us have a rematch.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 15,
+					"text": "Drat, I lost. Very well, then,\nhere is your prize money.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 16,
+					"text": "That's a shame. Hopefully you'll\ntake on the challenge another time.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 17,
+					"text": "Okay, I'll deal the cards.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 18,
+					"text": "This will be our final game.\nBe prepared—I won't hold back.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 19,
+					"text": "Then let us resume the game.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 20,
+					"text": "Okay, time to place your wager.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 21,
+					"text": "Here is the prize money.\nIt's all yours.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 22,
+					"text": "The prize money will go up\nin the next game. Would you\nlike to give it another go?",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 23,
+					"text": "Oh, you don't have enough tokens.\nPlease purchase some at reception first.",
+					"long": 0
+				},
+				{
+					"uint": 901,
+					"id": 24,
+					"text": "I look forward to playing with you again.",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 0,
+					"text": "Oh? Not going to draw? You must have\na pretty good hand.",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 1,
+					"text": "I'll draw, too.",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 2,
+					"text": "You've drawn quite a few cards.\nDid you get the hand you wanted?",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 3,
+					"text": "The name of the game is Blackjack.",
+					"long": 26370
+				},
+				{
+					"uint": 882,
+					"id": 4,
+					"text": "Oh, you're giving up? You know you'll\nlose what you wagered, right? Are you\nsure you're okay with that?",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 5,
+					"text": "Victory is yours.\nYou're a real card sharp.",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 6,
+					"text": "Well, look at that. A blackjack.\nNicely done!",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 7,
+					"text": "Annnd blackjack. Heehee.\nGuess this round goes to me.",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 8,
+					"text": "Seven cards without busting?\nWow, that's surprising.",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 9,
+					"text": "Heehee. Looks like I win.",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 10,
+					"text": "A draw. Guess we'll have to go again.",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 11,
+					"text": "Welp, you busted. Got a little carried\naway, there. Try to judge your hand a\nlittle better before you draw next time.",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 12,
+					"text": "Seriously? I busted? Ugh. That's what\nI get for being overconfident.",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 13,
+					"text": "Wait, we BOTH got blackjack?\nThat was one heck of a round, huh?",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 14,
+					"text": "I can't believe we both got seven cards.\nThat kinda thing almost never happens.\nLet's play another round.",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 15,
+					"text": "Hate to admit it, but you got me good.\nWell, to the victor goes the spoils.",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 16,
+					"text": "Heehee. I win. Come back whenever\nyou want a rematch.",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 17,
+					"text": "I'll deal.",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 18,
+					"text": "This is the last round.\nDon't expect me to go easy on you.",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 19,
+					"text": "Way to stand your ground.",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 20,
+					"text": "Heh. I'm not gonna lose.",
+					"long": 26371
+				},
+				{
+					"uint": 882,
+					"id": 21,
+					"text": "Congrats. Here's your tokens.",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 22,
+					"text": "You'll wager what you've already\nwon if you decide to keep playing.\nSo? What's it gonna be?",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 23,
+					"text": "Looks like you don't have enough tokens.\nHead over to the counter and buy\nsome first.",
+					"long": 0
+				},
+				{
+					"uint": 882,
+					"id": 24,
+					"text": "Let's play again sometime.",
+					"long": 26372
+				},
+				{
+					"uint": 884,
+					"id": 0,
+					"text": "Oh? Not going to draw? I take it you\nhave a Goddess-sent hand, then?",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 1,
+					"text": "I suppose I'll show my hand.",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 2,
+					"text": "Oh, my. You drew quite a few cards\nthere. Did it turn out like you hoped?",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 3,
+					"text": "I feel a lucky streak coming on! ❤",
+					"long": 26806
+				},
+				{
+					"uint": 884,
+					"id": 4,
+					"text": "Oh? Waving the white flag already?\nBut you'll lose all the tokens you\nwagered. Are you quite sure?",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 5,
+					"text": "Heehee. A victory for you.\nThat was positively thrilling. ❤",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 6,
+					"text": "You got a blackjack!\nWell done!",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 7,
+					"text": "That's blackjack for me!\nToday's my lucky day. ♪",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 8,
+					"text": "My, my. Is that seven cards, you have?\nMarvelous. Simply, marvelous.",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 9,
+					"text": "And the victor is moi! ♪",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 10,
+					"text": "Oh, my. A draw. How about we go\nanother round? ❤",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 11,
+					"text": "Aww, you busted. Too bad. Make sure\nto check your hand more carefully\nnext time, mm'kay?",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 12,
+					"text": "Oh, dear. I busted. I suppose\nI played a bit too aggressively.",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 13,
+					"text": "My, we both got blackjack?\nOoh! Matches like these always have me\npent up something fierce. ❤",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 14,
+					"text": "To think we both got seven cards.\nThat sort of thing is quite rare!\nNow, let's play another round.",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 15,
+					"text": "I admit defeat. Here's your reward. ❤",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 16,
+					"text": "Heehee. It's okay. Not all of us are\nblessed with luck. But I'd be happy to\nplay you again, if you'd like.",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 17,
+					"text": "I'll deal us in!",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 18,
+					"text": "We're in the endgame now. It's time\nfor me to don my serious face.",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 19,
+					"text": "Now, let's keep going!",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 20,
+					"text": "Allow me to take those tokens off your hands.",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 21,
+					"text": "The fruit of your labors. ❤",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 22,
+					"text": "If we play again, your previous winnings\nwill be added to the pot. Care to go\nanother round?",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 23,
+					"text": "Oops. You'll need more tokens, I'm afraid.\nWhy don't you head over to the counter and\ngrab a few more?",
+					"long": 0
+				},
+				{
+					"uint": 884,
+					"id": 24,
+					"text": "Heehee. Thanks for the thrilling round. ❤",
+					"long": 26807
+				},
+				{
+					"uint": 886,
+					"id": 0,
+					"text": "Not drawing, huh? Must have a half-decent hand, then.",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 1,
+					"text": "I'm going to draw, too.",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 2,
+					"text": "You drew a bunch of cards.\nDid you get the ones you wanted?",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 3,
+					"text": "Let the games begin!",
+					"long": 26928
+				},
+				{
+					"uint": 886,
+					"id": 4,
+					"text": "What, you're quitting? You're not\ngoing to get the tokens you wagered\nback. Are you okay with that?",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 5,
+					"text": "That one was all you. You're not half\nbad at this.",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 6,
+					"text": "You got a blackjack. Nicely done!",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 7,
+					"text": "Blackjack! Looks like luck's on my side!",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 8,
+					"text": "Seven cards? Wow!",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 9,
+					"text": "Yes! I won! Guess I got lucky that time!",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 10,
+					"text": "A tie. Let's go again!",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 11,
+					"text": "You busted... Dang. Gotta be careful\nwhen opting to draw or not.",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 12,
+					"text": "I busted? Shoot. Made a bad call there,\nI guess.",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 13,
+					"text": "Double blackjacks? Wow, what a\nwild round that was!",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 14,
+					"text": "Did we really both just draw seven cards?!\nI didn't even know that was possible.\nLet's go another round!",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 15,
+					"text": "Well, you got me beat.\nLet me get you your winnings.",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 16,
+					"text": "Try not to let it get to you.\nLet's play again sometime, all right?",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 17,
+					"text": "I'll deal us in.",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 18,
+					"text": "Last game. Just know I'm gonna play\nto win!",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 19,
+					"text": "Okay, let's get back to the game, then.",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 20,
+					"text": "I'll hold on to your tokens for now.",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 21,
+					"text": "Here's your winnings.",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 22,
+					"text": "If we play again, your winnings will\nget added back to the pot. Would you\nlike to go another round?",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 23,
+					"text": "Whoops. Not enough tokens.\nYou can buy some over at the counter.",
+					"long": 0
+				},
+				{
+					"uint": 886,
+					"id": 24,
+					"text": "Come back anytime!",
+					"long": 26929
+				}
+			]
+		},
+		{
+			"name": "BlackJackMedal",
+			"data": [
+				{
+					"uint1": 5,
+					"uint2": 20,
+					"uint3": 50,
+					"uint4": 200,
+					"uint5": 500,
+					"uint6": 2500
+				}
+			]
+		},
+		{
+			"name": "BlackJackHelp",
+			"data": [
+				{
+					"id": 0,
+					"text": "Draw another card."
+				},
+				{
+					"id": 1,
+					"text": "Play with current hand."
+				}
+			]
+		},
+		{
+			"name": "BlackJackProb",
+			"data": [
+				{
+					"uint1": 65,
+					"uint2": 30,
+					"uint3": 0,
+					"uint4": 0,
+					"uint5": 0,
+					"uint6": 0,
+					"uint7": 5
+				},
+				{
+					"uint1": 55,
+					"uint2": 25,
+					"uint3": 9,
+					"uint4": 1,
+					"uint5": 0,
+					"uint6": 0,
+					"uint7": 10
+				},
+				{
+					"uint1": 45,
+					"uint2": 25,
+					"uint3": 9,
+					"uint4": 3,
+					"uint5": 2,
+					"uint6": 1,
+					"uint7": 15
+				},
+				{
+					"uint1": 45,
+					"uint2": 25,
+					"uint3": 9,
+					"uint4": 3,
+					"uint5": 2,
+					"uint6": 1,
+					"uint7": 15
+				},
+				{
+					"uint1": 45,
+					"uint2": 25,
+					"uint3": 9,
+					"uint4": 3,
+					"uint5": 2,
+					"uint6": 1,
+					"uint7": 15
+				}
+			]
+		}
+	]
+}

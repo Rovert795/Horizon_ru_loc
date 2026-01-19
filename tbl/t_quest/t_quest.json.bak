@@ -1,0 +1,7573 @@
+{
+	"headers": [
+		{
+			"name": "QuestRank",
+			"schema": "Kuro1"
+		},
+		{
+			"name": "QuestChapterRank",
+			"schema": "Kuro1"
+		},
+		{
+			"name": "QuestTitle",
+			"schema": "Kai"
+		},
+		{
+			"name": "QuestText",
+			"schema": "Kuro2"
+		},
+		{
+			"name": "QuestSubText",
+			"schema": "Kuro2"
+		},
+		{
+			"name": "QuestReportMessage",
+			"schema": "Kuro1"
+		},
+		{
+			"name": "QuestCheckMessage",
+			"schema": "Kuro1"
+		},
+		{
+			"name": "RecruitmentMember",
+			"schema": "Kuro1"
+		},
+		{
+			"name": "QuestReportBackTexture",
+			"schema": "Kuro1"
+		},
+		{
+			"name": "StampCharaList",
+			"schema": "Kai"
+		}
+	],
+	"data": [
+		{
+			"name": "QuestRank",
+			"data": [
+				{
+					"id": 0,
+					"rank_name": "E",
+					"int1": 0,
+					"int2": 0
+				},
+				{
+					"id": 1,
+					"rank_name": "E+",
+					"int1": 25,
+					"int2": 4150
+				},
+				{
+					"id": 2,
+					"rank_name": "E++",
+					"int1": 50,
+					"int2": 1741
+				},
+				{
+					"id": 3,
+					"rank_name": "D",
+					"int1": 75,
+					"int2": 986687
+				},
+				{
+					"id": 4,
+					"rank_name": "D+",
+					"int1": 100,
+					"int2": 4250
+				},
+				{
+					"id": 5,
+					"rank_name": "D++",
+					"int1": 125,
+					"int2": 1746
+				},
+				{
+					"id": 6,
+					"rank_name": "C",
+					"int1": 150,
+					"int2": 986689
+				},
+				{
+					"id": 7,
+					"rank_name": "C+",
+					"int1": 175,
+					"int2": 3960
+				},
+				{
+					"id": 8,
+					"rank_name": "C++",
+					"int1": 200,
+					"int2": 1743
+				},
+				{
+					"id": 9,
+					"rank_name": "B",
+					"int1": 230,
+					"int2": 1051895
+				},
+				{
+					"id": 10,
+					"rank_name": "B+",
+					"int1": 260,
+					"int2": 4361
+				},
+				{
+					"id": 11,
+					"rank_name": "B++",
+					"int1": 290,
+					"int2": 1052228
+				},
+				{
+					"id": 12,
+					"rank_name": "A",
+					"int1": 320,
+					"int2": 1236
+				},
+				{
+					"id": 13,
+					"rank_name": "AA",
+					"int1": 350,
+					"int2": 1036
+				},
+				{
+					"id": 14,
+					"rank_name": "AAA",
+					"int1": 385,
+					"int2": 1748
+				}
+			]
+		},
+		{
+			"name": "QuestChapterRank",
+			"data": [
+				{
+					"id": 0,
+					"int1": 6,
+					"int2": 4,
+					"int3": 0,
+					"int4": 0
+				},
+				{
+					"id": 1,
+					"int1": 23,
+					"int2": 19,
+					"int3": 14,
+					"int4": 10
+				},
+				{
+					"id": 2,
+					"int1": 20,
+					"int2": 16,
+					"int3": 11,
+					"int4": 7
+				},
+				{
+					"id": 3,
+					"int1": 10,
+					"int2": 9,
+					"int3": 7,
+					"int4": 6
+				},
+				{
+					"id": 4,
+					"int1": 22,
+					"int2": 18,
+					"int3": 16,
+					"int4": 14
+				},
+				{
+					"id": 6,
+					"int1": 22,
+					"int2": 18,
+					"int3": 16,
+					"int4": 15
+				},
+				{
+					"id": 5,
+					"int1": 22,
+					"int2": 18,
+					"int3": 16,
+					"int4": 15
+				},
+				{
+					"id": 9,
+					"int1": 12,
+					"int2": 7,
+					"int3": 0,
+					"int4": 0
+				},
+				{
+					"id": 10,
+					"int1": 24,
+					"int2": 20,
+					"int3": 15,
+					"int4": 10
+				},
+				{
+					"id": 11,
+					"int1": 27,
+					"int2": 23,
+					"int3": 15,
+					"int4": 7
+				},
+				{
+					"id": 12,
+					"int1": 10,
+					"int2": 6,
+					"int3": 4,
+					"int4": 3
+				},
+				{
+					"id": 14,
+					"int1": 22,
+					"int2": 18,
+					"int3": 17,
+					"int4": 16
+				},
+				{
+					"id": 13,
+					"int1": 22,
+					"int2": 18,
+					"int3": 14,
+					"int4": 11
+				},
+				{
+					"id": 15,
+					"int1": 18,
+					"int2": 12,
+					"int3": 10,
+					"int4": 9
+				},
+				{
+					"id": 16,
+					"int1": 23,
+					"int2": 19,
+					"int3": 14,
+					"int4": 10
+				},
+				{
+					"id": 18,
+					"int1": 23,
+					"int2": 19,
+					"int3": 16,
+					"int4": 13
+				},
+				{
+					"id": 17,
+					"int1": 23,
+					"int2": 20,
+					"int3": 0,
+					"int4": 0
+				},
+				{
+					"id": 19,
+					"int1": 0,
+					"int2": 0,
+					"int3": 0,
+					"int4": 0
+				}
+			]
+		},
+		{
+			"name": "QuestTitle",
+			"data": [
+				{
+					"id": 151,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Taking the VAR-halla Sector by Storm",
+					"quest_giver": "Marduk Total Security Company",
+					"short1": 1,
+					"int2": 0,
+					"empty2": 0,
+					"file_name": "d6000",
+					"toffset": "",
+					"int3": 4,
+					"int4": 5000,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 152,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Marduk Company Social Gathering",
+					"quest_giver": "Marduk Total Security Company",
+					"short1": 1,
+					"int2": 0,
+					"empty2": 0,
+					"file_name": "f0000",
+					"toffset": "",
+					"int3": 0,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 153,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Patrolling the Capital",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 1,
+					"empty2": 0,
+					"file_name": "c0000",
+					"toffset": "",
+					"int3": 3,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 154,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Check in with the Bracers",
+					"quest_giver": "Bracer Guild",
+					"short1": 1,
+					"int2": 1,
+					"empty2": 0,
+					"file_name": "c0000",
+					"toffset": "",
+					"int3": 2,
+					"int4": 6000,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 155,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Patrolling Lèvre District",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 1,
+					"empty2": 0,
+					"file_name": "c0000",
+					"toffset": "",
+					"int3": 1,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 156,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Patrolling the Capital 2",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 2,
+					"empty2": 0,
+					"file_name": "c0000",
+					"toffset": "",
+					"int3": 3,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 157,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Patrolling the Blacklight District",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 2,
+					"empty2": 0,
+					"file_name": "c0000",
+					"toffset": "",
+					"int3": 3,
+					"int4": 7000,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 158,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Patrolling the Chardin District",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 2,
+					"empty2": 0,
+					"file_name": "c0000",
+					"toffset": "",
+					"int3": 1,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 159,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Patrolling the Capital 3",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 3,
+					"empty2": 0,
+					"file_name": "c0000",
+					"toffset": "",
+					"int3": 4,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 160,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Tracking Jeffrey",
+					"quest_giver": "Deputy Secretary Valentino",
+					"short1": 1,
+					"int2": 3,
+					"empty2": 0,
+					"file_name": "c0000",
+					"toffset": "",
+					"int3": 2,
+					"int4": 8000,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 161,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Patrolling Basel",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 4,
+					"empty2": 0,
+					"file_name": "t3000",
+					"toffset": "",
+					"int3": 5,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 162,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Assault Frame Joint Exercise",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 4,
+					"empty2": 0,
+					"file_name": "t3000",
+					"toffset": "",
+					"int3": 6,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 171,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Patrolling Basel 2",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 10,
+					"empty2": 0,
+					"file_name": "t3000",
+					"toffset": "",
+					"int3": 5,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 172,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Stargazing at the Observatory",
+					"quest_giver": "Towa",
+					"short1": 1,
+					"int2": 10,
+					"empty2": 0,
+					"file_name": "t3000",
+					"toffset": "",
+					"int3": 0,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 173,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Observatory Investigation",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 10,
+					"empty2": 0,
+					"file_name": "t3000",
+					"toffset": "",
+					"int3": 5,
+					"int4": 12000,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 166,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Patrolling the Capital 4",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 6,
+					"empty2": 0,
+					"file_name": "c0000",
+					"toffset": "",
+					"int3": 5,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 167,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "A CryptiC Orbmail",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 6,
+					"empty2": 0,
+					"file_name": "c0000",
+					"toffset": "",
+					"int3": 3,
+					"int4": 10000,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 168,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Patrolling the Capital 5",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 11,
+					"empty2": 0,
+					"file_name": "c0000",
+					"toffset": "",
+					"int3": 3,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 169,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Blacklight District SOS",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 11,
+					"empty2": 0,
+					"file_name": "c0000",
+					"toffset": "",
+					"int3": 1,
+					"int4": 12000,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 170,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Investigate the Conservation Area",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 11,
+					"empty2": 0,
+					"file_name": "c0000",
+					"toffset": "",
+					"int3": 3,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 175,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Patrolling the Capital 6",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 12,
+					"empty2": 0,
+					"file_name": "c0000",
+					"toffset": "",
+					"int3": 3,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 163,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Patrolling Tharbad",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 5,
+					"empty2": 0,
+					"file_name": "t2000",
+					"toffset": "",
+					"int3": 5,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 164,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Underground Waterway Investigation",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 5,
+					"empty2": 0,
+					"file_name": "t2000",
+					"toffset": "",
+					"int3": 7,
+					"int4": 10000,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 165,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Triple Teaming the Third Domain",
+					"quest_giver": "Epstein Foundation",
+					"short1": 1,
+					"int2": 9,
+					"empty2": 0,
+					"file_name": "c0000",
+					"toffset": "",
+					"int3": 9,
+					"int4": 12000,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 182,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Patrolling Longlai",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 16,
+					"empty2": 0,
+					"file_name": "t4000",
+					"toffset": "",
+					"int3": 5,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 183,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "To the Land Where the Heavens Turn",
+					"quest_giver": "Yun Ka-fai",
+					"short1": 1,
+					"int2": 16,
+					"empty2": 0,
+					"file_name": "t4000",
+					"toffset": "",
+					"int3": 5,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 178,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Doing the Rounds in Anchorville",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 14,
+					"empty2": 0,
+					"file_name": "t7000",
+					"toffset": "",
+					"int3": 4,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 179,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "General Hospital Investigation",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 14,
+					"empty2": 0,
+					"file_name": "t7000",
+					"toffset": "",
+					"int3": 3,
+					"int4": 15000,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 180,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Patrolling Anchorville 2",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 15,
+					"empty2": 0,
+					"file_name": "t7000",
+					"toffset": "",
+					"int3": 2,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 181,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "The Scarlet Night Falls",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 15,
+					"empty2": 0,
+					"file_name": "t7000",
+					"toffset": "",
+					"int3": 5,
+					"int4": 15000,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 186,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Patrolling Anchorville 3",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 18,
+					"empty2": 0,
+					"file_name": "t7000",
+					"toffset": "",
+					"int3": 5,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 187,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Weathering the White Pandemonium",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 18,
+					"empty2": 0,
+					"file_name": "t7000",
+					"toffset": "",
+					"int3": 8,
+					"int4": 15000,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 176,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Patrolling Tharbad 2",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 13,
+					"empty2": 0,
+					"file_name": "t2000",
+					"toffset": "",
+					"int3": 4,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 177,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "The Truth Behind the Irrigation System",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 13,
+					"empty2": 0,
+					"file_name": "t2000",
+					"toffset": "",
+					"int3": 7,
+					"int4": 15000,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 184,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Hunting the Target",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 17,
+					"empty2": 0,
+					"file_name": "t0000",
+					"toffset": "",
+					"int3": 8,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 185,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Hunting the Target 2",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 17,
+					"empty2": 0,
+					"file_name": "t0000",
+					"toffset": "",
+					"int3": 12,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 188,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Infiltrating the Presidential Office",
+					"quest_giver": "――――",
+					"short1": 1,
+					"int2": 19,
+					"empty2": 0,
+					"file_name": "c0000",
+					"toffset": "",
+					"int3": 0,
+					"int4": 0,
+					"float": 0.0,
+					"int5": 0,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 1,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Proscribed Part-Time Plight",
+					"quest_giver": "Colt",
+					"short1": 1,
+					"int2": 1,
+					"empty2": 0,
+					"file_name": "c0400",
+					"toffset": "",
+					"int3": 3,
+					"int4": 3000,
+					"float": 1.3834361581072956e+37,
+					"int5": 32054,
+					"int6": 2,
+					"ubyte1": 0,
+					"ubyte2": 1,
+					"ubyte3": 1,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 2,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Space Investment Scam",
+					"quest_giver": "Johannes",
+					"short1": 1,
+					"int2": 1,
+					"empty2": 0,
+					"file_name": "c1800",
+					"toffset": "",
+					"int3": 2,
+					"int4": 3000,
+					"float": 1.3834375525229558e+37,
+					"int5": 32054,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 1,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 51,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Waterworks Bounty",
+					"quest_giver": "CID",
+					"short1": 0,
+					"int2": 1,
+					"empty2": 0,
+					"file_name": "c0800",
+					"toffset": "",
+					"int3": 3,
+					"int4": 3000,
+					"float": 1.3834901600228653e+37,
+					"int5": 32054,
+					"int6": 3,
+					"ubyte1": 1,
+					"ubyte2": 1,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 3,
+					"int1": 32,
+					"empty1": 0,
+					"quest_description": "Bathhouse of Ill Repute",
+					"quest_giver": "----",
+					"short1": 0,
+					"int2": 1,
+					"empty2": 0,
+					"file_name": "",
+					"toffset": "",
+					"int3": 1,
+					"int4": 2000,
+					"float": 1.3790740456268502e+37,
+					"int5": 32054,
+					"int6": 3,
+					"ubyte1": 1,
+					"ubyte2": 1,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 4,
+					"int1": 32,
+					"empty1": 0,
+					"quest_description": "Zecht Arm-aments",
+					"quest_giver": "",
+					"short1": 0,
+					"int2": 1,
+					"empty2": 0,
+					"file_name": "",
+					"toffset": "",
+					"int3": 2,
+					"int4": 0,
+					"float": 1.3790740456268502e+37,
+					"int5": 32054,
+					"int6": 1,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 5,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Licensed to Kill a Lowlife",
+					"quest_giver": "",
+					"short1": 0,
+					"int2": 2,
+					"empty2": 0,
+					"file_name": "c1400",
+					"toffset": "",
+					"int3": 2,
+					"int4": 4000,
+					"float": 1.640979659953264e+37,
+					"int5": 32083,
+					"int6": 2,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 1,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 6,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Confidential Data Theft",
+					"quest_giver": "Chief Basset",
+					"short1": 0,
+					"int2": 2,
+					"empty2": 0,
+					"file_name": "c0200",
+					"toffset": "",
+					"int3": 2,
+					"int4": 4000,
+					"float": 1.6409809276038643e+37,
+					"int5": 32083,
+					"int6": 2,
+					"ubyte1": 0,
+					"ubyte2": 1,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 52,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Memorial Park Bounty",
+					"quest_giver": "Edith Police Department",
+					"short1": 0,
+					"int2": 2,
+					"empty2": 0,
+					"file_name": "c0600",
+					"toffset": "",
+					"int3": 3,
+					"int4": 4000,
+					"float": 1.641029225091733e+37,
+					"int5": 32083,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 1,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 7,
+					"int1": 32,
+					"empty1": 0,
+					"quest_description": "Book Hunt",
+					"quest_giver": "Shaheena",
+					"short1": 0,
+					"int2": 2,
+					"empty2": 0,
+					"file_name": "",
+					"toffset": "",
+					"int3": 2,
+					"int4": 2000,
+					"float": 1.6366119698101777e+37,
+					"int5": 32083,
+					"int6": 1,
+					"ubyte1": 1,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 8,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "The Prodigal Cat",
+					"quest_giver": "Morges",
+					"short1": 0,
+					"int2": 3,
+					"empty2": 0,
+					"file_name": "",
+					"toffset": "",
+					"int3": 3,
+					"int4": 4000,
+					"float": 1.8775345440461937e+37,
+					"int5": 32105,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 9,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Orbal Microwaves Fever",
+					"quest_giver": "Manager Radad",
+					"short1": 0,
+					"int2": 4,
+					"empty2": 0,
+					"file_name": "t3000",
+					"toffset": "",
+					"int3": 2,
+					"int4": 6000,
+					"float": 2.1145225843492213e+37,
+					"int5": 32129,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 1,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 10,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Holo Core Head Scratcher",
+					"quest_giver": "Associate Prof. Athena",
+					"short1": 0,
+					"int2": 4,
+					"empty2": 0,
+					"file_name": "t3200",
+					"toffset": "",
+					"int3": 2,
+					"int4": 6000,
+					"float": 2.1145241055299416e+37,
+					"int5": 32129,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 11,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Creil Fund Crisis",
+					"quest_giver": "Kaina and Allison",
+					"short1": 0,
+					"int2": 6,
+					"empty2": 0,
+					"file_name": "c0800",
+					"toffset": "",
+					"int3": 2,
+					"int4": 6000,
+					"float": 2.0231400611149087e+37,
+					"int5": 32190,
+					"int6": 2,
+					"ubyte1": 0,
+					"ubyte2": 1,
+					"ubyte3": 1,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 12,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Note from Longtime Friend",
+					"quest_giver": "Luke",
+					"short1": 1,
+					"int2": 6,
+					"empty2": 0,
+					"file_name": "c0000",
+					"toffset": "",
+					"int3": 3,
+					"int4": 6000,
+					"float": 2.0231429767112892e+37,
+					"int5": 32190,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 54,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Edith Outskirts Bounty",
+					"quest_giver": "Edith Police Department",
+					"short1": 0,
+					"int2": 6,
+					"empty2": 0,
+					"file_name": "c2000",
+					"toffset": "",
+					"int3": 3,
+					"int4": 6000,
+					"float": 2.0231844288859167e+37,
+					"int5": 32190,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 1,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 13,
+					"int1": 32,
+					"empty1": 0,
+					"quest_description": "The Ultimate Taco",
+					"quest_giver": "Primo",
+					"short1": 0,
+					"int2": 6,
+					"empty2": 0,
+					"file_name": "",
+					"toffset": "",
+					"int3": 2,
+					"int4": 3000,
+					"float": 2.018765018598341e+37,
+					"int5": 32190,
+					"int6": 1,
+					"ubyte1": 1,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 14,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Search for Sinem",
+					"quest_giver": "Manager Fazil",
+					"short1": 0,
+					"int2": 5,
+					"empty2": 0,
+					"file_name": "t2200",
+					"toffset": "",
+					"int3": 4,
+					"int4": 6000,
+					"float": 2.849986588408915e+37,
+					"int5": 32178,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 1,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 15,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Crème de la Crème Sweets",
+					"quest_giver": "Philica",
+					"short1": 0,
+					"int2": 5,
+					"empty2": 0,
+					"file_name": "t2000",
+					"toffset": "",
+					"int3": 3,
+					"int4": 6000,
+					"float": 2.8499883631197555e+37,
+					"int5": 32178,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 16,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Oh, No, CEO",
+					"quest_giver": "Secretary Kohen",
+					"short1": 1,
+					"int2": 10,
+					"empty2": 0,
+					"file_name": "t3200",
+					"toffset": "",
+					"int3": 2,
+					"int4": 7000,
+					"float": 2.334915557114541e+37,
+					"int5": 32147,
+					"int6": 2,
+					"ubyte1": 0,
+					"ubyte2": 1,
+					"ubyte3": 1,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 17,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Test Bike Trouble",
+					"quest_giver": "Manager Taoming",
+					"short1": 0,
+					"int2": 10,
+					"empty2": 0,
+					"file_name": "t3000",
+					"toffset": "",
+					"int3": 2,
+					"int4": 7000,
+					"float": 2.3349178388856215e+37,
+					"int5": 32147,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 0,
+					"ubyte3": 1,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 19,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Vandalized Art",
+					"quest_giver": "Event Planner",
+					"short1": 0,
+					"int2": 11,
+					"empty2": 0,
+					"file_name": "c2600",
+					"toffset": "",
+					"int3": 2,
+					"int4": 6000,
+					"float": 3.348460523924621e+37,
+					"int5": 32205,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 1,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 20,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Root of Strange Illness",
+					"quest_giver": "Radley",
+					"short1": 0,
+					"int2": 11,
+					"empty2": 0,
+					"file_name": "c0200",
+					"toffset": "",
+					"int3": 2,
+					"int4": 6000,
+					"float": 3.3484635662860616e+37,
+					"int5": 32205,
+					"int6": 2,
+					"ubyte1": 0,
+					"ubyte2": 1,
+					"ubyte3": 1,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 58,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Junction Area Bounty",
+					"quest_giver": "Bracer Guild",
+					"short1": 0,
+					"int2": 11,
+					"empty2": 0,
+					"file_name": "c0000",
+					"toffset": "",
+					"int3": 3,
+					"int4": 6000,
+					"float": 3.348531512358234e+37,
+					"int5": 32205,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 1,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 21,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "New Fixer on the Block?",
+					"quest_giver": "???",
+					"short1": 0,
+					"int2": 11,
+					"empty2": 0,
+					"file_name": "",
+					"toffset": "",
+					"int3": 2,
+					"int4": 3000,
+					"float": 3.339685339409601e+37,
+					"int5": 32205,
+					"int6": 1,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 1,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 22,
+					"int1": 32,
+					"empty1": 0,
+					"quest_description": "Swallow Flown the Coop",
+					"quest_giver": "Mark",
+					"short1": 0,
+					"int2": 11,
+					"empty2": 0,
+					"file_name": "",
+					"toffset": "",
+					"int3": 2,
+					"int4": 0,
+					"float": 3.339685339409601e+37,
+					"int5": 32205,
+					"int6": 1,
+					"ubyte1": 1,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 23,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "GR Championship",
+					"quest_giver": "Graham",
+					"short1": 0,
+					"int2": 12,
+					"empty2": 0,
+					"file_name": "",
+					"toffset": "",
+					"int3": 2,
+					"int4": 7000,
+					"float": 3.7882997879870102e+37,
+					"int5": 32238,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 24,
+					"int1": 32,
+					"empty1": 0,
+					"quest_description": "Blacklight Reconstruction",
+					"quest_giver": "Blacklight District Residents",
+					"short1": 0,
+					"int2": 12,
+					"empty2": 0,
+					"file_name": "",
+					"toffset": "",
+					"int3": 3,
+					"int4": 5000,
+					"float": 3.7882997879870102e+37,
+					"int5": 32238,
+					"int6": 1,
+					"ubyte1": 1,
+					"ubyte2": 1,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 25,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Hotel Reservation Hell",
+					"quest_giver": "Gracio",
+					"short1": 0,
+					"int2": 14,
+					"empty2": 0,
+					"file_name": "t7000",
+					"toffset": "LP_BulletinBoard",
+					"int3": 2,
+					"int4": 8000,
+					"float": 7.162198510036531e+37,
+					"int5": 34086,
+					"int6": 3,
+					"ubyte1": 1,
+					"ubyte2": 1,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 26,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Missing Deliveryman",
+					"quest_giver": "President Nelken",
+					"short1": 0,
+					"int2": 14,
+					"empty2": 0,
+					"file_name": "t7000",
+					"toffset": "LP_BulletinBoard2",
+					"int3": 2,
+					"int4": 8000,
+					"float": 7.162205101819652e+37,
+					"int5": 34086,
+					"int6": 3,
+					"ubyte1": 0,
+					"ubyte2": 1,
+					"ubyte3": 1,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 60,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Anchorville Bounty",
+					"quest_giver": "Bracer Guild",
+					"short1": 0,
+					"int2": 14,
+					"empty2": 0,
+					"file_name": "",
+					"toffset": "",
+					"int3": 4,
+					"int4": 8000,
+					"float": 7.162295358542389e+37,
+					"int5": 34086,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 1,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 27,
+					"int1": 32,
+					"empty1": 0,
+					"quest_description": "Phantom Snapshot",
+					"quest_giver": "Nathan",
+					"short1": 0,
+					"int2": 14,
+					"empty2": 0,
+					"file_name": "",
+					"toffset": "",
+					"int3": 2,
+					"int4": 4000,
+					"float": 7.144600477343923e+37,
+					"int5": 34086,
+					"int6": 1,
+					"ubyte1": 1,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 28,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Casino Counterfeiting",
+					"quest_giver": "Manager David",
+					"short1": 0,
+					"int2": 13,
+					"empty2": 0,
+					"file_name": "t2000",
+					"toffset": "",
+					"int3": 3,
+					"int4": 8000,
+					"float": 5.168377305829001e+37,
+					"int5": 34003,
+					"int6": 2,
+					"ubyte1": 0,
+					"ubyte2": 1,
+					"ubyte3": 1,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 29,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Righteous Thief's Spoils",
+					"quest_giver": "Fatih",
+					"short1": 0,
+					"int2": 13,
+					"empty2": 0,
+					"file_name": "t2200",
+					"toffset": "",
+					"int3": 4,
+					"int4": 8000,
+					"float": 5.168382376431402e+37,
+					"int5": 34003,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 1,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 30,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Looking for My Real Family",
+					"quest_giver": "Merina",
+					"short1": 0,
+					"int2": 15,
+					"empty2": 0,
+					"file_name": "t7000",
+					"toffset": "LP_BulletinBoard2",
+					"int3": 2,
+					"int4": 9000,
+					"float": 7.826843438603635e+37,
+					"int5": 32368,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 31,
+					"int1": 32,
+					"empty1": 0,
+					"quest_description": "Runaway Idol",
+					"quest_giver": "Yulia & Her Manager",
+					"short1": 0,
+					"int2": 15,
+					"empty2": 0,
+					"file_name": "",
+					"toffset": "",
+					"int3": 3,
+					"int4": 4500,
+					"float": 7.809214475236381e+37,
+					"int5": 32368,
+					"int6": 1,
+					"ubyte1": 0,
+					"ubyte2": 1,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 32,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Longlai's Guardian",
+					"quest_giver": "Master Kukai",
+					"short1": 0,
+					"int2": 16,
+					"empty2": 0,
+					"file_name": "",
+					"toffset": "",
+					"int3": 4,
+					"int4": 10000,
+					"float": 4.319990986300977e+37,
+					"int5": 32264,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 33,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Whereabouts of My Son",
+					"quest_giver": "Miyuki",
+					"short1": 0,
+					"int2": 16,
+					"empty2": 0,
+					"file_name": "",
+					"toffset": "",
+					"int3": 4,
+					"int4": 10000,
+					"float": -3.7145621485984285e-36,
+					"int5": 32262,
+					"int6": 2,
+					"ubyte1": 0,
+					"ubyte2": 1,
+					"ubyte3": 1,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 34,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Missing Medical Director",
+					"quest_giver": "Nurse Finlay",
+					"short1": 0,
+					"int2": 18,
+					"empty2": 0,
+					"file_name": "t7000",
+					"toffset": "LP_BulletinBoard2",
+					"int3": 2,
+					"int4": 10000,
+					"float": 9.074059004095945e+37,
+					"int5": 32397,
+					"int6": 2,
+					"ubyte1": 5,
+					"ubyte2": 5,
+					"ubyte3": 5,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 65,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Anchorville Bounty 2",
+					"quest_giver": "Bracer Guild",
+					"short1": 0,
+					"int2": 18,
+					"empty2": 0,
+					"file_name": "t7000",
+					"toffset": "LP_BulletinBoard",
+					"int3": 3,
+					"int4": 10000,
+					"float": 9.074165486746364e+37,
+					"int5": 32397,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 0,
+					"ubyte3": 1,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 35,
+					"int1": 32,
+					"empty1": 0,
+					"quest_description": "Finding the Author",
+					"quest_giver": "Receptionist Rita",
+					"short1": 0,
+					"int2": 18,
+					"empty2": 0,
+					"file_name": "",
+					"toffset": "",
+					"int3": 1,
+					"int4": 0,
+					"float": 9.038750371337428e+37,
+					"int5": 32397,
+					"int6": 1,
+					"ubyte1": 1,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 53,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Auge Canyon Bounty",
+					"quest_giver": "Bracer Guild",
+					"short1": 0,
+					"int2": 4,
+					"empty2": 0,
+					"file_name": "",
+					"toffset": "",
+					"int3": 3,
+					"int4": 6000,
+					"float": 2.1145674591804694e+37,
+					"int5": 32129,
+					"int6": 3,
+					"ubyte1": 1,
+					"ubyte2": 1,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 55,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Sandsea Bounty",
+					"quest_giver": "Bracer Guild",
+					"short1": 0,
+					"int2": 5,
+					"empty2": 0,
+					"file_name": "",
+					"toffset": "",
+					"int3": 3,
+					"int4": 6000,
+					"float": 2.8500621403846888e+37,
+					"int5": 32178,
+					"int6": 3,
+					"ubyte1": 1,
+					"ubyte2": 1,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 56,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Rare Metal Mine Bounty",
+					"quest_giver": "Basel Institute of Science",
+					"short1": 0,
+					"int2": 10,
+					"empty2": 0,
+					"file_name": "t3400",
+					"toffset": "",
+					"int3": 3,
+					"int4": 7000,
+					"float": 2.334993137331275e+37,
+					"int5": 32147,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 1,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 57,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "First Domain Bounty",
+					"quest_giver": "Mirabel",
+					"short1": 0,
+					"int2": 65535,
+					"empty2": 0,
+					"file_name": "d5000",
+					"toffset": "",
+					"int3": 3,
+					"int4": 6000,
+					"float": -3.820356640172434e-37,
+					"int5": 0,
+					"int6": 2,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 59,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Third Domain Bounty",
+					"quest_giver": "Epstein Foundation",
+					"short1": 0,
+					"int2": 65535,
+					"empty2": 0,
+					"file_name": "d5000",
+					"toffset": "",
+					"int3": 3,
+					"int4": 7000,
+					"float": -7.388740556116342e-34,
+					"int5": 0,
+					"int6": 2,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 61,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Waterway Bounty",
+					"quest_giver": "Bracer Guild",
+					"short1": 0,
+					"int2": 13,
+					"empty2": 0,
+					"file_name": "t2200",
+					"toffset": "",
+					"int3": 3,
+					"int4": 8000,
+					"float": 5.168455900166215e+37,
+					"int5": 34003,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 1,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 62,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Fifth Domain Bounty",
+					"quest_giver": "Mirabel",
+					"short1": 0,
+					"int2": 65535,
+					"empty2": 0,
+					"file_name": "d5000",
+					"toffset": "",
+					"int3": 3,
+					"int4": 9000,
+					"float": -7.539206128908999e-34,
+					"int5": 0,
+					"int6": 2,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 63,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Longlai Pubu Bounty",
+					"quest_giver": "Bracer Guild",
+					"short1": 0,
+					"int2": 16,
+					"empty2": 0,
+					"file_name": "",
+					"toffset": "",
+					"int3": 3,
+					"int4": 10000,
+					"float": 4.470616272981535e+37,
+					"int5": 32264,
+					"int6": 2,
+					"ubyte1": 1,
+					"ubyte2": 1,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				},
+				{
+					"id": 64,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Seventh Domain Bounty",
+					"quest_giver": "F. Novartis",
+					"short1": 0,
+					"int2": 65535,
+					"empty2": 0,
+					"file_name": "d5000",
+					"toffset": "",
+					"int3": 4,
+					"int4": 10000,
+					"float": -7.673627122167893e-34,
+					"int5": 0,
+					"int6": 2,
+					"ubyte1": 0,
+					"ubyte2": 0,
+					"ubyte3": 0,
+					"ubyte4": 0,
+					"empty3": 0
+				}
+			]
+		},
+		{
+			"name": "QuestText",
+			"data": [
+				{
+					"quest_id": 151,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "The VAR-halla Sector, the latest AR training facility\ndeveloped by Marduk. I'm a little curious about the\nreasons behind them sending these invitations, but\nwe're not going to pass up this chance to learn about\nthese new shard tactics.\n\nWe're going to get this training done, and get it done in\nstyle.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 151,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Complete the training exercise",
+					"array_flag1": [
+						32004
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32022
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 152,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "A social gathering is being held for the people who\nwere invited to the joint training exercise. We've got\nThors people and Kevin from the Gralsritter. There's\ngotta be some reason why they're here. Well, if I want\nto get to the bottom of this, I'll just have to chat 'em up.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 152,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Talk to the invitees",
+					"array_flag1": [
+						32022
+					],
+					"empty3": 0,
+					"array_flag2": [
+						33608
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 152,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "<C0><I1055></C> Take a coffee break",
+					"array_flag1": [
+						33608
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32026
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 153,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "The announcement of the space program has got\neveryone talking, from normal folks to people on the\nseedier side of things. With the second phase in full\nswing, chances are all the excitement's gonna make\npeople more loose-lipped than ever. Might be able to\ngrab some intel about the aims of the space program\nand the long-standing concerns with it. I think it's time\nwe do a bit of sleuthing, and clean up some 4SPGs\nwhile we're at it.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 153,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Explore Old Town",
+					"array_flag1": [
+						32038
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32039
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 153,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Do the rounds in the capital",
+					"array_flag1": [
+						32039
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32041
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 154,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Looks like the guild lost contact with Alvis and Regina\nwhile they were out in the western outskirts. The other\nbracers can't look into it right now since they have their\nhands full dealing with something else. Once we're\ndone with our 4SPGs, let's go make sure they're okay.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 154,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Head to the western outskirts",
+					"array_flag1": [
+						32041
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32045
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 154,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Find Alvis and Regina",
+					"array_flag1": [
+						32045
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32046
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 154,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Help Alvis and Regina",
+					"array_flag1": [
+						32046
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32049
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 155,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "We had to press pause on the rounds to go rescue the\nbracers, but now we can get back to it. The last district\non our itinerary for this morning is the Lèvre District.\nThere shouldn't be many 4SPGs there, given I rarely\ndrop by that place, but it can't hurt to check the board\nanyway.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 155,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Head to the Lèvre District",
+					"array_flag1": [
+						32050
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32054
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 155,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Explore the Lèvre District",
+					"array_flag1": [
+						32054
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32056
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 155,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Visit the Gramheart residence",
+					"array_flag1": [
+						32056
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32058
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 155,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Explore the Gramheart residence",
+					"array_flag1": [
+						32060
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32061
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 155,
+					"int1": 5,
+					"empty1": 0,
+					"quest_description": "<C0><I1055></C> Help with lunch",
+					"array_flag1": [
+						32061
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32063
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 156,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "The idea of working with Elaine was brought to the\ntable. According to her, there are signs that a new\nanti-immigration organization has cropped up, and\nwhat's more, it seems they're active outside the\nRepublic, too. We don't know if this has anything to do\nwith the space program, but I think we should be on the\nlookout for any intel on them as we start up the rounds\nagain.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 156,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Explore Old Town again",
+					"array_flag1": [
+						32069
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32071
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 156,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Find the Grim Portal",
+					"array_flag1": [
+						32071
+					],
+					"empty3": 0,
+					"array_flag2": [
+						33500
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 156,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Access the Grim Garten",
+					"array_flag1": [
+						33500
+					],
+					"empty3": 0,
+					"array_flag2": [
+						33501
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 156,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Clear the Grim Garten's First Domain",
+					"array_flag1": [
+						33501
+					],
+					"empty3": 0,
+					"array_flag2": [
+						33507
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 156,
+					"int1": 5,
+					"empty1": 0,
+					"quest_description": "Explore districts not visited in the morning",
+					"array_flag1": [
+						33507
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32080
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 157,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "We got some interesting pieces of intel from each\ndistrict, but none of it was really conclusive. But if\ntrouble keeps poppin' up like it has, we can follow its\nstench back to the source. If we wanna find that, we\nneed information that you won't get on the surface, so\nwe'll just have to delve into the belly of Edith's\nunderworld—the Blacklight District.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 157,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Head to the Blacklight District",
+					"array_flag1": [
+						32080
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32083
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 157,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Gather information in the Blacklight District",
+					"array_flag1": [
+						32083
+					],
+					"empty3": 0,
+					"array_flag2": [
+						33663
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 157,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Gather information about the kingpin",
+					"array_flag1": [
+						33663
+					],
+					"empty3": 0,
+					"array_flag2": [
+						33666
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 157,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Talk to Magisa",
+					"array_flag1": [
+						33666
+					],
+					"empty3": 0,
+					"array_flag2": [
+						33667
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 157,
+					"int1": 5,
+					"empty1": 0,
+					"quest_description": "Head to the underground culvert",
+					"array_flag1": [
+						33667
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32084
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 157,
+					"int1": 6,
+					"empty1": 0,
+					"quest_description": "Reach the depths of the culvert",
+					"array_flag1": [
+						32084
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32085
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 158,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "It's evening now, and there's a lot of foot traffic in the\nChardin District. I don't normally drop by this place,\nbut when gathering info, sometimes it's good to come\nat things from a different perspective. So let's do the\nrounds here as we planned.\n\n\n\n",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 158,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Head to the Chardin District",
+					"array_flag1": [
+						32086
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32087
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 158,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Explore the Chardin District",
+					"array_flag1": [
+						32087
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32089
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 158,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "<C0><I1055></C> Discuss with the others",
+					"array_flag1": [
+						32089
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32090
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 159,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Over the course of the day, we picked up a lot of info\nfrom different sources, but it's still not enough. And\ntonight, there's a certain smell wafting through the air\nthat wasn't there earlier today. Might lead to\nsomething, so maybe I'll do the night rounds. Been a\nwhile since I've done that.\n\n\n",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 159,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Greet everyone visiting",
+					"array_flag1": [
+						32096
+					],
+					"empty3": 0,
+					"array_flag2": [
+						33705,
+						32097
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 159,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Head to another district",
+					"array_flag1": [
+						33705
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32097
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 159,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Track the cat with a shard search",
+					"array_flag1": [
+						32097
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32098
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 159,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Explore the capital with Jorda",
+					"array_flag1": [
+						32098
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32103
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 160,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Jeffrey, the former leader of Desire and son of Deputy\nSecretary Valentino, is exhibiting strange behavior, like\ngoing out late at night despite being under house arrest.\nI'd like to know what he's up to, so I'm gonna\ninvestigate with my quote-unquote 'new temp,' Jorda.\n\n\n",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 160,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Stake out the Valentino residence",
+					"array_flag1": [
+						32105
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32107
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 160,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Tail Jeffrey",
+					"array_flag1": [
+						32107
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32109
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 160,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Reach the end of the junction area",
+					"array_flag1": [
+						32109
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32114
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 161,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "As we suspected, we were invited by the Republic to\ntake part in a training exercise against Assault Frames,\nwhich starts at 1:00PM. We have plenty of time until\nthen, and we will use it to explore Basel and gather\ninformation. Maybe we can figure out what the\nRepublic is really up to here. Additionally, we can take\non these so-called 4SPGs as proxy spriggans.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 161,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Explore Basel",
+					"array_flag1": [
+						32126
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32127
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 161,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "<C0><I1055></C> Head to the Oort Proving Ground",
+					"array_flag1": [
+						32127
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32130
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 171,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "After the exercise, I'm now fully convinced the space\nprogram has a hidden objective, and I'm not leaving\nBasel before I found out what it is. That, and I still have\nsome business to take care of for Towa. While I'm at it,\nI might as well take this chance to check out the\nInstitute of Science, too.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 171,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Explore Basel again",
+					"array_flag1": [
+						32140
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32144
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 172,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "We're done looking around Basel, and now the sun has\nstarted to set. This seems like the perfect time to head\nto the observatory and do a little stargazing.\n\n\n\n\n",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 172,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Head to the observatory",
+					"array_flag1": [
+						32144
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32146
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 172,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Look through the telescope",
+					"array_flag1": [
+						32146
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32148
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 173,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "We received a request from two notable individuals,\nsuggesting we join hands in investigating the\nobservatory at the Institute of Science. This might help\nus gain insight into what Crow and I saw through the\ntelescope, as well as find out the true purpose of the\nspace program. I accepted their proposal, and together,\nwe will uncover the secrets lying within the observatory.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 173,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Head to the chapel",
+					"array_flag1": [
+						32148
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32149
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 173,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Return to the observatory",
+					"array_flag1": [
+						32149
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32150
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 173,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Find the entrance to the hidden passage",
+					"array_flag1": [
+						32150
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32151
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 173,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Go down to the basement of the observatory",
+					"array_flag1": [
+						32151
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32152
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 173,
+					"int1": 5,
+					"empty1": 0,
+					"quest_description": "Explore the Astrological Workshop Ruins",
+					"array_flag1": [
+						32152
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32155
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 166,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "While investigating Jeffrey last night, we learned he was\ninvolved in some weird-as-hell cult-like ceremony, and\nwe found Ixs. There was a lot of stuff that left me\nscratching my head, like the mysterious device Ixs had\nand that creature he summoned.\n\nWe need to get to the bottom of this, so we'll do our\nusual sweep of the city while exchanging info with our\ncontacts.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 166,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Gather information around the capital",
+					"array_flag1": [
+						32185
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32187
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 167,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "I got an orbmail from a certain Mr. 'CC.' If they used\nthat moniker knowing it'd piss me off, then so help me\nGoddess, I will beat the ever-loving shit out of them.\n\nThey said the white device will be held up for auction at\nThe Chardin. Even though it's probably a trap, we can't\npass this up. We need every lead we can get at this\npoint.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 167,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Head to The Chardin",
+					"array_flag1": [
+						32187
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32189
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 167,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Explore the auction site",
+					"array_flag1": [
+						32189
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32193
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 167,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Chase the fake Grimcat",
+					"array_flag1": [
+						32194
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32196
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 167,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Progress through the labyrinth",
+					"array_flag1": [
+						32196
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32197
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 168,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "We got some info from the society about a device that\nseems to be a replica of a Genesis, as well as a group\ncalled A∵D—AKA Alter Dawn. We also now have a\nrough idea about the other groups' whereabouts thanks\nto our most recent excursion through the Garten. We\ndon't have all the pieces to this puzzle, but at least now\nwe have a basic outline of what's going on with this\ncase. We'll continue our investigation with Elaine.\n\n",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 168,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Gather information around the capital",
+					"array_flag1": [
+						32200
+					],
+					"empty3": 0,
+					"array_flag2": [
+						33876
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 168,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Go to 2F behind the kitchen and talk to Yumé",
+					"array_flag1": [
+						33876
+					],
+					"empty3": 0,
+					"array_flag2": [
+						33851
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 168,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Gather information around the capital",
+					"array_flag1": [
+						33851
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32203
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 168,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Head to Bermotti's",
+					"array_flag1": [
+						32203
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32205
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 169,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "There was a call for help from the Blacklight District. I\ndon't know what's going on, but I can hear screaming\nand sounds of fighting. No time to sit around. We're\nheading over there now with the Immovable and\nSenator Ryan.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 169,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Rush to the Blacklight District",
+					"array_flag1": [
+						32205
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32209
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 169,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Quell the assault on the Blacklight District",
+					"array_flag1": [
+						32209
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32210
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 170,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "There's a group of rioters headed for Dirke Memorial\nPark on foot. Seems they split up and invaded three\nsections of the park. We'll chase after the bunch that\nentered the Historical Conservation Area. ",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 170,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Enter the Historical Conservation Area",
+					"array_flag1": [
+						32211
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32212
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 170,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Proceed through the conservation area",
+					"array_flag1": [
+						32212
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32214
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 175,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Looks like the Vestiges of Alter Dawn have withdrawn\nfrom the capital. Not getting a whiff of anything, but\nbefore our Anchorville trip tomorrow, we should take a\nquick look around the capital tonight.\n\n\n\n\n",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 175,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Head outside",
+					"array_flag1": [
+						32221
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32223
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 175,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Explore each district with Agnès",
+					"array_flag1": [
+						32229
+					],
+					"empty3": 0,
+					"array_flag2": [
+						33891
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 175,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "<C0><I1055></C> Finish patrolling for the night",
+					"array_flag1": [
+						33891
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32236
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 175,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Explore Old Town with Agnès",
+					"array_flag1": [
+						32238
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32239
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 163,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "To fulfill my mission as the Heretic Hunter, I first have\nto work out whether the target actually is a heretic or\nnot. Their fingerprints are all over this city, so I've just\ngotta put on my detective cap and investigate their\nactivities here, from the past to now. At the same time,\nI can look into those 4SPGs and play spriggan if we've\ngot the time.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 163,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Explore Tharbad",
+					"array_flag1": [
+						32171
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32173
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 163,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Head to the plaza in front of the oasis",
+					"array_flag1": [
+						32173
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32174
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 164,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "The eye let us get a glimpse into Dingo Brad's past. On\nthat day, he visited Tharbad's underground waterways.\nI'll need to get another look at that same past if I want\nto figure out who he met and what happened there.\n\n",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 164,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Enter the underground waterway",
+					"array_flag1": [
+						32174
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32176
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 164,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Reach the depths of the waterway",
+					"array_flag1": [
+						32176
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32178
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 165,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Thanks to the Epstein Foundation, we now have\nthree-way access to the Grim Garten. We've gathered\nhere to clear the Third Domain, and in order to do that,\nall three teams have to beat it simultaneously. Also,\nwhile we're at it, we might as well take this chance to do\na little info swap with the other groups.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 165,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Clear the Third Domain with three teams",
+					"array_flag1": [
+						32245
+					],
+					"empty3": 0,
+					"array_flag2": [
+						33532
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 165,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Explore the Interstitial Sanctum",
+					"array_flag1": [
+						33532
+					],
+					"empty3": 0,
+					"array_flag2": [
+						33533
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 182,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "I've come to Longlai to face Master Yun in the land\nwhere the heavens turn, but unfortunately, the\nmountains pass which leads there has been blocked off.\nThankfully, courtesy of Towa, arrangements have been\nmade for us to meet with a third party who can help\ndeal with that. While we wait, we can walk around\nLonglai and take on some 4SPGs. I might even learn a\nthing or two about how we can break through the\nbarricade along the way.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 182,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Explore Longlai",
+					"array_flag1": [
+						32258
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32259
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 182,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Head to the house on the eastern hill",
+					"array_flag1": [
+						32259
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32261
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 183,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Thanks to Towa, we've secured the help of Heiyue,\nChief Kilika, Zin the Immovable and Walter the\nDirewolf. With them on our side, it should be more\nthan possible for us to break through Ikaruga's ranks\nand make it to the land where the heavens turn. It's\ntime to steel my resolve and go to where Master is\nwaiting for me.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 183,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "<C0><I1055></C> Head to the mountain pass",
+					"array_flag1": [
+						32261
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32263
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 183,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Head to the Kunlun Mountains",
+					"array_flag1": [
+						32266
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32267
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 178,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "At first blush, there doesn't seem to be any signs of the\nVestiges here in Anchorville. Now that we've set up\nbase at La Nuit de Chat Noir, we can do our usual bit:\ngather info and nose around town.\n\n\n\n",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 178,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Resolve 4SPGs in Anchorville",
+					"array_flag1": [
+						32343
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34084
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 179,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Considering some of the unnatural stuff we saw, like\nthe disinformation with the rumors in the 4SPGs,\nthere's a good chance the person behind all this is\nhiding out in Anchorville General Hospital. Let's head\nover there and figure out what's going on.\n\n\n",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 179,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Head to the general hospital",
+					"array_flag1": [
+						34084
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32345
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 179,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Ask around the hospital",
+					"array_flag1": [
+						32345
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34087
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 179,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "<C0><I1055></C> Review responses",
+					"array_flag1": [
+						34087
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34058
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 179,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Infiltrate the hospital server with FIO",
+					"array_flag1": [
+						34058
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32347
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 179,
+					"int1": 5,
+					"empty1": 0,
+					"quest_description": "Follow Doctor Grant",
+					"array_flag1": [
+						32347
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32348
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 179,
+					"int1": 6,
+					"empty1": 0,
+					"quest_description": "Reach the depths of the underground facility",
+					"array_flag1": [
+						32348
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32349
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 180,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Definitely wasn't expecting to run into the Sword\nHermit Yun Ka-fai, but regardless, this incident\nconfirmed the Vestiges are active in the city. Jack,\nHalle, Inspector Daswani, and the bracers are here to\nhelp, so we're gonna band together and get this case\nresolved.\n\n\n",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 180,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Check around Anchorville",
+					"array_flag1": [
+						32363
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32364
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 180,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "<C0><I1055></C> Exchange info with Marduk and Jack",
+					"array_flag1": [
+						32364
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32366
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 181,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Thanks to the Vestiges, a weird red mist has settled on\nthe streets of Anchorville, and monsters are on the\nprowl. Those masked freaks seem to be hiding out in\nthe Anchorville Logistics Center. After we make sure\nthe city's safe, let's make for the warehouse.\n\n\n",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 181,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Suppress the monsters attacking the city",
+					"array_flag1": [
+						32368
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32370
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 181,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Reach the end of the logistics center",
+					"array_flag1": [
+						32374
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32375
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 186,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "At the request of the Presidential Office, Agnès\nreturned to the capital with Kincaid, Renne, and\nDominique. Also, it looks like Heiyue and Marduk will\nbe tapping out, but thankfully, Elaine and Jorda have\nhopped into the fray with us. Together, we'll thwart the\nplans of the remaining Vestiges—the apostle, the\nsoldier, Ixs—and bring their true identities to light.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 186,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Find out what's happening in Anchorville",
+					"array_flag1": [
+						32392
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32393
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 186,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Head back to La Nuit de Chat Noir",
+					"array_flag1": [
+						32393
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32394
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 186,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Head to the cathedral where 'he' awaits",
+					"array_flag1": [
+						32394
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32396
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 187,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "All of a sudden, Anchorville's been engulfed in\nPandemonium, a phenomenon from last year where\ndevils flooded into the real world. There are some\ndifferences, though, such as the conditions for people\nbeing free of the time stopping effect. We need to suss\nout the source of this Pandemonium, and then free the\ncity from it.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 187,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Head to City Hall",
+					"array_flag1": [
+						32398
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32400
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 187,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Reach the end of the abandoned City Hall",
+					"array_flag1": [
+						32402
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32403
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 176,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Turns out, there's no records whatsoever of Tharbad's\nwater irrigation system being carried out by Professor\nHamilton 20 years ago. If we can uncover the real story\nbehind the water source's restoration, we'll get that\nmuch closer to the truth of her sin. Let's keep to our\nplan—find the place where she carried out her water\nirrigation work and figure out what really happened\nthere.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 176,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Gather information around Tharbad",
+					"array_flag1": [
+						32283
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32287
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 176,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Head to the plaza in front of the oasis",
+					"array_flag1": [
+						32287
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34002
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 177,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "We finally got the lead we needed for where Professor\nHamilton carried out the irrigation work 20 years ago.\nAll that remains is to follow it and find the site. If we\nuncover the true, then I should be able to pass my final\njudgment.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 177,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Head to Vegas Films",
+					"array_flag1": [
+						34002
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34003
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 177,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Ask around in Vegas Films",
+					"array_flag1": [
+						34003
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34011
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 177,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Find the entrance to the underground facility",
+					"array_flag1": [
+						34011
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34005
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 177,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Enter the underground facility",
+					"array_flag1": [
+						34005
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32288
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 177,
+					"int1": 5,
+					"empty1": 0,
+					"quest_description": "Reach the end of Vegas Films Underground",
+					"array_flag1": [
+						32288
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32289
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 177,
+					"int1": 6,
+					"empty1": 0,
+					"quest_description": "Clear the hacking simulation",
+					"array_flag1": [
+						32289
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32290
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 177,
+					"int1": 7,
+					"empty1": 0,
+					"quest_description": "Escape from the underground facility",
+					"array_flag1": [
+						32291
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32297
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 177,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Search for the tower ruins in the Sandsea",
+					"array_flag1": [
+						32297
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32299
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 177,
+					"int1": 9,
+					"empty1": 0,
+					"quest_description": "Reach the top of the tower ruins",
+					"array_flag1": [
+						32299
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32301
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 184,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "By narrowing the field with the Iscariot's help, we've\npinned down Professor Hamilton's location—near Creil\nVillage which was destroyed by a nuke. I have to find\nher to complete my mission.\n\n\n",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 184,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Head to the ruins of Creil Village",
+					"array_flag1": [
+						32317
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32320
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 184,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Walk around the ruins of Creil",
+					"array_flag1": [
+						32320
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32321
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 184,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "<C0><I1055></C> Gather everyone together",
+					"array_flag1": [
+						32321
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32323
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 184,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Look around Creil Village?",
+					"array_flag1": [
+						32323
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32324
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 185,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Looks like Professor Hamilton has headed for Creil\nHills. It's possible some interveners will come into the\nmix, but the die's been cast. It's time we brought this\nmission to an end.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 185,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Proceed through Creil Hills",
+					"array_flag1": [
+						32325
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32328
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 188,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "According to Renne, Agnès is most likely being held\nunder house arrest in a protective facility underneath\nthe Presidential Office. Taking that into account, along\nwith the fact the Geneses were confiscated, I'm\nguessing this is all related to the space program's true\naim. Whatever that is, it doesn't make a lick of sense to\nkeep Agnès held under lock and key like this. Let's\nsneak into the place underneath the Presidential Office,\nsave Agnès, and ask the president what the hell it is he's\nreally planning.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 188,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "<C0><I1055></C> Prepare for the operation",
+					"array_flag1": [
+						32422
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32424
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 188,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Find Renne",
+					"array_flag1": [
+						32429
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32433
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 188,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Head to the underground sector",
+					"array_flag1": [
+						32433
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32437
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 188,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Reach the end of the control center",
+					"array_flag1": [
+						32437
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32440
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 188,
+					"int1": 5,
+					"empty1": 0,
+					"quest_description": "Head to where the president awaits",
+					"array_flag1": [
+						32441
+					],
+					"empty3": 0,
+					"array_flag2": [
+						32443
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 1,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "I took on a shady part-time delivery job, and now I'm in\ntrouble! I was blinded by the high pay, but once I got\nthe mira, my personal information was stolen! Please,\nyou have to help me! I'll be waiting by the back alley\nnear the station!",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 1,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Search for Largo in the Seiden District",
+					"array_flag1": [
+						34400
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34401
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 1,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Head to the Centre Marché",
+					"array_flag1": [
+						34401
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34402
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 1,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Use shard search to find the culprit's hideout",
+					"array_flag1": [
+						34402
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34403
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 1,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Enter the old sewer system",
+					"array_flag1": [
+						34403
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34405
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 1,
+					"int1": 5,
+					"empty1": 0,
+					"quest_description": "Retrieved personal info held by the mafia",
+					"array_flag1": [
+						34407
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 2,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "I received a message from someone at a security firm,\nrecommending I invest in a particular space company.\nThey said it was for sure going to take off, so I went all\nin on this thing. Since then, though, I've gotten nothing\nbut radio silence from them, and recently, my inbox has\nbeen flooded with other 'investment opportunities.'\nWas I roped into some kind of scam? I'd like you to\nlook into this and, if possible, get my mira back. I'll be\nwaiting for you by the rest area in the Trion Mall.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 2,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Ask around the Trion Mall",
+					"array_flag1": [
+						34415
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34418
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 2,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Talk to the scammer at the Centre Marché",
+					"array_flag1": [
+						34418
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34419
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 2,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Caught the scammer and retrieved the money",
+					"array_flag1": [
+						34420
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 51,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "We have recently received reports of a dangerous\nmonster in the area.\nLocation: The depths of the Seiden District\nwaterworks.\nMonster: ??? \n\nWe request Arkride Solutions to handle this\nimmediately.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 51,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Defeat the wanted monsters in the waterworks",
+					"array_flag1": [
+						34830
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34835
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 51,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Defeated the wanted monster",
+					"array_flag1": [
+						34835
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 3,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "A bad review of Laguna was posted to the bulletin\nboard in Old Town. It reads: 'The Public Bathhouse\nLaguna is unbelievably filthy. The rooms haven't been\nproperly sanitized, and they don't change out the water\nmuch at all. But the worst part? There's dirt\nEVERYWHERE in the sauna room. It's a mess!' Not\nsure if this is a prank, or what. Either way, I can't turn a\nblind eye to this.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 3,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Find out more about Laguna's bad rep",
+					"array_flag1": [
+						34425
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34433
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 3,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Confront the green-haired regular",
+					"array_flag1": [
+						34433
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34434
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 3,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Rumormonger paid the price for his misdeed",
+					"array_flag1": [
+						34434
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 4,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Following a change in Zecht Arms' management,\nseveral prototype weaponry and outdated equipment\nhave been dumped on the market. Among them, some\npowerful parts made by Rosalie have made their way to\nthe capital.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 4,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Find shops with excess Zecht Arms stock",
+					"array_flag1": [
+						34435
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34436
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 4,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Gather leverage for bargaining with Yazan",
+					"array_flag1": [
+						34436
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34439
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 4,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Talk to Yazan again",
+					"array_flag1": [
+						34439
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34440
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 4,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Negotiated with Yazan for the weapon parts",
+					"array_flag1": [
+						34440
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 5,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "There's a hitman formerly under Almata's employ who\nis still at large, and has a hefty bounty on her head. We\nwant you to drag this little rat out of whatever hole she's\nhiding in and drop her off on the Goddess' front gates.\nDo that, and you will be compensated handsomely.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 5,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "<C0><I1055></C> Talk to the guild",
+					"array_flag1": [
+						34445
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34446
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 5,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Visit the Brothers Music Shop",
+					"array_flag1": [
+						34447
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34448
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 5,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Meet Stan at Riverside",
+					"array_flag1": [
+						34448
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34449
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 5,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Find Candace",
+					"array_flag1": [
+						34450
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34451
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 5,
+					"int1": 5,
+					"empty1": 0,
+					"quest_description": "Determined Candace's punishment",
+					"array_flag1": [
+						34451
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 6,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Something terrible has happened at our company, and\nwe have to do something about it! Please, can you help\nus? Meet me at the Riverside terrace as soon as you can!",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 6,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Speak with the client and begin the operation",
+					"array_flag1": [
+						34460
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34461
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 6,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Search for the culprit in the Auber District",
+					"array_flag1": [
+						34461
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34462
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 6,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Perp was caught, and client knows how to proceed",
+					"array_flag1": [
+						34464
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 52,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "We've received reports that a large monster, Queen\nKumanba, is lurking in the deepest part of Dirke\nMemorial Park. In the interest of keeping the peace, we\nask Arkride Solutions to terminate the threat.\n\n　　　　　　　　　　　　　　　　　　　Daswani",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 52,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Defeat the wanted monster at Dirke Memorial Park",
+					"array_flag1": [
+						34846
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34844
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 52,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Defeated the wanted monster",
+					"array_flag1": [
+						34844
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 7,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "There's this book I've always wanted to read about\ntraditional Central Eastern dances. I thought maybe I'd\nfind it in the capital or something, but it's so old, I can't\neven find any of the reprints. But maybe there's a copy\nstill lying around somewhere?",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 7,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Gather info on Central Eastern books",
+					"array_flag1": [
+						34471
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34473
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 7,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Head to the Grand Circuit to pick up the book",
+					"array_flag1": [
+						34473
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34470
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 7,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Obtained the book and gave it to Shaheena",
+					"array_flag1": [
+						34470
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 8,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Apparently, Morges' cat has gone missing. Might've\ngotten separated while the two were on a walk, but\nthere's a chance the cat wandered off on its own. This\ngig'll be a good way for Jorda to get her feet wet into\nour line of work.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 8,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Use shard search in spots cats like to gather",
+					"array_flag1": [
+						34475
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34476
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 8,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Head to the subway platform",
+					"array_flag1": [
+						34476
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34478
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 8,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Search for the cat using shard search",
+					"array_flag1": [
+						34478
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34479
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 8,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Search for the cat on the train",
+					"array_flag1": [
+						34479
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34480
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 8,
+					"int1": 5,
+					"empty1": 0,
+					"quest_description": "Cat safely rescued",
+					"array_flag1": [
+						34481
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 9,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Recently, there's been a sudden surge in demand for\norbal microwave appliances in the Basel orbal store,\nresulting in a huge stock shortage. On the surface, it\nseems like a simple scalping scheme, but something\nabout this is setting off alarm bells in my head. I'd like\nto consult with the spriggan who helped me out in the\npast. Meet me at Verne Plaza for details.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 9,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Talk to the artisan",
+					"array_flag1": [
+						34489
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34490
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 9,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Talk to Verne HQ's receptionist",
+					"array_flag1": [
+						34490
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34491
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 9,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Talk to Jason",
+					"array_flag1": [
+						34491
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34492
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 9,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "<C0><I1055></C> Travel on the national highway",
+					"array_flag1": [
+						34493
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34494
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 9,
+					"int1": 5,
+					"empty1": 0,
+					"quest_description": "Unveiled the truth behind microwave hoarding",
+					"array_flag1": [
+						34497
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 10,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "To further develop the Pocel holo core we collaborated\non last year, we are conducting tests in various locations\naround Basel. However, after integrating it with the\ntraining data we obtained, the results were...unexpected.\nThere's something peculiar about this new version of\nPocel, and this may require a spriggan's touch to get to\nthe bottom of it. If you're able to help us, come find me\nat the inn in the Artisanal District.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 10,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Equip Pocel and confirm the peculiarity",
+					"array_flag1": [
+						34500
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34501
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 10,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Investigate the test sites",
+					"array_flag1": [
+						34501
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34507
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 10,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Report back to Athena",
+					"array_flag1": [
+						34507
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34508
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 10,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Identified the cause of Pocel's abnormality",
+					"array_flag1": [
+						34508
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 11,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Something terrible has happened to the Creil\nReconstruction Fund, an organization established to\nhelp with rebuilding Creil Village. We need help\nASAP. Please come to the Maserati Hotel in the\nSeiden District!\n\n　　　　　　　　　　　　　　　　　　　Kaina",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 11,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Search for Murton in Blacklight District",
+					"array_flag1": [
+						34514
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34515
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 11,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Talk to Murton to begin the operation",
+					"array_flag1": [
+						34515
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34516
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 11,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Tail the fake inspector",
+					"array_flag1": [
+						34516
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34518
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 11,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Perp was caught and funds were recovered",
+					"array_flag1": [
+						34520
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 12,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "My childhood friend Ginny left me a note saying she\nmoved out of our sharehouse. I've been trying to figure\nout why, but so far, I've got bupkis. Please, I need your\nhelp, spriggan.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 12,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Ask around at the café and hotel",
+					"array_flag1": [
+						34525
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34530
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 12,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Ask the basketball team",
+					"array_flag1": [
+						34530
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34532
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 12,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Search for Ginny under the overpass",
+					"array_flag1": [
+						34532
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34533
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 12,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Ginny was safely rescued",
+					"array_flag1": [
+						34535
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 54,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "A large monster called the Gashaskal Abyss has\nappeared in the western outskirts. To uphold the peace,\nwe'd like to request a spriggan to handle it.\n\n　　　　　　　　　　　　　　　　　　　　Nate",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 54,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Defeat the wanted monster in the outskirts",
+					"array_flag1": [
+						34863
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34861
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 54,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Defeated the wanted monster",
+					"array_flag1": [
+						34861
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 13,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Looks like Primo is dead set on making her 'ultimate\ntaco.' If she can get a few pointers, I bet inspiration\nwould strike. Maybe I could try getting some input\nfrom culinary experts.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 13,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Gather ideas for the ultimate taco",
+					"array_flag1": [
+						34538
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34540
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 13,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Report back to Primo",
+					"array_flag1": [
+						34540
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34541
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 13,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Helped inspire Primo",
+					"array_flag1": [
+						34541
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 14,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "One of the girls working at our bazaar named Sinem\nhas been missing since last night. I would like to once\nagain call upon the aid of the spriggan and his\nentourage who aided in her reformation from\npickpocket to reliable helper.\n\nI'm waiting by the bulletin board, so come speak to me\nif you're able to take this request.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 14,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Talk to Ariya",
+					"array_flag1": [
+						34550
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34551
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 14,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Talk to Darvish",
+					"array_flag1": [
+						34551
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34552
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 14,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Talk to Patriarch Bashar at the hotel",
+					"array_flag1": [
+						34552
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34553
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 14,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Ask around the alleyways",
+					"array_flag1": [
+						34554
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34555
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 14,
+					"int1": 5,
+					"empty1": 0,
+					"quest_description": "Head to the cave in the Sandsea",
+					"array_flag1": [
+						34555
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34556
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 14,
+					"int1": 6,
+					"empty1": 0,
+					"quest_description": "Rescued Sinem and Nasri",
+					"array_flag1": [
+						34558
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 15,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "In the past, Tharbad had this mouthwateringly\ndelicious sweet treat, but it disappeared a long time ago.\nI'd REALLY like to see it come back somehow. Would\nyou be willing to help?\n\nI'll be waiting at the ice cream stand in front of the\nstation!",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 15,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Gather info at the Al-Jumeirah Hotel",
+					"array_flag1": [
+						34561
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34562
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 15,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Find an expert on luxury sweets",
+					"array_flag1": [
+						34562
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34563
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 15,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Investigate the temple lead",
+					"array_flag1": [
+						34563
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34564
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 15,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Talk to Proprietress Hala",
+					"array_flag1": [
+						34564
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34565
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 15,
+					"int1": 5,
+					"empty1": 0,
+					"quest_description": "Revived the legendary sweets recipe",
+					"array_flag1": [
+						34565
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 16,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "There's been some rather unsavory office gossip among\nVerne employees and associates about our returning\nCEO, Bill Tausend. If it spreads any further and his\nname gets dragged through the mud, he may be pushed\nout yet again.\n\nWould you be able to look into the rumors? I can\nprovide more details if you come by the tunnel entrance\nwest of the Artisanal District.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 16,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Look into the rumors about Bill Tausend",
+					"array_flag1": [
+						34570
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34574
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 16,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Talk to Bill Tausend",
+					"array_flag1": [
+						34574
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34575
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 16,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Identified the rumormonger",
+					"array_flag1": [
+						34577
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 17,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "I am Taoming, an advertising manager for Red Star\nproducts at the Motor Pavilion. We have received\nreports that, for some inexplicable reason, only the test\nbikes provided at the Motor Pavilion have been\nexperiencing malfunctions among Red Star orbal bikes. \n\nCould you investigate this matter? I'll be waiting for you\nat the Motor Pavilion.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 17,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Take the bike for a test run",
+					"array_flag1": [
+						34582
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34584
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 17,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Identified the culprit of the bike tampering",
+					"array_flag1": [
+						34585
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 19,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "The work of one of the artists—Kisara Cristea—in our\nthree up-and-coming artists exhibition has been\nvandalized. We would like to figure out who is\nresponsible for this deplorable act, but we need this\nmatter to be handled discreetly. Thus, we turn to you,\nspriggan. If you can help us, come by the Museum of\nModern and Contemporary Art.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 19,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Talk to those involved",
+					"array_flag1": [
+						34600
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34606
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 19,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Report back to the event planner",
+					"array_flag1": [
+						34606
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34607
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 19,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Find Kisara",
+					"array_flag1": [
+						34608
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34609
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 19,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Kisara elevated her defaced art into a new work",
+					"array_flag1": [
+						34610
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 20,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "I've been pretty sick lately, and it's starting to take its\ntoll. While I know the cause, no one seems to believe\nme, between my doctor and the people at work.\n\nWould you mind hearing me out? I'll be waiting by the\nterrace in Riverside.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 20,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Investigate the Street Monitors",
+					"array_flag1": [
+						34615
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34618
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 20,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Head to the Trion Tower control room",
+					"array_flag1": [
+						34619
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34621
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 20,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Put a stop to the subliminal images",
+					"array_flag1": [
+						34623
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 58,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "According to recent intel, a dangerous monster, the\nCubelion Telos, has been sighted in the junction area of\nthe Lèvre District. We would greatly appreciate you\ntaking care of this beast in the guild's stead.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 58,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Defeat the wanted monster in the junction area",
+					"array_flag1": [
+						34892
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34891
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 58,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Defeated the wanted monster",
+					"array_flag1": [
+						34891
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 21,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "'Wassup, Van Arkride? You look like you're keepin'\nbusy here in the capital. Just wanna say, while you ARE\ndoing a bang-up job like always, I don't think you're\ngivin' it all you got. So I rolled into town to say hi, and\nto pick up the slack with some of these old cases you've\ngot lyin' around.'\n\nI saw a post like this on the bulletin board. Don't know\nwho put it up, but I think I'll look into this.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 21,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Reach out to former clients",
+					"array_flag1": [
+						34630
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34634
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 21,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Hurry and find Jeffrey",
+					"array_flag1": [
+						34634
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34635
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 21,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Follow Jeffrey and the 'spriggan'",
+					"array_flag1": [
+						34635
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34636
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 21,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Saved Jeffrey from Fabio",
+					"array_flag1": [
+						34636
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 22,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "According to Mark, our favorite rowdy mama swallow\nhas been unaccounted for since this morning.\n\nDid something happen to it? I guess I can look into this\nto be sure.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 22,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Inquire about the swallow at Montmart",
+					"array_flag1": [
+						34654
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34650
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 22,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Inquire about the swallow in Lèvre",
+					"array_flag1": [
+						34650
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34651
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 22,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Head to the Gramheart Residence",
+					"array_flag1": [
+						34651
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34652
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 22,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "The swallow was safely secured",
+					"array_flag1": [
+						34653
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 23,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Graham and his friend group are planning to enter the\nGR Championship, but they and the High Bloods got\ncreamed during the test run yesterday, and their car was\ntotaled.\n\nThey're looking to get some payback during the real\nthing, and they turned to me for advice, since I've raced\nagainst them before and won.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 23,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Give pointers during the race",
+					"array_flag1": [
+						34668
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34672
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 23,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Helped out Team Mavericks",
+					"array_flag1": [
+						34673
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 24,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "There are a number of areas in the Blacklight District\nthat are in a state of disrepair as a result of the attack.\n\nWhile you're out and about, could you lend a hand to\nthe reconstruction effort?",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 24,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Solve problems around the Blacklight District",
+					"array_flag1": [
+						34728
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34688
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 24,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Head to the culvert",
+					"array_flag1": [
+						34688
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34689
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 24,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Find Gabriella",
+					"array_flag1": [
+						34689
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34690
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 24,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Helped out around the Blacklight District",
+					"array_flag1": [
+						34691
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 25,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "I am having problems regarding our hotel reservation\nsite.\n\nWord on the street is that orbal network issues are\nwithin your area of expertise.  \n\nWould you be able to help me clean up this mess? If\nyou can, please come to City Hall. I'll be waiting for\nyou there.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 25,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Talk to the hotel and private lodging owners",
+					"array_flag1": [
+						34700
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34703
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 25,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Talk to Chloe",
+					"array_flag1": [
+						34703
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34704
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 25,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Speak with Staff Member Gracio",
+					"array_flag1": [
+						34704
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34705
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 25,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Uncovered the true culprit",
+					"array_flag1": [
+						34705
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 26,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "I run Nelken Transport here in Anchorville.\n\nMy delivery guy went out to do his morning rounds, but\nI have been unable to get in touch with him ever since.\n\nIf possible, I'd like this situation resolved without a fuss.\n\nIf you are able to help me, meet me at the station.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 26,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Inquire about Yaser",
+					"array_flag1": [
+						34710
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34714
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 26,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Search for Yaser in the southern outskirts",
+					"array_flag1": [
+						34714
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34715
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 26,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Protected Yaser and exposed Nelken Transport",
+					"array_flag1": [
+						34718
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 60,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "According to recent intel, a dangerous monster, Jerim\nRegius, has been sighted in the southern outskirts of\nAnchorville. We would greatly appreciate you taking\ncare of this beast in the guild's stead.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 60,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Defeat the wanted monster in the outskirts",
+					"array_flag1": [
+						34897
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34895
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 60,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Defeated the wanted monster",
+					"array_flag1": [
+						34896
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 27,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "I can't find my prized photo collection of the three\ngenerations of the Lanster family. The last I remember\nseeing them, I put them inside a magazine last night,\nwhich I took to a bar.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 27,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Visit the hotel bar",
+					"array_flag1": [
+						34732
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34733
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 27,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Collect four photos",
+					"array_flag1": [
+						34733
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34730
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 27,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Return the photos to Nathan",
+					"array_flag1": [
+						34730
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34731
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 27,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Returned all photos to Nathan",
+					"array_flag1": [
+						34731
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 28,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "It seems counterfeit tokens have been circulating among\ncasino players. Don't ask me where they came from—I\nhaven't the foggiest. For the sake of our customers who\nsimply want to enjoy playing our games, we would like\nthis matter to be resolved promptly and discreetly.\nShould you be able to accept our case, please come to\nthe Moulin Casino counter.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 28,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Look for the counterfeit token dealer",
+					"array_flag1": [
+						34740
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34741
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 28,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Tail the old woman",
+					"array_flag1": [
+						34742
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34743
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 28,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Stopped the counterfeit token scheme",
+					"array_flag1": [
+						34746
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 29,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Have you heard of the righteous thief Ahrens, who\nonce made this very district into his prowling grounds?\nWell, I have a clue regarding the location of the\ntreasure he left behind. Interested in a treasure hunt?\nThen come to the Cultural District's back alleys. I'll tell\nyou more about it there.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 29,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Search for 'the twins who support one another'",
+					"array_flag1": [
+						34751
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34752
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 29,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Look for 'the rainy season's place of rest'",
+					"array_flag1": [
+						34752
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34753
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 29,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Look for 'a ring woven by guiding sunlight'",
+					"array_flag1": [
+						34753
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34754
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 29,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Found Ahrens' treasure",
+					"array_flag1": [
+						34756
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 30,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "I'm from the capital. Please help me find my real\nfamily.\n\nI'll be waiting near the vending machine at the movie\ntheater.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 30,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Talk to people from City Hall and Eaton",
+					"array_flag1": [
+						34760
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34763
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 30,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Report back to Merina",
+					"array_flag1": [
+						34763
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34764
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 30,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Ask around the hospital",
+					"array_flag1": [
+						34764
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34765
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 30,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Report back to Merina again",
+					"array_flag1": [
+						34765
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34766
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 30,
+					"int1": 5,
+					"empty1": 0,
+					"quest_description": "Found Merina's biological parents",
+					"array_flag1": [
+						34766
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 31,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Looks like that Rachel girl from the idol group Vega\nhas flown the coop.\n\nIf she was just blowing off steam somewhere, that'd be\none thing, but somehow, I don't think that's the full\nstory here.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 31,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Ask around about Rachel",
+					"array_flag1": [
+						34770
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34774
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 31,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Talk to people at a bar",
+					"array_flag1": [
+						34774
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34775
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 31,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Listen to reports about a drunk woman",
+					"array_flag1": [
+						34775
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34776
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 31,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Search for Rachel in the southern outskirts",
+					"array_flag1": [
+						34776
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34771
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 31,
+					"int1": 5,
+					"empty1": 0,
+					"quest_description": "Rachel was safely rescued",
+					"array_flag1": [
+						34773
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 32,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "A veteran fisherman named Master Kukai challenged\nme to fish up Longlai's Guardian. While I was\nintrigued by the prospect of putting my angler skills to\nthe test against a Guardian, what interested me more\nwas that someone specifically asked Master Kukai to\nissue me this challenge.\n\nThis makes me wonder if this is some sort of test, or if\nthere's some other motive at play here. Either way, I'll\nnever say no to a free excuse to cast some lines.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 32,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Find the 'two stone sentinels'",
+					"array_flag1": [
+						34780
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34781
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 32,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Ask about the 'tome' at the temple",
+					"array_flag1": [
+						34781
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34782
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 32,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Find the 'longeval tree'",
+					"array_flag1": [
+						34782
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34783
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 32,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Find the 'place of repose'",
+					"array_flag1": [
+						34783
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34784
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 32,
+					"int1": 5,
+					"empty1": 0,
+					"quest_description": "Report back to Kukai",
+					"array_flag1": [
+						34784
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34785
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 32,
+					"int1": 6,
+					"empty1": 0,
+					"quest_description": "Use Taigongwang to reel in the Lion King",
+					"array_flag1": [
+						34785
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34786
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 32,
+					"int1": 7,
+					"empty1": 0,
+					"quest_description": "Caught the Lion King",
+					"array_flag1": [
+						34786
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 33,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "We saw a woman who was frantically searching for\nsomeone near the Septian Temple.\n\nWhen we checked on her, she told us she had run into\nher son Jed—whom she had abandoned in the past—by\nchance here in Longlai, but then he ran away on sight.\n\nWe need to find Jed before something happens to him.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 33,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Talk to the tour guide",
+					"array_flag1": [
+						34790
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34791
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 33,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Talk to Angela",
+					"array_flag1": [
+						34791
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34792
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 33,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Hear from Mina and Tony",
+					"array_flag1": [
+						34792
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34793
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 33,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Talk to girls near the Pubu Pass exit",
+					"array_flag1": [
+						34793
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34794
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 33,
+					"int1": 5,
+					"empty1": 0,
+					"quest_description": "Search for Jed on the Pubu Pass",
+					"array_flag1": [
+						34794
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34795
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 33,
+					"int1": 6,
+					"empty1": 0,
+					"quest_description": "Protected Jed and reunited him with Miyuki",
+					"array_flag1": [
+						34797
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 34,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "There is a matter I wish to discuss with everyone at\nArkride Solutions. I know you may be otherwise\noccupied, but would you be able to meet in front of the\nstaff room on the first floor of the hospital? We're still\nrather busy dealing with everything that happened\nyesterday, but please don't hesitate to interrupt me.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 34,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Find a way out of town",
+					"array_flag1": [
+						34800
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34805
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 34,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Head to the logistics center",
+					"array_flag1": [
+						34805
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34806
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 34,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Talk to the bracers",
+					"array_flag1": [
+						34806
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34807
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 34,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Use shard search to track the three perps",
+					"array_flag1": [
+						34809
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34810
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 34,
+					"int1": 5,
+					"empty1": 0,
+					"quest_description": "Enter the sewers",
+					"array_flag1": [
+						34810
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34811
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 34,
+					"int1": 6,
+					"empty1": 0,
+					"quest_description": "Defeated Fabio and rescued medical director",
+					"array_flag1": [
+						34816
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 65,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "According to recent intel, a strange, dangerous monster\nhas appeared in the southern outskirts of Anchorville.\nWe would appreciate you taking care of this beast in\nthe guild's stead.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 65,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Defeat the wanted monster in the outskirts",
+					"array_flag1": [
+						34922
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34921
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 65,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Defeated the wanted monster",
+					"array_flag1": [
+						34921
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 35,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "The novel 'Sunshine Agnès' is set in Anchorville.\n\nNo one knows who the author is, and speaking as a fan,\nI'd really like to know more about them! If you have any\ninformation at all, please reach out!\n\n　　　　　　　　Rita, Receptionist, Eaton News Agency",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 35,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Talk to Receptionist Rita",
+					"array_flag1": [
+						34820
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34821
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 35,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Talk to someone who knows about books",
+					"array_flag1": [
+						34821
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34822
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 35,
+					"int1": 3,
+					"empty1": 0,
+					"quest_description": "Talk to someone at Chat Noir",
+					"array_flag1": [
+						34822
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34823
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 35,
+					"int1": 4,
+					"empty1": 0,
+					"quest_description": "Talk to someone who works at City Hall",
+					"array_flag1": [
+						34823
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34824
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 35,
+					"int1": 5,
+					"empty1": 0,
+					"quest_description": "Talk to someone at the guild",
+					"array_flag1": [
+						34824
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34825
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 35,
+					"int1": 6,
+					"empty1": 0,
+					"quest_description": "Talk to O'Hara",
+					"array_flag1": [
+						34825
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34826
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 35,
+					"int1": 7,
+					"empty1": 0,
+					"quest_description": "Talk to Edwin",
+					"array_flag1": [
+						34826
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34827
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 35,
+					"int1": 8,
+					"empty1": 0,
+					"quest_description": "Received letter and gift from a different Agnès",
+					"array_flag1": [
+						34827
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 53,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "There are reports that a dangerous monster called the\nJerim Kaizam has appeared in Auge Canyon. We\nwould greatly appreciate you taking care of this beast in\nthe guild's stead.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 53,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Defeat the wanted monster in Auge Canyon",
+					"array_flag1": [
+						34852
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34851
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 53,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Defeated the wanted monster",
+					"array_flag1": [
+						34851
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 55,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "There are reports that a dangerous monster called the\nJyl Gryepha has appeared in Sandsea. We would greatly\nappreciate you taking care of this beast in the guild's\nstead.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 55,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Defeat the wanted monster in the Sandsea",
+					"array_flag1": [
+						34857
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34856
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 55,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Defeated the wanted monster",
+					"array_flag1": [
+						34856
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 56,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "A dangerous monster called the Behemodyne has\nappeared in the rare metal mine. We would like to\nrequest any guild members or fixers to eliminate the\nthreat.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 56,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Defeat the wanted monster in the metal mine",
+					"array_flag1": [
+						34884
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34882
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 56,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Defeated the wanted monster",
+					"array_flag1": [
+						34882
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 57,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "The First Domain's boss arena's been taken over by an\nenemy that's CRAZY loco. If you've some time to kill,\ncould you re-clear the First Domain? We're countin' on\nya, heroes!",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 57,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Defeat the boss in the First Domain",
+					"array_flag1": [
+						34927
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34926
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 57,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Defeated the boss.",
+					"array_flag1": [
+						34926
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 59,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "This is the Epstein Foundation's deputy development\nchief. I'm making this request on behalf of Mirabel\nAalton. It looks like the boss arena in the Third\nDomain has been taken over by an abnormal enemy.\nSame deal as before: clear the Third Domain again and\nreassume control.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 59,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Defeat the boss in the Third Domain",
+					"array_flag1": [
+						34932
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34931
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 59,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Defeated the boss",
+					"array_flag1": [
+						34931
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 61,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "According to recent intel, dangerous monsters, the\nHecate Sisters, have been sighted in the underground\nwaterways. We would greatly appreciate you taking care\nof this beast in the guild's stead.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 61,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Defeat the wanted monsters in the waterway",
+					"array_flag1": [
+						34902
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34901
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 61,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Defeated the wanted monsters",
+					"array_flag1": [
+						34901
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 62,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "Well, wouldn't ya know it—this time it's the Fifth\nDomain with a pest problem. If you've some time to\nkill, could you re-clear the Fifth Domain? We're\ncountin' on ya, heroes!",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 62,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Defeat the boss in the Fifth Domain",
+					"array_flag1": [
+						34937
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34936
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 62,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Defeated the boss",
+					"array_flag1": [
+						34936
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 63,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "According to our intelligence, a dangerous monster has\nbeen sighted in Longlai Pubu. If you could take care of\nthis on the guild's behalf, we would greatly appreciate it.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 63,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Defeat the wanted monster in Longlai Pubu",
+					"array_flag1": [
+						34912
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34911
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 63,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Defeated the wanted monster",
+					"array_flag1": [
+						34911
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 64,
+					"int1": 0,
+					"empty1": 0,
+					"quest_description": "I had a bit of spare time on my hands, so I supplanted\nthe guardian of the Seventh Domain with a new one. I\nhave the slightest inkling you will die, should you be so\nfoolish as to attempt to reclaim the domain, but you are\nmore than welcome to try.",
+					"array_flag1": [],
+					"empty3": 0,
+					"array_flag2": [
+						1
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 64,
+					"int1": 1,
+					"empty1": 0,
+					"quest_description": "Defeat the boss in the Seventh Domain",
+					"array_flag1": [
+						34942
+					],
+					"empty3": 0,
+					"array_flag2": [
+						34941
+					],
+					"empty4": 0,
+					"empty5": 0
+				},
+				{
+					"quest_id": 64,
+					"int1": 2,
+					"empty1": 0,
+					"quest_description": "Defeated the boss.",
+					"array_flag1": [
+						34941
+					],
+					"empty3": 0,
+					"array_flag2": [],
+					"empty4": 0,
+					"empty5": 0
+				}
+			]
+		},
+		{
+			"name": "QuestSubText",
+			"data": []
+		},
+		{
+			"name": "QuestReportMessage",
+			"data": [
+				{
+					"id": 0,
+					"text": "Arkride Solutions' rank rose to <C2>%s</C>."
+				},
+				{
+					"id": 1,
+					"text": "A <C3>reward</C> from the Marduk Company has arrived."
+				},
+				{
+					"id": 2,
+					"text": "This time, %s stats have risen thanks to being the EOTM.\n＞<C1>Max HP</C><C2>+200</C>\n＞<C1>STR/DEF/ATS/ADF</C><C2>+4</C>\n＞<C1>SPD</C><C2>+2</C>"
+				},
+				{
+					"id": 3,
+					"text": "<C2>%s</C> has joined Arkride Solutions."
+				}
+			]
+		},
+		{
+			"name": "QuestCheckMessage",
+			"data": [
+				{
+					"id": 0,
+					"text": "<c698>[%s]</c> has been added to the <c961>To-Do List</c>."
+				},
+				{
+					"id": 1,
+					"text": "There's a 4SPG on the bulletin board."
+				},
+				{
+					"id": 2,
+					"text": "Looks like there's more."
+				},
+				{
+					"id": 3,
+					"text": "...So this is the last one, eh?"
+				},
+				{
+					"id": 4,
+					"text": "The bulletin board is strewn with notes and requests."
+				},
+				{
+					"id": 5,
+					"text": "...Doesn't look like there's any valuable info here."
+				},
+				{
+					"id": 6,
+					"text": "Already got all the 4SPGs here."
+				}
+			]
+		},
+		{
+			"name": "RecruitmentMember",
+			"data": []
+		},
+		{
+			"name": "QuestReportBackTexture",
+			"data": [
+				{
+					"id": 0,
+					"texture1": "",
+					"texture2": ""
+				},
+				{
+					"id": 1,
+					"texture1": "quest_report_back_0",
+					"texture2": ""
+				},
+				{
+					"id": 2,
+					"texture1": "quest_report_back_0",
+					"texture2": "quest_report_background"
+				},
+				{
+					"id": 3,
+					"texture1": "quest_report_back_1",
+					"texture2": "quest_report_background"
+				}
+			]
+		},
+		{
+			"name": "StampCharaList",
+			"data": [
+				{
+					"id": 1,
+					"float1": 0.0,
+					"float2": 0.0,
+					"float3": 0.0
+				},
+				{
+					"id": 2,
+					"float1": 1.0,
+					"float2": 0.0,
+					"float3": 3.587324068671532e-43
+				},
+				{
+					"id": 3,
+					"float1": 2.0,
+					"float2": 0.0,
+					"float3": 7.174648137343064e-43
+				},
+				{
+					"id": 6,
+					"float1": 3.0,
+					"float2": 0.0,
+					"float3": 1.0761972206014595e-42
+				},
+				{
+					"id": 4,
+					"float1": 4.0,
+					"float2": 0.0,
+					"float3": 1.4349296274686127e-42
+				},
+				{
+					"id": 10,
+					"float1": 5.0,
+					"float2": 0.0,
+					"float3": 1.793662034335766e-42
+				},
+				{
+					"id": 0,
+					"float1": 6.0,
+					"float2": 0.0,
+					"float3": 2.152394441202919e-42
+				},
+				{
+					"id": 17,
+					"float1": 7.0,
+					"float2": 0.0,
+					"float3": 2.5111268480700722e-42
+				},
+				{
+					"id": 18,
+					"float1": 8.0,
+					"float2": 0.0,
+					"float3": 2.8698592549372254e-42
+				},
+				{
+					"id": 151,
+					"float1": 0.0,
+					"float2": 1.0,
+					"float3": 3.2285916618043785e-42
+				},
+				{
+					"id": 152,
+					"float1": 1.0,
+					"float2": 1.0,
+					"float3": 3.587324068671532e-42
+				},
+				{
+					"id": 19,
+					"float1": 2.0,
+					"float2": 1.0,
+					"float3": 3.946056475538685e-42
+				},
+				{
+					"id": 11,
+					"float1": 3.0,
+					"float2": 1.0,
+					"float3": 4.304788882405838e-42
+				},
+				{
+					"id": 12,
+					"float1": 5.0,
+					"float2": 1.0,
+					"float3": 4.663521289272991e-42
+				},
+				{
+					"id": 8,
+					"float1": 6.0,
+					"float2": 1.0,
+					"float3": 5.0222536961401444e-42
+				},
+				{
+					"id": 63,
+					"float1": 7.0,
+					"float2": 1.0,
+					"float3": 5.3809861030072976e-42
+				},
+				{
+					"id": 5,
+					"float1": 8.0,
+					"float2": 1.0,
+					"float3": 5.739718509874451e-42
+				},
+				{
+					"id": 62,
+					"float1": 0.0,
+					"float2": 2.0,
+					"float3": 6.098450916741604e-42
+				},
+				{
+					"id": 159,
+					"float1": 1.0,
+					"float2": 2.0,
+					"float3": 6.457183323608757e-42
+				},
+				{
+					"id": 20,
+					"float1": 2.0,
+					"float2": 2.0,
+					"float3": 6.81591573047591e-42
+				},
+				{
+					"id": 21,
+					"float1": 3.0,
+					"float2": 2.0,
+					"float3": 7.174648137343063e-42
+				},
+				{
+					"id": 22,
+					"float1": 4.0,
+					"float2": 2.0,
+					"float3": 7.533380544210217e-42
+				},
+				{
+					"id": 23,
+					"float1": 5.0,
+					"float2": 2.0,
+					"float3": 7.89211295107737e-42
+				},
+				{
+					"id": 24,
+					"float1": 6.0,
+					"float2": 2.0,
+					"float3": 8.250845357944523e-42
+				},
+				{
+					"id": 173,
+					"float1": 7.0,
+					"float2": 2.0,
+					"float3": 8.610979063276001e-42
+				},
+				{
+					"id": 169,
+					"float1": 8.0,
+					"float2": 2.0,
+					"float3": 8.969711470143154e-42
+				}
+			]
+		}
+	]
+}

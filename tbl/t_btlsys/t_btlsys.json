@@ -1,0 +1,3426 @@
+{
+  "headers": [
+    {
+      "name": "ATBonusParam",
+      "schema": "Kai"
+    },
+    {
+      "name": "ATBonusSet",
+      "schema": "Kai"
+    },
+    {
+      "name": "BattleLevelField",
+      "schema": "Kuro1"
+    },
+    {
+      "name": "BattleLevelTurn",
+      "schema": "Kai"
+    },
+    {
+      "name": "BattleEnemyLevelStatusAdjust",
+      "schema": "Kuro1"
+    },
+    {
+      "name": "BattleEnemyLevelAdjust",
+      "schema": "Kuro1"
+    },
+    {
+      "name": "TacticalBonus",
+      "schema": "Kuro1"
+    }
+  ],
+  "data": [
+    {
+      "name": "ATBonusParam",
+      "data": [
+        {
+          "id": 0,
+          "reference_id": 0,
+          "int1": 0,
+          "short1": 0,
+          "flag": "",
+          "int2": 0,
+          "int3": 0,
+          "int4": 0,
+          "int5": 0,
+          "at_bonus_name": "---"
+        },
+        {
+          "id": 1,
+          "reference_id": 4,
+          "int1": 0,
+          "short1": 0,
+          "flag": "",
+          "int2": 1,
+          "int3": 20,
+          "int4": 2,
+          "int5": 0,
+          "at_bonus_name": "HP"
+        },
+        {
+          "id": 2,
+          "reference_id": 5,
+          "int1": 0,
+          "short1": 0,
+          "flag": "",
+          "int2": 2,
+          "int3": 20,
+          "int4": 2,
+          "int5": 0,
+          "at_bonus_name": "EP"
+        },
+        {
+          "id": 3,
+          "reference_id": 6,
+          "int1": 0,
+          "short1": 0,
+          "flag": "",
+          "int2": 3,
+          "int3": 50,
+          "int4": 50,
+          "int5": 0,
+          "at_bonus_name": "CP"
+        },
+        {
+          "id": 4,
+          "reference_id": 0,
+          "int1": 0,
+          "short1": 0,
+          "flag": "",
+          "int2": 1,
+          "int3": 50,
+          "int4": 4,
+          "int5": 0,
+          "at_bonus_name": "HP2"
+        },
+        {
+          "id": 5,
+          "reference_id": 0,
+          "int1": 0,
+          "short1": 0,
+          "flag": "",
+          "int2": 2,
+          "int3": 50,
+          "int4": 4,
+          "int5": 0,
+          "at_bonus_name": "EP2"
+        },
+        {
+          "id": 6,
+          "reference_id": 0,
+          "int1": 0,
+          "short1": 0,
+          "flag": "",
+          "int2": 3,
+          "int3": 100,
+          "int4": 100,
+          "int5": 0,
+          "at_bonus_name": "CP2"
+        },
+        {
+          "id": 7,
+          "reference_id": 13,
+          "int1": 0,
+          "short1": 0,
+          "flag": "A",
+          "int2": 4,
+          "int3": 0,
+          "int4": 0,
+          "int5": 0,
+          "at_bonus_name": "CRITICAL"
+        },
+        {
+          "id": 8,
+          "reference_id": 14,
+          "int1": 0,
+          "short1": 0,
+          "flag": "A",
+          "int2": 5,
+          "int3": 1,
+          "int4": 0,
+          "int5": 0,
+          "at_bonus_name": "SEPITH"
+        },
+        {
+          "id": 9,
+          "reference_id": 15,
+          "int1": 0,
+          "short1": 0,
+          "flag": "",
+          "int2": 6,
+          "int3": 100,
+          "int4": 0,
+          "int5": 0,
+          "at_bonus_name": "ZERO ARTS"
+        },
+        {
+          "id": 10,
+          "reference_id": 16,
+          "int1": 0,
+          "short1": 0,
+          "flag": "",
+          "int2": 7,
+          "int3": 2,
+          "int4": 0,
+          "int5": 0,
+          "at_bonus_name": "BOOST PLUS"
+        },
+        {
+          "id": 11,
+          "reference_id": 0,
+          "int1": 0,
+          "short1": 0,
+          "flag": "",
+          "int2": 0,
+          "int3": 0,
+          "int4": 0,
+          "int5": 0,
+          "at_bonus_name": "？"
+        },
+        {
+          "id": 12,
+          "reference_id": 0,
+          "int1": 0,
+          "short1": 0,
+          "flag": "A",
+          "int2": 8,
+          "int3": 1,
+          "int4": 0,
+          "int5": 0,
+          "at_bonus_name": "S-TOKEN"
+        },
+        {
+          "id": 13,
+          "reference_id": 0,
+          "int1": 0,
+          "short1": 0,
+          "flag": "A",
+          "int2": 4,
+          "int3": 30,
+          "int4": 0,
+          "int5": 0,
+          "at_bonus_name": "CRITICAL2"
+        },
+        {
+          "id": 14,
+          "reference_id": 0,
+          "int1": 0,
+          "short1": 0,
+          "flag": "A",
+          "int2": 5,
+          "int3": 2,
+          "int4": 0,
+          "int5": 0,
+          "at_bonus_name": "SEPITH2"
+        },
+        {
+          "id": 15,
+          "reference_id": 0,
+          "int1": 0,
+          "short1": 0,
+          "flag": "",
+          "int2": 6,
+          "int3": 150,
+          "int4": 0,
+          "int5": 0,
+          "at_bonus_name": "ZERO ARTS2"
+        },
+        {
+          "id": 16,
+          "reference_id": 0,
+          "int1": 0,
+          "short1": 0,
+          "flag": "",
+          "int2": 7,
+          "int3": 3,
+          "int4": 0,
+          "int5": 0,
+          "at_bonus_name": "BOOST PLUS2"
+        },
+        {
+          "id": 17,
+          "reference_id": 0,
+          "int1": 0,
+          "short1": 0,
+          "flag": "A",
+          "int2": 9,
+          "int3": 0,
+          "int4": 0,
+          "int5": 0,
+          "at_bonus_name": "BAD"
+        },
+        {
+          "id": 18,
+          "reference_id": 0,
+          "int1": 0,
+          "short1": 0,
+          "flag": "AS",
+          "int2": 10,
+          "int3": 0,
+          "int4": 0,
+          "int5": 0,
+          "at_bonus_name": "BLTZ"
+        },
+        {
+          "id": 19,
+          "reference_id": 0,
+          "int1": 0,
+          "short1": 0,
+          "flag": "",
+          "int2": 0,
+          "int3": 0,
+          "int4": 0,
+          "int5": 0,
+          "at_bonus_name": "NONE"
+        },
+        {
+          "id": 20,
+          "reference_id": 0,
+          "int1": 0,
+          "short1": 0,
+          "flag": "",
+          "int2": 0,
+          "int3": 0,
+          "int4": 0,
+          "int5": 0,
+          "at_bonus_name": "MANY"
+        }
+      ]
+    },
+    {
+      "name": "ATBonusSet",
+      "data": [
+        {
+          "id": 0,
+          "player_or_foe_value": 0,
+          "general_at_bonus_chance": 50,
+          "hp_heal_s_bonus_chance": 8,
+          "ep_heal_s_bonus_chance": 8,
+          "cp_heal_s_bonus_chance": 8,
+          "hp_heal_l_bonus_chance": 0,
+          "ep_heal_l_bonus_chance": 0,
+          "cp_heal_l_bonus_chance": 0,
+          "unknown_bonus_chance_1": 8,
+          "unknown_bonus_chance_2": 8,
+          "unknown_bonus_chance_3": 8,
+          "unknown_bonus_chance_4": 10,
+          "unknown_bonus_chance_5": 0,
+          "unknown_bonus_chance_6": 0,
+          "unknown_bonus_chance_7": 0,
+          "unknown_bonus_chance_8": 0,
+          "unknown_bonus_chance_9": 0,
+          "unknown_bonus_chance_10": 0,
+          "unknown_bonus_chance_11": 0,
+          "byte1": 40
+        },
+        {
+          "id": 0,
+          "player_or_foe_value": 1,
+          "general_at_bonus_chance": 75,
+          "hp_heal_s_bonus_chance": 5,
+          "ep_heal_s_bonus_chance": 5,
+          "cp_heal_s_bonus_chance": 5,
+          "hp_heal_l_bonus_chance": 0,
+          "ep_heal_l_bonus_chance": 0,
+          "cp_heal_l_bonus_chance": 0,
+          "unknown_bonus_chance_1": 5,
+          "unknown_bonus_chance_2": 0,
+          "unknown_bonus_chance_3": 5,
+          "unknown_bonus_chance_4": 0,
+          "unknown_bonus_chance_5": 0,
+          "unknown_bonus_chance_6": 0,
+          "unknown_bonus_chance_7": 0,
+          "unknown_bonus_chance_8": 0,
+          "unknown_bonus_chance_9": 0,
+          "unknown_bonus_chance_10": 0,
+          "unknown_bonus_chance_11": 0,
+          "byte1": 25
+        },
+        {
+          "id": 1,
+          "player_or_foe_value": 0,
+          "general_at_bonus_chance": 50,
+          "hp_heal_s_bonus_chance": 8,
+          "ep_heal_s_bonus_chance": 8,
+          "cp_heal_s_bonus_chance": 8,
+          "hp_heal_l_bonus_chance": 0,
+          "ep_heal_l_bonus_chance": 0,
+          "cp_heal_l_bonus_chance": 0,
+          "unknown_bonus_chance_1": 8,
+          "unknown_bonus_chance_2": 0,
+          "unknown_bonus_chance_3": 8,
+          "unknown_bonus_chance_4": 0,
+          "unknown_bonus_chance_5": 0,
+          "unknown_bonus_chance_6": 0,
+          "unknown_bonus_chance_7": 0,
+          "unknown_bonus_chance_8": 8,
+          "unknown_bonus_chance_9": 0,
+          "unknown_bonus_chance_10": 10,
+          "unknown_bonus_chance_11": 8,
+          "byte1": 45
+        },
+        {
+          "id": 1,
+          "player_or_foe_value": 1,
+          "general_at_bonus_chance": 75,
+          "hp_heal_s_bonus_chance": 5,
+          "ep_heal_s_bonus_chance": 5,
+          "cp_heal_s_bonus_chance": 5,
+          "hp_heal_l_bonus_chance": 0,
+          "ep_heal_l_bonus_chance": 0,
+          "cp_heal_l_bonus_chance": 0,
+          "unknown_bonus_chance_1": 5,
+          "unknown_bonus_chance_2": 0,
+          "unknown_bonus_chance_3": 5,
+          "unknown_bonus_chance_4": 0,
+          "unknown_bonus_chance_5": 0,
+          "unknown_bonus_chance_6": 0,
+          "unknown_bonus_chance_7": 0,
+          "unknown_bonus_chance_8": 0,
+          "unknown_bonus_chance_9": 0,
+          "unknown_bonus_chance_10": 0,
+          "unknown_bonus_chance_11": 5,
+          "byte1": 25
+        },
+        {
+          "id": 2,
+          "player_or_foe_value": 0,
+          "general_at_bonus_chance": 50,
+          "hp_heal_s_bonus_chance": 9,
+          "ep_heal_s_bonus_chance": 9,
+          "cp_heal_s_bonus_chance": 14,
+          "hp_heal_l_bonus_chance": 0,
+          "ep_heal_l_bonus_chance": 0,
+          "cp_heal_l_bonus_chance": 0,
+          "unknown_bonus_chance_1": 9,
+          "unknown_bonus_chance_2": 0,
+          "unknown_bonus_chance_3": 9,
+          "unknown_bonus_chance_4": 15,
+          "unknown_bonus_chance_5": 0,
+          "unknown_bonus_chance_6": 0,
+          "unknown_bonus_chance_7": 0,
+          "unknown_bonus_chance_8": 0,
+          "unknown_bonus_chance_9": 0,
+          "unknown_bonus_chance_10": 0,
+          "unknown_bonus_chance_11": 0,
+          "byte1": 45
+        },
+        {
+          "id": 2,
+          "player_or_foe_value": 1,
+          "general_at_bonus_chance": 75,
+          "hp_heal_s_bonus_chance": 0,
+          "ep_heal_s_bonus_chance": 0,
+          "cp_heal_s_bonus_chance": 0,
+          "hp_heal_l_bonus_chance": 0,
+          "ep_heal_l_bonus_chance": 0,
+          "cp_heal_l_bonus_chance": 0,
+          "unknown_bonus_chance_1": 5,
+          "unknown_bonus_chance_2": 0,
+          "unknown_bonus_chance_3": 0,
+          "unknown_bonus_chance_4": 0,
+          "unknown_bonus_chance_5": 0,
+          "unknown_bonus_chance_6": 0,
+          "unknown_bonus_chance_7": 0,
+          "unknown_bonus_chance_8": 0,
+          "unknown_bonus_chance_9": 0,
+          "unknown_bonus_chance_10": 0,
+          "unknown_bonus_chance_11": 0,
+          "byte1": 25
+        },
+        {
+          "id": 3,
+          "player_or_foe_value": 0,
+          "general_at_bonus_chance": 50,
+          "hp_heal_s_bonus_chance": 8,
+          "ep_heal_s_bonus_chance": 8,
+          "cp_heal_s_bonus_chance": 8,
+          "hp_heal_l_bonus_chance": 0,
+          "ep_heal_l_bonus_chance": 0,
+          "cp_heal_l_bonus_chance": 0,
+          "unknown_bonus_chance_1": 8,
+          "unknown_bonus_chance_2": 0,
+          "unknown_bonus_chance_3": 8,
+          "unknown_bonus_chance_4": 0,
+          "unknown_bonus_chance_5": 0,
+          "unknown_bonus_chance_6": 0,
+          "unknown_bonus_chance_7": 0,
+          "unknown_bonus_chance_8": 0,
+          "unknown_bonus_chance_9": 0,
+          "unknown_bonus_chance_10": 10,
+          "unknown_bonus_chance_11": 0,
+          "byte1": 40
+        },
+        {
+          "id": 3,
+          "player_or_foe_value": 1,
+          "general_at_bonus_chance": 75,
+          "hp_heal_s_bonus_chance": 5,
+          "ep_heal_s_bonus_chance": 5,
+          "cp_heal_s_bonus_chance": 5,
+          "hp_heal_l_bonus_chance": 0,
+          "ep_heal_l_bonus_chance": 0,
+          "cp_heal_l_bonus_chance": 0,
+          "unknown_bonus_chance_1": 5,
+          "unknown_bonus_chance_2": 0,
+          "unknown_bonus_chance_3": 5,
+          "unknown_bonus_chance_4": 0,
+          "unknown_bonus_chance_5": 0,
+          "unknown_bonus_chance_6": 0,
+          "unknown_bonus_chance_7": 0,
+          "unknown_bonus_chance_8": 0,
+          "unknown_bonus_chance_9": 0,
+          "unknown_bonus_chance_10": 0,
+          "unknown_bonus_chance_11": 0,
+          "byte1": 25
+        },
+        {
+          "id": 4,
+          "player_or_foe_value": 0,
+          "general_at_bonus_chance": 50,
+          "hp_heal_s_bonus_chance": 0,
+          "ep_heal_s_bonus_chance": 0,
+          "cp_heal_s_bonus_chance": 0,
+          "hp_heal_l_bonus_chance": 7,
+          "ep_heal_l_bonus_chance": 7,
+          "cp_heal_l_bonus_chance": 7,
+          "unknown_bonus_chance_1": 7,
+          "unknown_bonus_chance_2": 7,
+          "unknown_bonus_chance_3": 7,
+          "unknown_bonus_chance_4": 10,
+          "unknown_bonus_chance_5": 0,
+          "unknown_bonus_chance_6": 0,
+          "unknown_bonus_chance_7": 7,
+          "unknown_bonus_chance_8": 7,
+          "unknown_bonus_chance_9": 7,
+          "unknown_bonus_chance_10": 7,
+          "unknown_bonus_chance_11": 7,
+          "byte1": 50
+        },
+        {
+          "id": 4,
+          "player_or_foe_value": 1,
+          "general_at_bonus_chance": 75,
+          "hp_heal_s_bonus_chance": 5,
+          "ep_heal_s_bonus_chance": 0,
+          "cp_heal_s_bonus_chance": 0,
+          "hp_heal_l_bonus_chance": 0,
+          "ep_heal_l_bonus_chance": 0,
+          "cp_heal_l_bonus_chance": 0,
+          "unknown_bonus_chance_1": 5,
+          "unknown_bonus_chance_2": 0,
+          "unknown_bonus_chance_3": 0,
+          "unknown_bonus_chance_4": 0,
+          "unknown_bonus_chance_5": 0,
+          "unknown_bonus_chance_6": 0,
+          "unknown_bonus_chance_7": 0,
+          "unknown_bonus_chance_8": 0,
+          "unknown_bonus_chance_9": 0,
+          "unknown_bonus_chance_10": 0,
+          "unknown_bonus_chance_11": 5,
+          "byte1": 25
+        },
+        {
+          "id": 5,
+          "player_or_foe_value": 0,
+          "general_at_bonus_chance": 50,
+          "hp_heal_s_bonus_chance": 0,
+          "ep_heal_s_bonus_chance": 0,
+          "cp_heal_s_bonus_chance": 0,
+          "hp_heal_l_bonus_chance": 9,
+          "ep_heal_l_bonus_chance": 9,
+          "cp_heal_l_bonus_chance": 14,
+          "unknown_bonus_chance_1": 9,
+          "unknown_bonus_chance_2": 0,
+          "unknown_bonus_chance_3": 9,
+          "unknown_bonus_chance_4": 14,
+          "unknown_bonus_chance_5": 0,
+          "unknown_bonus_chance_6": 0,
+          "unknown_bonus_chance_7": 9,
+          "unknown_bonus_chance_8": 9,
+          "unknown_bonus_chance_9": 9,
+          "unknown_bonus_chance_10": 9,
+          "unknown_bonus_chance_11": 0,
+          "byte1": 55
+        },
+        {
+          "id": 5,
+          "player_or_foe_value": 1,
+          "general_at_bonus_chance": 75,
+          "hp_heal_s_bonus_chance": 0,
+          "ep_heal_s_bonus_chance": 0,
+          "cp_heal_s_bonus_chance": 0,
+          "hp_heal_l_bonus_chance": 0,
+          "ep_heal_l_bonus_chance": 0,
+          "cp_heal_l_bonus_chance": 0,
+          "unknown_bonus_chance_1": 5,
+          "unknown_bonus_chance_2": 0,
+          "unknown_bonus_chance_3": 0,
+          "unknown_bonus_chance_4": 0,
+          "unknown_bonus_chance_5": 0,
+          "unknown_bonus_chance_6": 0,
+          "unknown_bonus_chance_7": 0,
+          "unknown_bonus_chance_8": 0,
+          "unknown_bonus_chance_9": 0,
+          "unknown_bonus_chance_10": 0,
+          "unknown_bonus_chance_11": 0,
+          "byte1": 25
+        },
+        {
+          "id": 6,
+          "player_or_foe_value": 0,
+          "general_at_bonus_chance": 50,
+          "hp_heal_s_bonus_chance": 8,
+          "ep_heal_s_bonus_chance": 8,
+          "cp_heal_s_bonus_chance": 8,
+          "hp_heal_l_bonus_chance": 0,
+          "ep_heal_l_bonus_chance": 0,
+          "cp_heal_l_bonus_chance": 0,
+          "unknown_bonus_chance_1": 8,
+          "unknown_bonus_chance_2": 0,
+          "unknown_bonus_chance_3": 8,
+          "unknown_bonus_chance_4": 0,
+          "unknown_bonus_chance_5": 0,
+          "unknown_bonus_chance_6": 8,
+          "unknown_bonus_chance_7": 0,
+          "unknown_bonus_chance_8": 8,
+          "unknown_bonus_chance_9": 0,
+          "unknown_bonus_chance_10": 10,
+          "unknown_bonus_chance_11": 8,
+          "byte1": 50
+        },
+        {
+          "id": 6,
+          "player_or_foe_value": 1,
+          "general_at_bonus_chance": 75,
+          "hp_heal_s_bonus_chance": 5,
+          "ep_heal_s_bonus_chance": 5,
+          "cp_heal_s_bonus_chance": 5,
+          "hp_heal_l_bonus_chance": 0,
+          "ep_heal_l_bonus_chance": 0,
+          "cp_heal_l_bonus_chance": 0,
+          "unknown_bonus_chance_1": 5,
+          "unknown_bonus_chance_2": 0,
+          "unknown_bonus_chance_3": 5,
+          "unknown_bonus_chance_4": 0,
+          "unknown_bonus_chance_5": 0,
+          "unknown_bonus_chance_6": 0,
+          "unknown_bonus_chance_7": 0,
+          "unknown_bonus_chance_8": 0,
+          "unknown_bonus_chance_9": 0,
+          "unknown_bonus_chance_10": 0,
+          "unknown_bonus_chance_11": 5,
+          "byte1": 25
+        },
+        {
+          "id": 7,
+          "player_or_foe_value": 0,
+          "general_at_bonus_chance": 50,
+          "hp_heal_s_bonus_chance": 9,
+          "ep_heal_s_bonus_chance": 9,
+          "cp_heal_s_bonus_chance": 14,
+          "hp_heal_l_bonus_chance": 0,
+          "ep_heal_l_bonus_chance": 0,
+          "cp_heal_l_bonus_chance": 0,
+          "unknown_bonus_chance_1": 9,
+          "unknown_bonus_chance_2": 0,
+          "unknown_bonus_chance_3": 9,
+          "unknown_bonus_chance_4": 14,
+          "unknown_bonus_chance_5": 0,
+          "unknown_bonus_chance_6": 0,
+          "unknown_bonus_chance_7": 0,
+          "unknown_bonus_chance_8": 0,
+          "unknown_bonus_chance_9": 0,
+          "unknown_bonus_chance_10": 0,
+          "unknown_bonus_chance_11": 0,
+          "byte1": 50
+        },
+        {
+          "id": 7,
+          "player_or_foe_value": 1,
+          "general_at_bonus_chance": 75,
+          "hp_heal_s_bonus_chance": 0,
+          "ep_heal_s_bonus_chance": 0,
+          "cp_heal_s_bonus_chance": 0,
+          "hp_heal_l_bonus_chance": 0,
+          "ep_heal_l_bonus_chance": 0,
+          "cp_heal_l_bonus_chance": 0,
+          "unknown_bonus_chance_1": 5,
+          "unknown_bonus_chance_2": 0,
+          "unknown_bonus_chance_3": 0,
+          "unknown_bonus_chance_4": 0,
+          "unknown_bonus_chance_5": 0,
+          "unknown_bonus_chance_6": 0,
+          "unknown_bonus_chance_7": 0,
+          "unknown_bonus_chance_8": 0,
+          "unknown_bonus_chance_9": 0,
+          "unknown_bonus_chance_10": 0,
+          "unknown_bonus_chance_11": 0,
+          "byte1": 25
+        },
+        {
+          "id": 90,
+          "player_or_foe_value": 0,
+          "general_at_bonus_chance": 0,
+          "hp_heal_s_bonus_chance": 10,
+          "ep_heal_s_bonus_chance": 10,
+          "cp_heal_s_bonus_chance": 10,
+          "hp_heal_l_bonus_chance": 0,
+          "ep_heal_l_bonus_chance": 0,
+          "cp_heal_l_bonus_chance": 0,
+          "unknown_bonus_chance_1": 10,
+          "unknown_bonus_chance_2": 10,
+          "unknown_bonus_chance_3": 10,
+          "unknown_bonus_chance_4": 10,
+          "unknown_bonus_chance_5": 0,
+          "unknown_bonus_chance_6": 10,
+          "unknown_bonus_chance_7": 0,
+          "unknown_bonus_chance_8": 0,
+          "unknown_bonus_chance_9": 0,
+          "unknown_bonus_chance_10": 0,
+          "unknown_bonus_chance_11": 10,
+          "byte1": 10
+        },
+        {
+          "id": 90,
+          "player_or_foe_value": 1,
+          "general_at_bonus_chance": 0,
+          "hp_heal_s_bonus_chance": 10,
+          "ep_heal_s_bonus_chance": 10,
+          "cp_heal_s_bonus_chance": 10,
+          "hp_heal_l_bonus_chance": 0,
+          "ep_heal_l_bonus_chance": 0,
+          "cp_heal_l_bonus_chance": 0,
+          "unknown_bonus_chance_1": 10,
+          "unknown_bonus_chance_2": 10,
+          "unknown_bonus_chance_3": 10,
+          "unknown_bonus_chance_4": 0,
+          "unknown_bonus_chance_5": 0,
+          "unknown_bonus_chance_6": 0,
+          "unknown_bonus_chance_7": 0,
+          "unknown_bonus_chance_8": 0,
+          "unknown_bonus_chance_9": 0,
+          "unknown_bonus_chance_10": 0,
+          "unknown_bonus_chance_11": 10,
+          "byte1": 0
+        },
+        {
+          "id": 91,
+          "player_or_foe_value": 0,
+          "general_at_bonus_chance": 50,
+          "hp_heal_s_bonus_chance": 9,
+          "ep_heal_s_bonus_chance": 9,
+          "cp_heal_s_bonus_chance": 9,
+          "hp_heal_l_bonus_chance": 0,
+          "ep_heal_l_bonus_chance": 0,
+          "cp_heal_l_bonus_chance": 0,
+          "unknown_bonus_chance_1": 9,
+          "unknown_bonus_chance_2": 0,
+          "unknown_bonus_chance_3": 9,
+          "unknown_bonus_chance_4": 9,
+          "unknown_bonus_chance_5": 0,
+          "unknown_bonus_chance_6": 0,
+          "unknown_bonus_chance_7": 0,
+          "unknown_bonus_chance_8": 0,
+          "unknown_bonus_chance_9": 0,
+          "unknown_bonus_chance_10": 0,
+          "unknown_bonus_chance_11": 0,
+          "byte1": 50
+        },
+        {
+          "id": 91,
+          "player_or_foe_value": 1,
+          "general_at_bonus_chance": 75,
+          "hp_heal_s_bonus_chance": 0,
+          "ep_heal_s_bonus_chance": 0,
+          "cp_heal_s_bonus_chance": 0,
+          "hp_heal_l_bonus_chance": 0,
+          "ep_heal_l_bonus_chance": 0,
+          "cp_heal_l_bonus_chance": 0,
+          "unknown_bonus_chance_1": 5,
+          "unknown_bonus_chance_2": 0,
+          "unknown_bonus_chance_3": 0,
+          "unknown_bonus_chance_4": 0,
+          "unknown_bonus_chance_5": 0,
+          "unknown_bonus_chance_6": 0,
+          "unknown_bonus_chance_7": 0,
+          "unknown_bonus_chance_8": 0,
+          "unknown_bonus_chance_9": 0,
+          "unknown_bonus_chance_10": 0,
+          "unknown_bonus_chance_11": 0,
+          "byte1": 25
+        }
+      ]
+    },
+    {
+      "name": "BattleLevelField",
+      "data": [
+        {
+          "difficulty_id": 1,
+          "player_damage_multiplier": 130,
+          "enemy_damage_multiplier": 70,
+          "player_stun_damage_multiplier": 1.2999999523162842
+        },
+        {
+          "difficulty_id": 2,
+          "player_damage_multiplier": 100,
+          "enemy_damage_multiplier": 100,
+          "player_stun_damage_multiplier": 1.0
+        },
+        {
+          "difficulty_id": 3,
+          "player_damage_multiplier": 70,
+          "enemy_damage_multiplier": 130,
+          "player_stun_damage_multiplier": 0.699999988079071
+        }
+      ]
+    },
+    {
+      "name": "BattleLevelTurn",
+      "data": [
+        {
+          "difficulty_id": 0,
+          "player_damage_multiplier": 200,
+          "enemy_damage_multiplier": 25,
+          "hp_or_unknown_multi_1": 80,
+          "hp_or_unknown_multi_2": 50,
+          "enemy_spd_multiplier": 70,
+          "int1": 2
+        },
+        {
+          "difficulty_id": 1,
+          "player_damage_multiplier": 150,
+          "enemy_damage_multiplier": 50,
+          "hp_or_unknown_multi_1": 90,
+          "hp_or_unknown_multi_2": 75,
+          "enemy_spd_multiplier": 85,
+          "int1": 2
+        },
+        {
+          "difficulty_id": 2,
+          "player_damage_multiplier": 100,
+          "enemy_damage_multiplier": 100,
+          "hp_or_unknown_multi_1": 100,
+          "hp_or_unknown_multi_2": 100,
+          "enemy_spd_multiplier": 100,
+          "int1": 2
+        },
+        {
+          "difficulty_id": 3,
+          "player_damage_multiplier": 100,
+          "enemy_damage_multiplier": 125,
+          "hp_or_unknown_multi_1": 125,
+          "hp_or_unknown_multi_2": 110,
+          "enemy_spd_multiplier": 105,
+          "int1": 2
+        },
+        {
+          "difficulty_id": 4,
+          "player_damage_multiplier": 100,
+          "enemy_damage_multiplier": 150,
+          "hp_or_unknown_multi_1": 150,
+          "hp_or_unknown_multi_2": 120,
+          "enemy_spd_multiplier": 110,
+          "int1": 2
+        }
+      ]
+    },
+    {
+      "name": "BattleEnemyLevelStatusAdjust",
+      "data": [
+        {
+          "difficulty_id": 65535,
+          "level": 0,
+          "hp_multi": 100,
+          "str_multi": 100,
+          "ats_multi": 100,
+          "spd_multi": 100
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 1,
+          "hp_multi": 100,
+          "str_multi": 100,
+          "ats_multi": 100,
+          "spd_multi": 100
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 2,
+          "hp_multi": 101,
+          "str_multi": 101,
+          "ats_multi": 101,
+          "spd_multi": 101
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 3,
+          "hp_multi": 102,
+          "str_multi": 101,
+          "ats_multi": 101,
+          "spd_multi": 102
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 4,
+          "hp_multi": 103,
+          "str_multi": 102,
+          "ats_multi": 102,
+          "spd_multi": 103
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 5,
+          "hp_multi": 104,
+          "str_multi": 102,
+          "ats_multi": 102,
+          "spd_multi": 104
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 6,
+          "hp_multi": 104,
+          "str_multi": 103,
+          "ats_multi": 103,
+          "spd_multi": 104
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 7,
+          "hp_multi": 105,
+          "str_multi": 103,
+          "ats_multi": 103,
+          "spd_multi": 105
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 8,
+          "hp_multi": 106,
+          "str_multi": 104,
+          "ats_multi": 104,
+          "spd_multi": 106
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 9,
+          "hp_multi": 107,
+          "str_multi": 104,
+          "ats_multi": 104,
+          "spd_multi": 107
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 10,
+          "hp_multi": 108,
+          "str_multi": 105,
+          "ats_multi": 105,
+          "spd_multi": 108
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 11,
+          "hp_multi": 108,
+          "str_multi": 105,
+          "ats_multi": 105,
+          "spd_multi": 108
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 12,
+          "hp_multi": 109,
+          "str_multi": 106,
+          "ats_multi": 106,
+          "spd_multi": 109
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 13,
+          "hp_multi": 110,
+          "str_multi": 107,
+          "ats_multi": 107,
+          "spd_multi": 110
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 14,
+          "hp_multi": 111,
+          "str_multi": 107,
+          "ats_multi": 107,
+          "spd_multi": 111
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 15,
+          "hp_multi": 112,
+          "str_multi": 108,
+          "ats_multi": 108,
+          "spd_multi": 112
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 16,
+          "hp_multi": 112,
+          "str_multi": 109,
+          "ats_multi": 109,
+          "spd_multi": 112
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 17,
+          "hp_multi": 113,
+          "str_multi": 109,
+          "ats_multi": 109,
+          "spd_multi": 113
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 18,
+          "hp_multi": 114,
+          "str_multi": 110,
+          "ats_multi": 110,
+          "spd_multi": 114
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 19,
+          "hp_multi": 115,
+          "str_multi": 111,
+          "ats_multi": 111,
+          "spd_multi": 115
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 20,
+          "hp_multi": 116,
+          "str_multi": 112,
+          "ats_multi": 112,
+          "spd_multi": 116
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 21,
+          "hp_multi": 116,
+          "str_multi": 112,
+          "ats_multi": 112,
+          "spd_multi": 116
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 22,
+          "hp_multi": 117,
+          "str_multi": 113,
+          "ats_multi": 113,
+          "spd_multi": 117
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 23,
+          "hp_multi": 118,
+          "str_multi": 114,
+          "ats_multi": 114,
+          "spd_multi": 118
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 24,
+          "hp_multi": 119,
+          "str_multi": 115,
+          "ats_multi": 115,
+          "spd_multi": 119
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 25,
+          "hp_multi": 120,
+          "str_multi": 116,
+          "ats_multi": 116,
+          "spd_multi": 120
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 26,
+          "hp_multi": 120,
+          "str_multi": 117,
+          "ats_multi": 117,
+          "spd_multi": 120
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 27,
+          "hp_multi": 121,
+          "str_multi": 118,
+          "ats_multi": 118,
+          "spd_multi": 121
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 28,
+          "hp_multi": 141,
+          "str_multi": 119,
+          "ats_multi": 119,
+          "spd_multi": 122
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 29,
+          "hp_multi": 144,
+          "str_multi": 120,
+          "ats_multi": 120,
+          "spd_multi": 123
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 30,
+          "hp_multi": 148,
+          "str_multi": 121,
+          "ats_multi": 121,
+          "spd_multi": 124
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 31,
+          "hp_multi": 149,
+          "str_multi": 122,
+          "ats_multi": 122,
+          "spd_multi": 124
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 32,
+          "hp_multi": 151,
+          "str_multi": 123,
+          "ats_multi": 123,
+          "spd_multi": 125
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 33,
+          "hp_multi": 152,
+          "str_multi": 124,
+          "ats_multi": 124,
+          "spd_multi": 126
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 34,
+          "hp_multi": 154,
+          "str_multi": 125,
+          "ats_multi": 125,
+          "spd_multi": 127
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 35,
+          "hp_multi": 156,
+          "str_multi": 126,
+          "ats_multi": 126,
+          "spd_multi": 128
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 36,
+          "hp_multi": 157,
+          "str_multi": 127,
+          "ats_multi": 127,
+          "spd_multi": 128
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 37,
+          "hp_multi": 159,
+          "str_multi": 128,
+          "ats_multi": 128,
+          "spd_multi": 129
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 38,
+          "hp_multi": 160,
+          "str_multi": 129,
+          "ats_multi": 129,
+          "spd_multi": 130
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 39,
+          "hp_multi": 162,
+          "str_multi": 130,
+          "ats_multi": 130,
+          "spd_multi": 131
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 40,
+          "hp_multi": 164,
+          "str_multi": 132,
+          "ats_multi": 132,
+          "spd_multi": 132
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 41,
+          "hp_multi": 165,
+          "str_multi": 133,
+          "ats_multi": 133,
+          "spd_multi": 132
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 42,
+          "hp_multi": 167,
+          "str_multi": 134,
+          "ats_multi": 134,
+          "spd_multi": 133
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 43,
+          "hp_multi": 168,
+          "str_multi": 135,
+          "ats_multi": 135,
+          "spd_multi": 134
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 44,
+          "hp_multi": 170,
+          "str_multi": 137,
+          "ats_multi": 137,
+          "spd_multi": 135
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 45,
+          "hp_multi": 172,
+          "str_multi": 138,
+          "ats_multi": 138,
+          "spd_multi": 136
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 46,
+          "hp_multi": 173,
+          "str_multi": 139,
+          "ats_multi": 139,
+          "spd_multi": 136
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 47,
+          "hp_multi": 175,
+          "str_multi": 141,
+          "ats_multi": 141,
+          "spd_multi": 137
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 48,
+          "hp_multi": 176,
+          "str_multi": 142,
+          "ats_multi": 142,
+          "spd_multi": 138
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 49,
+          "hp_multi": 178,
+          "str_multi": 143,
+          "ats_multi": 143,
+          "spd_multi": 139
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 50,
+          "hp_multi": 180,
+          "str_multi": 145,
+          "ats_multi": 145,
+          "spd_multi": 140
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 51,
+          "hp_multi": 181,
+          "str_multi": 146,
+          "ats_multi": 146,
+          "spd_multi": 140
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 52,
+          "hp_multi": 183,
+          "str_multi": 148,
+          "ats_multi": 148,
+          "spd_multi": 141
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 53,
+          "hp_multi": 184,
+          "str_multi": 149,
+          "ats_multi": 149,
+          "spd_multi": 142
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 54,
+          "hp_multi": 186,
+          "str_multi": 151,
+          "ats_multi": 151,
+          "spd_multi": 143
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 55,
+          "hp_multi": 188,
+          "str_multi": 152,
+          "ats_multi": 152,
+          "spd_multi": 144
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 56,
+          "hp_multi": 189,
+          "str_multi": 154,
+          "ats_multi": 154,
+          "spd_multi": 144
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 57,
+          "hp_multi": 191,
+          "str_multi": 155,
+          "ats_multi": 155,
+          "spd_multi": 145
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 58,
+          "hp_multi": 192,
+          "str_multi": 157,
+          "ats_multi": 157,
+          "spd_multi": 146
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 59,
+          "hp_multi": 194,
+          "str_multi": 158,
+          "ats_multi": 158,
+          "spd_multi": 147
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 60,
+          "hp_multi": 196,
+          "str_multi": 160,
+          "ats_multi": 160,
+          "spd_multi": 148
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 61,
+          "hp_multi": 197,
+          "str_multi": 161,
+          "ats_multi": 161,
+          "spd_multi": 148
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 62,
+          "hp_multi": 199,
+          "str_multi": 163,
+          "ats_multi": 163,
+          "spd_multi": 149
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 63,
+          "hp_multi": 200,
+          "str_multi": 164,
+          "ats_multi": 164,
+          "spd_multi": 150
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 64,
+          "hp_multi": 202,
+          "str_multi": 166,
+          "ats_multi": 166,
+          "spd_multi": 151
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 65,
+          "hp_multi": 204,
+          "str_multi": 167,
+          "ats_multi": 167,
+          "spd_multi": 152
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 66,
+          "hp_multi": 205,
+          "str_multi": 169,
+          "ats_multi": 169,
+          "spd_multi": 152
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 67,
+          "hp_multi": 207,
+          "str_multi": 170,
+          "ats_multi": 170,
+          "spd_multi": 153
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 68,
+          "hp_multi": 208,
+          "str_multi": 172,
+          "ats_multi": 172,
+          "spd_multi": 154
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 69,
+          "hp_multi": 210,
+          "str_multi": 173,
+          "ats_multi": 173,
+          "spd_multi": 155
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 70,
+          "hp_multi": 212,
+          "str_multi": 175,
+          "ats_multi": 175,
+          "spd_multi": 156
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 71,
+          "hp_multi": 213,
+          "str_multi": 176,
+          "ats_multi": 176,
+          "spd_multi": 156
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 72,
+          "hp_multi": 215,
+          "str_multi": 178,
+          "ats_multi": 178,
+          "spd_multi": 157
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 73,
+          "hp_multi": 216,
+          "str_multi": 179,
+          "ats_multi": 179,
+          "spd_multi": 158
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 74,
+          "hp_multi": 218,
+          "str_multi": 181,
+          "ats_multi": 181,
+          "spd_multi": 159
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 75,
+          "hp_multi": 220,
+          "str_multi": 182,
+          "ats_multi": 182,
+          "spd_multi": 160
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 76,
+          "hp_multi": 221,
+          "str_multi": 184,
+          "ats_multi": 184,
+          "spd_multi": 160
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 77,
+          "hp_multi": 223,
+          "str_multi": 185,
+          "ats_multi": 185,
+          "spd_multi": 161
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 78,
+          "hp_multi": 224,
+          "str_multi": 187,
+          "ats_multi": 187,
+          "spd_multi": 162
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 79,
+          "hp_multi": 226,
+          "str_multi": 188,
+          "ats_multi": 188,
+          "spd_multi": 163
+        },
+        {
+          "difficulty_id": 65535,
+          "level": 80,
+          "hp_multi": 228,
+          "str_multi": 190,
+          "ats_multi": 190,
+          "spd_multi": 164
+        },
+        {
+          "difficulty_id": 4,
+          "level": 0,
+          "hp_multi": 100,
+          "str_multi": 100,
+          "ats_multi": 100,
+          "spd_multi": 100
+        },
+        {
+          "difficulty_id": 4,
+          "level": 1,
+          "hp_multi": 100,
+          "str_multi": 100,
+          "ats_multi": 100,
+          "spd_multi": 100
+        },
+        {
+          "difficulty_id": 4,
+          "level": 2,
+          "hp_multi": 101,
+          "str_multi": 101,
+          "ats_multi": 101,
+          "spd_multi": 101
+        },
+        {
+          "difficulty_id": 4,
+          "level": 3,
+          "hp_multi": 102,
+          "str_multi": 102,
+          "ats_multi": 102,
+          "spd_multi": 102
+        },
+        {
+          "difficulty_id": 4,
+          "level": 4,
+          "hp_multi": 103,
+          "str_multi": 103,
+          "ats_multi": 103,
+          "spd_multi": 103
+        },
+        {
+          "difficulty_id": 4,
+          "level": 5,
+          "hp_multi": 104,
+          "str_multi": 104,
+          "ats_multi": 104,
+          "spd_multi": 104
+        },
+        {
+          "difficulty_id": 4,
+          "level": 6,
+          "hp_multi": 104,
+          "str_multi": 104,
+          "ats_multi": 104,
+          "spd_multi": 104
+        },
+        {
+          "difficulty_id": 4,
+          "level": 7,
+          "hp_multi": 105,
+          "str_multi": 105,
+          "ats_multi": 105,
+          "spd_multi": 105
+        },
+        {
+          "difficulty_id": 4,
+          "level": 8,
+          "hp_multi": 106,
+          "str_multi": 106,
+          "ats_multi": 106,
+          "spd_multi": 106
+        },
+        {
+          "difficulty_id": 4,
+          "level": 9,
+          "hp_multi": 107,
+          "str_multi": 107,
+          "ats_multi": 107,
+          "spd_multi": 107
+        },
+        {
+          "difficulty_id": 4,
+          "level": 10,
+          "hp_multi": 108,
+          "str_multi": 108,
+          "ats_multi": 108,
+          "spd_multi": 108
+        },
+        {
+          "difficulty_id": 4,
+          "level": 11,
+          "hp_multi": 108,
+          "str_multi": 110,
+          "ats_multi": 110,
+          "spd_multi": 110
+        },
+        {
+          "difficulty_id": 4,
+          "level": 12,
+          "hp_multi": 109,
+          "str_multi": 112,
+          "ats_multi": 112,
+          "spd_multi": 112
+        },
+        {
+          "difficulty_id": 4,
+          "level": 13,
+          "hp_multi": 110,
+          "str_multi": 115,
+          "ats_multi": 115,
+          "spd_multi": 115
+        },
+        {
+          "difficulty_id": 4,
+          "level": 14,
+          "hp_multi": 111,
+          "str_multi": 117,
+          "ats_multi": 117,
+          "spd_multi": 117
+        },
+        {
+          "difficulty_id": 4,
+          "level": 15,
+          "hp_multi": 112,
+          "str_multi": 120,
+          "ats_multi": 120,
+          "spd_multi": 120
+        },
+        {
+          "difficulty_id": 4,
+          "level": 16,
+          "hp_multi": 112,
+          "str_multi": 122,
+          "ats_multi": 122,
+          "spd_multi": 122
+        },
+        {
+          "difficulty_id": 4,
+          "level": 17,
+          "hp_multi": 113,
+          "str_multi": 124,
+          "ats_multi": 124,
+          "spd_multi": 124
+        },
+        {
+          "difficulty_id": 4,
+          "level": 18,
+          "hp_multi": 114,
+          "str_multi": 127,
+          "ats_multi": 127,
+          "spd_multi": 127
+        },
+        {
+          "difficulty_id": 4,
+          "level": 19,
+          "hp_multi": 115,
+          "str_multi": 129,
+          "ats_multi": 129,
+          "spd_multi": 129
+        },
+        {
+          "difficulty_id": 4,
+          "level": 20,
+          "hp_multi": 116,
+          "str_multi": 132,
+          "ats_multi": 132,
+          "spd_multi": 132
+        },
+        {
+          "difficulty_id": 4,
+          "level": 21,
+          "hp_multi": 133,
+          "str_multi": 133,
+          "ats_multi": 133,
+          "spd_multi": 133
+        },
+        {
+          "difficulty_id": 4,
+          "level": 22,
+          "hp_multi": 135,
+          "str_multi": 135,
+          "ats_multi": 135,
+          "spd_multi": 135
+        },
+        {
+          "difficulty_id": 4,
+          "level": 23,
+          "hp_multi": 136,
+          "str_multi": 136,
+          "ats_multi": 136,
+          "spd_multi": 136
+        },
+        {
+          "difficulty_id": 4,
+          "level": 24,
+          "hp_multi": 138,
+          "str_multi": 138,
+          "ats_multi": 138,
+          "spd_multi": 138
+        },
+        {
+          "difficulty_id": 4,
+          "level": 25,
+          "hp_multi": 140,
+          "str_multi": 140,
+          "ats_multi": 140,
+          "spd_multi": 140
+        },
+        {
+          "difficulty_id": 4,
+          "level": 26,
+          "hp_multi": 141,
+          "str_multi": 141,
+          "ats_multi": 141,
+          "spd_multi": 141
+        },
+        {
+          "difficulty_id": 4,
+          "level": 27,
+          "hp_multi": 143,
+          "str_multi": 143,
+          "ats_multi": 143,
+          "spd_multi": 143
+        },
+        {
+          "difficulty_id": 4,
+          "level": 28,
+          "hp_multi": 160,
+          "str_multi": 144,
+          "ats_multi": 144,
+          "spd_multi": 144
+        },
+        {
+          "difficulty_id": 4,
+          "level": 29,
+          "hp_multi": 166,
+          "str_multi": 146,
+          "ats_multi": 146,
+          "spd_multi": 146
+        },
+        {
+          "difficulty_id": 4,
+          "level": 30,
+          "hp_multi": 172,
+          "str_multi": 148,
+          "ats_multi": 148,
+          "spd_multi": 148
+        },
+        {
+          "difficulty_id": 4,
+          "level": 31,
+          "hp_multi": 174,
+          "str_multi": 149,
+          "ats_multi": 149,
+          "spd_multi": 149
+        },
+        {
+          "difficulty_id": 4,
+          "level": 32,
+          "hp_multi": 176,
+          "str_multi": 151,
+          "ats_multi": 151,
+          "spd_multi": 151
+        },
+        {
+          "difficulty_id": 4,
+          "level": 33,
+          "hp_multi": 179,
+          "str_multi": 152,
+          "ats_multi": 152,
+          "spd_multi": 152
+        },
+        {
+          "difficulty_id": 4,
+          "level": 34,
+          "hp_multi": 181,
+          "str_multi": 154,
+          "ats_multi": 154,
+          "spd_multi": 154
+        },
+        {
+          "difficulty_id": 4,
+          "level": 35,
+          "hp_multi": 184,
+          "str_multi": 156,
+          "ats_multi": 156,
+          "spd_multi": 156
+        },
+        {
+          "difficulty_id": 4,
+          "level": 36,
+          "hp_multi": 186,
+          "str_multi": 157,
+          "ats_multi": 157,
+          "spd_multi": 157
+        },
+        {
+          "difficulty_id": 4,
+          "level": 37,
+          "hp_multi": 188,
+          "str_multi": 159,
+          "ats_multi": 159,
+          "spd_multi": 159
+        },
+        {
+          "difficulty_id": 4,
+          "level": 38,
+          "hp_multi": 191,
+          "str_multi": 160,
+          "ats_multi": 160,
+          "spd_multi": 160
+        },
+        {
+          "difficulty_id": 4,
+          "level": 39,
+          "hp_multi": 193,
+          "str_multi": 162,
+          "ats_multi": 162,
+          "spd_multi": 162
+        },
+        {
+          "difficulty_id": 4,
+          "level": 40,
+          "hp_multi": 196,
+          "str_multi": 164,
+          "ats_multi": 164,
+          "spd_multi": 164
+        },
+        {
+          "difficulty_id": 4,
+          "level": 41,
+          "hp_multi": 198,
+          "str_multi": 165,
+          "ats_multi": 165,
+          "spd_multi": 165
+        },
+        {
+          "difficulty_id": 4,
+          "level": 42,
+          "hp_multi": 200,
+          "str_multi": 167,
+          "ats_multi": 167,
+          "spd_multi": 167
+        },
+        {
+          "difficulty_id": 4,
+          "level": 43,
+          "hp_multi": 203,
+          "str_multi": 168,
+          "ats_multi": 168,
+          "spd_multi": 168
+        },
+        {
+          "difficulty_id": 4,
+          "level": 44,
+          "hp_multi": 205,
+          "str_multi": 170,
+          "ats_multi": 170,
+          "spd_multi": 170
+        },
+        {
+          "difficulty_id": 4,
+          "level": 45,
+          "hp_multi": 208,
+          "str_multi": 172,
+          "ats_multi": 172,
+          "spd_multi": 172
+        },
+        {
+          "difficulty_id": 4,
+          "level": 46,
+          "hp_multi": 210,
+          "str_multi": 173,
+          "ats_multi": 173,
+          "spd_multi": 173
+        },
+        {
+          "difficulty_id": 4,
+          "level": 47,
+          "hp_multi": 212,
+          "str_multi": 175,
+          "ats_multi": 175,
+          "spd_multi": 175
+        },
+        {
+          "difficulty_id": 4,
+          "level": 48,
+          "hp_multi": 215,
+          "str_multi": 176,
+          "ats_multi": 176,
+          "spd_multi": 176
+        },
+        {
+          "difficulty_id": 4,
+          "level": 49,
+          "hp_multi": 217,
+          "str_multi": 178,
+          "ats_multi": 178,
+          "spd_multi": 178
+        },
+        {
+          "difficulty_id": 4,
+          "level": 50,
+          "hp_multi": 220,
+          "str_multi": 180,
+          "ats_multi": 180,
+          "spd_multi": 180
+        },
+        {
+          "difficulty_id": 4,
+          "level": 51,
+          "hp_multi": 223,
+          "str_multi": 181,
+          "ats_multi": 181,
+          "spd_multi": 181
+        },
+        {
+          "difficulty_id": 4,
+          "level": 52,
+          "hp_multi": 226,
+          "str_multi": 183,
+          "ats_multi": 183,
+          "spd_multi": 183
+        },
+        {
+          "difficulty_id": 4,
+          "level": 53,
+          "hp_multi": 230,
+          "str_multi": 184,
+          "ats_multi": 184,
+          "spd_multi": 184
+        },
+        {
+          "difficulty_id": 4,
+          "level": 54,
+          "hp_multi": 233,
+          "str_multi": 186,
+          "ats_multi": 186,
+          "spd_multi": 186
+        },
+        {
+          "difficulty_id": 4,
+          "level": 55,
+          "hp_multi": 237,
+          "str_multi": 188,
+          "ats_multi": 188,
+          "spd_multi": 188
+        },
+        {
+          "difficulty_id": 4,
+          "level": 56,
+          "hp_multi": 240,
+          "str_multi": 189,
+          "ats_multi": 189,
+          "spd_multi": 189
+        },
+        {
+          "difficulty_id": 4,
+          "level": 57,
+          "hp_multi": 243,
+          "str_multi": 191,
+          "ats_multi": 191,
+          "spd_multi": 191
+        },
+        {
+          "difficulty_id": 4,
+          "level": 58,
+          "hp_multi": 247,
+          "str_multi": 192,
+          "ats_multi": 192,
+          "spd_multi": 192
+        },
+        {
+          "difficulty_id": 4,
+          "level": 59,
+          "hp_multi": 250,
+          "str_multi": 194,
+          "ats_multi": 194,
+          "spd_multi": 194
+        },
+        {
+          "difficulty_id": 4,
+          "level": 60,
+          "hp_multi": 254,
+          "str_multi": 196,
+          "ats_multi": 196,
+          "spd_multi": 196
+        },
+        {
+          "difficulty_id": 4,
+          "level": 61,
+          "hp_multi": 255,
+          "str_multi": 197,
+          "ats_multi": 197,
+          "spd_multi": 197
+        },
+        {
+          "difficulty_id": 4,
+          "level": 62,
+          "hp_multi": 256,
+          "str_multi": 199,
+          "ats_multi": 199,
+          "spd_multi": 199
+        },
+        {
+          "difficulty_id": 4,
+          "level": 63,
+          "hp_multi": 258,
+          "str_multi": 200,
+          "ats_multi": 200,
+          "spd_multi": 200
+        },
+        {
+          "difficulty_id": 4,
+          "level": 64,
+          "hp_multi": 259,
+          "str_multi": 202,
+          "ats_multi": 202,
+          "spd_multi": 202
+        },
+        {
+          "difficulty_id": 4,
+          "level": 65,
+          "hp_multi": 261,
+          "str_multi": 204,
+          "ats_multi": 204,
+          "spd_multi": 204
+        },
+        {
+          "difficulty_id": 4,
+          "level": 66,
+          "hp_multi": 262,
+          "str_multi": 205,
+          "ats_multi": 205,
+          "spd_multi": 205
+        },
+        {
+          "difficulty_id": 4,
+          "level": 67,
+          "hp_multi": 263,
+          "str_multi": 207,
+          "ats_multi": 207,
+          "spd_multi": 207
+        },
+        {
+          "difficulty_id": 4,
+          "level": 68,
+          "hp_multi": 265,
+          "str_multi": 208,
+          "ats_multi": 208,
+          "spd_multi": 208
+        },
+        {
+          "difficulty_id": 4,
+          "level": 69,
+          "hp_multi": 266,
+          "str_multi": 210,
+          "ats_multi": 210,
+          "spd_multi": 210
+        },
+        {
+          "difficulty_id": 4,
+          "level": 70,
+          "hp_multi": 268,
+          "str_multi": 212,
+          "ats_multi": 212,
+          "spd_multi": 212
+        },
+        {
+          "difficulty_id": 4,
+          "level": 71,
+          "hp_multi": 270,
+          "str_multi": 212,
+          "ats_multi": 212,
+          "spd_multi": 212
+        },
+        {
+          "difficulty_id": 4,
+          "level": 72,
+          "hp_multi": 272,
+          "str_multi": 212,
+          "ats_multi": 212,
+          "spd_multi": 212
+        },
+        {
+          "difficulty_id": 4,
+          "level": 73,
+          "hp_multi": 275,
+          "str_multi": 212,
+          "ats_multi": 212,
+          "spd_multi": 212
+        },
+        {
+          "difficulty_id": 4,
+          "level": 74,
+          "hp_multi": 277,
+          "str_multi": 212,
+          "ats_multi": 212,
+          "spd_multi": 212
+        },
+        {
+          "difficulty_id": 4,
+          "level": 75,
+          "hp_multi": 280,
+          "str_multi": 212,
+          "ats_multi": 212,
+          "spd_multi": 212
+        },
+        {
+          "difficulty_id": 4,
+          "level": 76,
+          "hp_multi": 282,
+          "str_multi": 212,
+          "ats_multi": 212,
+          "spd_multi": 212
+        },
+        {
+          "difficulty_id": 4,
+          "level": 77,
+          "hp_multi": 284,
+          "str_multi": 212,
+          "ats_multi": 212,
+          "spd_multi": 212
+        },
+        {
+          "difficulty_id": 4,
+          "level": 78,
+          "hp_multi": 287,
+          "str_multi": 212,
+          "ats_multi": 212,
+          "spd_multi": 212
+        },
+        {
+          "difficulty_id": 4,
+          "level": 79,
+          "hp_multi": 289,
+          "str_multi": 212,
+          "ats_multi": 212,
+          "spd_multi": 212
+        },
+        {
+          "difficulty_id": 4,
+          "level": 80,
+          "hp_multi": 292,
+          "str_multi": 212,
+          "ats_multi": 212,
+          "spd_multi": 212
+        },
+        {
+          "difficulty_id": 0,
+          "level": 0,
+          "hp_multi": 100,
+          "str_multi": 100,
+          "ats_multi": 100,
+          "spd_multi": 100
+        },
+        {
+          "difficulty_id": 0,
+          "level": 1,
+          "hp_multi": 100,
+          "str_multi": 100,
+          "ats_multi": 100,
+          "spd_multi": 100
+        },
+        {
+          "difficulty_id": 0,
+          "level": 2,
+          "hp_multi": 101,
+          "str_multi": 101,
+          "ats_multi": 101,
+          "spd_multi": 100
+        },
+        {
+          "difficulty_id": 0,
+          "level": 3,
+          "hp_multi": 102,
+          "str_multi": 101,
+          "ats_multi": 101,
+          "spd_multi": 101
+        },
+        {
+          "difficulty_id": 0,
+          "level": 4,
+          "hp_multi": 103,
+          "str_multi": 102,
+          "ats_multi": 102,
+          "spd_multi": 101
+        },
+        {
+          "difficulty_id": 0,
+          "level": 5,
+          "hp_multi": 104,
+          "str_multi": 102,
+          "ats_multi": 102,
+          "spd_multi": 102
+        },
+        {
+          "difficulty_id": 0,
+          "level": 6,
+          "hp_multi": 104,
+          "str_multi": 103,
+          "ats_multi": 103,
+          "spd_multi": 102
+        },
+        {
+          "difficulty_id": 0,
+          "level": 7,
+          "hp_multi": 105,
+          "str_multi": 103,
+          "ats_multi": 103,
+          "spd_multi": 102
+        },
+        {
+          "difficulty_id": 0,
+          "level": 8,
+          "hp_multi": 106,
+          "str_multi": 104,
+          "ats_multi": 104,
+          "spd_multi": 103
+        },
+        {
+          "difficulty_id": 0,
+          "level": 9,
+          "hp_multi": 107,
+          "str_multi": 104,
+          "ats_multi": 104,
+          "spd_multi": 103
+        },
+        {
+          "difficulty_id": 0,
+          "level": 10,
+          "hp_multi": 108,
+          "str_multi": 105,
+          "ats_multi": 105,
+          "spd_multi": 104
+        },
+        {
+          "difficulty_id": 0,
+          "level": 11,
+          "hp_multi": 108,
+          "str_multi": 105,
+          "ats_multi": 105,
+          "spd_multi": 104
+        },
+        {
+          "difficulty_id": 0,
+          "level": 12,
+          "hp_multi": 109,
+          "str_multi": 106,
+          "ats_multi": 106,
+          "spd_multi": 104
+        },
+        {
+          "difficulty_id": 0,
+          "level": 13,
+          "hp_multi": 110,
+          "str_multi": 106,
+          "ats_multi": 106,
+          "spd_multi": 105
+        },
+        {
+          "difficulty_id": 0,
+          "level": 14,
+          "hp_multi": 111,
+          "str_multi": 107,
+          "ats_multi": 107,
+          "spd_multi": 105
+        },
+        {
+          "difficulty_id": 0,
+          "level": 15,
+          "hp_multi": 112,
+          "str_multi": 107,
+          "ats_multi": 107,
+          "spd_multi": 106
+        },
+        {
+          "difficulty_id": 0,
+          "level": 16,
+          "hp_multi": 112,
+          "str_multi": 108,
+          "ats_multi": 108,
+          "spd_multi": 106
+        },
+        {
+          "difficulty_id": 0,
+          "level": 17,
+          "hp_multi": 113,
+          "str_multi": 108,
+          "ats_multi": 108,
+          "spd_multi": 106
+        },
+        {
+          "difficulty_id": 0,
+          "level": 18,
+          "hp_multi": 114,
+          "str_multi": 109,
+          "ats_multi": 109,
+          "spd_multi": 107
+        },
+        {
+          "difficulty_id": 0,
+          "level": 19,
+          "hp_multi": 115,
+          "str_multi": 109,
+          "ats_multi": 109,
+          "spd_multi": 107
+        },
+        {
+          "difficulty_id": 0,
+          "level": 20,
+          "hp_multi": 116,
+          "str_multi": 110,
+          "ats_multi": 110,
+          "spd_multi": 108
+        },
+        {
+          "difficulty_id": 0,
+          "level": 21,
+          "hp_multi": 108,
+          "str_multi": 110,
+          "ats_multi": 110,
+          "spd_multi": 108
+        },
+        {
+          "difficulty_id": 0,
+          "level": 22,
+          "hp_multi": 108,
+          "str_multi": 111,
+          "ats_multi": 111,
+          "spd_multi": 108
+        },
+        {
+          "difficulty_id": 0,
+          "level": 23,
+          "hp_multi": 109,
+          "str_multi": 111,
+          "ats_multi": 111,
+          "spd_multi": 109
+        },
+        {
+          "difficulty_id": 0,
+          "level": 24,
+          "hp_multi": 109,
+          "str_multi": 112,
+          "ats_multi": 112,
+          "spd_multi": 109
+        },
+        {
+          "difficulty_id": 0,
+          "level": 25,
+          "hp_multi": 110,
+          "str_multi": 112,
+          "ats_multi": 112,
+          "spd_multi": 110
+        },
+        {
+          "difficulty_id": 0,
+          "level": 26,
+          "hp_multi": 110,
+          "str_multi": 113,
+          "ats_multi": 113,
+          "spd_multi": 110
+        },
+        {
+          "difficulty_id": 0,
+          "level": 27,
+          "hp_multi": 110,
+          "str_multi": 113,
+          "ats_multi": 113,
+          "spd_multi": 110
+        },
+        {
+          "difficulty_id": 0,
+          "level": 28,
+          "hp_multi": 122,
+          "str_multi": 114,
+          "ats_multi": 114,
+          "spd_multi": 111
+        },
+        {
+          "difficulty_id": 0,
+          "level": 29,
+          "hp_multi": 123,
+          "str_multi": 114,
+          "ats_multi": 114,
+          "spd_multi": 111
+        },
+        {
+          "difficulty_id": 0,
+          "level": 30,
+          "hp_multi": 124,
+          "str_multi": 115,
+          "ats_multi": 115,
+          "spd_multi": 112
+        },
+        {
+          "difficulty_id": 0,
+          "level": 31,
+          "hp_multi": 124,
+          "str_multi": 115,
+          "ats_multi": 115,
+          "spd_multi": 112
+        },
+        {
+          "difficulty_id": 0,
+          "level": 32,
+          "hp_multi": 125,
+          "str_multi": 116,
+          "ats_multi": 116,
+          "spd_multi": 112
+        },
+        {
+          "difficulty_id": 0,
+          "level": 33,
+          "hp_multi": 126,
+          "str_multi": 116,
+          "ats_multi": 116,
+          "spd_multi": 113
+        },
+        {
+          "difficulty_id": 0,
+          "level": 34,
+          "hp_multi": 127,
+          "str_multi": 117,
+          "ats_multi": 117,
+          "spd_multi": 113
+        },
+        {
+          "difficulty_id": 0,
+          "level": 35,
+          "hp_multi": 128,
+          "str_multi": 117,
+          "ats_multi": 117,
+          "spd_multi": 114
+        },
+        {
+          "difficulty_id": 0,
+          "level": 36,
+          "hp_multi": 128,
+          "str_multi": 118,
+          "ats_multi": 118,
+          "spd_multi": 114
+        },
+        {
+          "difficulty_id": 0,
+          "level": 37,
+          "hp_multi": 129,
+          "str_multi": 118,
+          "ats_multi": 118,
+          "spd_multi": 114
+        },
+        {
+          "difficulty_id": 0,
+          "level": 38,
+          "hp_multi": 130,
+          "str_multi": 119,
+          "ats_multi": 119,
+          "spd_multi": 115
+        },
+        {
+          "difficulty_id": 0,
+          "level": 39,
+          "hp_multi": 131,
+          "str_multi": 119,
+          "ats_multi": 119,
+          "spd_multi": 115
+        },
+        {
+          "difficulty_id": 0,
+          "level": 40,
+          "hp_multi": 132,
+          "str_multi": 120,
+          "ats_multi": 120,
+          "spd_multi": 116
+        },
+        {
+          "difficulty_id": 0,
+          "level": 41,
+          "hp_multi": 132,
+          "str_multi": 120,
+          "ats_multi": 120,
+          "spd_multi": 116
+        },
+        {
+          "difficulty_id": 0,
+          "level": 42,
+          "hp_multi": 133,
+          "str_multi": 121,
+          "ats_multi": 121,
+          "spd_multi": 116
+        },
+        {
+          "difficulty_id": 0,
+          "level": 43,
+          "hp_multi": 134,
+          "str_multi": 121,
+          "ats_multi": 121,
+          "spd_multi": 117
+        },
+        {
+          "difficulty_id": 0,
+          "level": 44,
+          "hp_multi": 135,
+          "str_multi": 122,
+          "ats_multi": 122,
+          "spd_multi": 117
+        },
+        {
+          "difficulty_id": 0,
+          "level": 45,
+          "hp_multi": 136,
+          "str_multi": 122,
+          "ats_multi": 122,
+          "spd_multi": 118
+        },
+        {
+          "difficulty_id": 0,
+          "level": 46,
+          "hp_multi": 136,
+          "str_multi": 123,
+          "ats_multi": 123,
+          "spd_multi": 118
+        },
+        {
+          "difficulty_id": 0,
+          "level": 47,
+          "hp_multi": 137,
+          "str_multi": 123,
+          "ats_multi": 123,
+          "spd_multi": 118
+        },
+        {
+          "difficulty_id": 0,
+          "level": 48,
+          "hp_multi": 138,
+          "str_multi": 124,
+          "ats_multi": 124,
+          "spd_multi": 119
+        },
+        {
+          "difficulty_id": 0,
+          "level": 49,
+          "hp_multi": 139,
+          "str_multi": 124,
+          "ats_multi": 124,
+          "spd_multi": 119
+        },
+        {
+          "difficulty_id": 0,
+          "level": 50,
+          "hp_multi": 140,
+          "str_multi": 125,
+          "ats_multi": 125,
+          "spd_multi": 120
+        },
+        {
+          "difficulty_id": 0,
+          "level": 51,
+          "hp_multi": 140,
+          "str_multi": 125,
+          "ats_multi": 125,
+          "spd_multi": 120
+        },
+        {
+          "difficulty_id": 0,
+          "level": 52,
+          "hp_multi": 141,
+          "str_multi": 126,
+          "ats_multi": 126,
+          "spd_multi": 120
+        },
+        {
+          "difficulty_id": 0,
+          "level": 53,
+          "hp_multi": 142,
+          "str_multi": 126,
+          "ats_multi": 126,
+          "spd_multi": 121
+        },
+        {
+          "difficulty_id": 0,
+          "level": 54,
+          "hp_multi": 143,
+          "str_multi": 127,
+          "ats_multi": 127,
+          "spd_multi": 121
+        },
+        {
+          "difficulty_id": 0,
+          "level": 55,
+          "hp_multi": 144,
+          "str_multi": 127,
+          "ats_multi": 127,
+          "spd_multi": 122
+        },
+        {
+          "difficulty_id": 0,
+          "level": 56,
+          "hp_multi": 144,
+          "str_multi": 128,
+          "ats_multi": 128,
+          "spd_multi": 122
+        },
+        {
+          "difficulty_id": 0,
+          "level": 57,
+          "hp_multi": 145,
+          "str_multi": 128,
+          "ats_multi": 128,
+          "spd_multi": 122
+        },
+        {
+          "difficulty_id": 0,
+          "level": 58,
+          "hp_multi": 146,
+          "str_multi": 129,
+          "ats_multi": 129,
+          "spd_multi": 123
+        },
+        {
+          "difficulty_id": 0,
+          "level": 59,
+          "hp_multi": 147,
+          "str_multi": 129,
+          "ats_multi": 129,
+          "spd_multi": 123
+        },
+        {
+          "difficulty_id": 0,
+          "level": 60,
+          "hp_multi": 148,
+          "str_multi": 130,
+          "ats_multi": 130,
+          "spd_multi": 124
+        },
+        {
+          "difficulty_id": 0,
+          "level": 61,
+          "hp_multi": 148,
+          "str_multi": 130,
+          "ats_multi": 130,
+          "spd_multi": 124
+        },
+        {
+          "difficulty_id": 0,
+          "level": 62,
+          "hp_multi": 149,
+          "str_multi": 131,
+          "ats_multi": 131,
+          "spd_multi": 124
+        },
+        {
+          "difficulty_id": 0,
+          "level": 63,
+          "hp_multi": 150,
+          "str_multi": 131,
+          "ats_multi": 131,
+          "spd_multi": 125
+        },
+        {
+          "difficulty_id": 0,
+          "level": 64,
+          "hp_multi": 151,
+          "str_multi": 132,
+          "ats_multi": 132,
+          "spd_multi": 125
+        },
+        {
+          "difficulty_id": 0,
+          "level": 65,
+          "hp_multi": 152,
+          "str_multi": 132,
+          "ats_multi": 132,
+          "spd_multi": 126
+        },
+        {
+          "difficulty_id": 0,
+          "level": 66,
+          "hp_multi": 152,
+          "str_multi": 133,
+          "ats_multi": 133,
+          "spd_multi": 126
+        },
+        {
+          "difficulty_id": 0,
+          "level": 67,
+          "hp_multi": 153,
+          "str_multi": 133,
+          "ats_multi": 133,
+          "spd_multi": 126
+        },
+        {
+          "difficulty_id": 0,
+          "level": 68,
+          "hp_multi": 154,
+          "str_multi": 134,
+          "ats_multi": 134,
+          "spd_multi": 127
+        },
+        {
+          "difficulty_id": 0,
+          "level": 69,
+          "hp_multi": 155,
+          "str_multi": 134,
+          "ats_multi": 134,
+          "spd_multi": 127
+        },
+        {
+          "difficulty_id": 0,
+          "level": 70,
+          "hp_multi": 156,
+          "str_multi": 135,
+          "ats_multi": 135,
+          "spd_multi": 128
+        },
+        {
+          "difficulty_id": 0,
+          "level": 71,
+          "hp_multi": 156,
+          "str_multi": 135,
+          "ats_multi": 135,
+          "spd_multi": 128
+        },
+        {
+          "difficulty_id": 0,
+          "level": 72,
+          "hp_multi": 157,
+          "str_multi": 136,
+          "ats_multi": 136,
+          "spd_multi": 128
+        },
+        {
+          "difficulty_id": 0,
+          "level": 73,
+          "hp_multi": 158,
+          "str_multi": 136,
+          "ats_multi": 136,
+          "spd_multi": 129
+        },
+        {
+          "difficulty_id": 0,
+          "level": 74,
+          "hp_multi": 159,
+          "str_multi": 137,
+          "ats_multi": 137,
+          "spd_multi": 129
+        },
+        {
+          "difficulty_id": 0,
+          "level": 75,
+          "hp_multi": 160,
+          "str_multi": 137,
+          "ats_multi": 137,
+          "spd_multi": 130
+        },
+        {
+          "difficulty_id": 0,
+          "level": 76,
+          "hp_multi": 160,
+          "str_multi": 138,
+          "ats_multi": 138,
+          "spd_multi": 130
+        },
+        {
+          "difficulty_id": 0,
+          "level": 77,
+          "hp_multi": 161,
+          "str_multi": 138,
+          "ats_multi": 138,
+          "spd_multi": 130
+        },
+        {
+          "difficulty_id": 0,
+          "level": 78,
+          "hp_multi": 162,
+          "str_multi": 139,
+          "ats_multi": 139,
+          "spd_multi": 131
+        },
+        {
+          "difficulty_id": 0,
+          "level": 79,
+          "hp_multi": 163,
+          "str_multi": 139,
+          "ats_multi": 139,
+          "spd_multi": 131
+        },
+        {
+          "difficulty_id": 0,
+          "level": 80,
+          "hp_multi": 164,
+          "str_multi": 140,
+          "ats_multi": 140,
+          "spd_multi": 132
+        }
+      ]
+    },
+    {
+      "name": "BattleEnemyLevelAdjust",
+      "data": [
+        {
+          "monster": "mon0343_10",
+          "int1": 32200,
+          "int2": 13
+        },
+        {
+          "monster": "mon0343_20_e",
+          "int1": 32200,
+          "int2": 13
+        },
+        {
+          "monster": "mon0344_10",
+          "int1": 32200,
+          "int2": 13
+        },
+        {
+          "monster": "mon0344_20_e",
+          "int1": 32200,
+          "int2": 13
+        },
+        {
+          "monster": "mon0312_c10_10",
+          "int1": 32200,
+          "int2": 13
+        },
+        {
+          "monster": "mon0318_10",
+          "int1": 32200,
+          "int2": 13
+        },
+        {
+          "monster": "mon0100_10",
+          "int1": 32275,
+          "int2": 16
+        },
+        {
+          "monster": "mon0136_c10_10",
+          "int1": 32275,
+          "int2": 16
+        },
+        {
+          "monster": "mon0345_10",
+          "int1": 32275,
+          "int2": 16
+        },
+        {
+          "monster": "mon0319_10",
+          "int1": 32275,
+          "int2": 16
+        },
+        {
+          "monster": "mon0004_c00_10",
+          "int1": 32275,
+          "int2": 19
+        },
+        {
+          "monster": "mon0312_c00_10",
+          "int1": 32275,
+          "int2": 19
+        },
+        {
+          "monster": "mon0135_c20_10",
+          "int1": 32275,
+          "int2": 19
+        },
+        {
+          "monster": "mon0031_10",
+          "int1": 32275,
+          "int2": 19
+        },
+        {
+          "monster": "mon0032_10",
+          "int1": 32275,
+          "int2": 19
+        },
+        {
+          "monster": "mon0101_c11_10",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0029_10",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0036_c00_10",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon3015_c00_10b",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0139_10",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon1005_10",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0322_c20_10",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "chr0775_10",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "chr0775_c01_10",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon2012_10",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0001_c00_10",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "chr0129_10b",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "chr0304_c00_10b",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0103_c10_20_e",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0016_20",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0012_c20_20_e",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0319_c10_20",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon3011_c00_10b_e",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0046_c11_10",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon1000_c02_10",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon2014_c01_10",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0130_10_e",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0321_c10_10_e",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0327_10_e",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0328_10_e",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "chr0122_20b",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "chr0115_c10_10b",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "chr0115_c10_20s",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0009_c20_10",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0009_c20_20_e",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "chr5324_10s",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "chr5316_10s",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "chr5113_10b",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "chr5118_20b",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0312_c11_10",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0045_10",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0326_c00_10",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon2013_c00_10",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "chr5302_10b",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "chr0306_10b",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "chr0302_10b",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "chr5300_10b",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0312_c11_20_e",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0326_c00_20_e",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0009_c20_30_e",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0021_c01_20",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0021_c02_20",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0021_c03_20",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0021_c04_20",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0021_c05_20",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0021_c06_20",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0021_c07_20",
+          "int1": 36736,
+          "int2": 7
+        },
+        {
+          "monster": "mon0053_10",
+          "int1": 33570,
+          "int2": 3
+        },
+        {
+          "monster": "mon0317_c01_10",
+          "int1": 33570,
+          "int2": 3
+        },
+        {
+          "monster": "mon1103_c00_10",
+          "int1": 33570,
+          "int2": 3
+        }
+      ]
+    },
+    {
+      "name": "TacticalBonus",
+      "data": [
+        {
+          "id": 0,
+          "exp_bonus": 0.20000000298023224,
+          "byte1": 1,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Неприкосновенный"
+        },
+        {
+          "id": 1,
+          "exp_bonus": 0.10000000149011612,
+          "byte1": 1,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Идеальное уклонение"
+        },
+        {
+          "id": 2,
+          "exp_bonus": 0.10000000149011612,
+          "byte1": 1,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Атакующий с зарядом"
+        },
+        {
+          "id": 3,
+          "exp_bonus": 0.10000000149011612,
+          "byte1": 1,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Обменщик"
+        },
+        {
+          "id": 4,
+          "exp_bonus": 0.20000000298023224,
+          "byte1": 1,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Первый удар"
+        },
+        {
+          "id": 5,
+          "exp_bonus": 0.20000000298023224,
+          "byte1": 3,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Тройной SCLM"
+        },
+        {
+          "id": 6,
+          "exp_bonus": 0.4000000059604645,
+          "byte1": 3,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Мешок с трюками"
+        },
+        {
+          "id": 7,
+          "exp_bonus": 0.30000001192092896,
+          "byte1": 7,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Семикратный натиск"
+        },
+        {
+          "id": 8,
+          "exp_bonus": 0.4000000059604645,
+          "byte1": 4,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Покоритель"
+        },
+        {
+          "id": 9,
+          "exp_bonus": 0.6000000238418579,
+          "byte1": 1,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Возмездие"
+        },
+        {
+          "id": 10,
+          "exp_bonus": 0.30000001192092896,
+          "byte1": 1,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Отменяющий"
+        },
+        {
+          "id": 11,
+          "exp_bonus": 0.4000000059604645,
+          "byte1": 3,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Тройное оглушение"
+        },
+        {
+          "id": 12,
+          "exp_bonus": 0.20000000298023224,
+          "byte1": 1,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Смягчитель"
+        },
+        {
+          "id": 13,
+          "exp_bonus": 0.20000000298023224,
+          "byte1": 1,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Превосходное умение"
+        },
+        {
+          "id": 14,
+          "exp_bonus": 0.20000000298023224,
+          "byte1": 20,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Суперцепь"
+        },
+        {
+          "id": 15,
+          "exp_bonus": 0.5,
+          "byte1": 50,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Гиперцепь"
+        },
+        {
+          "id": 16,
+          "exp_bonus": 0.800000011920929,
+          "byte1": 90,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Цепь чудес"
+        },
+        {
+          "id": 17,
+          "exp_bonus": 0.30000001192092896,
+          "byte1": 1,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Экстрацепь"
+        },
+        {
+          "id": 18,
+          "exp_bonus": 0.10000000149011612,
+          "byte1": 1,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Быстрый чародей"
+        },
+        {
+          "id": 19,
+          "exp_bonus": 0.20000000298023224,
+          "byte1": 1,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Зарядчик SCLM"
+        },
+        {
+          "id": 20,
+          "exp_bonus": 0.10000000149011612,
+          "byte1": 2,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Мультиблиц"
+        },
+        {
+          "id": 21,
+          "exp_bonus": 0.10000000149011612,
+          "byte1": 1,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "Командир осколков"
+        },
+        {
+          "id": 22,
+          "exp_bonus": 0.10000000149011612,
+          "byte1": 1,
+          "byte2": 1,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "ZOC"
+        },
+        {
+          "id": 23,
+          "exp_bonus": 0.0,
+          "byte1": 0,
+          "byte2": 0,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "◆ Запасной"
+        },
+        {
+          "id": 24,
+          "exp_bonus": 0.0,
+          "byte1": 0,
+          "byte2": 0,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "◆ Запасной"
+        },
+        {
+          "id": 25,
+          "exp_bonus": 0.0,
+          "byte1": 0,
+          "byte2": 0,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "◆ Запасной"
+        },
+        {
+          "id": 26,
+          "exp_bonus": 0.0,
+          "byte1": 0,
+          "byte2": 0,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "◆ Запасной"
+        },
+        {
+          "id": 27,
+          "exp_bonus": 0.0,
+          "byte1": 0,
+          "byte2": 0,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "◆ Запасной"
+        },
+        {
+          "id": 28,
+          "exp_bonus": 0.0,
+          "byte1": 0,
+          "byte2": 0,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "◆ Запасной"
+        },
+        {
+          "id": 29,
+          "exp_bonus": 0.0,
+          "byte1": 0,
+          "byte2": 0,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "◆ Запасной"
+        },
+        {
+          "id": 30,
+          "exp_bonus": 0.0,
+          "byte1": 0,
+          "byte2": 0,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "◆ Запасной"
+        },
+        {
+          "id": 31,
+          "exp_bonus": 0.0,
+          "byte1": 0,
+          "byte2": 0,
+          "empty1": 0,
+          "empty2": 0,
+          "text": "◆ Запасной"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+[
+    {
+        "FileName": "c0000.ing",
+        "StringNumber": 769,
+        "Text1": "c0000.TK_VICTOR_SHOP",
+        "Text2": "Montmart Bistro",
+        "Text3": "Shop"
+    },
+    {
+        "FileName": "c0000.ing",
+        "StringNumber": 845,
+        "Text1": "c0000.TK_REBECCA_SHOP",
+        "Text2": "Rebecca's Onsite Service",
+        "Text3": "Shop "
+    },
+    {
+        "FileName": "c0000.ing",
+        "StringNumber": 898,
+        "Text1": "c0000.TK_CHRIS_SHOP",
+        "Text2": "Stanley's Factory",
+        "Text3": "Shop"
+    },
+    {
+        "FileName": "c0000.ing",
+        "StringNumber": 956,
+        "Text1": "c0000.TK_FILENKOV_SHOP",
+        "Text2": "Stanley's Factory",
+        "Text3": "Shop"
+    },
+    {
+        "FileName": "c0000.ing",
+        "StringNumber": 1028,
+        "Text1": "c0000.TK_ANJA_SHOP",
+        "Text2": "Laguna Bathhouse",
+        "Text3": "Use Bath"
+    },
+    {
+        "FileName": "c0000.ing",
+        "StringNumber": 1039,
+        "Text1": "c0000.TK_ANJA_SHOP",
+        "Text2": "Laguna Bathhouse",
+        "Text3": "Use Bath"
+    },
+    {
+        "FileName": "c0000.ing",
+        "StringNumber": 1049,
+        "Text1": "c0000.TK_ANJA_SHOP",
+        "Text2": "Laguna Bathhouse",
+        "Text3": "Use Bath"
+    },
+    {
+        "FileName": "c0000.ing",
+        "StringNumber": 1117,
+        "Text1": "c0000.TK_ANJA_SHOP",
+        "Text2": "Laguna Bathhouse",
+        "Text3": "Use Bath"
+    },
+    {
+        "FileName": "c0000.ing",
+        "StringNumber": 1464,
+        "Text1": "c0000.TK_LINSE_SHOP",
+        "Text2": "Melrose Newspapers & Tobacco",
+        "Text3": "Shop "
+    },
+    {
+        "FileName": "c0400.ing",
+        "StringNumber": 2172,
+        "Text1": "c0400.TK_REBECCA_SHOP",
+        "Text2": "Rebecca's Onsite Service",
+        "Text3": "Shop"
+    },
+    {
+        "FileName": "c0600.ing",
+        "StringNumber": 1262,
+        "Text1": "c0600.TK_POLKKA_SHOP",
+        "Text2": "Esprit Cinema",
+        "Text3": "Watch Movie"
+    },
+    {
+        "FileName": "c1000.ing",
+        "StringNumber": 812,
+        "Text1": "c1000.TK_EDI_SHOP",
+        "Text2": "Eddy's Deals on Wheels",
+        "Text3": "Shop"
+    },
+    {
+        "FileName": "c1200.ing",
+        "StringNumber": 1458,
+        "Text1": "c1200.TK_EMAI_SHOP",
+        "Text2": "Yimai's Quartz & Antiques",
+        "Text3": "Shop"
+    },
+    {
+        "FileName": "c1800.ing",
+        "StringNumber": 1049,
+        "Text1": "c1800.TK_EDWIN_SHOP",
+        "Text2": "Stardust Cinema",
+        "Text3": "Watch Movie"
+    },
+    {
+        "FileName": "c2400.ing",
+        "StringNumber": 1307,
+        "Text1": "c2400.TK_REBECCA_SHOP",
+        "Text2": "Rebecca's Onsite Service",
+        "Text3": "Shop"
+    },
+    {
+        "FileName": "c2600.ing",
+        "StringNumber": 1560,
+        "Text1": "c2600.TK_REITAROSSA_SHOP",
+        "Text2": "Casino - Poker",
+        "Text3": "Play Poker"
+    },
+    {
+        "FileName": "c2600.ing",
+        "StringNumber": 1581,
+        "Text1": "c2600.TK_FAROUK_SHOP",
+        "Text2": "Casino - Blackjack",
+        "Text3": "Play Blackjack"
+    },
+    {
+        "FileName": "c2600.ing",
+        "StringNumber": 1630,
+        "Text1": "c2600.TK_LOTTE_SHOP",
+        "Text2": "Mérida Sportsbook",
+        "Text3": "Sportsbook"
+    },
+    {
+        "FileName": "c2600.ing",
+        "StringNumber": 1774,
+        "Text1": "c2600.TK_REBECCA_SHOP",
+        "Text2": "Rebecca's Onsite Service",
+        "Text3": "Shop"
+    },
+    {
+        "FileName": "system.ing",
+        "StringNumber": 6952,
+        "Text1": "sys_event.TK_PARTY_SELECT",
+        "Text2": "",
+        "Text3": "Party Lineup"
+    },
+    {
+        "FileName": "t2000.ing",
+        "StringNumber": 1210,
+        "Text1": "t2000.TK_DUSKAR_SHOP",
+        "Text2": "Hadeed Workshop",
+        "Text3": "Shop"
+    },
+    {
+        "FileName": "t2000.ing",
+        "StringNumber": 1243,
+        "Text1": "map.TK_RASHID_SHOP",
+        "Text2": "Movie Theater",
+        "Text3": "Watch Movie"
+    },
+    {
+        "FileName": "t2000.ing",
+        "StringNumber": 1274,
+        "Text1": "t2000.TK_FRANKLIN_SHOP",
+        "Text2": "Poker",
+        "Text3": "Play Poker"
+    },
+    {
+        "FileName": "t2000.ing",
+        "StringNumber": 1290,
+        "Text1": "t2000.TK_ROYCHE_SHOP",
+        "Text2": "Blackjack",
+        "Text3": "Play Blackjack"
+    },
+    {
+        "FileName": "t2200.ing",
+        "StringNumber": 1132,
+        "Text1": "t2200.TK_BALSHE_SHOP",
+        "Text2": "Balsheh Goods & Textiles",
+        "Text3": "Shop"
+    },
+    {
+        "FileName": "t2200.ing",
+        "StringNumber": 1209,
+        "Text1": "t2200.TK_HALA_SHOP",
+        "Text2": "Hilal Tavern & Inn",
+        "Text3": "Shop"
+    },
+    {
+        "FileName": "t2200.ing",
+        "StringNumber": 1283,
+        "Text1": "t2200.TK_JAHM_SHOP",
+        "Text2": "Marjan Hamam",
+        "Text3": "Use Bath"
+    },
+    {
+        "FileName": "t3000.ing",
+        "StringNumber": 827,
+        "Text1": "map.TK_COCRECO_SHOP",
+        "Text2": "Movie Theater",
+        "Text3": "Watch Movie"
+    },
+    {
+        "FileName": "t3000.ing",
+        "StringNumber": 959,
+        "Text1": "t3000.TK_RADDARD_SHOP",
+        "Text2": "Verne Store",
+        "Text3": "Shop"
+    },
+    {
+        "FileName": "t3200.ing",
+        "StringNumber": 887,
+        "Text1": "t3200.TK_EUGEN_SHOP",
+        "Text2": "Giscard Workshop",
+        "Text3": "Shop"
+    },
+    {
+        "FileName": "t4000.ing",
+        "StringNumber": 1077,
+        "Text1": "t4000.TK_TOUSEN_SHOP",
+        "Text2": "Shun-Sui-An Sales Counter",
+        "Text3": "Shop"
+    },
+    {
+        "FileName": "t7000.ing",
+        "StringNumber": 661,
+        "Text1": "t7000.TK_CHLOE_SHOP",
+        "Text2": "La Nuit de Chat Noir",
+        "Text3": "Shop"
+    },
+    {
+        "FileName": "t7000.ing",
+        "StringNumber": 955,
+        "Text1": "t7000.TK_SHANON_SHOP",
+        "Text2": "La Nuit de Chat Noir",
+        "Text3": "Shop"
+    },
+    {
+        "FileName": "t7000.ing",
+        "StringNumber": 1045,
+        "Text1": "map.TK_LINDA_SHOP",
+        "Text2": "Espoir General Store",
+        "Text3": "Shop"
+    },
+    {
+        "FileName": "t7000.ing",
+        "StringNumber": 1049,
+        "Text1": "map.TK_LINDA_SHOP",
+        "Text2": "Espoir General Store",
+        "Text3": "Shop"
+    },
+    {
+        "FileName": "t7000.ing",
+        "StringNumber": 1051,
+        "Text1": "map.TK_LINDA_SHOP",
+        "Text2": "Espoir General Store",
+        "Text3": "Shop"
+    },
+    {
+        "FileName": "t7000.ing",
+        "StringNumber": 1086,
+        "Text1": "map.TK_SANDRA_SHOP",
+        "Text2": "Sandra's Workshop",
+        "Text3": "Shop"
+    },
+    {
+        "FileName": "t7000.ing",
+        "StringNumber": 1495,
+        "Text1": "map.TK_HARRISON_SHOP",
+        "Text2": "Movie Theater",
+        "Text3": "Watch Movie"
+    }
+]

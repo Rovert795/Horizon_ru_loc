@@ -1,0 +1,4991 @@
+{
+  "headers": [
+    {
+      "name": "TextTableData",
+      "schema": "Kuro1"
+    }
+  ],
+  "data": [
+    {
+      "name": "TextTableData",
+      "data": [
+        {
+          "key": "TXT_SAVEDATA_NEWDATA_TITLE",
+          "value": "Новое сохранение"
+        },
+        {
+          "key": "TXT_SAVEDATA_TITLE",
+          "value": "Тропы за горизонтом"
+        },
+        {
+          "key": "TXT_SYSTEM_SAVEDATA_SUB_TITLE",
+          "value": "Системные данные"
+        },
+        {
+          "key": "TXT_SYSTEM_SAVEDATA_DETAIL",
+          "value": "Системные данные The Legend of Heroes: Тропы за горизонтом. Содержат настройки игры и т.д."
+        },
+        {
+          "key": "TXT_SAVE_LOAD_SAVEDATA_INCORRECT",
+          "value": "<C1>Не удалось загрузить сохранение, так как оно повреждено."
+        },
+        {
+          "key": "TXT_SAVE_LOAD_DLC_INVALID",
+          "value": "<C1>Нельзя загрузить это сохранение.\nОно содержит загружаемый контент, который не был установлен."
+        },
+        {
+          "key": "TXT_SAVE_LOAD_VERSION_INCORRECT",
+          "value": "<C1>Это сохранение было создано обновленной версией игры.\nПожалуйста, обновите игру, чтобы загрузить его."
+        },
+        {
+          "key": "TXT_SAVE_PLAYGO_NOT_READY",
+          "value": "<C1>Данные, необходимые для загрузки этого сохранения, еще не готовы."
+        },
+        {
+          "key": "TXT_SAVE_ACTIVITY_LOAD_FAILED",
+          "value": "<C1>Не удалось возобновить активность. Не удалось прочитать сохранение.\nВозврат на титульный экран."
+        },
+        {
+          "key": "TXT_SAVE_ACTIVITY_ID_INVALID",
+          "value": "<C1>Не удалось возобновить активность. Указана недопустимая активность.\nВозврат на титульный экран."
+        },
+        {
+          "key": "TXT_SAVE_ACTIVITY_ID_NOT_MATCH",
+          "value": "<C1>Не удалось возобновить активность. Не удалось найти подходящее сохранение.\nПожалуйста, загрузите сохранение с титульного экран."
+        },
+        {
+          "key": "TXT_SAVE_DETAIL_PARTY",
+          "value": "Отряд:"
+        },
+        {
+          "key": "TXT_SAVE_DETAIL_PLAYTIME",
+          "value": "Время игры:"
+        },
+        {
+          "key": "TXT_SAVE_DETAIL_LEVEL",
+          "value": "Ур"
+        },
+        {
+          "key": "TXT_SAVE_DETAIL_POINT",
+          "value": " ・ "
+        },
+        {
+          "key": "TXT_SAVE_DETAIL_SPACE",
+          "value": " "
+        },
+        {
+          "key": "TXT_SAVE_DETAIL_TBTL_DIFFICULT",
+          "value": "Сложность тактических битв:"
+        },
+        {
+          "key": "TXT_SAVE_DETAIL_FBTL_DIFFICULT",
+          "value": "Сложность свободных битв:"
+        },
+        {
+          "key": "TXT_SAVE_DETAIL_AUTO_SAVE",
+          "value": "(автосохранение)"
+        },
+        {
+          "key": "TXT_SAVE_VERY_EASY",
+          "value": "Очень легко"
+        },
+        {
+          "key": "TXT_SAVE_EASY",
+          "value": "Легко"
+        },
+        {
+          "key": "TXT_SAVE_NORMAL",
+          "value": "Нормально"
+        },
+        {
+          "key": "TXT_SAVE_HARD",
+          "value": "Сложно"
+        },
+        {
+          "key": "TXT_SAVE_NIGHTMARE",
+          "value": "Кошмар"
+        },
+        {
+          "key": "TXT_TITLE_CONTINUE",
+          "value": "Продолжить игру."
+        },
+        {
+          "key": "TXT_TITLE_NEWGAME",
+          "value": "Начать новую игру."
+        },
+        {
+          "key": "TXT_TITLE_NEWGAME_PLUS",
+          "value": "Загрузить данные прохождения и начать игру."
+        },
+        {
+          "key": "TXT_TITLE_LOADGAME",
+          "value": "Загрузить сохранение."
+        },
+        {
+          "key": "TXT_TITLE_SYSTEM",
+          "value": "Изменить настройки игры."
+        },
+        {
+          "key": "TXT_TITLE_DIFFICULT",
+          "value": "Пожалуйста, выберите сложность боя.\nСложность тактических/свободных битв можно изменить в игре."
+        },
+        {
+          "key": "TXT_TITLE_TBTL_VERYEASY",
+          "value": "Тактические битвы: Очень легко / Свобоные битвы: Легко\nБыстрые и простые битвы для тех, кто хочет наслаждаться историей."
+        },
+        {
+          "key": "TXT_TITLE_TBTL_EASY",
+          "value": "Тактические битвы: Легко / Свобоные битвы: Легко\nНемного сложности для игроков, новичков в RPG."
+        },
+        {
+          "key": "TXT_TITLE_TBTL_NORMAL",
+          "value": "Тактические битвы: Нормально / Свобоные битвы: Нормально\nБитвы с приятной сложностью для тех, кто привык к RPG."
+        },
+        {
+          "key": "TXT_TITLE_TBTL_HARD",
+          "value": "<c853>Тактические битвы: Сложно / Свобоные битвы: Сложно\nТребовательные битвы для опытных игроков, которым Нормально слишком легко."
+        },
+        {
+          "key": "TXT_TITLE_TBTL_NIGHTMARE",
+          "value": "<c823>Тактические битвы: Кошмар / Свобоные битвы: Сложно\nНепрекращающееся испытание, которое проверит ваши пределы."
+        },
+        {
+          "key": "TXT_TITLE_DIFFICULT_CONFIRM",
+          "value": "<C1>Когда сложность тактических битв установлена на Сложно или выше,\nесли вы проиграете в битве, вы не сможете снизить силу врагов и попробовать снова.\nПродолжить?"
+        },
+        {
+          "key": "TXT_TITLE_CONTINUE_CONFIRM",
+          "value": "<C1>Загрузка сохранения. Продолжить?<C0>"
+        },
+        {
+          "key": "TXT_TITLE_ARCHIVE",
+          "value": "Просмотреть архив."
+        },
+        {
+          "key": "TXT_TITLE_IMPORTGAME",
+          "value": "Импортировать сохранение из демо-версии."
+        },
+        {
+          "key": "TXT_TITLE_TRANSFER",
+          "value": "Перенести данные сохранения."
+        },
+        {
+          "key": "TXT_TITLE_TRANSFER_CONFIRM",
+          "value": "<C1>Ваши сохранения Trails beyond the Horizon для PlayStation 4\nмогут быть преобразованы в сохранения для PlayStation 5.\nЗагрузить сохранение?"
+        },
+        {
+          "key": "TXT_TITLE_TRANSFER_CONFIRM_NX_OUNCE",
+          "value": "<C1>Ваши сохранения Trails beyond the Horizon для Nintendo Switch\nмогут быть преобразованы в сохранения для Nintendo Switch 2.\nЗагрузить сохранение?"
+        },
+        {
+          "key": "TXT_TITLE_FOUND_CLEAR_DATA_PS4",
+          "value": "<C1>Обнаружены данные прохождения Trails beyond the Horizon для PlayStation 4."
+        },
+        {
+          "key": "TXT_TITLE_SELECT_CLEAR_DATA_PLATFORM",
+          "value": "<C1>Обнаружены данные прохождения Trails beyond the Horizon для PlayStation 4.\nПожалуйста, выберите, на какой платформе вы хотите использовать эти данные."
+        },
+        {
+          "key": "TXT_TITLE_CLEAR_DATA_LOAD_PS4",
+          "value": "Загрузить данные для PlayStation 4."
+        },
+        {
+          "key": "TXT_TITLE_CLEAR_DATA_LOAD_PS5",
+          "value": "Загрузить данные для PlayStation 5."
+        },
+        {
+          "key": "TXT_TITLE_CLEAR_DATA_NO_LOAD",
+          "value": "Не загружать"
+        },
+        {
+          "key": "TXT_TITLE_DEBUG_MAP",
+          "value": "Перейти в отладочную комнату."
+        },
+        {
+          "key": "TXT_TITLE_LOAD_CLEAR_DATA_CONFIRM",
+          "value": "<s31><C1>Загрузка данных прохождения позволит начать новое прохождение,\nсохранив ваше снаряжение.\nЗагрузить данные прохождения?"
+        },
+        {
+          "key": "TXT_TITLE_LOAD_TRIAL_SYSTEM_DATA_CONFIRM",
+          "value": "<C1>Перенести системные данные из демо-версии сюжета?\nЭто перезапишет ваши текущие системные данные."
+        },
+        {
+          "key": "TXT_TITLE_START_2ND_PLAY",
+          "value": "Начать новое прохождение."
+        },
+        {
+          "key": "TXT_TITLE_TAKE_OVER_ACHIEVEMENT",
+          "value": "Перенос: предметы, достижения, записи в блокноте"
+        },
+        {
+          "key": "TXT_TITLE_TAKE_OVER_STATUS",
+          "value": "Перенос: уровни и характеристики персонажей"
+        },
+        {
+          "key": "TXT_TITLE_TAKE_OVER_MIRA",
+          "value": "Перенос: мира, сепит, жетоны"
+        },
+        {
+          "key": "TXT_TITLE_TAKE_OVER_DECIDE",
+          "value": "<C1>Начать игру"
+        },
+        {
+          "key": "TXT_TITLE_TAKE_OVER_ACHIEVEMENT_TXT",
+          "value": "<s31><C1>Предметы (с некоторыми ограничениями), различные элементы,\nсвязанные с достижениями (расположения, уровень голо-ядра,\nуровни связей и т.д.), и информация из блокнота будут перенесены."
+        },
+        {
+          "key": "TXT_TITLE_TAKE_OVER_STATUS_TXT",
+          "value": "<s31><C1>Переносит уровни персонажей, уровни навыков и повышения характеристик."
+        },
+        {
+          "key": "TXT_TITLE_TAKE_OVER_MIRA_TXT",
+          "value": "<s31><C1>Переносит мира, сепит, жетоны казино, G-Жетоны и очки мастерской."
+        },
+        {
+          "key": "TXT_TITLE_NO_TAKE_OVER",
+          "value": "<s31><C1>Начать игру без переноса данных."
+        },
+        {
+          "key": "TXT_TITLE_PATCH_VER",
+          "value": "Вер. 1.06"
+        },
+        {
+          "key": "TXT_TITLE_ALL_RIGHTS_RESERVED",
+          "value": "© Nihon Falcom Corporation. Все права защищены. Лицензировано и опубликовано NIS America, Inc.\nПеревод Trevor для ZOG."
+        },
+        {
+          "key": "TXT_TITLE_KURO1_CLEAR_DATA_LOAD_CONFIRM",
+          "value": "<C1>Найдены данные о прохождении The Legend of Heroes: Trails through Daybreak.\nВыборы, сделанные в той игре, могут отразиться здесь, и можно получить особые бонусы за прохождение.\n\nЗагрузить данные прохождения Trails through Daybreak?"
+        },
+        {
+          "key": "TXT_TITLE_KURO2_CLEAR_DATA_LOAD_CONFIRM",
+          "value": "<C1>Найдены данные о прохождении The Legend of Heroes: Trails through Daybreak II.\nВыборы, сделанные в той игре, могут отразиться здесь, и можно получить особые бонусы за прохождение.\n\nЗагрузить данные прохождения Trails through Daybreak II?"
+        },
+        {
+          "key": "TXT_SEPARATOR",
+          "value": "..."
+        },
+        {
+          "key": "TXT_EMPHASIS",
+          "value": "・"
+        },
+        {
+          "key": "TXT_HALF_SPACE",
+          "value": " "
+        },
+        {
+          "key": "TXT_HUD_COMMAND_ATTACK",
+          "value": "<I902>"
+        },
+        {
+          "key": "TXT_HUD_COMMAND_AVOID",
+          "value": "<I903>"
+        },
+        {
+          "key": "TXT_HUD_COMMAND_ITEM",
+          "value": "<I1084>"
+        },
+        {
+          "key": "TXT_HUD_COMMAND_SHARD",
+          "value": "<I904>"
+        },
+        {
+          "key": "TXT_HUD_COMMAND_SHARD_TXT",
+          "value": "Развернуть осколки"
+        },
+        {
+          "key": "TXT_HUD_BUTTON_LEADER_CHANGE",
+          "value": "<I907>"
+        },
+        {
+          "key": "TXT_HUD_BUTTON_CHANGE_ASSAULT",
+          "value": "<I902>"
+        },
+        {
+          "key": "TXT_HUD_BUTTON_TRANS",
+          "value": "<s34><I1116><s16> <s34><I1117>"
+        },
+        {
+          "key": "TXT_HUD_BUTTON_ZOC",
+          "value": "Активация ZOC"
+        },
+        {
+          "key": "TXT_HUD_BUTTON_ZOC_ICON",
+          "value": "<I912>"
+        },
+        {
+          "key": "TXT_HUD_BUTTON_HARD_ATTACK",
+          "value": "<I905>"
+        },
+        {
+          "key": "TXT_HUD_BUTTON_VEH_ACCEL",
+          "value": "<s32><I1130><s24>Ускорить"
+        },
+        {
+          "key": "TXT_HUD_BUTTON_VEH_BREAK",
+          "value": "<s32><I1131><s24>Тормоз/Задний ход"
+        },
+        {
+          "key": "TXT_HUD_BUTTON_VEH_EXIT",
+          "value": "<s32><I901><s24>Выйти"
+        },
+        {
+          "key": "TXT_HUD_BUTTON_VEH_CHANGE_VIEW_L3",
+          "value": "<s32><I1115><s24>Сменить вид"
+        },
+        {
+          "key": "TXT_HUD_BUTTON_VEH_CHANGE_VIEW_R3",
+          "value": "<s32><I1115><s24>Сменить вид"
+        },
+        {
+          "key": "TXT_HUD_RECOVERY",
+          "value": "Команда восстановления"
+        },
+        {
+          "key": "TXT_HUD_KEYHELP_FIELD_SEARCH",
+          "value": "Поле поиска"
+        },
+        {
+          "key": "TXT_HUD_KEYHELP_TACTICS_MENU",
+          "value": "Тактическое меню"
+        },
+        {
+          "key": "TXT_HUD_KEYHELP_TARGET_SELECT",
+          "value": "Выбрать цель"
+        },
+        {
+          "key": "TXT_HUD_KEYHELP_TARGET_CHANGE",
+          "value": "Сменить цель"
+        },
+        {
+          "key": "TXT_HUD_KEYHELP_TARGET_CANCEL",
+          "value": "Снять цель"
+        },
+        {
+          "key": "TXT_HUD_KEYHELP_TARGET_INFO",
+          "value": "Информация о цели"
+        },
+        {
+          "key": "TXT_HUD_KEYHELP_ACCEL",
+          "value": "Ускорение"
+        },
+        {
+          "key": "TXT_HUD_AUTO_BATTLE",
+          "value": "Авто голо (временное)"
+        },
+        {
+          "key": "TXT_HUD_TEST_CRAFT_FIE",
+          "value": "Край шифра"
+        },
+        {
+          "key": "TXT_HUD_TEST_CRAFT_VAN",
+          "value": "Навыки Вана"
+        },
+        {
+          "key": "TXT_HUD_TEST_ARTS",
+          "value": "Аэриал"
+        },
+        {
+          "key": "TXT_HUD_TEST_DESCRIPTION",
+          "value": "Описание"
+        },
+        {
+          "key": "TXT_HUD_KEYHELP_BATTLE_HELP",
+          "value": "<s32><I1021><s24>Помощь в бою"
+        },
+        {
+          "key": "TXT_HUD_KEYHELP_SUB_INFO",
+          "value": "<s32><I1088><s24> Доп. информация"
+        },
+        {
+          "key": "TXT_HUD_KEYHELP_SUB_INFO_AND_CHANGE",
+          "value": "<s32><I1088><s24> Доп. информация +<s32><I900><s24> Сменить"
+        },
+        {
+          "key": "TXT_HUD_KEYHELP_SUB_INFO_AND_CHANGE_LOCKED",
+          "value": "<s32><I1088><s24> Доп. информация<c555> +<s32><I900><s24> Сменить</c>"
+        },
+        {
+          "key": "TXT_HUD_KEYHELP_SBREAK",
+          "value": "S-Брейк"
+        },
+        {
+          "key": "TXT_HUD_KEYHELP_SBREAK_BUTTON",
+          "value": "<I1086>"
+        },
+        {
+          "key": "TXT_HUD_KEYHELP_NOTE",
+          "value": "<I1051>"
+        },
+        {
+          "key": "TXT_HUD_KEYHELP_MENU",
+          "value": "<I1050>"
+        },
+        {
+          "key": "TXT_HUD_KEYHELP_SIMPLE",
+          "value": "Скрыть детали"
+        },
+        {
+          "key": "TXT_HUD_KEYHELP_DETAIL",
+          "value": "Показать детали"
+        },
+        {
+          "key": "TXT_HUD_KEYHELP_SKIP_ACTION",
+          "value": "<s32><I1090><s24>Пропустить"
+        },
+        {
+          "key": "TXT_HUD_ITEM_NUM",
+          "value": "x%d"
+        },
+        {
+          "key": "TXT_HUD_SHARD_CANCEL",
+          "value": "<I901> Освободить осколки"
+        },
+        {
+          "key": "TXT_HUD_SBOOST_CANCEL",
+          "value": "<s48><I1087><s30>Отмена"
+        },
+        {
+          "key": "TXT_HUD_STOKEN",
+          "value": "Мрачный Жетон"
+        },
+        {
+          "key": "TXT_HUD_CP_UP",
+          "value": "Прирост ОН"
+        },
+        {
+          "key": "TXT_HUD_EP_RECOVER",
+          "value": "Восстановление ОЭ"
+        },
+        {
+          "key": "TXT_HUD_VALUE_ADD",
+          "value": "+%d"
+        },
+        {
+          "key": "TXT_HUD_DEBUG_TEXT",
+          "value": "Отладка активирована"
+        },
+        {
+          "key": "TXT_HUD_BTL_COMMAND_ICON_ENTER",
+          "value": "<I900>"
+        },
+        {
+          "key": "TXT_HUD_BTL_COMMAND_ICON_BACK",
+          "value": "<I901>"
+        },
+        {
+          "key": "TXT_HUD_BTL_COMMAND_ICON_CRAFT",
+          "value": "<I1083>"
+        },
+        {
+          "key": "TXT_HUD_BTL_COMMAND_ICON_ARTS",
+          "value": "<I1082>"
+        },
+        {
+          "key": "TXT_HUD_BTL_COMMAND_ICON_ITEM",
+          "value": "<I1084>"
+        },
+        {
+          "key": "TXT_HUD_BTL_COMMAND_ICON_SBOOST",
+          "value": "<I1087>"
+        },
+        {
+          "key": "TXT_HUD_BTL_COMMAND_ICON_R1_RED",
+          "value": "<I1199>"
+        },
+        {
+          "key": "TXT_HUD_BTL_COMMAND_ICON_SCOMMAND",
+          "value": "<I1091>"
+        },
+        {
+          "key": "TXT_HUD_BTL_TARGET_INFO_OPEN_DETAIL",
+          "value": "<I1085><s20>Подробности"
+        },
+        {
+          "key": "TXT_HUD_BTL_TARGET_INFO_CLOSE_DETAIL",
+          "value": "<I1085><s20>Закрыть"
+        },
+        {
+          "key": "TXT_HUD_BTL_TARGET_INFO_COND_PARAM_DOWN",
+          "value": "Снижение статов"
+        },
+        {
+          "key": "TXT_HUD_BTL_TARGET_INFO_COND_DELAY",
+          "value": "Задержка"
+        },
+        {
+          "key": "TXT_HUD_BTL_TARGET_INFO_COND_FIRE",
+          "value": "Ожог"
+        },
+        {
+          "key": "TXT_HUD_BTL_TARGET_INFO_COND_FREEZE",
+          "value": "Обморожение"
+        },
+        {
+          "key": "TXT_HUD_BTL_TARGET_INFO_COND_SEAL_CRAFT",
+          "value": "Печать"
+        },
+        {
+          "key": "TXT_HUD_BTL_TARGET_INFO_COND_SEAL_ARTS",
+          "value": "Немота"
+        },
+        {
+          "key": "TXT_HUD_BTL_TARGET_INFO_COND_CORROSION",
+          "value": "Гниение"
+        },
+        {
+          "key": "TXT_HUD_BTL_TARGET_INFO_COND_DARKNESS",
+          "value": "Ослепление"
+        },
+        {
+          "key": "TXT_HUD_BTL_TARGET_INFO_COND_FEAR",
+          "value": "Страх"
+        },
+        {
+          "key": "TXT_HUD_BTL_TARGET_INFO_COND_DEATH",
+          "value": "Смертельный удар"
+        },
+        {
+          "key": "TXT_HUD_BTL_MEMBER_CHANGE_KEYHELP_LIST_BUTTON",
+          "value": "<I1011>"
+        },
+        {
+          "key": "TXT_HUD_BTL_MEMBER_CHANGE_KEYHELP_ARTS_LIST",
+          "value": "Список искусств"
+        },
+        {
+          "key": "TXT_HUD_BTL_MEMBER_CHANGE_KEYHELP_CRAFT_LIST",
+          "value": "Список навыков"
+        },
+        {
+          "key": "TXT_HUD_BTL_MEMBER_CHANGE_KEYHELP_SELECT",
+          "value": "Выбрать члена"
+        },
+        {
+          "key": "TXT_HUD_BTL_MEMBER_CHANGE_KEYHELP_CHANGE_BUTTON",
+          "value": "<I900>"
+        },
+        {
+          "key": "TXT_HUD_BTL_MEMBER_CHANGE_KEYHELP_CHANGE",
+          "value": "Изменить"
+        },
+        {
+          "key": "TXT_HUD_BTL_USE_SPOM_MESSAGE",
+          "value": "<C1>Этот персонаж достиг максимального уровня. Вы уверены, что хотите его использовать?"
+        },
+        {
+          "key": "TXT_HUD_BTL_SHARD_COMMAND_COST",
+          "value": "Стоимость"
+        },
+        {
+          "key": "TXT_HUD_BTL_SHARD_COMMAND_EFFECT",
+          "value": "Эффект"
+        },
+        {
+          "key": "TXT_HUD_BTL_SHARD_COMMAND_TURN_COUNT",
+          "value": "Длительность"
+        },
+        {
+          "key": "TXT_HUD_BTL_SHARD_COMMAND_COUNT",
+          "value": "ходов"
+        },
+        {
+          "key": "TXT_HUD_BTL_SHARD_COMMAND_DESC_ATTACK_SHORT",
+          "value": "Физический урон\n%+d%%"
+        },
+        {
+          "key": "TXT_HUD_BTL_SHARD_COMMAND_DESC_MAGIC_SHORT",
+          "value": "Магический урон\n%+d%%"
+        },
+        {
+          "key": "TXT_HUD_BTL_SHARD_COMMAND_DESC_SHIELD_SHORT",
+          "value": "Получаемый урон\nx%.1f"
+        },
+        {
+          "key": "TXT_HUD_BTL_SHARD_COMMAND_DESC_SHIELD_EN_SHORT",
+          "value": "Наносимый урон\nx%.1f"
+        },
+        {
+          "key": "TXT_HUD_BTL_SHARD_COMMAND_DESC_SPEED_SHORT",
+          "value": "Время каста/Задержка\nx%.1f"
+        },
+        {
+          "key": "TXT_BTL_CONDITION_INFO_CAN_ACTION",
+          "value": "Не могу двигаться!"
+        },
+        {
+          "key": "TXT_BTL_ARTS_FAILED",
+          "value": "Нет цели!"
+        },
+        {
+          "key": "TXT_BTL_CAN_USE_SKILL",
+          "value": "<c955>%s</c><C1> сейчас использовать нельзя."
+        },
+        {
+          "key": "TXT_BTL_NONE_ATTACK_ARTS",
+          "value": "Нет атакующих искусств."
+        },
+        {
+          "key": "TXT_BTL_NONE_SUPPORT_ARTS",
+          "value": "Нет вспомогательных искусств."
+        },
+        {
+          "key": "TXT_BTL_NONE_CRAFT",
+          "value": "Нет навыков."
+        },
+        {
+          "key": "TXT_BTL_SBEARK_UI_TEXT",
+          "value": "<c698>Активация Сверх-навыка: \n<C3>ОН100 + Полное усиление (S-буст x2)"
+        },
+        {
+          "key": "TXT_BTL_SCLM_STRIKE_TEXT",
+          "value": "◆Неиспользованная EX-цепь"
+        },
+        {
+          "key": "TXT_SYS_LOG_HELP_ADD",
+          "value": "<I1051><s24>Справка <C3>%s</C> добавлена."
+        },
+        {
+          "key": "TXT_SYS_LOG_TIMELY_WORDS",
+          "value": "<s34><I1159><s24> Своевременные термины"
+        },
+        {
+          "key": "TXT_MES_AUTO_BUTTON",
+          "value": "<I909>"
+        },
+        {
+          "key": "TXT_RESULT_GOT_CRAFT_UPDATE",
+          "value": "<C1>%s <C0><I%d><C2>%s <C1>улучшена до <C0><I%d><C2>%s<C1>!"
+        },
+        {
+          "key": "TXT_RESULT_GOT_CRAFT",
+          "value": "<C1>%s изучил(а) <C0><I%d><C2>%s<C1>!"
+        },
+        {
+          "key": "TXT_RESULT_GOT_CRAFT_LOG",
+          "value": "Изучить <c955>%s</c>"
+        },
+        {
+          "key": "TXT_RESULT_HOLOW_CORE_LEVELUP",
+          "value": "<c955>%s</c> достиг(ла) ур. <c955>%d</c>."
+        },
+        {
+          "key": "TXT_RESULT_HOLOW_CORE_LEVELUP_LABEL",
+          "value": "Голо-ядро"
+        },
+        {
+          "key": "TXT_RESULT_DETAIL",
+          "value": "Подробности"
+        },
+        {
+          "key": "TXT_RESULT_DETAIL_2",
+          "value": "Подробности"
+        },
+        {
+          "key": "TXT_RESULT_OK",
+          "value": "<I900>Продолжить"
+        },
+        {
+          "key": "TXT_GAMEOVER_RETRY",
+          "value": "Повторить"
+        },
+        {
+          "key": "TXT_GAMEOVER_RETRY_DOWN_DIFFICULTY",
+          "value": "Ослабить врагов и повторить"
+        },
+        {
+          "key": "TXT_GAMEOVER_GO_AHEAD",
+          "value": "Продолжить"
+        },
+        {
+          "key": "TXT_GAMEOVER_GO_AHEAD_AS_WIN",
+          "value": "Пропустить битву"
+        },
+        {
+          "key": "TXT_GAMEOVER_LOAD_LATEST_SAVE",
+          "value": "Продолжить с последнего сохранения"
+        },
+        {
+          "key": "TXT_GAMEOVER_LOAD_SAVE_FAILED",
+          "value": "<C1>Не удалось загрузить сохранение."
+        },
+        {
+          "key": "TXT_GAMEOVER_TITLE",
+          "value": "Вернуться на титульный экран"
+        },
+        {
+          "key": "TXT_CAMP_SYSTEM_MENU",
+          "value": "Система"
+        },
+        {
+          "key": "TXT_CAMP_MEMBER_SELECT",
+          "value": "Выбор участника"
+        },
+        {
+          "key": "TXT_CAMP_SWAP",
+          "value": "Изменить"
+        },
+        {
+          "key": "TXT_CAMP_CRAFT_CHECK",
+          "value": "Просмотреть навыки"
+        },
+        {
+          "key": "TXT_CAMP_HIDE_WINDOW",
+          "value": "Просмотреть портрет"
+        },
+        {
+          "key": "TXT_CAMP_SHORTCUT_DISP",
+          "value": "Быстрый доступ"
+        },
+        {
+          "key": "TXT_CAMP_CLOSE",
+          "value": "Закрыть"
+        },
+        {
+          "key": "TXT_CAMP_CHARA_SELECT",
+          "value": "Выбор персонажа"
+        },
+        {
+          "key": "TXT_CAMP_CHARA_CHANGE",
+          "value": "Сменить персонажа"
+        },
+        {
+          "key": "TXT_CAMP_ITEM_SELECT",
+          "value": "Выбрать предмет"
+        },
+        {
+          "key": "TXT_CAMP_TARGET_SELECT",
+          "value": "Выбрать цель"
+        },
+        {
+          "key": "TXT_CAMP_USE",
+          "value": "Использовать"
+        },
+        {
+          "key": "TXT_CAMP_CANCEL",
+          "value": "Отмена"
+        },
+        {
+          "key": "TXT_CAMP_DISCARD",
+          "value": "Выбросить"
+        },
+        {
+          "key": "TXT_CAMP_REMOVE",
+          "value": "Убрать"
+        },
+        {
+          "key": "TXT_CAMP_REMOVE_ITEM",
+          "value": "Снять снаряжение"
+        },
+        {
+          "key": "TXT_CAMP_EQUIP_SELECT",
+          "value": "Сменить снаряжение"
+        },
+        {
+          "key": "TXT_CAMP_EQUIP_CHARA",
+          "value": "Экипирующий"
+        },
+        {
+          "key": "TXT_CAMP_AUTO_EQIP",
+          "value": "Автоснаряжение"
+        },
+        {
+          "key": "TXT_CAMP_NO_EQUIP",
+          "value": "Неиспользуемое"
+        },
+        {
+          "key": "TXT_CAMP_TOTAL_NUM",
+          "value": "Всего"
+        },
+        {
+          "key": "TXT_CAMP_LOCK_SLOT_NUM",
+          "value": "Неоткрытое"
+        },
+        {
+          "key": "TXT_CAMP_TAB_EQIP",
+          "value": "Снаряжение"
+        },
+        {
+          "key": "TXT_CAMP_TAB_COSTUME",
+          "value": "Костюм"
+        },
+        {
+          "key": "TXT_CAMP_TAB_CORE",
+          "value": "Голо-ядро"
+        },
+        {
+          "key": "TXT_CAMP_TAB_ARTS_DRIVER",
+          "value": "Драйвер искусств"
+        },
+        {
+          "key": "TXT_CAMP_TAB_USE_ARTS",
+          "value": "Искусства исцеления"
+        },
+        {
+          "key": "TXT_CAMP_QUARTZ_SELECT",
+          "value": "Выбрать кварц"
+        },
+        {
+          "key": "TXT_CAMP_SKILL_CHECK",
+          "value": "Умение подтверждено."
+        },
+        {
+          "key": "TXT_CAMP_SKILL_LIST",
+          "value": "Список умений"
+        },
+        {
+          "key": "TXT_CAMP_SLOT_MOVE",
+          "value": "Переместить слот"
+        },
+        {
+          "key": "TXT_CAMP_LINE_MOVE",
+          "value": "Переместить линию"
+        },
+        {
+          "key": "TXT_CAMP_ELEMENT_SORT",
+          "value": "Сортировать атрибуты"
+        },
+        {
+          "key": "TXT_CAMP_SKILL_INFO",
+          "value": "Подробности умения"
+        },
+        {
+          "key": "TXT_CAMP_ARTS_INFO",
+          "value": "Выбрать искусство"
+        },
+        {
+          "key": "TXT_CAMP_ARTS_SELECT",
+          "value": "Выбрать искусство"
+        },
+        {
+          "key": "TXT_CAMP_SKILL_SELECT",
+          "value": "Выбрать умение"
+        },
+        {
+          "key": "TXT_CAMP_CHANGE_PLATOON",
+          "value": "Изменить порядок группы"
+        },
+        {
+          "key": "TXT_CAMP_LEADER_SELECT",
+          "value": "Сменить лидера"
+        },
+        {
+          "key": "TXT_CAMP_CHANGE_TACTICS",
+          "value": "Изменить направление боя"
+        },
+        {
+          "key": "TXT_CAMP_TACTICS_TYPE_SELECT",
+          "value": "Выбрать тип команды"
+        },
+        {
+          "key": "TXT_CAMP_SET",
+          "value": "Установить"
+        },
+        {
+          "key": "TXT_CAMP_TYPE_SELECT",
+          "value": "Выбрать тип"
+        },
+        {
+          "key": "TXT_CAMP_CRAFT_SELECT",
+          "value": "Выбрать навык"
+        },
+        {
+          "key": "TXT_CAMP_CHANGE_SBREAK",
+          "value": "Изменить S-брейк"
+        },
+        {
+          "key": "TXT_CAMP_GET_REWARD",
+          "value": "Забрать награду"
+        },
+        {
+          "key": "TXT_CAMP_MODEL_MOVE",
+          "value": "Переместить"
+        },
+        {
+          "key": "TXT_CAMP_MODEL_ROLL",
+          "value": "Вращать"
+        },
+        {
+          "key": "TXT_CAMP_MODEL_SHRINK",
+          "value": "Отдалить"
+        },
+        {
+          "key": "TXT_CAMP_MODEL_EXPANSION",
+          "value": "Приблизить"
+        },
+        {
+          "key": "TXT_CAMP_MODEL_DISP_RESET",
+          "value": "Сбросить отображение"
+        },
+        {
+          "key": "TXT_CAMP_MODEL_CHECK",
+          "value": "Просмотреть модель"
+        },
+        {
+          "key": "TXT_CAMP_MODEL_COVER_OPEN",
+          "value": "Открыть/закрыть обложку"
+        },
+        {
+          "key": "TXT_CAMP_COSTUME_SELECT",
+          "value": "Сменить костюм"
+        },
+        {
+          "key": "TXT_CAMP_POSE_CHANGE",
+          "value": "Сменить позу"
+        },
+        {
+          "key": "TXT_CAMP_HELP_HIDE",
+          "value": "Скрыть интерфейс"
+        },
+        {
+          "key": "TXT_CAMP_LARGENAME_PORTRAIT_DISP",
+          "value": "Отображение имени"
+        },
+        {
+          "key": "TXT_CAMP_BACKGROUND_PORTRAIT_DISP",
+          "value": "Отображение фона"
+        },
+        {
+          "key": "TXT_CAMP_STATUS_CONFIRMATION",
+          "value": "Проверить статус"
+        },
+        {
+          "key": "TXT_CAMP_PROFILE_TEST",
+          "value": "◆Тест профиля\nТест переноса строк\n\nТест переноса строк\n"
+        },
+        {
+          "key": "TXT_CAMP_ARTS_SET_OK",
+          "value": "Пустой слот"
+        },
+        {
+          "key": "TXT_CAMP_ARTS_SET_LOCK",
+          "value": "Неоткрытый слот"
+        },
+        {
+          "key": "TXT_CAMP_ARTS_NEED_EP",
+          "value": "ОЭ:"
+        },
+        {
+          "key": "TXT_CAMP_ARTS_HOLLOW_LV",
+          "value": "Г-Ур."
+        },
+        {
+          "key": "TXT_CAMP_QUARTZ_EDIT",
+          "value": "Редактировать кварц"
+        },
+        {
+          "key": "TXT_CAMP_ARTS_USE",
+          "value": "Использовать искусство"
+        },
+        {
+          "key": "TXT_CAMP_CORE_CHANGE",
+          "value": "Сменить голо-ядро"
+        },
+        {
+          "key": "TXT_CAMP_DRIVER_CHANGE",
+          "value": "Сменить драйвер искусств"
+        },
+        {
+          "key": "TXT_CAMP_CORE_VOICE_CHANGE",
+          "value": "Сменить игровые голоса"
+        },
+        {
+          "key": "TXT_CAMP_SELECT_SLOT",
+          "value": "Выбрать слот"
+        },
+        {
+          "key": "TXT_CAMP_OPEN_SLOT",
+          "value": "Открыть слот"
+        },
+        {
+          "key": "TXT_CAMP_SET_PLUGIN",
+          "value": "Установить плагин"
+        },
+        {
+          "key": "TXT_CAMP_CHANGE_COVER",
+          "value": "Сменить обложку"
+        },
+        {
+          "key": "TXT_CAMP_BACK_MENU",
+          "value": "Вернуться"
+        },
+        {
+          "key": "TXT_CAMP_CUSTOM_TOP_SLOT",
+          "value": "Открыть слоты."
+        },
+        {
+          "key": "TXT_CAMP_CUSTOM_TOP_PLUGIN",
+          "value": "Установить плагины."
+        },
+        {
+          "key": "TXT_CAMP_CUSTOM_TOP_COVER",
+          "value": "Сменить обложку Ксифы."
+        },
+        {
+          "key": "TXT_CAMP_CUSTOM_TOP_BACK",
+          "value": "Завершить настройку."
+        },
+        {
+          "key": "TXT_CAMP_CUSTOM_CAN_OPENED",
+          "value": "<C1>Потратьте сепит для открытия.</C>"
+        },
+        {
+          "key": "TXT_CAMP_CUSTOM_CAN_UNOPENED",
+          "value": "<C2>Пока нельзя открыть.</C>"
+        },
+        {
+          "key": "TXT_CAMP_PLUGIN_CAN_OPENED",
+          "value": "<C1>Можно установить плагины.</C>"
+        },
+        {
+          "key": "TXT_CAMP_PLUGIN_CAN_UNOPENED",
+          "value": "<C1>Потратьте сепит для открытия.</C>"
+        },
+        {
+          "key": "TXT_CAMP_PLUGIN_CAN_NOT_EQUIP",
+          "value": "<C1>Используйте </C><s36><I900><s24><C1> для установки плагина искусств.</C>"
+        },
+        {
+          "key": "TXT_CAMP_PLUGIN_CAN_NOT_OPENED",
+          "value": "<C1>Открывается через модификацию орбмента в мастерской.</C>"
+        },
+        {
+          "key": "TXT_CAMP_SCROLL_LIST",
+          "value": "Прокрутка списка"
+        },
+        {
+          "key": "TXT_CAMP_PHYSICAL_ATTACK_PLUS",
+          "value": "Урон +"
+        },
+        {
+          "key": "TXT_CAMP_MAGIC_ATTACK_PLUS",
+          "value": "Урон искусств +"
+        },
+        {
+          "key": "TXT_CAMP_MAX_HP_PLUS",
+          "value": "Макс. ОЗ +"
+        },
+        {
+          "key": "TXT_CAMP_MAX_EP_PLUS",
+          "value": "Макс. ОЭ +"
+        },
+        {
+          "key": "TXT_CAMP_AUTO_EQIP_BALANCE",
+          "value": "Авто-экипировка: Баланс"
+        },
+        {
+          "key": "TXT_CAMP_AUTO_EQIP_PHYSICS",
+          "value": "Авто-экипировка: Приоритет физ."
+        },
+        {
+          "key": "TXT_CAMP_AUTO_EQIP_MAGIC",
+          "value": "Авто-экипировка: Приоритет маг."
+        },
+        {
+          "key": "TXT_CAMP_AUTO_EQIP_SPEED",
+          "value": "Авто-экипировка: Приоритет скор."
+        },
+        {
+          "key": "TXT_CAMP_AUTO_EQIP_QUARTZ_REMOVE",
+          "value": "Снять все кварцы"
+        },
+        {
+          "key": "TXT_CAMP_AUTO_EQIP_ACCESSORY_REMOVE",
+          "value": "Снять все аксессуары"
+        },
+        {
+          "key": "TXT_CAMP_CORE_VOICE_ON",
+          "value": "Голос голо-ядра: По умолчанию"
+        },
+        {
+          "key": "TXT_CAMP_CORE_VOICE_OFF",
+          "value": "Голос голо-ядра: Выключен"
+        },
+        {
+          "key": "TXT_CAMP_TAB_COOK",
+          "value": "Готовка"
+        },
+        {
+          "key": "TXT_CAMP_TAB_ITEM",
+          "value": "Предметы"
+        },
+        {
+          "key": "TXT_CAMP_TAB_MAT",
+          "value": "Материалы."
+        },
+        {
+          "key": "TXT_CAMP_TAB_QUA",
+          "value": "Редактировать кварцы"
+        },
+        {
+          "key": "TXT_CAMP_TAB_WEP",
+          "value": "Оружие"
+        },
+        {
+          "key": "TXT_CAMP_TAB_ARO",
+          "value": "Броня"
+        },
+        {
+          "key": "TXT_CAMP_TAB_ACC",
+          "value": "Аксессуары"
+        },
+        {
+          "key": "TXT_CAMP_TAB_IMP",
+          "value": "Ключевые"
+        },
+        {
+          "key": "TXT_CAMP_TAB_DLC",
+          "value": "DLC"
+        },
+        {
+          "key": "TXT_CAMP_TAB_QUARTZ",
+          "value": "Кварцы"
+        },
+        {
+          "key": "TXT_CAMP_TAB_ARTS",
+          "value": "Изменить искусства"
+        },
+        {
+          "key": "TXT_CAMP_TAB_SHARD_SKILL",
+          "value": "Навык осколка"
+        },
+        {
+          "key": "TXT_CAMP_TAB_BOOST",
+          "value": "Капля"
+        },
+        {
+          "key": "TXT_CAMP_SYS_SAVE_TITLE",
+          "value": "СОХРАНИТЬ"
+        },
+        {
+          "key": "TXT_CAMP_SYS_LOAD_TITLE",
+          "value": "ЗАГРУЗИТЬ"
+        },
+        {
+          "key": "TXT_CAMP_SYS_DELETE_TITLE",
+          "value": "УДАЛИТЬ"
+        },
+        {
+          "key": "TXT_CAMP_SYS_HELP_TITLE",
+          "value": "ПОМОЩЬ"
+        },
+        {
+          "key": "TXT_CAMP_SYS_STORY_TITLE",
+          "value": "История"
+        },
+        {
+          "key": "TXT_CAMP_SYS_OPTION_TITLE",
+          "value": "НАСТРОЙКИ"
+        },
+        {
+          "key": "TXT_CAMP_SYS_TITLE_TITLE",
+          "value": "ТИТРЫ"
+        },
+        {
+          "key": "TXT_CAMP_SYS_SAVE_MAIN",
+          "value": "Сохранить"
+        },
+        {
+          "key": "TXT_CAMP_SYS_LOAD_MAIN",
+          "value": "Загрузить игру"
+        },
+        {
+          "key": "TXT_CAMP_SYS_DELETE_MAIN",
+          "value": "Удалить сохранение"
+        },
+        {
+          "key": "TXT_CAMP_SYS_HELP_MAIN",
+          "value": "Помощь"
+        },
+        {
+          "key": "TXT_CAMP_SYS_STORY_MAIN",
+          "value": "Просмотр сводки"
+        },
+        {
+          "key": "TXT_CAMP_SYS_OPTION_MAIN",
+          "value": "Настройки игры"
+        },
+        {
+          "key": "TXT_CAMP_SYS_TITLE_MAIN",
+          "value": "Вернуться к титульному экрану"
+        },
+        {
+          "key": "TXT_CAMP_QUARTZ_NO_OPEN",
+          "value": "-Не открыто-"
+        },
+        {
+          "key": "TXT_CAMP_CHARA_NAME_NONE",
+          "value": "---"
+        },
+        {
+          "key": "TXT_CAMP_RESET_ITEM",
+          "value": "Восстановить настройки по умолчанию"
+        },
+        {
+          "key": "TXT_CAMP_ITEM_NO_EFFECT",
+          "value": "<C1>Не возымело эффекта.</C>"
+        },
+        {
+          "key": "TXT_CAMP_CORE_CHANGE_CHOICES",
+          "value": "<C2>%s</C><C1> уже использует этот голо-ядро.\nЗаменить?</C>"
+        },
+        {
+          "key": "TXT_CAMP_CORE_CHANGE_ERROR",
+          "value": "<C2>%s</C><C1> уже использует это голо-ядро.\nМэйр нельзя заменить на другого персонажа.</C>"
+        },
+        {
+          "key": "TXT_CAMP_CORE_EQUIP_ERROR",
+          "value": "<C1>В данный момент</C> <I%d><C3>%s</C> <C1>нельзя использовать.</C>"
+        },
+        {
+          "key": "TXT_CAMP_QUARTZ_CHANGE_CHOICES",
+          "value": "<C2>%s</C><C1> удалит</C>\n<I%d><C3>%s</C><C1>. Вы согласны?</C>"
+        },
+        {
+          "key": "TXT_CAMP_DRIVER_CHANGE_CHOICES",
+          "value": "<C2>%s</C><C1> уже использует этот артс-драйвер.\nЗаменить?</C>"
+        },
+        {
+          "key": "TXT_CAMP_SAME_CORE_CHOICES",
+          "value": "<C1>Это голо-ядро уже установлено.</C>"
+        },
+        {
+          "key": "TXT_CAMP_SAME_QUARTZ_CHOICES",
+          "value": "<C1>Нельзя установить несколько одинаковых кварцев.</C>"
+        },
+        {
+          "key": "TXT_CAMP_SAME_DRIVER_CHOICES",
+          "value": "<C1>Текущий установленный Артс-Драйвер.</C>"
+        },
+        {
+          "key": "TXT_CAMP_LOCK_SLOT_CHOICES",
+          "value": "<C1>Этот слот закрыт.</C>"
+        },
+        {
+          "key": "TXT_CAMP_OPEN_QUARTZ_SLOT",
+          "value": "<C1>Открыть этот слот?</C>"
+        },
+        {
+          "key": "TXT_CAMP_OPEN_PLUGIN_SLOT",
+          "value": "<C1>Открыть этот слот для плагина?</C>"
+        },
+        {
+          "key": "TXT_CAMP_SAME_EQUIP_CHOICES",
+          "value": "<C1>Нельзя выбрать уже установленный предмет.</C>"
+        },
+        {
+          "key": "TXT_CAMP_EQUIP_REMOVE_ITEM_MAX",
+          "value": "<C1>Нельзя снять, так как у вас максимальное количество этого предмета.</C>"
+        },
+        {
+          "key": "TXT_CAMP_EQUIP_CHANGE_CHOICES",
+          "value": "<C2>%s</C><C1> удалит</C>\n<I%d><C3>%s</C><C1>. Вы согласны?</C>"
+        },
+        {
+          "key": "TXT_CAMP_ITEM_ADD_GOURMET_POINT",
+          "value": "<C1>Получено</C> <C2>%d</C><C1> очков гурмана.</C>"
+        },
+        {
+          "key": "TXT_CAMP_ITEM_ADD_GOURMET_RANK",
+          "value": "<s24>-Улучшение статуса отряда-\n<c853><s29>Ранг %d</C>\n%s"
+        },
+        {
+          "key": "TXT_CAMP_ITEM_DISCARD_CHOICES",
+          "value": "<C1>Выбросить один</C> <I%d><C3>%s</C><C1>?"
+        },
+        {
+          "key": "TXT_CAMP_QUARTZ_AUTO_EQUIP",
+          "value": "<C1>Заменить кварц?\nПустые слоты заполнятся автоматически.</C>"
+        },
+        {
+          "key": "TXT_CAMP_ITEM_AUTO_EQUIP",
+          "value": "<C1>Заменить снаряжение?\nПустые слоты заполнятся автоматически.</C>"
+        },
+        {
+          "key": "TXT_CAMP_CORE_VOICE_CHOICES",
+          "value": "<C1>Установить голос для голо-ядра.</C>"
+        },
+        {
+          "key": "TXT_CAMP_ACHIEVEMENT_VALUE",
+          "value": "%d / %d"
+        },
+        {
+          "key": "TXT_CAMP_ACHIEVEMENT_SLASH",
+          "value": "/"
+        },
+        {
+          "key": "TXT_CAMP_ACHIEVEMENT_LBRACKETS",
+          "value": "["
+        },
+        {
+          "key": "TXT_CAMP_ACHIEVEMENT_RBRACKETS",
+          "value": "] "
+        },
+        {
+          "key": "TXT_CAMP_ACHIEVEMENT_ITEM_MAX",
+          "value": "<C1>Нельзя взять, так как у вас максимальное количество предметов.</C>"
+        },
+        {
+          "key": "TXT_CAMP_TACTICS_FIELD_INFO",
+          "value": "Установить действия для персонажей,\nкоторыми вы не управляете."
+        },
+        {
+          "key": "TXT_CAMP_TACTICS_FIELD_PHALANX",
+          "value": "Атаковать врага, которого атакует лидер."
+        },
+        {
+          "key": "TXT_CAMP_TACTICS_FIELD_DEPLOYMENT",
+          "value": "При наличии нескольких врагов атаковать тех,\nкого лидер не атакует."
+        },
+        {
+          "key": "TXT_CAMP_TACTICS_FIELD_DEFENSE",
+          "value": "Не атаковать. Сосредоточиться на защите."
+        },
+        {
+          "key": "TXT_CAMP_TACTICS_COMMAND_INFO",
+          "value": "Установить действия для персонажей,\nкоторыми вы не управляете в тактических битвах."
+        },
+        {
+          "key": "TXT_CAMP_TACTICS_COMMAND_VANGUARD",
+          "value": "Приблизиться к ближайшему врагу лидера\nили к цели."
+        },
+        {
+          "key": "TXT_CAMP_TACTICS_COMMAND_OPTIONAL",
+          "value": "При размещении осколков персонажи начинают бой\nсо своих позиций. В сюжетных битвах они\nначинают с оптимального расстояния."
+        },
+        {
+          "key": "TXT_CAMP_TACTICS_COMMAND_REARGUARD",
+          "value": "Держать дистанцию с ближайшим врагом лидера\nили с целью."
+        },
+        {
+          "key": "TXT_CAMP_TACTICS_TOP_ORDER",
+          "value": "Изменить тактику."
+        },
+        {
+          "key": "TXT_CAMP_TACTICS_TOP_PARTYSELECT",
+          "value": "Настроить отряд."
+        },
+        {
+          "key": "TXT_CAMP_SYS_TITLE_BACK_CHOICES",
+          "value": "Вернуться на экран заголовка?\n<C2>Все несохранённые данные будут потеряны.</C>"
+        },
+        {
+          "key": "TXT_CAMP_ICON_DECIDE",
+          "value": "<I900>"
+        },
+        {
+          "key": "TXT_CAMP_ICON_CANCEL",
+          "value": "<I901>"
+        },
+        {
+          "key": "TXT_CAMP_ICON_HIGHSPEED_OTHERSIDE",
+          "value": "<I1021>"
+        },
+        {
+          "key": "TXT_CAMP_DLC_ITEM_NUM",
+          "value": " x%d"
+        },
+        {
+          "key": "TXT_CAMP_DLC_ITEM_GET",
+          "value": "Получено:"
+        },
+        {
+          "key": "TXT_CAMP_DLC_USE_CONFIRM",
+          "value": "<C1>Использовать %s?</C>"
+        },
+        {
+          "key": "TXT_CAMP_DAY_OF_WEEK_0",
+          "value": "Воскресенье"
+        },
+        {
+          "key": "TXT_CAMP_DAY_OF_WEEK_1",
+          "value": "Понедельник"
+        },
+        {
+          "key": "TXT_CAMP_DAY_OF_WEEK_2",
+          "value": "Вторник"
+        },
+        {
+          "key": "TXT_CAMP_DAY_OF_WEEK_3",
+          "value": "Среда"
+        },
+        {
+          "key": "TXT_CAMP_DAY_OF_WEEK_4",
+          "value": "Четверг"
+        },
+        {
+          "key": "TXT_CAMP_DAY_OF_WEEK_5",
+          "value": "Пятница"
+        },
+        {
+          "key": "TXT_CAMP_DAY_OF_WEEK_6",
+          "value": "Суббота"
+        },
+        {
+          "key": "TXT_ITEM_EFF_PARAM_UP_MAXHP",
+          "value": "<C1>%s: макс. ОЗ увеличено на <C2>%d<C1>!</C>"
+        },
+        {
+          "key": "TXT_ITEM_EFF_PARAM_UP_STR",
+          "value": "<C1>%s: СИЛ увеличена на <C2>%d<C1>!</C>"
+        },
+        {
+          "key": "TXT_ITEM_EFF_PARAM_UP_DEF",
+          "value": "<C1>%s: ЗЩТ увеличена на <C2>%d<C1>!</C>"
+        },
+        {
+          "key": "TXT_ITEM_EFF_PARAM_UP_ATS",
+          "value": "<C1>%s: СИС увеличена на <C2>%d<C1>!</C>"
+        },
+        {
+          "key": "TXT_ITEM_EFF_PARAM_UP_ADF",
+          "value": "<C1>%s: МЗЩ увеличена на <C2>%d<C1>!</C>"
+        },
+        {
+          "key": "TXT_ITEM_EFF_PARAM_UP_EXP",
+          "value": "<C1>%s: ОПЫТ увеличен на <C2>%d<C1>!</C>"
+        },
+        {
+          "key": "TXT_CAMP_AUTO_EQIP_SUPERIOR_QUARTZ",
+          "value": "Автоматическая экипировка кварцев"
+        },
+        {
+          "key": "TXT_CAMP_SHARD_SKILL_LIST",
+          "value": "Список умений осколков"
+        },
+        {
+          "key": "TXT_CAMP_DISP_CHANGE",
+          "value": "Переключить отображение"
+        },
+        {
+          "key": "TXT_CAMP_SKILL_INFO_NAME",
+          "value": "<c888>%s [Значения элементов: </c>%s<c888>]</c>"
+        },
+        {
+          "key": "TXT_CAMP_SKILL_INFO_ELEMENT",
+          "value": "<s33><I%d><s%d><c888>x%d</c>"
+        },
+        {
+          "key": "TXT_CAMP_SKILL_INFO_TEXT",
+          "value": "<c698>%s</c>"
+        },
+        {
+          "key": "TXT_CAMP_SKILL_INFO_RATE_LV0",
+          "value": "<c698>Усиление Ур0</c>: "
+        },
+        {
+          "key": "TXT_CAMP_SKILL_INFO_RATE_LV1",
+          "value": "<c698>Усиление Ур1</c>: "
+        },
+        {
+          "key": "TXT_CAMP_SKILL_INFO_RATE_LV2",
+          "value": "<c698>Усиление Ур2</c>: "
+        },
+        {
+          "key": "TXT_CAMP_SKILL_INFO_RATE_VALUE",
+          "value": "<C3>%d%%</C>"
+        },
+        {
+          "key": "TXT_CAMP_SKILL_INFO_RATE_NONE",
+          "value": "<C3>---%%</C>"
+        },
+        {
+          "key": "TXT_CAMP_SHARD_COMMAND_DESC_ATTACK",
+          "value": "Наносимый физический урон +%+d%"
+        },
+        {
+          "key": "TXT_CAMP_SHARD_COMMAND_DESC_MAGIC",
+          "value": "Наносимый магический урон +%+d%"
+        },
+        {
+          "key": "TXT_CAMP_SHARD_COMMAND_DESC_SHIELD",
+          "value": "Полученный урон %d / %d"
+        },
+        {
+          "key": "TXT_CAMP_SHARD_COMMAND_DESC_SPEED",
+          "value": "Время каста/Задержка %d / %d"
+        },
+        {
+          "key": "TXT_OPT_TEXT_BGM",
+          "value": "Фоновая музыка"
+        },
+        {
+          "key": "TXT_OPT_TEXT_SE",
+          "value": "Звуковые эффекты"
+        },
+        {
+          "key": "TXT_OPT_TEXT_VOICE",
+          "value": "Голоса"
+        },
+        {
+          "key": "TXT_OPT_TEXT_ENV_VOICE",
+          "value": "Фоновые голоса"
+        },
+        {
+          "key": "TXT_OPT_TEXT_MES_AUTO",
+          "value": "Автопрокрутка сообщений"
+        },
+        {
+          "key": "TXT_OPT_TEXT_ACTIVE_VOICE",
+          "value": "Настройки активных голосов"
+        },
+        {
+          "key": "TXT_OPT_TEXT_DASH_MODE",
+          "value": "Поведение кнопки рывка"
+        },
+        {
+          "key": "TXT_OPT_TEXT_VIBRATION",
+          "value": "Функция вибрации"
+        },
+        {
+          "key": "TXT_OPT_TEXT_TARGET_LOCK",
+          "value": "Блокировка цели"
+        },
+        {
+          "key": "TXT_OPT_TEXT_COMMAND_INFO",
+          "value": "Подробности команд"
+        },
+        {
+          "key": "TXT_OPT_TEXT_RESULT",
+          "value": "Длительность отображения результатов"
+        },
+        {
+          "key": "TXT_OPT_TEXT_FIELD_BTL_LEVEL",
+          "value": "Сложность свободных боёв"
+        },
+        {
+          "key": "TXT_OPT_TEXT_TURN_BTL_LEVEL",
+          "value": "Сложность тактических боёв"
+        },
+        {
+          "key": "TXT_OPT_TEXT_MINIMAP",
+          "value": "Настройка мини-карты"
+        },
+        {
+          "key": "TXT_OPT_TEXT_NAVIGATION",
+          "value": "Отображение навигации"
+        },
+        {
+          "key": "TXT_OPT_TEXT_FIELD_ENEMY_LINE",
+          "value": "Отображать линию контакта"
+        },
+        {
+          "key": "TXT_OPT_TEXT_CAM_LR_SPEED",
+          "value": "Чувствительность камеры по горизонтали"
+        },
+        {
+          "key": "TXT_OPT_TEXT_CAM_UD_SPEED",
+          "value": "Чувствительность камеры по вертикали"
+        },
+        {
+          "key": "TXT_OPT_TEXT_CAM_LR_REVERSE",
+          "value": "Управление камерой по горизонтали"
+        },
+        {
+          "key": "TXT_OPT_TEXT_CAM_UD_REVERSE",
+          "value": "Управление камерой по вертикали"
+        },
+        {
+          "key": "TXT_OPT_TEXT_CAM_REVERSE",
+          "value": "Управление камерой по вертикали (вертикальный поворот)"
+        },
+        {
+          "key": "TXT_OPT_TEXT_CAM_ELEVATION",
+          "value": "Автоцентрирование камеры (короткое〈-〉длинное)"
+        },
+        {
+          "key": "TXT_OPT_TEXT_TARGET_LR_REVERSE",
+          "value": "Инвертированное наведение"
+        },
+        {
+          "key": "TXT_OPT_TEXT_CAM_VIBRATION",
+          "value": "Изменение тряски экрана при движении"
+        },
+        {
+          "key": "TXT_OPT_TEXT_LOAD_TIPS",
+          "value": "Советы"
+        },
+        {
+          "key": "TXT_OPT_TEXT_SCREEN_SETTING",
+          "value": "Настройки отображения"
+        },
+        {
+          "key": "TXT_OPT_TEXT_GRAPHICS_MODE",
+          "value": "Приоритет графики"
+        },
+        {
+          "key": "TXT_OPT_TEXT_GRAPHICS_MODE_QUALITY",
+          "value": "Графика"
+        },
+        {
+          "key": "TXT_OPT_TEXT_GRAPHICS_MODE_PERFORMANCE",
+          "value": "Исполнение"
+        },
+        {
+          "key": "TXT_OPT_TEXT_KEY_FIELD_ATTACK",
+          "value": "Атака на поле"
+        },
+        {
+          "key": "TXT_OPT_TEXT_KEY_AVOID",
+          "value": "Уворот"
+        },
+        {
+          "key": "TXT_OPT_TEXT_KEY_SHARD",
+          "value": "Разместить осколки"
+        },
+        {
+          "key": "TXT_OPT_TEXT_KEY_HARD_ATTACK",
+          "value": "Заряженная атака"
+        },
+        {
+          "key": "TXT_OPT_TEXT_KEY_DASH",
+          "value": "Рывок"
+        },
+        {
+          "key": "TXT_OPT_TEXT_KEY_CHANGE_LEADER",
+          "value": "Сменить лидера"
+        },
+        {
+          "key": "TXT_OPT_TEXT_KEY_ACTION",
+          "value": "Использовать сундук/лестницу/рычаг"
+        },
+        {
+          "key": "TXT_OPT_TEXT_KEY_USE_SHOP",
+          "value": "Зарядная станция, магазины"
+        },
+        {
+          "key": "TXT_OPT_TEXT_KEY_USE_TOPIC",
+          "value": "Использовать тему"
+        },
+        {
+          "key": "TXT_OPT_TEXT_KEY_EVENT_FAST_FORWARD",
+          "value": "Ускорение"
+        },
+        {
+          "key": "TXT_OPT_TEXT_KEY_EVENT_CHANGE_AUTO",
+          "value": "Переключить авто-прокрутку текста"
+        },
+        {
+          "key": "TXT_OPT_TEXT_NORMAL",
+          "value": "Обычный"
+        },
+        {
+          "key": "TXT_OPT_TEXT_REVERSE",
+          "value": "Инверсный"
+        },
+        {
+          "key": "TXT_OPT_TEXT_ON",
+          "value": "Вкл"
+        },
+        {
+          "key": "TXT_OPT_TEXT_OFF",
+          "value": "Выкл"
+        },
+        {
+          "key": "TXT_OPT_TEXT_DASH_MODE_PUSH",
+          "value": "Удержание"
+        },
+        {
+          "key": "TXT_OPT_TEXT_DASH_MODE_TOGGLE",
+          "value": "Переключение"
+        },
+        {
+          "key": "TXT_OPT_TEXT_DASH_MODE_KEEP",
+          "value": "Переключение заблокировано"
+        },
+        {
+          "key": "TXT_OPT_TEXT_TARGET_MANUAL",
+          "value": "Ручной"
+        },
+        {
+          "key": "TXT_OPT_TEXT_TARGET_AUTO",
+          "value": "Авто"
+        },
+        {
+          "key": "TXT_OPT_TEXT_FIELD_BTL_LEVEL_EASY",
+          "value": "Лёгкий"
+        },
+        {
+          "key": "TXT_OPT_TEXT_FIELD_BTL_LEVEL_NORMAL",
+          "value": "Обычный"
+        },
+        {
+          "key": "TXT_OPT_TEXT_FIELD_BTL_LEVEL_HARD",
+          "value": "Сложный"
+        },
+        {
+          "key": "TXT_OPT_TEXT_TURN_BTL_LEVEL_VERYEASY",
+          "value": "Очень лёгкий"
+        },
+        {
+          "key": "TXT_OPT_TEXT_TURN_BTL_LEVEL_EASY",
+          "value": "Лёгкий"
+        },
+        {
+          "key": "TXT_OPT_TEXT_TURN_BTL_LEVEL_NORMAL",
+          "value": "Обычный"
+        },
+        {
+          "key": "TXT_OPT_TEXT_TURN_BTL_LEVEL_HARD",
+          "value": "Сложный"
+        },
+        {
+          "key": "TXT_OPT_TEXT_TURN_BTL_LEVEL_NIGHTMARE",
+          "value": "Кошмар"
+        },
+        {
+          "key": "TXT_OPT_TEXT_COMMAND_INFO_SIMPLE",
+          "value": "Простой"
+        },
+        {
+          "key": "TXT_OPT_TEXT_COMMAND_INFO_DETAIL",
+          "value": "Подробный"
+        },
+        {
+          "key": "TXT_OPT_TEXT_DISP",
+          "value": "Всегда"
+        },
+        {
+          "key": "TXT_OPT_TEXT_MOVE_NO_DISP",
+          "value": "Остановлено"
+        },
+        {
+          "key": "TXT_OPT_TEXT_WAIT_NO_DISP",
+          "value": "В движении"
+        },
+        {
+          "key": "TXT_OPT_TEXT_NO_DISP",
+          "value": "Никогда"
+        },
+        {
+          "key": "TXT_OPT_TEXT_ON_ALPHABET",
+          "value": "ВКЛ"
+        },
+        {
+          "key": "TXT_OPT_TEXT_OFF_ALPHABET",
+          "value": "ВЫКЛ"
+        },
+        {
+          "key": "TXT_OPT_TEXT_ROLL_ON",
+          "value": "Вращение"
+        },
+        {
+          "key": "TXT_OPT_TEXT_ROLL_OFF",
+          "value": "Фиксированный"
+        },
+        {
+          "key": "TXT_OPT_TEXT_FREE",
+          "value": "Свободный"
+        },
+        {
+          "key": "TXT_OPT_TEXT_WAIT",
+          "value": "Ожидание"
+        },
+        {
+          "key": "TXT_OPT_TEXT_BRIGHTNESS",
+          "value": "Яркость"
+        },
+        {
+          "key": "TXT_OPT_TEXT_BACK_INIT_SET",
+          "value": "Сбросить настройки по умолчанию"
+        },
+        {
+          "key": "TXT_OPT_TEXT_RESET_SYSTEM",
+          "value": "<C1>Сбросить системные настройки\nСложность не изменится.</C>"
+        },
+        {
+          "key": "TXT_OPT_TEXT_RESET_DISP_CAM",
+          "value": "<C1>Сбросить настройки отображения?</C>"
+        },
+        {
+          "key": "TXT_OPT_TEXT_RESET_INPUT",
+          "value": "<C1>Сбросить настройки управления?</C>"
+        },
+        {
+          "key": "TXT_OPT_TEXT_RESET_SCREEN",
+          "value": "<C1>Сбросить настройки экрана?</C>"
+        },
+        {
+          "key": "TXT_OPT_TEXT_SEPARATE_FIELD_BTL",
+          "value": "Свободный бой"
+        },
+        {
+          "key": "TXT_OPT_TEXT_SEPARATE_CONTROL",
+          "value": "Основные управления"
+        },
+        {
+          "key": "TXT_OPT_TEXT_SEPARATE_EVENT",
+          "value": "События"
+        },
+        {
+          "key": "TXT_OPT_TEXT_FPS",
+          "value": "Частота кадров"
+        },
+        {
+          "key": "TXT_OPT_TEXT_FPS_30",
+          "value": "30 КВС"
+        },
+        {
+          "key": "TXT_OPT_TEXT_FPS_60",
+          "value": "Переменная"
+        },
+        {
+          "key": "TXT_OPT_TEXT_FIELD_BTL_RATE",
+          "value": "Масштаб свободных битв"
+        },
+        {
+          "key": "TXT_OPT_TEXT_TURN_BTL_RATE",
+          "value": "Масштаб тактических битв"
+        },
+        {
+          "key": "TXT_OPT_TEXT_EVENT_RATE",
+          "value": "Масштаб событий"
+        },
+        {
+          "key": "TXT_OPT_TEXT_RATE_1.0",
+          "value": "x1.0"
+        },
+        {
+          "key": "TXT_OPT_TEXT_RATE_1.5",
+          "value": "x1.5"
+        },
+        {
+          "key": "TXT_OPT_TEXT_RATE_2.0",
+          "value": "x2.0"
+        },
+        {
+          "key": "TXT_OPT_TEXT_RATE_3.0",
+          "value": "x3.0"
+        },
+        {
+          "key": "TXT_OPT_TEXT_RATE_4.0",
+          "value": "x4.0"
+        },
+        {
+          "key": "TXT_OPT_TEXT_SEPARATE_HIGHSPEED",
+          "value": "Режим ускорения"
+        },
+        {
+          "key": "TXT_OPT_TEXT_KEY_HIGHSPEED_CHANGE",
+          "value": "Переключить режим ускорения"
+        },
+        {
+          "key": "TXT_OPT_TEXT_SCENARIO_FONT_SIZE",
+          "value": "Размер шрифта"
+        },
+        {
+          "key": "TXT_OPT_TEXT_SIZE_SMALL",
+          "value": "Мелкий"
+        },
+        {
+          "key": "TXT_OPT_TEXT_SIZE_MEDIUM",
+          "value": "Стандартный"
+        },
+        {
+          "key": "TXT_OPT_TEXT_SIZE_LARGE",
+          "value": "Крупный"
+        },
+        {
+          "key": "TXT_OPT_TEXT_STICK_LEFT_SENSITIVITY",
+          "value": "Чувствительность левого стика"
+        },
+        {
+          "key": "TXT_OPT_TEXT_STICK_RIGHT_SENSITIVITY",
+          "value": "Чувствительность правого стика"
+        },
+        {
+          "key": "TXT_OPT_TEXT_KEY_SHARD_SEARCH",
+          "value": "Поиск осколков"
+        },
+        {
+          "key": "TXT_OPT_TEXT_KEY_CAMERA_RESET",
+          "value": "Сброс камеры"
+        },
+        {
+          "key": "TXT_OPT_TEXT_KEY_TARGET_LOCK",
+          "value": "Захват цели"
+        },
+        {
+          "key": "TXT_OPT_TEXT_KEY_NONE",
+          "value": "ВЫКЛ"
+        },
+        {
+          "key": "TXT_SET_TEXT_BGMVOL",
+          "value": "Настройка громкости фоновой музыки."
+        },
+        {
+          "key": "TXT_SET_TEXT_SEVOL",
+          "value": "Настройка громкости звуковых эффектов."
+        },
+        {
+          "key": "TXT_SET_TEXT_VOICEVOL",
+          "value": "Настройка громкости голосов."
+        },
+        {
+          "key": "TXT_SET_TEXT_ENV_VOICEVOL",
+          "value": "Изменение громкости фоновых голосов."
+        },
+        {
+          "key": "TXT_SET_TEXT_MES_AUTO",
+          "value": "Изменение настроек авто-прокрутки сообщений."
+        },
+        {
+          "key": "TXT_SET_TEXT_ACTIVE_VOICE",
+          "value": "Изменение настроек Активных Голосов."
+        },
+        {
+          "key": "TXT_SET_TEXT_DASH_MODE",
+          "value": "Изменение управления кнопкой рывка."
+        },
+        {
+          "key": "TXT_SET_TEXT_VIBRATION_PS4",
+          "value": "Включить или выключить вибрацию беспроводного контроллера.\nВибрация должна быть разрешена в системных настройках."
+        },
+        {
+          "key": "TXT_SET_TEXT_VIBRATION_PS5",
+          "value": "Включить или выключить вибрацию беспроводного контроллера.\nВибрация должна быть разрешена в системных настройках."
+        },
+        {
+          "key": "TXT_SET_TEXT_TARGET_LOCK",
+          "value": "Переключить настройки захвата цели.\n<C2>Нельзя изменить, если в настройках управления установлено ВЫКЛ.</C>"
+        },
+        {
+          "key": "TXT_SET_TEXT_COMMAND_INFO",
+          "value": "Переключить отображение помощи при выборе\nПриёмов/Искусств в тактических битвах."
+        },
+        {
+          "key": "TXT_SET_TEXT_RESULT",
+          "value": "Изменение времени отображения результатов битвы (Коротко ⇔ Долго)."
+        },
+        {
+          "key": "TXT_SET_TEXT_TURN_BTL_LEVEL",
+          "value": "Настройка сложности тактических битв."
+        },
+        {
+          "key": "TXT_SET_TEXT_TURN_BTL_LEVEL_NO_TROPHY_NIGHTMARE",
+          "value": "Настройка сложности тактических битв.\n<C2>Для получения трофея Кошмар должен действовать на протяжении всей игры.</C>"
+        },
+        {
+          "key": "TXT_SET_TEXT_TURN_BTL_BETWEEN_ADDTEXT_ALERT",
+          "value": "\n\n"
+        },
+        {
+          "key": "TXT_SET_TEXT_TURN_BTL_ALERT",
+          "value": "<C2>Внимание: </C>"
+        },
+        {
+          "key": "TXT_SET_TEXT_TURN_BTL_NIGHTMARE_ALERT",
+          "value": "<C2>Вы больше не сможете получить трофей за прохождение\nигры на Кошмарной сложности.</C>"
+        },
+        {
+          "key": "TXT_SET_TEXT_TURN_BTL_NORMAL_ALERT",
+          "value": "<C2>Вы не сможете получить трофей за прохождение игры на\nКошмарной сложности, даже если сейчас измените\nсложность на Кошмар.</C>"
+        },
+        {
+          "key": "TXT_SET_TEXT_TURN_BTL_HARD_ALERT",
+          "value": "<C2>Если вы проиграете в битве, вы не сможете ослабить\nврагов и попробовать снова. Вы согласны?</C>"
+        },
+        {
+          "key": "TXT_SET_TEXT_FIELD_BTL_LEVEL",
+          "value": "Настройка сложности свободных битв."
+        },
+        {
+          "key": "TXT_SET_TEXT_MINIMAP",
+          "value": "Изменение отображения миникарты."
+        },
+        {
+          "key": "TXT_SET_TEXT_NAVIGATION",
+          "value": "Изменение времени показа навигации."
+        },
+        {
+          "key": "TXT_SET_TEXT_FIELD_ENEMY_LINE",
+          "value": "Изменение настроек отображения линий контакта."
+        },
+        {
+          "key": "TXT_SET_TEXT_CAM_LR_SPEED",
+          "value": "Изменение скорости горизонтального вращения камеры."
+        },
+        {
+          "key": "TXT_SET_TEXT_CAM_UD_SPEED",
+          "value": "Изменение скорости вертикального вращения камеры."
+        },
+        {
+          "key": "TXT_SET_TEXT_CAM_LR_REVERSE",
+          "value": "Изменение управления горизонтальным вращением камеры."
+        },
+        {
+          "key": "TXT_SET_TEXT_CAM_UD_REVERSE",
+          "value": "Изменение управления вертикальным вращением камеры."
+        },
+        {
+          "key": "TXT_SET_TEXT_TARGET_LR_REVERSE",
+          "value": "Изменение выбора цели правым стиком влево или вправо."
+        },
+        {
+          "key": "TXT_SET_TEXT_CAM_ELEVATION",
+          "value": "Настройка времени до автоцентровки камеры. Максимум\nотключает эту функцию."
+        },
+        {
+          "key": "TXT_SET_TEXT_CAM_VIBRATION",
+          "value": "◆(Не используется)"
+        },
+        {
+          "key": "TXT_SET_TEXT_LOAD_TIPS",
+          "value": "Настройка отображения подсказок на экранах загрузки."
+        },
+        {
+          "key": "TXT_SET_TEXT_SCREEN_SETTING",
+          "value": "Настройка яркости экрана."
+        },
+        {
+          "key": "TXT_SET_TEXT_GRAPHICS_MODE",
+          "value": "Выбор приоритета графики или производительности."
+        },
+        {
+          "key": "TXT_SET_TEXT_KEY_FIELD_ATTACK",
+          "value": "Смена кнопки для свободных атак."
+        },
+        {
+          "key": "TXT_SET_TEXT_KEY_AVOID",
+          "value": "Смена кнопки для уклонения."
+        },
+        {
+          "key": "TXT_SET_TEXT_KEY_SHARD",
+          "value": "Смена кнопки для активации осколков."
+        },
+        {
+          "key": "TXT_SET_TEXT_KEY_HARD_ATTACK",
+          "value": "Смена кнопки для заряженных атак."
+        },
+        {
+          "key": "TXT_SET_TEXT_KEY_DASH",
+          "value": "Смена кнопки для рывка."
+        },
+        {
+          "key": "TXT_SET_TEXT_KEY_CHANGE_LEADER",
+          "value": "Смена кнопки для смены лидера."
+        },
+        {
+          "key": "TXT_SET_TEXT_KEY_ACTION",
+          "value": "Смена кнопки для взаимодействия с сундуками,\nлестницами и переключателями."
+        },
+        {
+          "key": "TXT_SET_TEXT_KEY_USE_SHOP",
+          "value": "◆Текст: [Поле] Зарядные станции, Магазины"
+        },
+        {
+          "key": "TXT_SET_TEXT_KEY_USE_TOPIC",
+          "value": "◆Текст: [Поле] Использовать Тему"
+        },
+        {
+          "key": "TXT_SET_TEXT_KEY_EVENT_FAST_FORWARD",
+          "value": "◆Текст: [Событие] Ускоренная перемотка"
+        },
+        {
+          "key": "TXT_SET_TEXT_KEY_EVENT_CHANGE_AUTO",
+          "value": "Смена кнопки для включения/выключения автосообщений."
+        },
+        {
+          "key": "TXT_SET_TEXT_MAX_FPS",
+          "value": "[Переменная] до 120 КВС в портативном режиме и 60\nКВС в ТВ-режиме, а [30 КВС] фиксирует 30 КВС для\nэкономии батареи."
+        },
+        {
+          "key": "TXT_SET_TEXT_FIELD_BTL_RATE",
+          "value": "<I910>Настройка скорости режима ускорения в свободных\nбоях."
+        },
+        {
+          "key": "TXT_SET_TEXT_TURN_BTL_RATE",
+          "value": "<I910>Настройка скорости режима ускорения в\nтактических боях."
+        },
+        {
+          "key": "TXT_SET_TEXT_EVENT_RATE",
+          "value": "◆Текст объяснения ускоренной перемотки"
+        },
+        {
+          "key": "TXT_SET_TEXT_KEY_HIGHSPEED_CHANGE",
+          "value": "Режим ускорения: смена кнопки на сенсорной панели\nдля включения/выключения."
+        },
+        {
+          "key": "TXT_SET_TEXT_SCENARIO_FONT_SIZE_S",
+          "value": "Отображение мелким шрифтом."
+        },
+        {
+          "key": "TXT_SET_TEXT_SCENARIO_FONT_SIZE_M",
+          "value": "Отображение стандартным шрифтом."
+        },
+        {
+          "key": "TXT_SET_TEXT_SCENARIO_FONT_SIZE_L",
+          "value": "Отображение крупным шрифтом."
+        },
+        {
+          "key": "TXT_SET_TEXT_STICK_LEFT_SENSITIVITY",
+          "value": "Настройка чувствительности левого стика (Низ. ⇔ Выс.)."
+        },
+        {
+          "key": "TXT_SET_TEXT_STICK_RIGHT_SENSITIVITY",
+          "value": "Настройка чувствительности правого стика (Низ. ⇔ Выс.)."
+        },
+        {
+          "key": "TXT_SET_TEXT_KEY_SHARD_SEARCH",
+          "value": "Смена настройки кнопки для Поиска осколков."
+        },
+        {
+          "key": "TXT_SET_TEXT_KEY_CAMERA_RESET",
+          "value": "Смена настройки кнопки для Сброса камеры.\n<C2>※Можно также отключить."
+        },
+        {
+          "key": "TXT_SET_TEXT_KEY_TARGET_LOCK",
+          "value": "Смена настройки кнопки для Блокировки цели.\n<C2>※Можно также отключить."
+        },
+        {
+          "key": "TXT_PARTY_SELECT_AUTO_EQUIP",
+          "value": "Автоэкипировка"
+        },
+        {
+          "key": "TXT_PARTY_SELECT_CHARA_CHANGE",
+          "value": "Обмен"
+        },
+        {
+          "key": "TXT_PARTY_SELECT_EQUIP_CHANGE",
+          "value": "Смена снаряжения"
+        },
+        {
+          "key": "TXT_PARTY_SELECT_MAIN_STORY",
+          "value": "Основной сюжет"
+        },
+        {
+          "key": "TXT_PARTY_SELECT_FREE_DUNGEON",
+          "value": "Мрачный Сад"
+        },
+        {
+          "key": "TXT_PARTY_SELECT_EXTRA_CHANGE_ERROR",
+          "value": "<C1>Атакующие и поддерживающие персонажи не могут\nбыть назначены в Дополнительные.</C>"
+        },
+        {
+          "key": "TXT_PARTY_SELECT_EXTRA_NO_PLAYABLE",
+          "value": "<C1>Отсутствующие персонажи не могут быть назначены\nв Дополнительные.</C>"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_AUTO_BUILD",
+          "value": "Автоусиление"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_BUILD_DECISION",
+          "value": "Усилить"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_BUILD_BACK",
+          "value": "Назад"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_CRAFT_BUILD",
+          "value": "Усиление навыка"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_CRAFT_SELECT",
+          "value": "Выбор навыка"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_DECIDE",
+          "value": "<I900>"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_CANCEL",
+          "value": "<I901>"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_NUM_SELECT",
+          "value": "Выбор количества"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_DISIT_SELECT",
+          "value": "Выбор позиции"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_HELP_TEXT",
+          "value": "Выбор количества для использования."
+        },
+        {
+          "key": "TXT_BOOSTER_CHARA_SELECT",
+          "value": "Выбор персонажа"
+        },
+        {
+          "key": "TXT_BOOSTER_DECIDE",
+          "value": "Подтвердить"
+        },
+        {
+          "key": "TXT_BOOSTER_BACK",
+          "value": "Назад"
+        },
+        {
+          "key": "TXT_BOOSTER_COUNT_SELECT",
+          "value": "Выбор количества"
+        },
+        {
+          "key": "TXT_BOOSTER_COLUMN_SELECT",
+          "value": "Выбрать позицию"
+        },
+        {
+          "key": "TXT_BOOSTER_TEXT_USE_ITEM",
+          "value": "<C1>Использовать %s </C>%s<C1> на %s?"
+        },
+        {
+          "key": "TXT_BOOSTER_TEXT_LIMIT_LEVEL",
+          "value": "<C1>Больше нельзя использовать, так как достигнут максимальный уровень."
+        },
+        {
+          "key": "TXT_BOOSTER_TEXT_CANT_USE",
+          "value": "<C1>Нельзя использовать на этом персонаже."
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_BUILD_RESET",
+          "value": "Сбросить улучшения"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_BUILD_COST",
+          "value": "Стоимость улучшения"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_CROSS",
+          "value": "x"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_TEST_ALCHEMY_STONE",
+          "value": "Пробный камень умений"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_TEST_SKILL",
+          "value": "Тестовое умение"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_BAR",
+          "value": "－"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_LOCK_NAME",
+          "value": "???"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_TEXT_BUILD_DECIDE",
+          "value": "Использовать камни умений для улучшения этого приёма?"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_TEXT_BUILD_RESET",
+          "value": "Использовать Мрачные-жетоны для сброса бонусов?"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_TEXT_BUILD_AUTO",
+          "value": "Распределить камни умений равномерно?"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_TEXT_BUILD_BONUS",
+          "value": "Все бонусы улучшений увеличены на <C3>%s</C>!"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_TEXT_PRIVATE",
+          "value": "Камень умений перс."
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_ENTER",
+          "value": "<I900>"
+        },
+        {
+          "key": "TXT_CRAFT_BUILD_HIGHSPEED_OTHERSIDE",
+          "value": "<I1021>"
+        },
+        {
+          "key": "TXT_PAUSE",
+          "value": "ПАУЗА"
+        },
+        {
+          "key": "TXT_SAVE",
+          "value": "Сохранить"
+        },
+        {
+          "key": "TXT_LOAD",
+          "value": "Загрузить"
+        },
+        {
+          "key": "TXT_BUTTON_TALK",
+          "value": "<s40><I900><s30>Поговорить"
+        },
+        {
+          "key": "TXT_TALK_GUIDE_SHOP",
+          "value": "Магазин"
+        },
+        {
+          "key": "TXT_BUTTON_SHOP",
+          "value": "<s40><I1057><s30>"
+        },
+        {
+          "key": "TXT_BUTTON_TOPIC",
+          "value": "<s40><I1042><s30>Тема"
+        },
+        {
+          "key": "TXT_BUTTON_CHECK",
+          "value": "<s40><I900><s30>Осмотреть"
+        },
+        {
+          "key": "TXT_BUTTON_RIDE",
+          "value": "<s40><I900><s30>Сесть в транспорт"
+        },
+        {
+          "key": "TXT_BUTTON_ACTION_ICON_ONLY",
+          "value": "<I908>"
+        },
+        {
+          "key": "TXT_BUTTON_CHECK_ICON_ONLY",
+          "value": "<I900>"
+        },
+        {
+          "key": "TXT_BUTTON_QARTS_ICON_ONLY",
+          "value": "<I1113>"
+        },
+        {
+          "key": "TXT_YES",
+          "value": "Да"
+        },
+        {
+          "key": "TXT_NO",
+          "value": "Нет"
+        },
+        {
+          "key": "TXT_SHOP_BUY",
+          "value": "Покупки"
+        },
+        {
+          "key": "TXT_SHOP_TOP_BUY",
+          "value": "Купить предметы."
+        },
+        {
+          "key": "TXT_SHOP_TOP_SELL",
+          "value": "Продать предметы."
+        },
+        {
+          "key": "TXT_SHOP_TOP_CUSTOMIZE",
+          "value": "Усилить предметы."
+        },
+        {
+          "key": "TXT_SHOP_TOP_TRADE",
+          "value": "Обменять предметы."
+        },
+        {
+          "key": "TXT_SHOP_TOP_COOK",
+          "value": "Приготовить блюдо."
+        },
+        {
+          "key": "TXT_SHOP_TOP_QUARTZ",
+          "value": "Синтезировать кварцы."
+        },
+        {
+          "key": "TXT_SHOP_TOP_DRIVER",
+          "value": "Купить арт-драйверы."
+        },
+        {
+          "key": "TXT_SHOP_TOP_PLUGIN",
+          "value": "Купить плагины."
+        },
+        {
+          "key": "TXT_SHOP_TOP_EXCHANGE",
+          "value": "Обменять сепит."
+        },
+        {
+          "key": "TXT_SHOP_TOP_EQUIP",
+          "value": "Сменить снаряжение."
+        },
+        {
+          "key": "TXT_SHOP_TOP_CUSTOM",
+          "value": "Модифицировать орбмент."
+        },
+        {
+          "key": "TXT_SHOP_TOP_ORBMENT",
+          "value": "Установить кварцы."
+        },
+        {
+          "key": "TXT_SHOP_TOP_FIND",
+          "value": "Распродажа"
+        },
+        {
+          "key": "TXT_SHOP_TOP_FORGE",
+          "value": "Улучшить."
+        },
+        {
+          "key": "TXT_SHOP_TOP_EX_SELL",
+          "value": "Обменять очки."
+        },
+        {
+          "key": "TXT_SHOP_TOP_COVER",
+          "value": "Сменить обложки."
+        },
+        {
+          "key": "TXT_SHOP_TOP_BARGAIN",
+          "value": "Купить особые товары."
+        },
+        {
+          "key": "TXT_SHOP_TOP_PRIZE_TRADE",
+          "value": "Получить призы."
+        },
+        {
+          "key": "TXT_SHOP_TOP_MEDAL_EXCHANGE",
+          "value": "Купить жетоны."
+        },
+        {
+          "key": "TXT_SHOP_TOP_EXIT",
+          "value": "Закончить покупки."
+        },
+        {
+          "key": "TXT_SHOP_TOP_EXIT_COOK",
+          "value": "Закончить готовку."
+        },
+        {
+          "key": "TXT_SHOP_PRICE",
+          "value": "Цена"
+        },
+        {
+          "key": "TXT_SHOP_HAVE_NUM",
+          "value": "Есть"
+        },
+        {
+          "key": "TXT_SHOP_NEED_NUM",
+          "value": "Требуется"
+        },
+        {
+          "key": "TXT_SHOP_SELL_PRICE",
+          "value": "Цена продажи"
+        },
+        {
+          "key": "TXT_SHOP_SELECT_NUM",
+          "value": "Количество"
+        },
+        {
+          "key": "TXT_SHOP_EFFECT",
+          "value": "Эффект"
+        },
+        {
+          "key": "TXT_SHOP_RANGE",
+          "value": "Цель"
+        },
+        {
+          "key": "TXT_SHOP_EQUIP_NUM",
+          "value": "Надето"
+        },
+        {
+          "key": "TXT_SHOP_HAVE_EQUIP_NUM",
+          "value": "Есть / Надето"
+        },
+        {
+          "key": "TXT_SHOP_DISCOUNT_RATE",
+          "value": "Скидка"
+        },
+        {
+          "key": "TXT_SHOP_BARGAIN",
+          "value": "Особые предметы"
+        },
+        {
+          "key": "TXT_SHOP_BARGAIN_UPDATE",
+          "value": "Сменить выбор"
+        },
+        {
+          "key": "TXT_SHOP_BARGAIN_UPDATEABLE",
+          "value": "　　　 бесплатный переброс"
+        },
+        {
+          "key": "TXT_SHOP_BARGAIN_UPDATEABLE_PL",
+          "value": "　　　 бесплатных перебросов"
+        },
+        {
+          "key": "TXT_SHOP_GRIM_TOKEN",
+          "value": "Мрачный жетон"
+        },
+        {
+          "key": "TXT_SHOP_BARGAIN_UPDATE_Q",
+          "value": "Обновить выбор предметов?"
+        },
+        {
+          "key": "TXT_SHOP_DO_UPDATE",
+          "value": "Обновить"
+        },
+        {
+          "key": "TXT_SHOP_CANCEL",
+          "value": "Отмена"
+        },
+        {
+          "key": "TXT_SHOP_DISCOUNT_NONE",
+          "value": "----"
+        },
+        {
+          "key": "TXT_SHOP_NONE",
+          "value": "---"
+        },
+        {
+          "key": "TXT_SHOP_BUY_CHECK",
+          "value": "Купить %d <C3>%s</C> за <C2>%d миры</C>?"
+        },
+        {
+          "key": "TXT_SHOP_BUY_FAILED",
+          "value": "<C1>Недостаточно мира.</C>"
+        },
+        {
+          "key": "TXT_SHOP_PRIZE_TRADE_CHECK",
+          "value": "Обменять %d <C3>%s</C> на <C2>%d жетонов</C>?"
+        },
+        {
+          "key": "TXT_SHOP_PRIZE_TRADE_FAILED",
+          "value": "<C1>Недостаточно жетонов.</C>"
+        },
+        {
+          "key": "TXT_SHOP_SELL_CHECK",
+          "value": "Продать %d <C3>%s</C> за <C2>%d мира</C>?"
+        },
+        {
+          "key": "TXT_SHOP_EX_SELL_CHECK",
+          "value": "Продать %d <C3>%s</C> за <C2>%d очков</C>?"
+        },
+        {
+          "key": "TXT_SHOP_SELL_FAILED",
+          "value": "<C1>Нельзя продать.</C>"
+        },
+        {
+          "key": "TXT_SHOP_CREATE_CHECK",
+          "value": "Создать <C3>%s</C>?"
+        },
+        {
+          "key": "TXT_SHOP_BUY_ITEM_FULL",
+          "value": "<C1>Нельзя нести больше <C1><C2>%s</C><C1>.</C>"
+        },
+        {
+          "key": "TXT_SHOP_CUSTOMIZE_FAILED",
+          "value": "<C1>Недостаточно предметов.</C>"
+        },
+        {
+          "key": "TXT_SHOP_SEPITH_FAILED",
+          "value": "<C1>Недостаточно сепита.</C>"
+        },
+        {
+          "key": "TXT_SHOP_SOLD_OUT",
+          "value": "<C1>Распродано.</C>"
+        },
+        {
+          "key": "TXT_SHOP_COOKING_FOOD",
+          "value": "<C1>Готовка</C>"
+        },
+        {
+          "key": "TXT_SHOP_COOKING_TEN",
+          "value": "<C1>.</C>"
+        },
+        {
+          "key": "TXT_SHOP_COOKING_RESULT",
+          "value": "Получено <s32><I%d><s%d> <C3>%s</C> x<C3>%d</C>."
+        },
+        {
+          "key": "TXT_SHOP_BUY_YES",
+          "value": "Покупка"
+        },
+        {
+          "key": "TXT_SHOP_BUY_NO",
+          "value": "Отмена"
+        },
+        {
+          "key": "TXT_SHOP_SELL_YES",
+          "value": "Продать"
+        },
+        {
+          "key": "TXT_SHOP_SELL_NO",
+          "value": "Отмена"
+        },
+        {
+          "key": "TXT_SHOP_CREATE_YES",
+          "value": "Создать"
+        },
+        {
+          "key": "TXT_SHOP_CREATE_NO",
+          "value": "Отмена"
+        },
+        {
+          "key": "TXT_SHOP_TRADE_YES",
+          "value": "Обменять"
+        },
+        {
+          "key": "TXT_SHOP_TRADE_NO",
+          "value": "Отмена"
+        },
+        {
+          "key": "TXT_SHOP_CUSTOMIZE_YES",
+          "value": "Улучшить"
+        },
+        {
+          "key": "TXT_SHOP_CUSTOMIZE_NO",
+          "value": "Отмена"
+        },
+        {
+          "key": "TXT_SHOP_EXIT_TEXT",
+          "value": "Закончить покупки и уйти."
+        },
+        {
+          "key": "TXT_SHOP_EXIT_TEXT_COOK",
+          "value": "Закончить готовку."
+        },
+        {
+          "key": "TXT_SHOP_EQUIP_TEXT",
+          "value": "Просмотр и смена снаряжения."
+        },
+        {
+          "key": "TXT_SHOP_ORBMENT_TEXT",
+          "value": "Просмотр и смена кварцев/искусств/умений."
+        },
+        {
+          "key": "TXT_SHOP_CUSTOM_TEXT",
+          "value": "Открыть слоты или установить плагины."
+        },
+        {
+          "key": "TXT_SHOP_TRADE_CHECK",
+          "value": "Обменять на <C3>%s</C>?"
+        },
+        {
+          "key": "TXT_SHOP_CUSTOMIZE_CHECK",
+          "value": "Усилить до <C3>%s</C>?"
+        },
+        {
+          "key": "TXT_SHOP_SEPITH",
+          "value": "Сепит"
+        },
+        {
+          "key": "TXT_SHOP_MIRA",
+          "value": "Мира"
+        },
+        {
+          "key": "TXT_SHOP_MEDAL",
+          "value": "Жетоны"
+        },
+        {
+          "key": "TXT_SHOP_RATE",
+          "value": "Курс"
+        },
+        {
+          "key": "TXT_SHOP_EXCHANGE_COUNT",
+          "value": "Количество для обмена"
+        },
+        {
+          "key": "TXT_SHOP_CASH_PRICE",
+          "value": "Количество"
+        },
+        {
+          "key": "TXT_SHOP_BUTTON_EXCHANGE",
+          "value": "Конвертировать"
+        },
+        {
+          "key": "TXT_SHOP_BUY_NUM",
+          "value": "Покупка"
+        },
+        {
+          "key": "TXT_SHOP_NEED_MIRA",
+          "value": "Нужно Мира"
+        },
+        {
+          "key": "TXT_SHOP_CONV_FAILED",
+          "value": "<C1>Введите количество сепита для конвертации.</C>"
+        },
+        {
+          "key": "TXT_SHOP_MEDAL_FAILED",
+          "value": "<C1>Введите количество жетонов для покупки.</C>"
+        },
+        {
+          "key": "TXT_SHOP_CANT_EQUIP",
+          "value": "Сейчас нельзя экипировать."
+        },
+        {
+          "key": "TXT_SHOP_SAME_PLUGIN",
+          "value": "<C1>Нельзя установить искусство, <C2>идентичное<C1> уже установленному.</C>"
+        },
+        {
+          "key": "TXT_SHOP_STATUS_HP",
+          "value": "ОЗ"
+        },
+        {
+          "key": "TXT_SHOP_STATUS_EP",
+          "value": "ОЭ"
+        },
+        {
+          "key": "TXT_SHOP_STATUS_CP",
+          "value": "ОН"
+        },
+        {
+          "key": "TXT_SHOP_STATUS_ATTACK",
+          "value": "УРН"
+        },
+        {
+          "key": "TXT_SHOP_STATUS_DEFENCE",
+          "value": "СПР"
+        },
+        {
+          "key": "TXT_SHOP_STATUS_MATTACK",
+          "value": "ИУРН"
+        },
+        {
+          "key": "TXT_SHOP_STATUS_MDEFENCE",
+          "value": "ИСПР"
+        },
+        {
+          "key": "TXT_SHOP_STATUS_ACTION",
+          "value": "УКЛ"
+        },
+        {
+          "key": "TXT_SHOP_STATUS_HIT",
+          "value": "МЕТ"
+        },
+        {
+          "key": "TXT_SHOP_STATUS_AVOID",
+          "value": "УКЛ"
+        },
+        {
+          "key": "TXT_SHOP_STATUS_CRITICAL",
+          "value": "КРТ"
+        },
+        {
+          "key": "TXT_SHOP_STATUS_STR",
+          "value": "СИЛ"
+        },
+        {
+          "key": "TXT_SHOP_STATUS_DEF",
+          "value": "ЗЩТ"
+        },
+        {
+          "key": "TXT_SHOP_STATUS_ATS",
+          "value": "СИС"
+        },
+        {
+          "key": "TXT_SHOP_STATUS_ADF",
+          "value": "ИЗЩ"
+        },
+        {
+          "key": "TXT_SHOP_STATUS_SPD",
+          "value": "СКР"
+        },
+        {
+          "key": "TXT_SHOP_STATUS_AGL",
+          "value": "ЛОВ"
+        },
+        {
+          "key": "TXT_SHOP_STATUS_DEX",
+          "value": "ПРВ"
+        },
+        {
+          "key": "TXT_SHOP_STATUS_MOV",
+          "value": "ПДВ"
+        },
+        {
+          "key": "TXT_SHOP_STATUS_RNG",
+          "value": "ДАЛ"
+        },
+        {
+          "key": "TXT_SHOP_KEYHELP_SCROLL",
+          "value": "Прокрутка"
+        },
+        {
+          "key": "TXT_SHOP_TEST_TEXT",
+          "value": "Тестовый текст"
+        },
+        {
+          "key": "TXT_MESLOG_BTL_RESULT",
+          "value": "Битва"
+        },
+        {
+          "key": "TXT_MESLOG_MES",
+          "value": "Сообщение"
+        },
+        {
+          "key": "TXT_MESLOG_AVOICE",
+          "value": "А. Голос"
+        },
+        {
+          "key": "TXT_MESLOG_CLOSE",
+          "value": "<s34><I901><s25>Закрыть"
+        },
+        {
+          "key": "TXT_MESLOG_LATEST",
+          "value": "Новее"
+        },
+        {
+          "key": "TXT_MESLOG_OLDEST",
+          "value": "Старее"
+        },
+        {
+          "key": "TXT_MESLOG_PLAYVOICE",
+          "value": "<s34><I900><s25>Проиграть"
+        },
+        {
+          "key": "TXT_TOPIC",
+          "value": "Темы"
+        },
+        {
+          "key": "TXT_TOPIC_DETAIL",
+          "value": "Подтвердить детали"
+        },
+        {
+          "key": "TXT_TOPIC_CLOSE",
+          "value": "Закрыть"
+        },
+        {
+          "key": "TXT_TOPIC_KEY_HELP",
+          "value": "<s30><I900><s23>Обсудить тему　<s30><I901><s23>Отмена"
+        },
+        {
+          "key": "TXT_MAPJUMP_CONFIRM",
+          "value": "Перейти в <C2>%s</C>?"
+        },
+        {
+          "key": "TXT_MAPJUMP_INFO_NOTICE",
+          "value": "Скрытая информация"
+        },
+        {
+          "key": "TXT_MAPJUMP_INFO_NOTICE_ICON",
+          "value": "<I1199>"
+        },
+        {
+          "key": "TXT_MAPJUMP_TO_WORLD_MAP",
+          "value": "<s36><I1010><s24>      Карта мира"
+        },
+        {
+          "key": "TXT_MAPJUMP_TO_AREA_MAP",
+          "value": "<s36><I1010><s24>      Карта зоны"
+        },
+        {
+          "key": "TXT_MAPJUMP_HELP_CAMERA_MOVE",
+          "value": "<s36><I1044><s24>Движение камеры"
+        },
+        {
+          "key": "TXT_MAPJUMP_HELP_CAMERA_ZOOMOUT",
+          "value": "<s36><I1016><s24>Отдалить"
+        },
+        {
+          "key": "TXT_MAPJUMP_HELP_CAMERA_ZOOMIN",
+          "value": "<s36><I1017><s24>Приблизить"
+        },
+        {
+          "key": "TXT_ITEM_GET_DLG_TYPE_NONE",
+          "value": "--"
+        },
+        {
+          "key": "TXT_ITEM_GET_NUM_OVER",
+          "value": "<C1>В сундуке лежит %s.\nПоскольку у вас больше нет места, вы оставили %s."
+        },
+        {
+          "key": "TXT_ITEM_GET_CLOSE",
+          "value": "Закрыть"
+        },
+        {
+          "key": "TXT_ITEM_GET_MIRA",
+          "value": "<C1>Получено <C2>%d</C><C1> миры."
+        },
+        {
+          "key": "TXT_CONNECT_STAGE_UP",
+          "value": "Уровень связи с %s повысился, укрепляя вашу дружбу."
+        },
+        {
+          "key": "TXT_CONNECT_BONUS_GET_1",
+          "value": "― Бонус связи ―"
+        },
+        {
+          "key": "TXT_CONNECT_BONUS_GET_2",
+          "value": "%s"
+        },
+        {
+          "key": "TXT_CONNECT_BONUS_GET_COLOR",
+          "value": "<c963>"
+        },
+        {
+          "key": "TXT_CONNECT_BONUS_GET_ITEM",
+          "value": "Получено <C0><I%d><C3>%s</C>."
+        },
+        {
+          "key": "TXT_HEAL_MACHINE",
+          "value": "Зарядная станция"
+        },
+        {
+          "key": "TXT_HEAL_MACHINE_HIDE",
+          "value": "???"
+        },
+        {
+          "key": "TXT_HEAL_MACHINE_PORTAL",
+          "value": "Портал"
+        },
+        {
+          "key": "TXT_BUTTON_HEAL_MACHINE",
+          "value": "<s40><I1057><s30>Использовать устройство "
+        },
+        {
+          "key": "TXT_BUTTON_FREE_DUNGEON",
+          "value": "<s40><I1112><s30>Мрачный Сад"
+        },
+        {
+          "key": "TXT_KEY_HELP_CLOSE",
+          "value": "Закрыть"
+        },
+        {
+          "key": "TXT_KEY_HELP_ENTER",
+          "value": "<I900>"
+        },
+        {
+          "key": "TXT_KEY_HELP_BACKLOG",
+          "value": "История"
+        },
+        {
+          "key": "TXT_KEY_HELP_BACKLOG_PLUS",
+          "value": "+"
+        },
+        {
+          "key": "TXT_KEY_HELP_TIMELINE",
+          "value": "Карта маршрута"
+        },
+        {
+          "key": "TXT_KEY_HELP_TIMELY_WORDS",
+          "value": "Термины времени"
+        },
+        {
+          "key": "TXT_MINIGAME_POKER_TEXT00",
+          "value": "Начать"
+        },
+        {
+          "key": "TXT_MINIGAME_POKER_TEXT01",
+          "value": "Объяснение правил"
+        },
+        {
+          "key": "TXT_MINIGAME_POKER_TEXT02",
+          "value": "Список рук"
+        },
+        {
+          "key": "TXT_MINIGAME_POKER_TEXT03",
+          "value": "Воздержаться"
+        },
+        {
+          "key": "TXT_MINIGAME_POKER_TEXT04",
+          "value": "Сдаться?"
+        },
+        {
+          "key": "TXT_MINIGAME_POKER_TEXT05",
+          "value": "Если перейти к следующей игре, призовой фонд\nувеличится. Попробовать снова?"
+        },
+        {
+          "key": "TXT_MINIGAME_POKER_TEXT06",
+          "value": "Перераздать карты?"
+        },
+        {
+          "key": "TXT_MINIGAME_POKER_TEXT07",
+          "value": "Сдаться"
+        },
+        {
+          "key": "TXT_MINIGAME_POKER_TEXT08",
+          "value": "Вернуться"
+        },
+        {
+          "key": "TXT_MINIGAME_POKER_TEXT09",
+          "value": "―――"
+        },
+        {
+          "key": "TXT_MINIGAME_BLACKJACK_TEXT00",
+          "value": "Начать"
+        },
+        {
+          "key": "TXT_MINIGAME_BLACKJACK_TEXT01",
+          "value": "Объяснение правил"
+        },
+        {
+          "key": "TXT_MINIGAME_BLACKJACK_TEXT02",
+          "value": "Воздержаться"
+        },
+        {
+          "key": "TXT_MINIGAME_BLACKJACK_TEXT03",
+          "value": "Сдаться?"
+        },
+        {
+          "key": "TXT_MINIGAME_BLACKJACK_TEXT04",
+          "value": "Если перейти к следующей игре, призовой фонд\nувеличится. Попробовать снова?"
+        },
+        {
+          "key": "TXT_MINIGAME_BLACKJACK_TEXT05",
+          "value": "Сдаться"
+        },
+        {
+          "key": "TXT_MINIGAME_BLACKJACK_TEXT06",
+          "value": "Вернуться"
+        },
+        {
+          "key": "TXT_MINIGAME_BLACKJACK_TEXT07",
+          "value": "―――"
+        },
+        {
+          "key": "TXT_MINIGAME_FISHING_TEXT00",
+          "value": "Направление удилища"
+        },
+        {
+          "key": "TXT_MINIGAME_FISHING_TEXT01",
+          "value": "Подсечка"
+        },
+        {
+          "key": "TXT_MINIGAME_FISHING_TEXT02",
+          "value": "Подсечка"
+        },
+        {
+          "key": "TXT_MINIGAME_FISHING_TEXT03",
+          "value": "Отмена"
+        },
+        {
+          "key": "TXT_MINIGAME_FISHING_TEXT04",
+          "value": "Длина: %4.1f реге"
+        },
+        {
+          "key": "TXT_MINIGAME_FISHING_TEXT05",
+          "value": "Поймал: %s"
+        },
+        {
+          "key": "TXT_MINIGAME_FISHING_TEXT06",
+          "value": "В: %s"
+        },
+        {
+          "key": "TXT_MINIGAME_FISHING_TEXT07",
+          "value": "Рыба сорвалась."
+        },
+        {
+          "key": "TXT_MINIGAME_FISHING_TEXT08",
+          "value": "Рыба не клюнула."
+        },
+        {
+          "key": "TXT_MINIGAME_FISHING_SELECT_0",
+          "value": "Попробовать снова в той же точке"
+        },
+        {
+          "key": "TXT_MINIGAME_FISHING_SELECT_1",
+          "value": "Выждать"
+        },
+        {
+          "key": "TXT_FISHING_POINT",
+          "value": "Точка ловли"
+        },
+        {
+          "key": "TXT_BUTTON_FISHING",
+          "value": "<s40><I900><s30>Рыба"
+        },
+        {
+          "key": "TXT_MINIGAME_FISHING_KEYHELP_POINT_SELECT",
+          "value": "<s40><I1040><s24>Выбрать точку"
+        },
+        {
+          "key": "TXT_MINIGAME_FISHING_KEYHELP_CAMERA",
+          "value": "<s40><I1041><s24>Настроить камеру"
+        },
+        {
+          "key": "TXT_MINIGAME_FISHING_KEYHELP_CAST",
+          "value": "<s40><I900><s24>Забросить"
+        },
+        {
+          "key": "TXT_MINIGAME_FISHING_KEYHELP_CHANGE_FOOD",
+          "value": "<s40><I1016><I1017><s24>Сменить наживку"
+        },
+        {
+          "key": "TXT_MINIGAME_FISHING_KEYHELP_SEARCH",
+          "value": "<s40><I912><s24>Поиск осколков"
+        },
+        {
+          "key": "TXT_MINIGAME_FISHING_BAIT_NUM",
+          "value": "x%2d"
+        },
+        {
+          "key": "TXT_MINIGAME_FISHING_NAME_UNKNOWN",
+          "value": "???"
+        },
+        {
+          "key": "TXT_MINIGAME_FISHING_ENTER",
+          "value": "<I900>"
+        },
+        {
+          "key": "TXT_MINIGAME_FISHING_BACK",
+          "value": "<I901>"
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_DECKNUM",
+          "value": "   Осталось"
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_SELECTCHECK",
+          "value": "Использовать %s?"
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_DAMAGECHECK",
+          "value": "Вы получите урон. Вы согласны?"
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_LOSECHECK",
+          "value": "Вы проиграете, если выберете это. Вы согласны?"
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_ENDCHECK",
+          "value": "Выйти из Карточной битвы?"
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_DAMAGETEXT",
+          "value": "Вы получите накопленный урон."
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_ENDTEXT",
+          "value": "Завершить текущий раунд."
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_CHANGELINE",
+          "value": "\n"
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_FIELD_FLOW",
+          "value": "Удержаться"
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_PAUSE",
+          "value": "ПАУЗА"
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_LOGOPEN",
+          "value": "Открыть журнал"
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_PAUSEMENU0",
+          "value": "Обучение"
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_PAUSEMENU1",
+          "value": "Закончить игру"
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_PAUSEMENU2",
+          "value": "Закрыть"
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_SELECTCHANGECARD",
+          "value": "Выберите игрока для обмена картами."
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_SELECTPLAYER",
+          "value": "Игрок"
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_SELECTENEMY1",
+          "value": "Противник 1"
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_SELECTENEMY2",
+          "value": "Противник 2"
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_SELECTENEMY3",
+          "value": "Противник 3"
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_TUTORIAL1",
+          "value": "Объяснение правил"
+        },
+        {
+          "key": "TXT_MINIGAME_CARDBATTLER_TUTORIAL2",
+          "value": "Детали карты"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_MATERIAL_ITEM",
+          "value": "Мрачные-жетоны"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_MATERIAL_NEED",
+          "value": "Требуется:"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_MATERIAL_COUNT",
+          "value": " "
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_MATERIAL_NUM",
+          "value": "Раз"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_ICON_DECIDE",
+          "value": "<I900>"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_ICON_CANCEL",
+          "value": "<I901>"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_KEYHELP_BACK",
+          "value": "Вернуться"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_KEYHELP_CLOSE",
+          "value": "Закрыть"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_KEYHELP_SKIP",
+          "value": "Пропустить"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_KEYHELP_REWARD_LIST",
+          "value": "Список наград"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_KEYHELP_NUM_CHANGE",
+          "value": "Изменить количество"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_KEYHELP_START",
+          "value": "Начать расшифровку"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_KEYHELP_CONTIMUE_START_N",
+          "value": "Продолжить расшифровку"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_KEYHELP_CONTIMUE_START_Y",
+          "value": "<C3>Продолжить расшифровку"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_KEYHELP_PAGE_CHANGE",
+          "value": "Изменить количество"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_SEPARATOR_ITEM",
+          "value": "Предметы"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_SEPARATOR_COOK",
+          "value": "Готовка"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_SEPARATOR_WEAPON",
+          "value": "Оружие"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_SEPARATOR_ARMOR",
+          "value": "Броня"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_SEPARATOR_ACCESSORY",
+          "value": "Аксессуары"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_SEPARATOR_QUARTZ",
+          "value": "Кварцы"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_SEPARATOR_MATERIAL",
+          "value": "Материалы"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_SEPARATOR_IMPORTANT",
+          "value": "Ключевые"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_SEPARATOR_DLC",
+          "value": "DLC"
+        },
+        {
+          "key": "TXT_MINIGAME_GACHA_TEXT_SELECT_DECIDE",
+          "value": "Используйте <c951>%s</C> Мрачных-жетонов для расшифровки\n<C3>%s</C> гримуаров."
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_HELP",
+          "value": "<s36><I1040><s24>Движение　　<s36><I1041><s24>Поворот камеры　　<s36><I1020><s24>Пауза"
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_SKILL_HELP_SEARCH",
+          "value": "<s24>Поиск осколков <s42><I912>"
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_TRAP",
+          "value": "Ловушка"
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_ACTIVATE",
+          "value": "<s40><I1010><s30>Установить"
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_BARRIER_LEVEL_1",
+          "value": "Файрвол Ур. 1"
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_BARRIER_LEVEL_2",
+          "value": "Файрвол Ур. 2"
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_BARRIER_LEVEL_3",
+          "value": "Файрвол Ур. 3"
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_BARRIER_BREAK",
+          "value": "<s40><I1010><s30>Начать взлом"
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_BARRIER_BUTTON_01",
+          "value": "<I1150>"
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_BARRIER_BUTTON_02",
+          "value": "<I1151>"
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_BARRIER_BUTTON_03",
+          "value": "<I1152>"
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_BARRIER_BUTTON_04",
+          "value": "<I1153>"
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_BARRIER_BUTTON_05",
+          "value": "<I1154>"
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_BARRIER_BUTTON_06",
+          "value": "<I1155>"
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_BARRIER_HELP",
+          "value": "<s36><I901><s24>Отмена"
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_START_EVENT_SKIP",
+          "value": "<s36><I1020><s24>Пропуск"
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_START",
+          "value": "Начать"
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_CONTINUE",
+          "value": "Продолжить"
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_RETRY",
+          "value": "Повторить"
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_ADVANCE",
+          "value": "Пропустить мини-игру"
+        },
+        {
+          "key": "TXT_MINIGAME_HACKING_END",
+          "value": "Завершить"
+        },
+        {
+          "key": "TXT_MINIGAME_PARASAILING_STOP",
+          "value": "Завершить активность"
+        },
+        {
+          "key": "TXT_MINIGAME_PARASAILING_EYE_CHANGE",
+          "value": "Сменить точку обзора"
+        },
+        {
+          "key": "TXT_MINIGAME_PARASAILING_CAMERA",
+          "value": "Повернуть камеру"
+        },
+        {
+          "key": "TXT_MINIGAME_PARASAILING_CANCEL",
+          "value": "<I901>"
+        },
+        {
+          "key": "TXT_MINIGAME_BASKETBALL_MENU_PLAY",
+          "value": "Начать"
+        },
+        {
+          "key": "TXT_MINIGAME_BASKETBALL_MENU_PLAY_EASY",
+          "value": "Начать (ЛЁГКО)"
+        },
+        {
+          "key": "TXT_MINIGAME_BASKETBALL_MENU_MANUAL",
+          "value": "Просмотр инструкций"
+        },
+        {
+          "key": "TXT_MINIGAME_BASKETBALL_MENU_EXIT",
+          "value": "Завершить"
+        },
+        {
+          "key": "TXT_MINIGAME_BASKETBALL_MENU_CONTINUE",
+          "value": "Продолжить"
+        },
+        {
+          "key": "TXT_MINIGAME_BASKETBALL_MENU_RETRY",
+          "value": "Повторить"
+        },
+        {
+          "key": "TXT_MINIGAME_BASKETBALL_MENU_PRACTICE",
+          "value": "Тренировка"
+        },
+        {
+          "key": "TXT_MINIGAME_BASKETBALL_MENU_PRACTICE_SHOOT",
+          "value": "Тренировка стрельбы"
+        },
+        {
+          "key": "TXT_MINIGAME_BASKETBALL_MENU_PRACTICE_DEFENSE",
+          "value": "Тренировка защиты"
+        },
+        {
+          "key": "TXT_MINIGAME_BASKETBALL_MENU_RETURN",
+          "value": "Вернуться"
+        },
+        {
+          "key": "TXT_MINIGAME_BASKETBALL_MENU_DIFFICULTY",
+          "value": "Изменить уровень сложности"
+        },
+        {
+          "key": "TXT_MINIGAME_BASKETBALL_KEY_HELP_MOVE",
+          "value": "<s32><I1040><s24>Движение"
+        },
+        {
+          "key": "TXT_MINIGAME_BASKETBALL_KEY_HELP_BLOCK",
+          "value": "<s32><I1010><s24>Блок"
+        },
+        {
+          "key": "TXT_MINIGAME_BASKETBALL_KEY_HELP_STEAL",
+          "value": "<s32><I1011><s24>Кража"
+        },
+        {
+          "key": "TXT_MINIGAME_BASKETBALL_KEY_HELP_SHOOT",
+          "value": "<s32><I900><s24>Выстрел (Удерж.)"
+        },
+        {
+          "key": "TXT_MINIGAME_BASKETBALL_KEY_HELP_PAUSE",
+          "value": "<s32><I1020><s24>Отмена"
+        },
+        {
+          "key": "TXT_MINIGAME_BASKETBALL_KEY_HELP_CANCEL",
+          "value": "<s24>Выход"
+        },
+        {
+          "key": "TXT_MINIGAME_FIO_KEY_HELP_MOVE",
+          "value": "<s34><I1040><s24>Движение"
+        },
+        {
+          "key": "TXT_MINIGAME_FIO_KEY_HELP_DOWN",
+          "value": "<s34><I1135><s24>Вниз"
+        },
+        {
+          "key": "TXT_MINIGAME_FIO_KEY_HELP_UP",
+          "value": "<s34><I1134><s24>Вверх"
+        },
+        {
+          "key": "TXT_MINIGAME_FIO_KEY_HELP_SEARCH_1",
+          "value": "<I912>"
+        },
+        {
+          "key": "TXT_MINIGAME_FIO_KEY_HELP_SEARCH_2",
+          "value": "Поиск осколков"
+        },
+        {
+          "key": "TXT_CHAPTER_RESULT_SAVE",
+          "value": "Сохранение"
+        },
+        {
+          "key": "TXT_CHAPTER_RESULT_GO",
+          "value": "Продолжить"
+        },
+        {
+          "key": "TXT_CHAPTER_RESULT_GO_GUID",
+          "value": "<I900>Продолжить"
+        },
+        {
+          "key": "TXT_CHAPTER_RESULT_RETURN_TO_TITLE",
+          "value": "Вернуться в титул"
+        },
+        {
+          "key": "TXT_QUEST_CHECK_SELECT_MES",
+          "value": "Принять 4SPG?"
+        },
+        {
+          "key": "TXT_QUEST_CHECK_SELECT_0",
+          "value": "Принять"
+        },
+        {
+          "key": "TXT_QUEST_CHECK_SELECT_1",
+          "value": "Отложить"
+        },
+        {
+          "key": "TXT_QUEST_REPORT_EX1",
+          "value": "Получено <C2>%s</C> ОС за разблокировку орбального замка."
+        },
+        {
+          "key": "TXT_QUEST_REPORT_EX2",
+          "value": "Получено <C2>%s</C> ОС за очистку Мрачного Сада."
+        },
+        {
+          "key": "TXT_QUEST_REPORT_EX4",
+          "value": "Получено <C2>%s</C> ОС за победу над монстром в Мрачном Саду."
+        },
+        {
+          "key": "TXT_QUEST_REPORT_EX5",
+          "value": "Получено <C2>%s</C> ОС за завершение Испытательного боя."
+        },
+        {
+          "key": "TXT_QUEST_REPORT_EX6",
+          "value": "Получено <C2>%s</C> ОС за завершение программы тренировки дронов."
+        },
+        {
+          "key": "TXT_TODO_SET",
+          "value": "<s24><I1010><s20> Назначить навигацию"
+        },
+        {
+          "key": "TXT_TODO_GO_REQUESTER",
+          "value": "<s24><I900><s20>Движение"
+        },
+        {
+          "key": "TXT_TODO_RESET",
+          "value": "<s24><I1010><s20> Остановить навигацию"
+        },
+        {
+          "key": "TXT_TODO_CLEARED",
+          "value": "-Завершено-"
+        },
+        {
+          "key": "TXT_TODO_TO_JUMPMENU",
+          "value": "<s36><I1011><s24>      Меню путешествий"
+        },
+        {
+          "key": "TXT_TODO_IMPORTANT0",
+          "value": "---"
+        },
+        {
+          "key": "TXT_TODO_IMPORTANT1",
+          "value": "@"
+        },
+        {
+          "key": "TXT_TODO_IMPORTANT2",
+          "value": "@@/"
+        },
+        {
+          "key": "TXT_TODO_IMPORTANT3",
+          "value": "@@@"
+        },
+        {
+          "key": "TXT_TODO_IMPORTANT4",
+          "value": "@@@@/"
+        },
+        {
+          "key": "TXT_TODO_IMPORTANT5",
+          "value": "@@@@@"
+        },
+        {
+          "key": "TXT_TODO_NOTITLE",
+          "value": "---"
+        },
+        {
+          "key": "TXT_TODO_NOREQUEST",
+          "value": "-нет запроса-"
+        },
+        {
+          "key": "TXT_TODO_CONNECT_START",
+          "value": "<s24><I900><s20> Начать событие"
+        },
+        {
+          "key": "TXT_TODO_CONNECT_PRESENT",
+          "value": "<s24><I900>"
+        },
+        {
+          "key": "TXT_TODO_CONNECT_EVENT_SELECT",
+          "value": "Использовать <C4>очки связи<C0> для совместного времяпрепровождения?"
+        },
+        {
+          "key": "TXT_TODO_CONNECT_EVENT_SELECT1",
+          "value": "Начать"
+        },
+        {
+          "key": "TXT_TODO_CONNECT_EVENT_SELECT2",
+          "value": "Отложить"
+        },
+        {
+          "key": "TXT_TODO_CONNECT_ITEM_SELECT",
+          "value": "Подарить подарок?"
+        },
+        {
+          "key": "TXT_TODO_CONNECT_ITEM_NOTE",
+          "value": "<C4>(Не расходует очки связи.)<C0>"
+        },
+        {
+          "key": "TXT_TODO_CONNECT_ITEM_SELECT1",
+          "value": "Подарить"
+        },
+        {
+          "key": "TXT_TODO_CONNECT_ITEM_SELECT2",
+          "value": "Отложить"
+        },
+        {
+          "key": "TXT_TODO_CONNECT_NOT_ENOUGH_STOCKTIME",
+          "value": "Нет доступных <C4>очков связи<C0>."
+        },
+        {
+          "key": "TXT_TODO_CONNECT_NOT_SELCTABLE",
+          "value": "Нет доступных событий связи."
+        },
+        {
+          "key": "TXT_TODO_CONNECT_NOT_USEITEM",
+          "value": "Выбранный предмет в данный момент нельзя подарить."
+        },
+        {
+          "key": "TXT_TODO_TO_TODOLIST",
+          "value": "<s36><I1011><s24>      Список дел"
+        },
+        {
+          "key": "TXT_NOTE_CLOSE",
+          "value": "<I1021> Закрыть"
+        },
+        {
+          "key": "TXT_ARCHIVE_PRE_STORY",
+          "value": "Дейбрейк-дайджесты"
+        },
+        {
+          "key": "TXT_ARCHIVE_PRE_STORY_MOVIE",
+          "value": "Дайджесты/Видео"
+        },
+        {
+          "key": "TXT_ARCHIVE_WORLD",
+          "value": "Сеттинг"
+        },
+        {
+          "key": "TXT_ARCHIVE_CHARA",
+          "value": "Персонажи"
+        },
+        {
+          "key": "TXT_ARCHIVE_SERIES",
+          "value": "Прошлые Тропы"
+        },
+        {
+          "key": "TXT_ARCHIVE_LOG",
+          "value": "Лог истории"
+        },
+        {
+          "key": "TXT_ARCHIVE_PAGE_NUM",
+          "value": "<s29>%d/"
+        },
+        {
+          "key": "TXT_ARCHIVE_TEXTURE_CHANGE",
+          "value": "<s32><I1011><s24>Переключить отображение"
+        },
+        {
+          "key": "TXT_ARCHIVE_TIMELINE_SCROLL",
+          "value": "<s32><I1024><s24>Прокрутка"
+        },
+        {
+          "key": "TXT_ARCHIVE_BRACKETS",
+          "value": "【%s】"
+        },
+        {
+          "key": "TXT_ARCHIVE_KEY_HELP_TIMELY_WORDS",
+          "value": "Актуальные термины"
+        },
+        {
+          "key": "TXT_ARCHIVE_KEY_HELP_ARCHIVE",
+          "value": "Архив"
+        },
+        {
+          "key": "TXT_ARCHIVE_KEY_HELP_CHANGE_BUTTON",
+          "value": "<I1018>"
+        },
+        {
+          "key": "TXT_ARCHIVE_KEY_HELP_CLOSE_BUTTON",
+          "value": "<s32><I901><s24>Закрыть"
+        },
+        {
+          "key": "TXT_ARCHIVE_KEY_HELP_PLAY_MOVIE",
+          "value": "<s32><I900><s24>Воспроизвести"
+        },
+        {
+          "key": "TXT_SQUARE",
+          "value": "□"
+        },
+        {
+          "key": "TXT_SLASH",
+          "value": "/"
+        },
+        {
+          "key": "TXT_NOTE_QKEY",
+          "value": "[Треб.]"
+        },
+        {
+          "key": "TXT_NOTE_QSUBKEY",
+          "value": " "
+        },
+        {
+          "key": "TXT_NOTE_PERSON_LIST",
+          "value": "Список союзников"
+        },
+        {
+          "key": "TXT_NOTE_EXP_MAX",
+          "value": "Макс."
+        },
+        {
+          "key": "TXT_NOTE_QUESTION",
+          "value": "????"
+        },
+        {
+          "key": "TXT_NOTE_DISH",
+          "value": "Домашняя кухня"
+        },
+        {
+          "key": "TXT_NOTE_SNACK",
+          "value": "Еда"
+        },
+        {
+          "key": "TXT_NOTE_SWEETS",
+          "value": "Премиум-сладости"
+        },
+        {
+          "key": "TXT_NOTE_DRINK",
+          "value": "Напитки"
+        },
+        {
+          "key": "TXT_NOTE_KIND",
+          "value": "Тип"
+        },
+        {
+          "key": "TXT_NOTE_MEALS",
+          "value": "Еда"
+        },
+        {
+          "key": "TXT_NOTE_SELF",
+          "value": "Домашняя кухня"
+        },
+        {
+          "key": "TXT_NOTE_COOKING",
+          "value": "<I900>"
+        },
+        {
+          "key": "TXT_NOTE_COOKNUM",
+          "value": "Количество × "
+        },
+        {
+          "key": "TXT_NOTE_COOKING_TEXT",
+          "value": "Готовка"
+        },
+        {
+          "key": "TXT_NOTE_COOKING_POINT",
+          "value": "."
+        },
+        {
+          "key": "TXT_NOTE_COOKEND",
+          "value": "Готовка завершена!"
+        },
+        {
+          "key": "TXT_NOTE_IS_UPLOAD",
+          "value": "Добавить отзыв и загрузить в блог?"
+        },
+        {
+          "key": "TXT_NOTE_UPLOADING",
+          "value": "Загрузка"
+        },
+        {
+          "key": "TXT_NOTE_FISHING_NUM",
+          "value": "Поймано:"
+        },
+        {
+          "key": "TXT_NOTE_MAXIMUM_RECORD",
+          "value": "Рекорд:"
+        },
+        {
+          "key": "TXT_NOTE_FULL_LENGTH",
+          "value": "Длина"
+        },
+        {
+          "key": "TXT_NOTE_FISH_COUNT",
+          "value": "x"
+        },
+        {
+          "key": "TXT_NOTE_LENGTH UNIT",
+          "value": "см."
+        },
+        {
+          "key": "TXT_NOTE_RANK_LOCK_TEXT",
+          "value": "Поймать рыбу ранга A"
+        },
+        {
+          "key": "TXT_NOTE_MULT",
+          "value": "x"
+        },
+        {
+          "key": "TXT_BUTTON_EVENT_PAUSE",
+          "value": "<s34><I1010><s24> След. сцена　<s34><I1011><s24> Пропустить всё"
+        },
+        {
+          "key": "TXT_BUTTON_EVENT_PAUSE2",
+          "value": "<s34><I1052><s24> История　<s34><I1159><s24> Актуальные термины"
+        },
+        {
+          "key": "TXT_MINIMAP_KEY_HELP_SCROLL",
+          "value": "<s32><I1040><s28>Двигать"
+        },
+        {
+          "key": "TXT_MINIMAP_KEY_HELP_CAMERA",
+          "value": "<s32><I1049><s28>Камера"
+        },
+        {
+          "key": "TXT_MINIMAP_KEY_HELP_SHRINK",
+          "value": "<s32><I1016><s28>Отдалить"
+        },
+        {
+          "key": "TXT_MINIMAP_KEY_HELP_EXPANSION",
+          "value": "<s32><I1017><s28>Приблизить"
+        },
+        {
+          "key": "TXT_MINIMAP_MARKER_PLY",
+          "value": "<s20>Текущее местоположение"
+        },
+        {
+          "key": "TXT_MINIMAP_MARKER_SHOP",
+          "value": "<s20>Магазин"
+        },
+        {
+          "key": "TXT_MINIMAP_MARKER_TBOX",
+          "value": "<s20>Сундук с сокровищами"
+        },
+        {
+          "key": "TXT_MINIMAP_MARKER_REST",
+          "value": "<s20>Зарядная станция"
+        },
+        {
+          "key": "TXT_MINIMAP_MARKER_MAIN",
+          "value": "<s20>Ключевое событие"
+        },
+        {
+          "key": "TXT_MINIMAP_MARKER_QUEST",
+          "value": "<s20>Событие задания"
+        },
+        {
+          "key": "TXT_MINIMAP_MARKER_SUB",
+          "value": "<s20>Побочное событие"
+        },
+        {
+          "key": "TXT_MINIMAP_MARKER_ACTIVITY",
+          "value": "<s20>Тематический диалог"
+        },
+        {
+          "key": "TXT_MINIMAP_MARKER_GIMMICK",
+          "value": "<s20>Переключатель"
+        },
+        {
+          "key": "TXT_MINIMAP_MARKER_REPORT",
+          "value": "<s20>Промежуточный отчёт"
+        },
+        {
+          "key": "TXT_MINIMAP_MARKER_PORTAL",
+          "value": "<s20>Портал"
+        },
+        {
+          "key": "TXT_FDUNGEON_SELECT_REWARD",
+          "value": "Выбрать награды: %s"
+        },
+        {
+          "key": "TXT_FDUNGEON_RECIEVE_REWARD",
+          "value": "<C3>Получи свою награду."
+        },
+        {
+          "key": "TXT_FDUNGEON_SELECT_NEXT_SECTION",
+          "value": "Начать исследование местности?"
+        },
+        {
+          "key": "TXT_FDUNGEON_SECTION",
+          "value": "Область %d"
+        },
+        {
+          "key": "TXT_FDUNGEON_GET_REWARD",
+          "value": "Получено: %s."
+        },
+        {
+          "key": "TXT_FDUNGEON_ITEM",
+          "value": "<C0><I%d><C3>%s</C>"
+        },
+        {
+          "key": "TXT_FDUNGEON_REWARD_NUM",
+          "value": " x%d"
+        },
+        {
+          "key": "TXT_FDUNGEON_REWARD_CROSS",
+          "value": "x"
+        },
+        {
+          "key": "TXT_FDUNGEON_REWARD_INFO",
+          "value": "Награда:\n%s"
+        },
+        {
+          "key": "TXT_FDUNGEON_CLEAR_MESSAGE",
+          "value": "Этаж %d пройден.\nВозврат в предыдущую локацию."
+        },
+        {
+          "key": "TXT_FDUNGEON_STOKEN_ICON",
+          "value": "<I121>"
+        },
+        {
+          "key": "TXT_FDUNGEON_RF_ITEM",
+          "value": "<I140>"
+        },
+        {
+          "key": "TXT_FDUNGEON_MAINMENU0",
+          "value": "Исследовать Сказочный Сад"
+        },
+        {
+          "key": "TXT_FDUNGEON_MAINMENU1",
+          "value": "Мистический куб"
+        },
+        {
+          "key": "TXT_FDUNGEON_MAINMENU2",
+          "value": "Улучшение навыков"
+        },
+        {
+          "key": "TXT_FDUNGEON_MAINMENU3",
+          "value": "Выйти"
+        },
+        {
+          "key": "TXT_FDUNGEON_KEYHELP1",
+          "value": "Состав отряда"
+        },
+        {
+          "key": "TXT_FDUNGEON_KEYHELP2",
+          "value": "Главное меню"
+        },
+        {
+          "key": "TXT_FDUNGEON_KEYHELP3",
+          "value": "В поддержку Мардука"
+        },
+        {
+          "key": "TXT_FDUNGEON_KEYHELP4",
+          "value": "В главное меню Сказочного Сада"
+        },
+        {
+          "key": "TXT_FDUNGEON_KEYHELP5",
+          "value": "Показать карту"
+        },
+        {
+          "key": "TXT_FDUNGEON_KEYHELP6",
+          "value": "Уменьшить"
+        },
+        {
+          "key": "TXT_FDUNGEON_KEYHELP7",
+          "value": "Увеличить"
+        },
+        {
+          "key": "TXT_FDUNGEON_KEYHELP8",
+          "value": "Закрыть карту"
+        },
+        {
+          "key": "TXT_FDUNGEON_KEYHELP9",
+          "value": "Повернуть камеру"
+        },
+        {
+          "key": "TXT_FDUNGEON_KEYHELP10",
+          "value": "Показать детали"
+        },
+        {
+          "key": "TXT_FDUNGEON_KEYHELP11",
+          "value": "Назад"
+        },
+        {
+          "key": "TXT_FDUNGEON_KEYHELP12",
+          "value": "<I901>"
+        },
+        {
+          "key": "TXT_FDUNGEON_KEYHELP13",
+          "value": "<I900>"
+        },
+        {
+          "key": "TXT_FDUNGEON_KEYHELP14",
+          "value": "Продолжить"
+        },
+        {
+          "key": "TXT_FDUNGEON_AREA_EXIT",
+          "value": "Отступить с этого этажа?\n<C2><s24>※Прогресс на этом этаже сбросится.</C>"
+        },
+        {
+          "key": "TXT_FDUNGEON_EXIT",
+          "value": "<C2>Выйти</C> <C1>из Мрачного Сада?</C>"
+        },
+        {
+          "key": "TXT_FDUNGEON_AREA_SELECT_MOVE",
+          "value": "Переместиться на эту клетку?"
+        },
+        {
+          "key": "TXT_FDUNGEON_AREA_SELECT_STRATEGY",
+          "value": "Переместиться на эту клетку и исследовать?"
+        },
+        {
+          "key": "TXT_FDUNGEON_AREA_SELECT_BOSS",
+          "value": "Вступить в бой с боссом?"
+        },
+        {
+          "key": "TXT_FDUNGEON_MAINMENU_HELP0",
+          "value": "Анализировать мистические кубы с помощью Мрачных-жетонов."
+        },
+        {
+          "key": "TXT_FDUNGEON_MAINMENU_HELP1",
+          "value": "Улучшать приёмы персонажей с помощью камней умений."
+        },
+        {
+          "key": "TXT_FDUNGEON_MAINMENU_HELP2",
+          "value": "Выйти из Сказочного Сада."
+        },
+        {
+          "key": "TXT_FDUNGEON_CUBE_USE",
+          "value": "<C1>Начать</C> <C2>расшифровку гримуара</C><C1>?</C>"
+        },
+        {
+          "key": "TXT_FDUNGEON_CUBE_CHANGE_MARE",
+          "value": "Переключиться на Мар"
+        },
+        {
+          "key": "TXT_FDUNGEON_CUBE_CHANGE_LAPIS",
+          "value": "Переключиться на Лапис"
+        },
+        {
+          "key": "TXT_FDUNGEON_SOUND_MENU_TEXT0",
+          "value": "Задать фоновую музыку для главного\nменю Мрачного Сада."
+        },
+        {
+          "key": "TXT_FDUNGEON_SOUND_MENU_TEXT1",
+          "value": "Задать фоновую музыку для меню\nМастерской Эпштейна."
+        },
+        {
+          "key": "TXT_FDUNGEON_SOUND_MENU_TEXT2",
+          "value": "Задать фоновую музыку для исследования\nуровней в Мрачном Саду."
+        },
+        {
+          "key": "TXT_FDUNGEON_SOUND_MENU_TEXT3",
+          "value": "Задать фоновую музыку для свободных\nсражений в Мрачном Саду."
+        },
+        {
+          "key": "TXT_FDUNGEON_SOUND_MENU_TEXT4",
+          "value": "Задать фоновую музыку для тактических\nсражений в Мрачном Саду."
+        },
+        {
+          "key": "TXT_FDUNGEON_SOUND_NOREPLACE",
+          "value": "Не менять"
+        },
+        {
+          "key": "TXT_FDUNGEON_SOUND_RUNDOM",
+          "value": "Случайный"
+        },
+        {
+          "key": "TXT_FDUNGEON_SOUND_DEFCD",
+          "value": "Настройки саундтрека"
+        },
+        {
+          "key": "TXT_FDUNGEON_SOUND_TRIAL",
+          "value": "Сейчас играет..."
+        },
+        {
+          "key": "TXT_FDUNGEON_SOUND_KEYHELP",
+          "value": "<I900>"
+        },
+        {
+          "key": "TXT_FDUNGEON_SOUND_KEYHELP2",
+          "value": "<I1011><s24>Тест звука"
+        },
+        {
+          "key": "TXT_FDUNGEON_SOUND_KEYHELP3",
+          "value": "<I1016><I1017><s24>Сменить категории"
+        },
+        {
+          "key": "TXT_FDUNGEON_SOUND_KEYHELP4",
+          "value": "<I900><s24>Установить"
+        },
+        {
+          "key": "TXT_FDUNGEON_MES0",
+          "value": " "
+        },
+        {
+          "key": "TXT_FDUNGEON_MES1",
+          "value": " "
+        },
+        {
+          "key": "TXT_FDUNGEON_MES2",
+          "value": " "
+        },
+        {
+          "key": "TXT_FDUNGEON_MES3",
+          "value": " "
+        },
+        {
+          "key": "TXT_FDUNGEON_MES4",
+          "value": " "
+        },
+        {
+          "key": "TXT_FDUNGEON_MES5",
+          "value": "Заплатить 1000 миры за эликсир?"
+        },
+        {
+          "key": "TXT_FDUNGEON_MES6",
+          "value": "<C1>ОЗ, ОЭ и шкалы усиления полностью\nвосстановлены. ОН также увеличено на 200."
+        },
+        {
+          "key": "TXT_FDUNGEON_MES7",
+          "value": "<C1>Недостаточно миры."
+        },
+        {
+          "key": "TXT_FDUNGEON_NEXTAREA",
+          "value": "Пройти через ворота доступа"
+        },
+        {
+          "key": "TXT_FDUNGEON_SUB_CLEAR",
+          "value": "Выполнено"
+        },
+        {
+          "key": "TXT_FDUNGEON_LP_NAME",
+          "value": "◆Ворота"
+        },
+        {
+          "key": "TXT_FDUNGEON_AREA_MISSION",
+          "value": "-Задачи-"
+        },
+        {
+          "key": "TXT_FDUNGEON_AREA_MISSION_NUM",
+          "value": "%s/%s"
+        },
+        {
+          "key": "TXT_FDUNGEON_AREA_RULE",
+          "value": "%s: %s/%s"
+        },
+        {
+          "key": "TXT_FDUNGEON_CLEAR_REWARD_CLOSE",
+          "value": "Закрыть"
+        },
+        {
+          "key": "TXT_FDUNGEON_CLEAR_REWARD_CLOSE_BUTTON",
+          "value": "<I900>"
+        },
+        {
+          "key": "TXT_FDUNGEON_CLEAR_REWARD_FLOOR_INFO",
+          "value": "Показать информацию об этаже"
+        },
+        {
+          "key": "TXT_FDUNGEON_CLEAR_REWARD_MISSION_NUM",
+          "value": "%s / %s"
+        },
+        {
+          "key": "TXT_FDUNGEON_MENU_MISSION_NUM",
+          "value": "%s / %s"
+        },
+        {
+          "key": "TXT_FDUNGEON_RANK_REWARD_EXPLAIN",
+          "value": "<C1>Вы получили награду за ранг.<C0>\n"
+        },
+        {
+          "key": "TXT_FDUNGEON_RANK_REWARD_STRIDE",
+          "value": " "
+        },
+        {
+          "key": "TXT_FDUNGEON_RANK_REWARD_SP",
+          "value": "ОС"
+        },
+        {
+          "key": "TXT_FDUNGEON_RANK_REWARD_MULTI",
+          "value": " x"
+        },
+        {
+          "key": "TXT_FDUNGEON_RANK_REWARD_PLUS",
+          "value": "+"
+        },
+        {
+          "key": "TXT_FDUNGEON_FACTORY_POINT",
+          "value": "WP"
+        },
+        {
+          "key": "TXT_FDUNGEON_DISCOUNT_RATE_MAX",
+          "value": "Дальнейшая скидка невозможна.\nТекущая скидка <C2>20<C0>% — максимальная."
+        },
+        {
+          "key": "TXT_FDUNGEON_HEAL_RFP_MAX",
+          "value": "Дальнейшее расширение невозможно.\nПосещение Родника Святого Духа сейчас\n<C2>бесплатно<C0>."
+        },
+        {
+          "key": "TXT_FDUNGEON_HEAL_RFP_FREE",
+          "value": "Бесплатно</C>"
+        },
+        {
+          "key": "TXT_FDUNGEON_HEAL_RFP_MIRA",
+          "value": "</C> мира"
+        },
+        {
+          "key": "TXT_TIMECHART_KEY_HELP_MOVE",
+          "value": "Переместить курсор"
+        },
+        {
+          "key": "TXT_TIMECHART_KEY_HELP_CAMERA",
+          "value": "Управление камерой"
+        },
+        {
+          "key": "TXT_TIMECHART_KEY_HELP_ZOOM_OUT",
+          "value": "Отдалить"
+        },
+        {
+          "key": "TXT_TIMECHART_KEY_HELP_ZOOM_IN",
+          "value": "Приблизить"
+        },
+        {
+          "key": "TXT_TIMECHART_BUTTON_TIMELEAP",
+          "value": "<I900>"
+        },
+        {
+          "key": "TXT_TIMECHART_BRANCH_UNKNOWN",
+          "value": "???"
+        },
+        {
+          "key": "TXT_TIMECHART_MOVE",
+          "value": "Движение"
+        },
+        {
+          "key": "TXT_TIMECHART_CANCEL",
+          "value": "Удерживать"
+        },
+        {
+          "key": "TXT_TIMECHART_DAY",
+          "value": "Септианский календарь %s, %s/%s"
+        },
+        {
+          "key": "TXT_FIELD_SHORTCUT_ACHIVEMENT",
+          "value": "Достижения"
+        },
+        {
+          "key": "TXT_FIELD_SHORTCUT_TIMELINE",
+          "value": "Хронология"
+        },
+        {
+          "key": "TXT_FIELD_SHORTCUT_PARTY",
+          "value": "Группа"
+        },
+        {
+          "key": "TXT_FIELD_SHORTCUT_USEITEM",
+          "value": "Предметы"
+        },
+        {
+          "key": "TXT_FIELD_SHORTCUT_TIMELY_WORDS",
+          "value": "Термины"
+        },
+        {
+          "key": "TXT_FIELD_SHORTCUT_HEALARTS",
+          "value": "Лечение"
+        },
+        {
+          "key": "TXT_FIELD_SHORTCUT_FISHING",
+          "value": "Рыбалка"
+        },
+        {
+          "key": "TXT_FIELD_SHORTCUT_RIDE_CAR",
+          "value": "Сесть в транспорт"
+        },
+        {
+          "key": "TXT_FIELD_SHORTCUT_SAVE",
+          "value": "Система"
+        },
+        {
+          "key": "TXT_FIELD_SHORTCUT_GACHA",
+          "value": "Лотерея"
+        },
+        {
+          "key": "TXT_FIELD_SHORTCUT_DRONE",
+          "value": "Магазин дронов"
+        },
+        {
+          "key": "TXT_FIELD_SHORTCUT_HELP",
+          "value": "Помощь"
+        },
+        {
+          "key": "TXT_CHAPTER_SELECT_KEY_HELP_CHANGE",
+          "value": "<s38><I1036><I1037><s24>Сменить маршрут"
+        },
+        {
+          "key": "TXT_CHAPTER_SELECT_KEY_HELP_DECIDE",
+          "value": "<I900>"
+        },
+        {
+          "key": "TXT_CHAPTER_SELECT_KEY_HELP_CLOSE",
+          "value": "<s38><I901><s24>Закрыть"
+        },
+        {
+          "key": "TXT_ITEM_HELP_MAIL_ONLY",
+          "value": "Только для мужчин"
+        },
+        {
+          "key": "TXT_ITEM_HELP_FEMAIL_ONLY",
+          "value": "Только для женщин"
+        },
+        {
+          "key": "TXT_ITEM_HELP_SMALL",
+          "value": " (М)"
+        },
+        {
+          "key": "TXT_ITEM_HELP_MIDDLE",
+          "value": " (С)"
+        },
+        {
+          "key": "TXT_ITEM_HELP_LARGE",
+          "value": " (Б)"
+        },
+        {
+          "key": "TXT_ITEM_HELP_MOSTLARGE",
+          "value": " (Б+)"
+        },
+        {
+          "key": "TXT_ITEM_HELP_ALL",
+          "value": "Все"
+        },
+        {
+          "key": "TXT_ITEM_HELP_PERSENT",
+          "value": "%d%%"
+        },
+        {
+          "key": "TXT_ITEM_HELP_HOLLOWCORE",
+          "value": "Только для %s"
+        },
+        {
+          "key": "TXT_ITEM_HELP_WEEK",
+          "value": ""
+        },
+        {
+          "key": "TXT_ITEM_HELP_STRONG_NORMAL",
+          "value": "+"
+        },
+        {
+          "key": "TXT_ITEM_HELP_STRONG",
+          "value": "++"
+        },
+        {
+          "key": "TXT_ITEM_HELP_MOST_STRONG",
+          "value": "+++"
+        },
+        {
+          "key": "TXT_ITEM_HELP_EFFECT",
+          "value": "Эффект: "
+        },
+        {
+          "key": "TXT_ITEM_HELP_LINK",
+          "value": "/"
+        },
+        {
+          "key": "TXT_ITEM_HELP_RANGE_S",
+          "value": " (М)"
+        },
+        {
+          "key": "TXT_ITEM_HELP_RANGE_M",
+          "value": " (С)"
+        },
+        {
+          "key": "TXT_ITEM_HELP_RANGE_L",
+          "value": " (Б)"
+        },
+        {
+          "key": "TXT_ITEM_HELP_RANGE_LL",
+          "value": " (Б+)"
+        },
+        {
+          "key": "TXT_ITEM_HELP_SELF",
+          "value": " (На себя)"
+        },
+        {
+          "key": "TXT_ITEM_HELP_FRIEND",
+          "value": " (Група)"
+        },
+        {
+          "key": "TXT_ITEM_HELP_HITTING",
+          "value": "Критический"
+        },
+        {
+          "key": "TXT_ITEM_HELP_STUN_L",
+          "value": "Сильное оглушение"
+        },
+        {
+          "key": "TXT_ITEM_HELP_STUN_LL",
+          "value": "Предельное оглушение"
+        },
+        {
+          "key": "TXT_ITEM_HELP_DEBUFF_CANCEL",
+          "value": "Снять ослабления"
+        },
+        {
+          "key": "TXT_ITEM_HELP_SHARD_COMMAND",
+          "value": "При активации: "
+        },
+        {
+          "key": "TXT_DLC_HELP_HOLLOW_VOICE",
+          "value": "<C1>Нажмите </C><I1011><C1>, чтобы изменить голос голо-ядра в меню\nорбмента на экране Голо-ядра."
+        },
+        {
+          "key": "TXT_LP_MENSBATH",
+          "value": "Дверь мужской бани"
+        },
+        {
+          "key": "TXT_LP_LADIESBATH",
+          "value": "Дверь женской бани"
+        },
+        {
+          "key": "TXT_LP_GARAGE",
+          "value": "Гараж"
+        },
+        {
+          "key": "TXT_LP_VIRTUAL_COMBAT",
+          "value": "Тренажёр виртуальных боёв"
+        },
+        {
+          "key": "TXT_LP_JUKEBOX",
+          "value": "Музыкальный автомат"
+        },
+        {
+          "key": "TXT_LP_BIKE",
+          "value": "Мотоцикл"
+        },
+        {
+          "key": "TXT_LP_BULLETINBOARD",
+          "value": "Доска объявлений"
+        },
+        {
+          "key": "TXT_LP_DOOR",
+          "value": "Дверь"
+        },
+        {
+          "key": "TXT_LP_MONUMENT",
+          "value": "Монумент"
+        },
+        {
+          "key": "TXT_LP_MOVIETHEATER",
+          "value": "Дверь театра"
+        },
+        {
+          "key": "TXT_LP_SHUTTER",
+          "value": "Ставни"
+        },
+        {
+          "key": "TXT_LP_TRUCK",
+          "value": "Пикап"
+        },
+        {
+          "key": "TXT_LP_FENCE",
+          "value": "Забор"
+        },
+        {
+          "key": "TXT_LP_BOAT",
+          "value": "Лодка"
+        },
+        {
+          "key": "TXT_LP_ELEVATOR",
+          "value": "Лифт"
+        },
+        {
+          "key": "TXT_LP_WAREHOUS",
+          "value": "Дверь склада"
+        },
+        {
+          "key": "TXT_LP_PIER",
+          "value": "Мост"
+        },
+        {
+          "key": "TXT_LP_STATUE",
+          "value": "Статуя Шины Дирк"
+        },
+        {
+          "key": "TXT_LP_BILLBOARD",
+          "value": "Указатель"
+        },
+        {
+          "key": "TXT_LP_SARAH",
+          "value": "Дом Саары и Шахины"
+        },
+        {
+          "key": "TXT_LP_BRIDGEGATE",
+          "value": "Ворота в Институт"
+        },
+        {
+          "key": "TXT_LP_FACTORY",
+          "value": "Вход на завод"
+        },
+        {
+          "key": "TXT_LP_LIFT",
+          "value": "Лифт"
+        },
+        {
+          "key": "TXT_LP_OFFICE_DESK",
+          "value": "Стол Вана"
+        },
+        {
+          "key": "TXT_LP_LOCAL_SPREPORT",
+          "value": "Отчет СП"
+        },
+        {
+          "key": "TXT_LP_BED",
+          "value": "Кровать"
+        },
+        {
+          "key": "TXT_LP_KITCHEN",
+          "value": "Кухня"
+        },
+        {
+          "key": "TXT_LP_QS100_03_00",
+          "value": "Позиция ожидания"
+        },
+        {
+          "key": "TXT_LP_STONE_LP",
+          "value": "Точка осмотра"
+        },
+        {
+          "key": "TXT_LP_QS200_05_00",
+          "value": "Ждать Джессику"
+        },
+        {
+          "key": "TXT_LP_QS201_01_A",
+          "value": "Узор ковра"
+        },
+        {
+          "key": "TXT_LP_QS201_01_B",
+          "value": "След контейнера"
+        },
+        {
+          "key": "TXT_LP_QS201_01_C",
+          "value": "Плакат тако-точки"
+        },
+        {
+          "key": "TXT_LP_QS201_05_A",
+          "value": "Подсвечник"
+        },
+        {
+          "key": "TXT_LP_QS201_05_B",
+          "value": "След на полу"
+        },
+        {
+          "key": "TXT_LP_QS201_05_C",
+          "value": "Кирпич стены"
+        },
+        {
+          "key": "TXT_LP_QS330_01_00",
+          "value": "Красный кактус"
+        },
+        {
+          "key": "TXT_LP_QS413_03_00",
+          "value": "Автомобиль Z1"
+        },
+        {
+          "key": "TXT_LP_QS600_03_00",
+          "value": "Такси"
+        },
+        {
+          "key": "TXT_LP_SB_03_08_00",
+          "value": "Место за столом"
+        },
+        {
+          "key": "TXT_LP_AERO_TRAM",
+          "value": "Турникет"
+        },
+        {
+          "key": "TXT_LP_TERMINAL",
+          "value": "Терминал управления"
+        },
+        {
+          "key": "TXT_LP_ACCESS_TERMINAL",
+          "value": "Терминал ID-ключа доступа"
+        },
+        {
+          "key": "TXT_LP_QS111_02_00",
+          "value": "Велосипед"
+        },
+        {
+          "key": "TXT_LP_QS522_05_00",
+          "value": "Красный трамвай"
+        },
+        {
+          "key": "TXT_LP_QS610_03_00",
+          "value": "Сцена"
+        },
+        {
+          "key": "TXT_LP_TREASURE",
+          "value": "???"
+        },
+        {
+          "key": "TXT_LP_EV_02X_10_00",
+          "value": "Алтарь"
+        },
+        {
+          "key": "TXT_LP_SB_02X_14_00",
+          "value": "Каменный памятник"
+        },
+        {
+          "key": "TXT_LP_SB_02X_15_00",
+          "value": "Надгробие"
+        },
+        {
+          "key": "TXT_LP_EV_02X_14_00",
+          "value": "Терминал"
+        },
+        {
+          "key": "TXT_LP_EV_03D_10_00",
+          "value": "За стойкой"
+        },
+        {
+          "key": "TXT_LP_EV_02B_05_00",
+          "value": "Оазис"
+        },
+        {
+          "key": "TXT_LP_EV_04_06_00",
+          "value": "Кард-ридер"
+        },
+        {
+          "key": "TXT_LP_SWITCH",
+          "value": "Переключатель"
+        },
+        {
+          "key": "TXT_LP_LADDER",
+          "value": "Лестница"
+        },
+        {
+          "key": "TXT_LP_QSV121_06_00",
+          "value": "Пустой вагон"
+        },
+        {
+          "key": "TXT_LP_QSV121_07_00",
+          "value": "Заглянуть под сиденье"
+        },
+        {
+          "key": "TXT_LP_QSV221_01_00",
+          "value": "Позвать Грэма и остальных"
+        },
+        {
+          "key": "TXT_LP_QSV101_03_00",
+          "value": "Старая канализация"
+        },
+        {
+          "key": "TXT_LP_QSV111_02_00",
+          "value": "Магазин музыки Бразерс"
+        },
+        {
+          "key": "TXT_AIUEO",
+          "value": "А Э И О У"
+        },
+        {
+          "key": "TXT_TEST_BOARD",
+          "value": "Доска объявлений"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_PLUS_NUM",
+          "value": "+%d"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_EP_MINUS_NUM",
+          "value": "ОЭ -%d"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_CP_MINUS_NUM",
+          "value": "ОН -%d"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_MISS",
+          "value": "ПРОМАХ"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_CRITICAL",
+          "value": "КРИТИЧЕСКИЙ"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_GUARD",
+          "value": "ЗАЩИТА"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_OVERKILL",
+          "value": "СМЕРТЕЛЬНЫЙ"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_RESIST",
+          "value": "СПРОТИВЛЕНИЕ"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_RESIST_HEAL",
+          "value": "СПРОТИВЛЕНИЕ"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_STEALTH",
+          "value": "СКРЫТНОСТЬ"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_STR_UP",
+          "value": "СИЛ +"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_DEF_UP",
+          "value": "ЗЩТ +"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_ATS_UP",
+          "value": "СИС +"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_ADF_UP",
+          "value": "ИЗЩ +"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_SPD_UP",
+          "value": "СКР +"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_MOV_UP",
+          "value": "ПДВ +"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_ATTACK_UP",
+          "value": "УРН +"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_DEFEND_UP",
+          "value": "СПР +"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_MAGIC_ATTACK_UP",
+          "value": "ИУРН +"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_MAGIC_DEFEND_UP",
+          "value": "ИСПР +"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_HATE_UP",
+          "value": "УГРОЗА +"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_STR_DOWN",
+          "value": "СИЛ -"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_DEF_DOWN",
+          "value": "ЗЩТ -"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_ATS_DOWN",
+          "value": "СИС -"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_ADF_DOWN",
+          "value": "ИЗЩ -"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_SPD_DOWN",
+          "value": "СКР -"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_MOV_DOWN",
+          "value": "ПДВ -"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_ATTACK_DOWN",
+          "value": "УРН -"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_DEFEND_DOWN",
+          "value": "СПР -"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_MAGIC_ATTACK_DOWN",
+          "value": "ИУРН -"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_MAGIC_DEFEND_DOWN",
+          "value": "ИСПР -"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_HATE_DOWN",
+          "value": "УГРОЗА -"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_DELAY",
+          "value": "ЗАДЕРЖКА"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_ZERO_DELAY",
+          "value": "НУЛЕВАЯ ЗАДЕРЖКА"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_ALL_CANCEL",
+          "value": "ВСЕ ОТМЕНЕНО"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_SBREAK_FAILD",
+          "value": "S-ПРОРЫВ ПРОВАЛЕН"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_ARTS_FAILD",
+          "value": "ИСКУССТВО ПРОВАЛЕНО"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_QUICK",
+          "value": "БЫСТРО"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_SLOW",
+          "value": "МЕДЛЕННО"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_REGENE",
+          "value": "РЕГЕНЕРАЦИЯ"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_STEAL_BONUS",
+          "value": "БОНУС КРАЖИ"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_REFLECT",
+          "value": "ОТРАЖЕНИЕ"
+        },
+        {
+          "key": "TXT_BTL_DMGRENDERER_MINDS_EYE",
+          "value": "ПРОЗРЕНИЕ"
+        },
+        {
+          "key": "TXT_CAMP_ACHIEVEMENT_ITEM_COUNT",
+          "value": " x%d"
+        },
+        {
+          "key": "TXT_ITEM_HELP_SEP",
+          "value": " - "
+        },
+        {
+          "key": "TXT_ITEM_HELP_SEP_HOLLOWCORE",
+          "value": " - "
+        },
+        {
+          "key": "TXT_ITEM_HELP_SEP_SHARDCMDSHORT",
+          "value": ""
+        },
+        {
+          "key": "TXT_ITEM_HELP_SEP_SHORT",
+          "value": ", "
+        },
+        {
+          "key": "TXT_ITEM_HELP_SEP_SKILL_FOOD",
+          "value": "<c698>/</C>"
+        },
+        {
+          "key": "TXT_ITEM_HELP_SEP_QUARTZ",
+          "value": "/"
+        },
+        {
+          "key": "TXT_ITEM_HELP_SEP_NOTEBOOK",
+          "value": "<c444> - </c>"
+        },
+        {
+          "key": "TXT_ITEM_HELP_QUARTZ_ELEMENT_COST",
+          "value": "x%d"
+        },
+        {
+          "key": "TXT_ITEM_HELP_QUARTZ_STATUS",
+          "value": "<c698>(%s)</C> "
+        },
+        {
+          "key": "TXT_ITEM_HELP_ITEM_ATTR_BEGIN",
+          "value": "<C0><s30><I%03d><s22></C>%s - "
+        },
+        {
+          "key": "TXT_ITEM_HELP_ITEM_ATTR",
+          "value": "%s%s\n%s"
+        },
+        {
+          "key": "TXT_ITEM_HELP_ITEM_PARAM_UP_EXP",
+          "value": " (%s%s</C>)"
+        },
+        {
+          "key": "TXT_ITEM_HELP_EQUIP_ATTR_BEGIN",
+          "value": "%s"
+        },
+        {
+          "key": "TXT_ITEM_HELP_EQUIP_ATTR_END",
+          "value": "%s\n%s"
+        },
+        {
+          "key": "TXT_ITEM_HELP_WEAPON_ATTR_BEGIN",
+          "value": "%s"
+        },
+        {
+          "key": "TXT_ITEM_HELP_WEAPON_ATTR_END",
+          "value": "\n%s%s"
+        },
+        {
+          "key": "TXT_ITEM_HELP_FOOD_ATTR_BEGIN",
+          "value": ""
+        },
+        {
+          "key": "TXT_ITEM_HELP_FOOD_ATTR_END",
+          "value": ""
+        },
+        {
+          "key": "TXT_ITEM_HELP_ARTS_PLUGIN_BEGIN",
+          "value": "<C0><s30><I%d><s22></C><C3>%s</C>"
+        },
+        {
+          "key": "TXT_ITEM_HELP_QUARTZ_BEGIN",
+          "value": "<C0><s30><I%d><s22></C>%s"
+        },
+        {
+          "key": "TXT_ITEM_HELP_ITEM_ATTR2_BEGIN",
+          "value": "<C0><s30><I%03d><s22></C>%s%s"
+        },
+        {
+          "key": "TXT_ITEM_HELP_ATTR_ICON_BEGIN",
+          "value": "<C0><s30><I%03d><s22></C>%s%s</C>"
+        },
+        {
+          "key": "TXT_ITEM_HELP_ITEM_ATTR_ICON_S24",
+          "value": "<C0><s30><I%d><s22></C>"
+        },
+        {
+          "key": "TXT_ITEM_HELP_ITEM_ATTR_ICON_S21",
+          "value": "<C0><s24><I%d><s21></C>"
+        },
+        {
+          "key": "TXT_OPT_TEXT_VOICE_LANGUAGE",
+          "value": "Язык озвучки"
+        },
+        {
+          "key": "TXT_OPT_TEXT_ENGLISH",
+          "value": "Английский"
+        },
+        {
+          "key": "TXT_OPT_TEXT_JAPANESE",
+          "value": "Японский"
+        },
+        {
+          "key": "TXT_SET_TEXT_VOICE_LANGUAGE",
+          "value": "Выберите язык озвучки."
+        },
+        {
+          "key": "TXT_OPT_SUBTITLE",
+          "value": "Субтитры"
+        },
+        {
+          "key": "TXT_OPT_SUBTITLE_NONE",
+          "value": "По умолчанию"
+        },
+        {
+          "key": "TXT_OPT_SUBTITLE_ALL",
+          "value": "Все"
+        },
+        {
+          "key": "TXT_SET_SUBTITLE",
+          "value": "Включить дополнительные субтитры."
+        },
+        {
+          "key": "TXT_DEMO_TEAM_SELECT",
+          "value": "<s38><I1036><I1037><s24> Выбор отряда"
+        },
+        {
+          "key": "TXT_DEMO_FDUNGEON_EXIT",
+          "value": "Выход из Мрачного Сада.\n<C2>Демо-версия завершится."
+        },
+        {
+          "key": "TXT_DEMO_TITLE_STORE",
+          "value": "Приобрести полную версию игры."
+        },
+        {
+          "key": "TXT_DEMO_TITLE_NEWGAME",
+          "value": "Выберите один из 3 отрядов, чтобы\nпройти специально подготовленное подземелье."
+        },
+        {
+          "key": "TXT_DEMO_SAVE_LOAD_DLC_INVALID",
+          "value": "<C1>В демо-версии The Legend of Heroes:\nTrails beyond the Horizon нельзя загрузить\nсохранения, использующие загружаемый контент."
+        },
+        {
+          "key": "TXT_DEMO_SAVE_LOAD_TRIAL_INVALID",
+          "value": "<C1>Это сохранение невозможно загрузить, так\nкак оно выходит за пределы игровой зоны\nдемо-версии."
+        }
+      ]
+    }
+  ]
+}

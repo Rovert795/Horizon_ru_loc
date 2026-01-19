@@ -1,0 +1,948 @@
+{
+	"headers": [
+		{
+			"name": "PokerMessage",
+			"schema": "Kai"
+		},
+		{
+			"name": "PokerMedal",
+			"schema": "Kai"
+		},
+		{
+			"name": "PokerHelp",
+			"schema": "Kai"
+		},
+		{
+			"name": "PokerTrickLevel",
+			"schema": "Kai"
+		}
+	],
+	"data": [
+		{
+			"name": "PokerMessage",
+			"data": [
+				{
+					"uint1": 65535,
+					"id": 0,
+					"text": "Welcome.\nYou've found yourself at the poker table.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 1,
+					"text": "Raise... Let's increase the wager.\nI'm bringing my A game, too.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 2,
+					"text": "Don't want to raise after all?\nAs you wish.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 3,
+					"text": "I'll deal you a new hand.\nDon't forget, this is only once per game.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 4,
+					"text": "Oh, you want to fold?\nYou won't get your wager back.\nIs that okay with you?",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 5,
+					"text": "All right, let's get back to the game.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 6,
+					"text": "Were you dealt a good hand?\nHeehee. I can't wait to see it.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 7,
+					"text": "A royal flush!\nSimply spectacular.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 8,
+					"text": "A straight flush!\nThat's a marvelous hand.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 9,
+					"text": "Four of a kind.\n...Not bad.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 10,
+					"text": "Well, well.\nI do believe I have a card sharp here.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 11,
+					"text": "Heehee. Seems like the Goddess\nwas on my side.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 12,
+					"text": "It seems we both were dealt bad hands.\nA luckless duo.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 13,
+					"text": "Oh, looks like it's a draw.\nLet's give it another go.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 14,
+					"text": "Oh, dear. I lost.\nHere, take your prize money.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 15,
+					"text": "Now, let's get started.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 16,
+					"text": "Well played.\nLet's do this again soon.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 17,
+					"text": "Okay, time to place your wager.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 18,
+					"text": "Here's your prize money.\nYou deserve it.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 19,
+					"text": "Oh, you will need more tokens.\nPlease exchange them at the reception first.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 20,
+					"text": "The next game will have higher stakes.\nDo you want to give it another try? ",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 21,
+					"text": "I look forward to playing with you again.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 22,
+					"text": "Looks like you don't have enough tokens.\nYou're going to need 10.",
+					"empty": 0
+				},
+				{
+					"uint1": 65535,
+					"id": 23,
+					"text": "I look forward to playing with you again.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 0,
+					"text": "Welcome.\nYou've found yourself at the poker table.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 1,
+					"text": "Raise... Let's increase the wager.\nI'm bringing my A game, too.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 2,
+					"text": "Don't want to raise after all?\nAs you wish.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 3,
+					"text": "I'll deal you a new hand.\nDon't forget, this is only once per game.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 4,
+					"text": "Oh, you want to fold?\nYou won't get your wager back.\nIs that okay with you?",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 5,
+					"text": "All right, let's get back to the game.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 6,
+					"text": "Were you dealt a good hand?\nHeehee. I can't wait to see it.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 7,
+					"text": "A royal flush!\nSimply spectacular.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 8,
+					"text": "A straight flush!\nThat's a marvelous hand.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 9,
+					"text": "Four of a kind.\n...Not bad.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 10,
+					"text": "Well, well.\nI do believe I have a card sharp here.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 11,
+					"text": "Heehee. Seems like the Goddess\nwas on my side.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 12,
+					"text": "It seems we both were dealt bad hands.\nA luckless duo.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 13,
+					"text": "Oh, looks like it's a draw.\nLet's give it another go.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 14,
+					"text": "Oh, dear. I lost.\nHere, take your prize money.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 15,
+					"text": "Now, let's get started.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 16,
+					"text": "Well played.\nLet's do this again soon.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 17,
+					"text": "Okay, time to place your wager.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 18,
+					"text": "Here's your prize money.\nYou deserve it.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 19,
+					"text": "Oh, you will need more tokens.\nPlease exchange them at the reception first.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 20,
+					"text": "The next game will have higher stakes.\nDo you want to give it another try?",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 21,
+					"text": "I look forward to playing with you again.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 22,
+					"text": "Looks like you don't have enough tokens.\nYou're going to need 10.",
+					"empty": 0
+				},
+				{
+					"uint1": 900,
+					"id": 23,
+					"text": "I look forward to playing with you again.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 0,
+					"text": "Welcome.\nYou've found yourself at the poker table.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 1,
+					"text": "Raise... Let's increase the wager.\nI'm bringing my A game, too.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 2,
+					"text": "Don't want to raise after all?\nAs you wish.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 3,
+					"text": "I'll deal you a new hand.\nDon't forget, this is only once per game.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 4,
+					"text": "Oh, you want to fold?\nYou won't get your wager back.\nIs that okay with you?",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 5,
+					"text": "All right, let's get back to the game.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 6,
+					"text": "Were you dealt a good hand?\nHeehee. I can't wait to see it.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 7,
+					"text": "A royal flush!\nSimply spectacular.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 8,
+					"text": "A straight flush!\nThat's a marvelous hand.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 9,
+					"text": "Four of a kind.\n...Not bad.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 10,
+					"text": "Well, well.\nI do believe I have a card sharp here.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 11,
+					"text": "Heehee. Seems like the Goddess\nwas on my side.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 12,
+					"text": "It seems we both were dealt bad hands.\nA luckless duo.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 13,
+					"text": "Oh, looks like it's a draw.\nLet's give it another go.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 14,
+					"text": "Oh, dear. I lost.\nHere, take your prize money.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 15,
+					"text": "Now, let's get started.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 16,
+					"text": "Well played.\nLet's do this again soon.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 17,
+					"text": "Okay, time to place your wager.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 18,
+					"text": "Here's your prize money.\nYou deserve it.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 19,
+					"text": "Oh, you will need more tokens.\nPlease exchange them at the reception first.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 20,
+					"text": "The next game will have higher stakes.\nDo you want to give it another try?",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 21,
+					"text": "I look forward to playing with you again.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 22,
+					"text": "Looks like you don't have enough tokens.\nYou're going to need 10.",
+					"empty": 0
+				},
+				{
+					"uint1": 901,
+					"id": 23,
+					"text": "I look forward to playing with you again.",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 0,
+					"text": "You've got guts, challenging me.",
+					"empty": 26341
+				},
+				{
+					"uint1": 881,
+					"id": 1,
+					"text": "Raise... Time to up the ante.\nI'm in it to win it.",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 2,
+					"text": "Not gonna raise, huh?\nThat's fair.",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 3,
+					"text": "Okay, then, I'll deal you a new hand.\nJust remember, you can only do this\nonce a game.",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 4,
+					"text": "Folding already? You do realize\nyou won't get back any of the\ntokens you wagered, right?",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 5,
+					"text": "All right, then. Back to the game.",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 6,
+					"text": "How's your hand lookin'? Hah.\nLooks like this could get interesting.",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 7,
+					"text": "A royal flush?! Not bad, not bad.",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 8,
+					"text": "A straight flush!\nThat's a damn good hand.",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 9,
+					"text": "Four of a kind.\nSo that's how you're gonna play it.",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 10,
+					"text": "Haha. You did pretty well for yourself.",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 11,
+					"text": "Don't feel too bad. Gamblin' is my\nbread and butter, after all.",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 12,
+					"text": "Bad hands for both of us.\nThis just ain't our kinda night, is it?",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 13,
+					"text": "A draw. Wanna go again?",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 14,
+					"text": "Heh. Guess that's that.\nGo ahead and take your winnings.",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 15,
+					"text": "Okay, then. Let's go again.",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 16,
+					"text": "That was one hell of a game.\nHow 'bout another?",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 17,
+					"text": "Let's make this one to remember.",
+					"empty": 26340
+				},
+				{
+					"uint1": 881,
+					"id": 18,
+					"text": "Here's your share of the pot.\nGo on. Take it.",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 19,
+					"text": "Don't have enough tokens.\nGo buy some and get back to me.",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 20,
+					"text": "If we play again, your previous winnings\nwill be added to the pot. So what's it\ngonna be? Up for another game?",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 21,
+					"text": "You ever want a revenge match,\nyou know where to find me.",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 22,
+					"text": "Sorry, you ain't got enough tokens.\nNeed at least 10 to get the ball rolling.",
+					"empty": 0
+				},
+				{
+					"uint1": 881,
+					"id": 23,
+					"text": "See ya. It was fun.",
+					"empty": 26342
+				},
+				{
+					"uint1": 883,
+					"id": 0,
+					"text": "Can I interest you in a game?",
+					"empty": 27056
+				},
+				{
+					"uint1": 883,
+					"id": 1,
+					"text": "Raise... Let's increase the wager.\nI'm in this game to win.",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 2,
+					"text": "You don't want to raise?\nVery well. That's your call.",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 3,
+					"text": "All right, then. Let me deal you a new\nhand. Just keep in mind you only get to\ndo this once per game.",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 4,
+					"text": "Oh, you want to fold? Are you sure?\nYou won't get your tokens back.",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 5,
+					"text": "Okay, then, let's get back to it.",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 6,
+					"text": "Were you dealt a good hand? Heh.\nI look forward to seeing what you play.",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 7,
+					"text": "A royal flush?! That's spectacular!",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 8,
+					"text": "A straight flush?!\nWhat an incredible hand.",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 9,
+					"text": "Four of a kind. Not too shabby.",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 10,
+					"text": "My, my. You're quite the card player.",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 11,
+					"text": "Heheh. Guess the Goddess was on my side.",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 12,
+					"text": "Hmm. Looks like Lady Luck wasn't\nsmiling on either of us.",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 13,
+					"text": "That's a draw. Let's go again.",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 14,
+					"text": "Well, I lost. Here, take your winnings.",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 15,
+					"text": "Now, then. Let's get started.",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 16,
+					"text": "Thank you for playing.\nI'll be looking forward to next time.",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 17,
+					"text": "Very well, then. I'll take your tokens.",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 18,
+					"text": "Here's your payout. Please, take it.",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 19,
+					"text": "Whoops. I'm afraid you don't have\nenough tokens. You'll have to buy\nsome at the counter.",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 20,
+					"text": "The stakes will be higher next game.\nAre you up for the challenge?",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 21,
+					"text": "I'll be eagerly awaiting your\nnext attempt.",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 22,
+					"text": "You don't have enough tokens, I'm afraid.\nYou'll need at least 10 to play.",
+					"empty": 0
+				},
+				{
+					"uint1": 883,
+					"id": 23,
+					"text": "I do hope you enjoyed yourself.",
+					"empty": 27057
+				},
+				{
+					"uint1": 885,
+					"id": 0,
+					"text": "I'll be your opponent.",
+					"empty": 26960
+				},
+				{
+					"uint1": 885,
+					"id": 1,
+					"text": "Raise... Let's up the ante. I think\nit's time I show just what I can do.",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 2,
+					"text": "Decided against raising, hmm? Heehee.\nSometimes that's the smartest option.",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 3,
+					"text": "I'll redeal the cards. Keep in mind\nyou can only do this once per game.",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 4,
+					"text": "Oh? Giving up? Are you sure? You won't\nget any of your tokens back, you know.",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 5,
+					"text": "Heehee. Well, then. Let's get back to\nthe game.",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 6,
+					"text": "How's your hand? Heehee. I'm looking\nforward to seeing what you play.",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 7,
+					"text": "A royal flush?! I can hardly believe it!",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 8,
+					"text": "A straight flush! Very impressive!",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 9,
+					"text": "Four of a kind. Well, well. Not bad.",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 10,
+					"text": "Heehee. You're a lot better at this\nthan you let on.",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 11,
+					"text": "Looks like I win this time.",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 12,
+					"text": "Bad hands for both of us.\nThat can happen sometimes.",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 13,
+					"text": "Looks like it's a draw. Heehee.\nThis is getting interesting.",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 14,
+					"text": "You're quite good. I admit defeat.\nGo ahead and take your winnings.",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 15,
+					"text": "Well, then, let's move on to the\nnext match.",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 16,
+					"text": "Heehee. Thanks for playing. I'll be\nlooking forward to the next time.",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 17,
+					"text": "I can take those tokens off your hands.",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 18,
+					"text": "Here's your winnings. Please, take them.",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 19,
+					"text": "You don't have enough tokens.\nGo buy some first.",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 20,
+					"text": "If we play again, your previous winnings\nwill be added to the pot. Want to try\nyour luck?",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 21,
+					"text": "Heehee. I'll be happy to play\nagain anytime.",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 22,
+					"text": "Not enough tokens, I'm afraid.\nYou'll need 10.",
+					"empty": 0
+				},
+				{
+					"uint1": 885,
+					"id": 23,
+					"text": "Come play again, won't you?",
+					"empty": 26961
+				}
+			]
+		},
+		{
+			"name": "PokerMedal",
+			"data": [
+				{
+					"uint1": 5,
+					"uint2": 20,
+					"uint3": 50,
+					"uint4": 200,
+					"uint5": 400,
+					"uint6": 800,
+					"uint7": 1600,
+					"uint8": 5000,
+					"uint9": 10,
+					"uint10": 10
+				}
+			]
+		},
+		{
+			"name": "PokerHelp",
+			"data": [
+				{
+					"id": 0,
+					"text": "Exchange cards that aren't held."
+				},
+				{
+					"id": 1,
+					"text": "Hold all cards in your hand."
+				},
+				{
+					"id": 2,
+					"text": "Spend 10 tokens to add one star\nwhen you win."
+				},
+				{
+					"id": 3,
+					"text": "Spend 10 tokens to redeal all\nyour cards once."
+				},
+				{
+					"id": 4,
+					"text": "Select cards to hold."
+				},
+				{
+					"id": 5,
+					"text": "Select five cards to use."
+				}
+			]
+		},
+		{
+			"name": "PokerTrickLevel",
+			"data": [
+				{
+					"byte1": -4,
+					"byte2": -1,
+					"byte3": -1,
+					"byte4": -1
+				}
+			]
+		}
+	]
+}

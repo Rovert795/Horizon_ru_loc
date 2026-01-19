@@ -1,0 +1,596 @@
+{
+  "headers": [
+    {
+      "name": "ReminiscenceListParam",
+      "schema": "Kai"
+    },
+    {
+      "name": "ReminiscenceText",
+      "schema": "Kai"
+    }
+  ],
+  "data": [
+    {
+      "name": "ReminiscenceListParam",
+      "data": [
+        {
+          "uint1": 0,
+          "uint2": 0,
+          "uint3": 150,
+          "uint4": 0,
+          "uint5": 6350,
+          "uint6": 0,
+          "text1": "(1) Песни, которым меня научила мать",
+          "text2": "vis3_2000"
+        },
+        {
+          "uint1": 1,
+          "uint2": 0,
+          "uint3": 151,
+          "uint4": 0,
+          "uint5": 6351,
+          "uint6": 0,
+          "text1": "(2) Юный покоритель сияющего города",
+          "text2": "vis3_2010"
+        },
+        {
+          "uint1": 2,
+          "uint2": 0,
+          "uint3": 152,
+          "uint4": 0,
+          "uint5": 6352,
+          "uint6": 0,
+          "text1": "(3) Пылающая вспышка и ледяной иней",
+          "text2": "vis3_2020_01"
+        },
+        {
+          "uint1": 3,
+          "uint2": 0,
+          "uint3": 153,
+          "uint4": 0,
+          "uint5": 6353,
+          "uint6": 0,
+          "text1": "(4) Эмилия, королева небес",
+          "text2": "vis3_2030"
+        },
+        {
+          "uint1": 4,
+          "uint2": 0,
+          "uint3": 154,
+          "uint4": 0,
+          "uint5": 6354,
+          "uint6": 0,
+          "text1": "(5) Последний занавес лунного коня",
+          "text2": "vis3_2040"
+        },
+        {
+          "uint1": 5,
+          "uint2": 0,
+          "uint3": 155,
+          "uint4": 0,
+          "uint5": 6355,
+          "uint6": 0,
+          "text1": "(6) Миссия по возвращению древней статуи",
+          "text2": "vis3_2050"
+        },
+        {
+          "uint1": 6,
+          "uint2": 0,
+          "uint3": 156,
+          "uint4": 0,
+          "uint5": 6356,
+          "uint6": 0,
+          "text1": "(7) Встреча умов Земурии",
+          "text2": "vis3_2060"
+        },
+        {
+          "uint1": 7,
+          "uint2": 0,
+          "uint3": 157,
+          "uint4": 0,
+          "uint5": 6357,
+          "uint6": 0,
+          "text1": "(8) Жизнь святой",
+          "text2": "vis3_2070"
+        },
+        {
+          "uint1": 8,
+          "uint2": 0,
+          "uint3": 158,
+          "uint4": 0,
+          "uint5": 6358,
+          "uint6": 0,
+          "text1": "(9) Далекое место",
+          "text2": "vis3_2080"
+        },
+        {
+          "uint1": 9,
+          "uint2": 0,
+          "uint3": 159,
+          "uint4": 0,
+          "uint5": 6359,
+          "uint6": 0,
+          "text1": "(10) Молитва матери",
+          "text2": "vis3_2090"
+        },
+        {
+          "uint1": 10,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 0,
+          "uint5": 0,
+          "uint6": 0,
+          "text1": "Аньес 1",
+          "text2": ""
+        },
+        {
+          "uint1": 11,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 1,
+          "uint5": 0,
+          "uint6": 32354,
+          "text1": "Аньес 2",
+          "text2": ""
+        },
+        {
+          "uint1": 12,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 2,
+          "uint5": 0,
+          "uint6": 0,
+          "text1": "Фери 1",
+          "text2": ""
+        },
+        {
+          "uint1": 13,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 3,
+          "uint5": 0,
+          "uint6": 32378,
+          "text1": "Фери 2",
+          "text2": ""
+        },
+        {
+          "uint1": 14,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 4,
+          "uint5": 0,
+          "uint6": 0,
+          "text1": "Аарон 1",
+          "text2": ""
+        },
+        {
+          "uint1": 15,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 5,
+          "uint5": 0,
+          "uint6": 32354,
+          "text1": "Аарон 2",
+          "text2": ""
+        },
+        {
+          "uint1": 16,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 6,
+          "uint5": 0,
+          "uint6": 0,
+          "text1": "Ризетт 1",
+          "text2": ""
+        },
+        {
+          "uint1": 17,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 7,
+          "uint5": 0,
+          "uint6": 32378,
+          "text1": "Ризетт 2",
+          "text2": ""
+        },
+        {
+          "uint1": 18,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 8,
+          "uint5": 0,
+          "uint6": 0,
+          "text1": "Катр 1",
+          "text2": ""
+        },
+        {
+          "uint1": 19,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 9,
+          "uint5": 0,
+          "uint6": 32378,
+          "text1": "Катр 2",
+          "text2": ""
+        },
+        {
+          "uint1": 20,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 10,
+          "uint5": 0,
+          "uint6": 0,
+          "text1": "Джудит 1",
+          "text2": ""
+        },
+        {
+          "uint1": 21,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 11,
+          "uint5": 0,
+          "uint6": 32378,
+          "text1": "Джудит 2",
+          "text2": ""
+        },
+        {
+          "uint1": 22,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 12,
+          "uint5": 0,
+          "uint6": 0,
+          "text1": "Бергард 1",
+          "text2": ""
+        },
+        {
+          "uint1": 23,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 13,
+          "uint5": 0,
+          "uint6": 32240,
+          "text1": "Бергард 2",
+          "text2": ""
+        },
+        {
+          "uint1": 24,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 14,
+          "uint5": 0,
+          "uint6": 0,
+          "text1": "Элейн 1",
+          "text2": ""
+        },
+        {
+          "uint1": 25,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 15,
+          "uint5": 0,
+          "uint6": 32215,
+          "text1": "Элейн 2",
+          "text2": ""
+        },
+        {
+          "uint1": 26,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 18,
+          "uint5": 0,
+          "uint6": 0,
+          "text1": "Сидзуна 1",
+          "text2": ""
+        },
+        {
+          "uint1": 27,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 19,
+          "uint5": 0,
+          "uint6": 32404,
+          "text1": "Сидзуна 2",
+          "text2": ""
+        },
+        {
+          "uint1": 28,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 16,
+          "uint5": 0,
+          "uint6": 32215,
+          "text1": "Ренн 1",
+          "text2": ""
+        },
+        {
+          "uint1": 29,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 17,
+          "uint5": 0,
+          "uint6": 32354,
+          "text1": "Ренн 2",
+          "text2": ""
+        },
+        {
+          "uint1": 30,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 26,
+          "uint5": 0,
+          "uint6": 32404,
+          "text1": "Йорда",
+          "text2": ""
+        },
+        {
+          "uint1": 31,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 20,
+          "uint5": 0,
+          "uint6": 0,
+          "text1": "Юмэ 1",
+          "text2": ""
+        },
+        {
+          "uint1": 32,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 21,
+          "uint5": 0,
+          "uint6": 32215,
+          "text1": "Юмэ 2",
+          "text2": ""
+        },
+        {
+          "uint1": 33,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 22,
+          "uint5": 0,
+          "uint6": 32240,
+          "text1": "Кинкейд",
+          "text2": ""
+        },
+        {
+          "uint1": 34,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 24,
+          "uint5": 0,
+          "uint6": 0,
+          "text1": "Нина",
+          "text2": ""
+        },
+        {
+          "uint1": 35,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 25,
+          "uint5": 0,
+          "uint6": 32354,
+          "text1": "Эмилия",
+          "text2": ""
+        },
+        {
+          "uint1": 36,
+          "uint2": 1,
+          "uint3": 0,
+          "uint4": 23,
+          "uint5": 0,
+          "uint6": 0,
+          "text1": "Бермотти",
+          "text2": ""
+        },
+        {
+          "uint1": 37,
+          "uint2": 2,
+          "uint3": 0,
+          "uint4": 28,
+          "uint5": 0,
+          "uint6": 0,
+          "text1": "Альтина",
+          "text2": ""
+        },
+        {
+          "uint1": 38,
+          "uint2": 2,
+          "uint3": 0,
+          "uint4": 29,
+          "uint5": 0,
+          "uint6": 0,
+          "text1": "Фи",
+          "text2": ""
+        },
+        {
+          "uint1": 39,
+          "uint2": 2,
+          "uint3": 0,
+          "uint4": 27,
+          "uint5": 0,
+          "uint6": 0,
+          "text1": "Това и Кроу",
+          "text2": ""
+        },
+        {
+          "uint1": 40,
+          "uint2": 2,
+          "uint3": 0,
+          "uint4": 30,
+          "uint5": 0,
+          "uint6": 32160,
+          "text1": "Кроу",
+          "text2": ""
+        },
+        {
+          "uint1": 41,
+          "uint2": 2,
+          "uint3": 0,
+          "uint4": 31,
+          "uint5": 0,
+          "uint6": 32160,
+          "text1": "Това",
+          "text2": ""
+        },
+        {
+          "uint1": 42,
+          "uint2": 2,
+          "uint3": 0,
+          "uint4": 32,
+          "uint5": 0,
+          "uint6": 32160,
+          "text1": "Альтина и Фи",
+          "text2": ""
+        },
+        {
+          "uint1": 43,
+          "uint2": 2,
+          "uint3": 0,
+          "uint4": 33,
+          "uint5": 0,
+          "uint6": 32270,
+          "text1": "Альтина и Това",
+          "text2": ""
+        },
+        {
+          "uint1": 44,
+          "uint2": 2,
+          "uint3": 0,
+          "uint4": 34,
+          "uint5": 0,
+          "uint6": 32270,
+          "text1": "Фи и Кроу",
+          "text2": ""
+        },
+        {
+          "uint1": 45,
+          "uint2": 3,
+          "uint3": 0,
+          "uint4": 36,
+          "uint5": 0,
+          "uint6": 0,
+          "text1": "Руфус",
+          "text2": ""
+        },
+        {
+          "uint1": 46,
+          "uint2": 3,
+          "uint3": 0,
+          "uint4": 37,
+          "uint5": 0,
+          "uint6": 0,
+          "text1": "Лапис",
+          "text2": ""
+        },
+        {
+          "uint1": 47,
+          "uint2": 3,
+          "uint3": 0,
+          "uint4": 35,
+          "uint5": 0,
+          "uint6": 0,
+          "text1": "Суин и Надя",
+          "text2": ""
+        },
+        {
+          "uint1": 48,
+          "uint2": 3,
+          "uint3": 0,
+          "uint4": 38,
+          "uint5": 0,
+          "uint6": 32310,
+          "text1": "Руфус и Лапис",
+          "text2": ""
+        },
+        {
+          "uint1": 49,
+          "uint2": 3,
+          "uint3": 0,
+          "uint4": 39,
+          "uint5": 0,
+          "uint6": 32310,
+          "text1": "Суин",
+          "text2": ""
+        },
+        {
+          "uint1": 50,
+          "uint2": 3,
+          "uint3": 0,
+          "uint4": 40,
+          "uint5": 0,
+          "uint6": 32310,
+          "text1": "Надия",
+          "text2": ""
+        },
+        {
+          "uint1": 51,
+          "uint2": 4,
+          "uint3": 0,
+          "uint4": 0,
+          "uint5": 2100,
+          "uint6": 0,
+          "text1": "Канал Уробороса 1",
+          "text2": "vis3_6000"
+        },
+        {
+          "uint1": 52,
+          "uint2": 4,
+          "uint3": 0,
+          "uint4": 0,
+          "uint5": 2101,
+          "uint6": 0,
+          "text1": "Канал Уробороса 2",
+          "text2": "vis3_6000_01"
+        },
+        {
+          "uint1": 53,
+          "uint2": 4,
+          "uint3": 0,
+          "uint4": 0,
+          "uint5": 2102,
+          "uint6": 36707,
+          "text1": "Канал Уробороса 3",
+          "text2": "vis3_6000_02"
+        },
+        {
+          "uint1": 54,
+          "uint2": 4,
+          "uint3": 0,
+          "uint4": 0,
+          "uint5": 2103,
+          "uint6": 32410,
+          "text1": "Канал Уробороса 4",
+          "text2": "vis3_6000_03"
+        },
+        {
+          "uint1": 55,
+          "uint2": 4294967295,
+          "uint3": 4294967295,
+          "uint4": 4294967295,
+          "uint5": 4294967295,
+          "uint6": 0,
+          "text1": "Вернуться",
+          "text2": ""
+        }
+      ]
+    },
+    {
+      "name": "ReminiscenceText",
+      "data": [
+        {
+          "ulong": 0,
+          "text": "Выберите Сферу памяти для просмотра.",
+          "float": 550.0,
+          "uint": 0
+        },
+        {
+          "ulong": 4,
+          "text": "Выберите поток для настройки.",
+          "float": 416.0,
+          "uint": 0
+        }
+      ]
+    }
+  ]
+}

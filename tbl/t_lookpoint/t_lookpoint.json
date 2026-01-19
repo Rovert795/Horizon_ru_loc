@@ -1,0 +1,2014 @@
+{
+  "headers": [
+    {
+      "name": "LookPointTableData",
+      "schema": "Kai"
+    }
+  ],
+  "data": [
+    {
+      "name": "LookPointTableData",
+      "data": [
+        {
+          "text1": "a1027",
+          "text2": "LookPointTest00",
+          "text3": "Дверь 1",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            300
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "a1027",
+          "text2": "EventTestLP00",
+          "text3": "Дверь 2",
+          "empty": "",
+          "arr1": [
+            300
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d3550",
+          "text2": "LP_Billboard_Pond",
+          "text3": "Уличный указатель",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d3550",
+          "text2": "LP_Billboard_GiantTree",
+          "text3": "Уличный указатель",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "g0210",
+          "text2": "LP_propeller1",
+          "text3": "Переключатель",
+          "empty": "",
+          "arr1": [
+            150
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "g0210",
+          "text2": "LP_propeller2",
+          "text3": "Переключатель",
+          "empty": "",
+          "arr1": [
+            151
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "m0100",
+          "text2": "LP_gimmick02",
+          "text3": "Ограждение",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "m2100",
+          "text2": "LP_Boat2",
+          "text3": "Лодка",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "m3000",
+          "text2": "LP_Statue",
+          "text3": "Статуя Шины Дирк",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "m3000",
+          "text2": "LP_Zihanki_0",
+          "text3": "Торговый автомат",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "m3010",
+          "text2": "LP_Billboard_Entrance",
+          "text3": "Уличный указатель",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "m3010",
+          "text2": "LP_Billboard_FirstWaterfall",
+          "text3": "Уличный указатель",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "m3010",
+          "text2": "LP_Billboard_SecondWaterfall",
+          "text3": "Уличный указатель",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "m3010",
+          "text2": "LP_Billboard_Lake",
+          "text3": "Уличный указатель",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d7100",
+          "text2": "LP_Billboard_Entrance",
+          "text3": "Уличный указатель",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c0000",
+          "text2": "LP_BulletinBoard",
+          "text3": "Доска объявлений",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c0000",
+          "text2": "LP_Swallow",
+          "text3": "Ласточкино гнездо",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            32221
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c0000",
+          "text2": "LP_Swallow",
+          "text3": "Ласточкино гнездо",
+          "empty": "",
+          "arr1": [
+            32238
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c0000",
+          "text2": "LP_Office_Desk",
+          "text3": "Офисный стол",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c0000",
+          "text2": "LP_Zihanki_0",
+          "text3": "Торговый автомат",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c0000",
+          "text2": "LP_EV_01_33_00_01",
+          "text3": "Кошачьи следы",
+          "empty": "",
+          "arr1": [
+            1036
+          ],
+          "uint1": 0,
+          "arr2": [
+            32098,
+            34211
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c0000",
+          "text2": "LP_EV_01_33_00_01_2",
+          "text3": "Кошачьи следы",
+          "empty": "",
+          "arr1": [
+            34211
+          ],
+          "uint1": 0,
+          "arr2": [
+            32098,
+            1038
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c0000",
+          "text2": "LP_EV_01_33_00_01_3",
+          "text3": "Кошачьи следы",
+          "empty": "",
+          "arr1": [
+            1038,
+            33668
+          ],
+          "uint1": 0,
+          "arr2": [
+            32098,
+            1039
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c0000",
+          "text2": "LP_EV_01_33_00_01_4",
+          "text3": "Кошачьи следы",
+          "empty": "",
+          "arr1": [
+            1039
+          ],
+          "uint1": 0,
+          "arr2": [
+            32098,
+            34212
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c0000",
+          "text2": "LP_Residential",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [
+            32038
+          ],
+          "uint1": 0,
+          "arr2": [
+            32201
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c0000",
+          "text2": "LP_Swallow_Parent",
+          "text3": "Ласточка",
+          "empty": "",
+          "arr1": [
+            32069
+          ],
+          "uint1": 0,
+          "arr2": [
+            32092
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c0000",
+          "text2": "LP_Swallow_Child1",
+          "text3": "Птенец ласточки",
+          "empty": "",
+          "arr1": [
+            32201,
+            34654
+          ],
+          "uint1": 0,
+          "arr2": [
+            32221,
+            34653
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c0000",
+          "text2": "LP_Swallow_Child2",
+          "text3": "Птенец ласточки",
+          "empty": "",
+          "arr1": [
+            32201,
+            34654
+          ],
+          "uint1": 0,
+          "arr2": [
+            32221,
+            34653
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c0200",
+          "text2": "LP_BulletinBoard",
+          "text3": "Доска объявлений",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c0200",
+          "text2": "LP_Zihanki_0",
+          "text3": "Торговый автомат",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c0200",
+          "text2": "LP_Door_BlackTown",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [
+            32000
+          ],
+          "uint1": 0,
+          "arr2": [
+            32083
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c0200",
+          "text2": "LP_Door_BlackTown",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [
+            32096
+          ],
+          "uint1": 0,
+          "arr2": [
+            32112
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c0200",
+          "text2": "LP_Door_BlackTown",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [
+            32200
+          ],
+          "uint1": 0,
+          "arr2": [
+            32207
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c0200",
+          "text2": "LP_Door_LiveHouse",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            9003,
+            32201
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c0200",
+          "text2": "LP_Door_Underground",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c0200",
+          "text2": "LP_TK_02C_2_01_RAFER_MUSICIAN",
+          "text3": "Сцена",
+          "empty": "",
+          "arr1": [
+            32201
+          ],
+          "uint1": 0,
+          "arr2": [
+            32228
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c0200",
+          "text2": "LP_QSV121_01_00",
+          "text3": "Кошачьи следы",
+          "empty": "",
+          "arr1": [
+            34475
+          ],
+          "uint1": 0,
+          "arr2": [
+            34476,
+            32105
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c0200",
+          "text2": "LP_QSV121_02_00",
+          "text3": "Кошачьи следы",
+          "empty": "",
+          "arr1": [
+            34475
+          ],
+          "uint1": 0,
+          "arr2": [
+            34476,
+            32105
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c0400",
+          "text2": "LP_BulletinBoard",
+          "text3": "Доска объявлений",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c0400",
+          "text2": "LP_UnderGround",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            389
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c0400",
+          "text2": "LP_Zihanki_0",
+          "text3": "Торговый автомат",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c0600",
+          "text2": "LP_Monument_Crossing",
+          "text3": "Монумент",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c0600",
+          "text2": "LP_BulletinBoard",
+          "text3": "Доска объявлений",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c0600",
+          "text2": "LP_UnderGround2",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c0600",
+          "text2": "LP_Zihanki_0",
+          "text3": "Торговый автомат",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c0800",
+          "text2": "LP_BulletinBoard",
+          "text3": "Доска объявлений",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c0800",
+          "text2": "LP_Zihanki_0",
+          "text3": "Торговый автомат",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c0800",
+          "text2": "LP_Zihanki_1",
+          "text3": "Торговый автомат",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c0800",
+          "text2": "LP_Water_Supply",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            34836
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c0800",
+          "text2": "LP_BasketBall",
+          "text3": "Баскетбольная корзина",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c1200",
+          "text2": "LP_Shutter",
+          "text3": "Роллет",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c1200",
+          "text2": "LP_Door_BlackTown",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            32209
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c1200",
+          "text2": "LP_Door_BlackTown_B1",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            32209
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c1200",
+          "text2": "LP_Door_BlackTown_B2",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            32209
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c1200",
+          "text2": "LP_Door_BlackTown_B3",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            32209
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c1200",
+          "text2": "LP_Door_BlackTown",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [
+            32210
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c1200",
+          "text2": "LP_Door_BlackTown_B1",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [
+            32210
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c1200",
+          "text2": "LP_Door_BlackTown_B2",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [
+            32210
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c1200",
+          "text2": "LP_Door_BlackTown_B3",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [
+            32210
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c1400",
+          "text2": "LP_BulletinBoard",
+          "text3": "Доска объявлений",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c1400",
+          "text2": "LP_UnderGround",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c1400",
+          "text2": "LP_QSV112_02_00",
+          "text3": "Черная машина через дорогу",
+          "empty": "",
+          "arr1": [
+            34461
+          ],
+          "uint1": 0,
+          "arr2": [
+            34462,
+            32092
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c1401",
+          "text2": "LP_Door",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [
+            32079
+          ],
+          "uint1": 0,
+          "arr2": [
+            32087
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c1800",
+          "text2": "LP_BulletinBoard",
+          "text3": "Доска объявлений",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c1800",
+          "text2": "LP_Tower",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            32092
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c1800",
+          "text2": "LP_Tower",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [
+            32115
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c1900",
+          "text2": "LP_Control_Room",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            34619
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c1900",
+          "text2": "LP_Control_Room",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [
+            34621
+          ],
+          "uint1": 0,
+          "arr2": [
+            32205
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c1900",
+          "text2": "LP_Control_Room",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [
+            32205
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c1900",
+          "text2": "LP_To_C1800",
+          "text3": "Лифт",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c2000",
+          "text2": "LP_BulletinBoard",
+          "text3": "Доска объявлений",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c2000",
+          "text2": "LP_Zihanki_0",
+          "text3": "Торговый автомат",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c2000",
+          "text2": "LP_UnderGround",
+          "text3": "Старая канализационная система",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            34402
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c2000",
+          "text2": "LP_UnderGround",
+          "text3": "Старая канализационная система",
+          "empty": "",
+          "arr1": [
+            34407
+          ],
+          "uint1": 0,
+          "arr2": [
+            32054
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c2000",
+          "text2": "LP_UnderGround",
+          "text3": "Старая канализационная система",
+          "empty": "",
+          "arr1": [
+            32054
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c2200",
+          "text2": "LP_BulletinBoard",
+          "text3": "Доска объявлений",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c2200",
+          "text2": "LP_Zihanki_0",
+          "text3": "Торговый автомат",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c2200",
+          "text2": "LP_betty_ralph",
+          "text3": "Бетти и Ральф",
+          "empty": "",
+          "arr1": [
+            32069
+          ],
+          "uint1": 0,
+          "arr2": [
+            32228
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c2400",
+          "text2": "LP_BulletinBoard",
+          "text3": "Доска объявлений",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c2400",
+          "text2": "LP_Gramheart",
+          "text3": "Резиденция Грэмхарт",
+          "empty": "",
+          "arr1": [
+            32054
+          ],
+          "uint1": 0,
+          "arr2": [
+            32056
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c2400",
+          "text2": "LP_BookShelf",
+          "text3": "Книжный шкаф",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c2400",
+          "text2": "LP_Zihanki_0",
+          "text3": "Торговый автомат",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c2400",
+          "text2": "QST211_01_00",
+          "text3": "Мама-ласточка",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c2400",
+          "text2": "QST211_02_00",
+          "text3": "Мама-ласточка",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c2600",
+          "text2": "LP_BulletinBoard",
+          "text3": "Доска объявлений",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c2600",
+          "text2": "LP_QSV211_00_00",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [
+            32201
+          ],
+          "uint1": 0,
+          "arr2": [
+            34612,
+            32221
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "c2600",
+          "text2": "LP_Arts1",
+          "text3": "Табличка к работе Кисары",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c2600",
+          "text2": "LP_Arts2",
+          "text3": "Табличка к работе Феликса",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "c2600",
+          "text2": "LP_Arts3",
+          "text3": "Табличка к работе Мехмеда",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3000",
+          "text2": "LP_BulletinBoard",
+          "text3": "Доска объявлений",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3000",
+          "text2": "LP_Aero_Tram",
+          "text3": "Турникет",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3000",
+          "text2": "LP_Fence",
+          "text3": "Ограждение",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3000",
+          "text2": "LP_Elavator",
+          "text3": "Лифт",
+          "empty": "",
+          "arr1": [
+            32140
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3000",
+          "text2": "LP_My_Room_Door",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [
+            32140
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3000",
+          "text2": "LP_Local_SPReport",
+          "text3": "Отчет ОС",
+          "empty": "",
+          "arr1": [
+            32140
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3000",
+          "text2": "LP_Zihanki_0",
+          "text3": "",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3000",
+          "text2": "LP_Zihanki_1",
+          "text3": "",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3200",
+          "text2": "LP_BulletinBoard",
+          "text3": "Доска объявлений",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3200",
+          "text2": "LP_Aero_Tram",
+          "text3": "Турникет",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3200",
+          "text2": "LP_BridgeGate",
+          "text3": "Ворота",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3200",
+          "text2": "LP_RareMetal",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [
+            32126
+          ],
+          "uint1": 0,
+          "arr2": [
+            34885
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "t3200",
+          "text2": "LP_Door1",
+          "text3": "Гостиная",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3200",
+          "text2": "LP_Door2",
+          "text3": "Гостиная",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3200",
+          "text2": "LP_Hamilton_Door",
+          "text3": "Особняк Гамильтона",
+          "empty": "",
+          "arr1": [
+            32140
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3200",
+          "text2": "LP_Local_SPReport",
+          "text3": "Отчёт ОС",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            32140
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "t3200",
+          "text2": "LP_Zihanki_0",
+          "text3": "",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3400",
+          "text2": "LP_BulletinBoard",
+          "text3": "Доска объявлений",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3400",
+          "text2": "LP_Aero_Tram",
+          "text3": "Турникет",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3400",
+          "text2": "LP_Door_Observatory",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [
+            32144
+          ],
+          "uint1": 0,
+          "arr2": [
+            32147
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "t3400",
+          "text2": "LP_Switch1",
+          "text3": "Панель",
+          "empty": "",
+          "arr1": [
+            32150
+          ],
+          "uint1": 0,
+          "arr2": [
+            2695
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "t3400",
+          "text2": "LP_Switch2",
+          "text3": "Панель",
+          "empty": "",
+          "arr1": [
+            2695
+          ],
+          "uint1": 0,
+          "arr2": [
+            2696
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "t3400",
+          "text2": "LP_EV_02A_15_00_C",
+          "text3": "Панель",
+          "empty": "",
+          "arr1": [
+            2696
+          ],
+          "uint1": 0,
+          "arr2": [
+            32151
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "t3400",
+          "text2": "LP_Telescope",
+          "text3": "Телескоп",
+          "empty": "",
+          "arr1": [
+            32148
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3400",
+          "text2": "LP_Note",
+          "text3": "Исследовательские заметки А. Гершеля",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3400",
+          "text2": "LP_Manual",
+          "text3": "Инструкция к телескопу",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3400",
+          "text2": "LP_Zihanki_0",
+          "text3": "",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3400",
+          "text2": "LP_Zihanki_1",
+          "text3": "",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3400",
+          "text2": "LP_Zihanki_2",
+          "text3": "",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3400",
+          "text2": "LP_Zihanki_3",
+          "text3": "",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t3400",
+          "text2": "LP_Zihanki_4",
+          "text3": "",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "m3301",
+          "text2": "LP_Aurora_Aeon",
+          "text3": "Аврора-ион",
+          "empty": "",
+          "arr1": [
+            32289
+          ],
+          "uint1": 0,
+          "arr2": [
+            32290
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "t4000",
+          "text2": "LP_BulletinBoard",
+          "text3": "Доска объявлений",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t4000",
+          "text2": "LP_Door",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t4000",
+          "text2": "LP_Local_SPReport",
+          "text3": "Отчёт ОС",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t4000",
+          "text2": "LP_Spa",
+          "text3": "Войти в горячие источники",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t4000",
+          "text2": "LP_Zihanki_0",
+          "text3": "",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d5000",
+          "text2": "LP_Epstein",
+          "text3": "Мастерская Эпштейна",
+          "empty": "",
+          "arr1": [
+            35230
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d5000",
+          "text2": "LP_Exit",
+          "text3": "Выход",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d5000",
+          "text2": "LP_Dungeon",
+          "text3": "Войти в подземелье",
+          "empty": "",
+          "arr1": [
+            35230
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d5000",
+          "text2": "LP_Gacha",
+          "text3": "Расшифровка гримуара",
+          "empty": "",
+          "arr1": [
+            35230
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d5000",
+          "text2": "LP_Reminiscence",
+          "text3": "Пьедестал воспоминаний",
+          "empty": "",
+          "arr1": [
+            35230
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d5000",
+          "text2": "LP_BulletinBoard",
+          "text3": "Пьедестал истребления",
+          "empty": "",
+          "arr1": [
+            35230
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d5000",
+          "text2": "LP_Spa",
+          "text3": "Святой источник духов",
+          "empty": "",
+          "arr1": [
+            35237
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d7010",
+          "text2": "LP_serch_switch_1",
+          "text3": "Рычаг",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            2611
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "d7010",
+          "text2": "LP_serch_switch_2",
+          "text3": "Рычаг",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            2612
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "d7010",
+          "text2": "LP_switch_1",
+          "text3": "Рычаг",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            2613
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "d7710",
+          "text2": "LP_swt_00",
+          "text3": "Переключатель",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d7710",
+          "text2": "LP_swt_01",
+          "text3": "Переключатель",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d7710",
+          "text2": "LP_swt_02",
+          "text3": "Переключатель",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t7200",
+          "text2": "SB_03C_09_00",
+          "text3": "Потолочный воздуховод",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            34059
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "t7200",
+          "text2": "LP_Hidden_Passage",
+          "text3": "Тайный вход в подземный объект",
+          "empty": "",
+          "arr1": [
+            32392
+          ],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t7200",
+          "text2": "LP_Zihanki_0",
+          "text3": "Торговый автомат",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t7200",
+          "text2": "LP_Zihanki_1",
+          "text3": "Торговый автомат",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t7200",
+          "text2": "LP_Consulting_Room",
+          "text3": "Обследовательская комната",
+          "empty": "",
+          "arr1": [
+            32392
+          ],
+          "uint1": 0,
+          "arr2": [
+            32398
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "d7800",
+          "text2": "LP_Switch_1",
+          "text3": "Рычаг",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            2660
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "d7800",
+          "text2": "LP_Switch_2",
+          "text3": "Рычаг",
+          "empty": "",
+          "arr1": [
+            2663
+          ],
+          "uint1": 0,
+          "arr2": [
+            2661
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "d7800",
+          "text2": "LP_Switch_3",
+          "text3": "Рычаг",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            2662
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "d7800",
+          "text2": "LP_Switch_4",
+          "text3": "Рычаг",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            2663
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "d7800",
+          "text2": "LP_Switch_5",
+          "text3": "Рычаг",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            2664
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "t2000",
+          "text2": "LP_BulletinBoard",
+          "text3": "Доска объявлений",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t2000",
+          "text2": "LP_Zihanki_0",
+          "text3": "",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t2200",
+          "text2": "LP_BulletinBoard",
+          "text3": "Доска объявлений",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t2200",
+          "text2": "LP_BasketBall",
+          "text3": "Поиграть в баскетбол",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t2200",
+          "text2": "LP_Door_Watercourse",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t2200",
+          "text2": "LP_Local_SPReport",
+          "text3": "Отчёт ОС",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d7700",
+          "text2": "LP_Terminal",
+          "text3": "Орбальный прибор",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d7700",
+          "text2": "LP_Flower1",
+          "text3": "Агава",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d7700",
+          "text2": "LP_Flower2",
+          "text3": "Агава",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d7700",
+          "text2": "LP_Flower3",
+          "text3": "Агава",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d7710",
+          "text2": "LP_Terminal",
+          "text3": "Орбальный прибор",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t0002",
+          "text2": "LP_Car",
+          "text3": "Разбитое транспортное средство",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [
+            32323
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "t7000",
+          "text2": "LP_BulletinBoard",
+          "text3": "Доска объявлений",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t7000",
+          "text2": "LP_BulletinBoard2",
+          "text3": "Доска объявлений",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t7000",
+          "text2": "LP_Local_SPReport",
+          "text3": "Отчёт ОС",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t7000",
+          "text2": "LP_Giordano_Taxi",
+          "text3": "Такси Джордано",
+          "empty": "",
+          "arr1": [
+            34800
+          ],
+          "uint1": 0,
+          "arr2": [
+            34803,
+            32397
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "t7000",
+          "text2": "LP_Zihanki_0",
+          "text3": "Торговый автомат",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t7000",
+          "text2": "LP_Zihanki_1",
+          "text3": "Торговый автомат",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t7000",
+          "text2": "LP_Zihanki_2",
+          "text3": "Торговый автомат",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t7000",
+          "text2": "LP_Zihanki_3",
+          "text3": "Торговый автомат",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "t7000",
+          "text2": "LP_Zihanki_4",
+          "text3": "Торговый автомат",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "f0010",
+          "text2": "LP_Door",
+          "text3": "Дверь",
+          "empty": "",
+          "arr1": [
+            32022
+          ],
+          "uint1": 0,
+          "arr2": [
+            32026
+          ],
+          "uint2": 0
+        },
+        {
+          "text1": "d8000",
+          "text2": "LP_Switch",
+          "text3": "Консоль",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d8010",
+          "text2": "LP_Switch00",
+          "text3": "Консоль",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d8010",
+          "text2": "LP_Switch01",
+          "text3": "Консоль",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d8020",
+          "text2": "LP_Switch",
+          "text3": "Консоль",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d8020",
+          "text2": "LP_Zihanki_0",
+          "text3": "Торговый автомат",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        },
+        {
+          "text1": "d8020",
+          "text2": "LP_Zihanki_1",
+          "text3": "Торговый автомат",
+          "empty": "",
+          "arr1": [],
+          "uint1": 0,
+          "arr2": [],
+          "uint2": 0
+        }
+      ]
+    }
+  ]
+}
