@@ -280,11 +280,11 @@ MESS_SETTINGS_DESCRIPTION_target_cursor_controller_sensitivity_x: "Adjust horizo
 MESS_SETTINGS_LABEL_target_cursor_controller_sensitivity_y: "Targeting Cursor Vertical Sensitivity"
 MESS_SETTINGS_DESCRIPTION_target_cursor_controller_sensitivity_y: "Adjust vertical sensitivity of the targeting cursor when using controller."
 
-MESS_SETTINGS_LABEL_always_show_turn_order: "Always Show Turn Order"
-MESS_SETTINGS_OPTION_always_show_turn_order_ON: "On"
-MESS_SETTINGS_OPTION_always_show_turn_order_OFF: "Off"
-MESS_SETTINGS_DESCRIPTION_always_show_turn_order_ON: "Always show turn order in battles at the top of the user interface."
-MESS_SETTINGS_DESCRIPTION_always_show_turn_order_OFF: "Don't show turn order in battles by default. Turn order can be displayed by holding <I1088>."
+MESS_SETTINGS_LABEL_always_show_turn_order_ui: "Always Show Turn Order"
+MESS_SETTINGS_OPTION_always_show_turn_order_ui_ON: "On"
+MESS_SETTINGS_OPTION_always_show_turn_order_ui_OFF: "Off"
+MESS_SETTINGS_DESCRIPTION_always_show_turn_order_ui_ON: "Always show turn order in battles at the top of the user interface."
+MESS_SETTINGS_DESCRIPTION_always_show_turn_order_ui_OFF: "Don't show turn order in battles by default. Turn order can be displayed by holding <I1088>."
 
 MESS_SETTINGS_LABEL_high_speed_mode_toggle: "High-Speed Mode"
 MESS_SETTINGS_OPTION_high_speed_mode_toggle_ON: "Toggle"

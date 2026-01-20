@@ -280,11 +280,11 @@ MESS_SETTINGS_DESCRIPTION_target_cursor_controller_sensitivity_x: "Регули�
 MESS_SETTINGS_LABEL_target_cursor_controller_sensitivity_y: "Вертикальная чувствительность курсора цели"
 MESS_SETTINGS_DESCRIPTION_target_cursor_controller_sensitivity_y: "Регулирует вертикальную чувствительность курсора цели при использовании геймпада."
 
-MESS_SETTINGS_LABEL_always_show_turn_order: "Всегда показывать очередь ходов"
-MESS_SETTINGS_OPTION_always_show_turn_order_ON: "Вкл."
-MESS_SETTINGS_OPTION_always_show_turn_order_OFF: "Выкл."
-MESS_SETTINGS_DESCRIPTION_always_show_turn_order_ON: "Всегда показывать очередь ходов в боях в верхней части интерфейса."
-MESS_SETTINGS_DESCRIPTION_always_show_turn_order_OFF: "По умолчанию не показывать очередь ходов в боях. Очередь можно отобразить, удерживая <I1088>."
+MESS_SETTINGS_LABEL_always_show_turn_order_ui: "Всегда показывать очередь ходов"
+MESS_SETTINGS_OPTION_always_show_turn_order_ui_ON: "Вкл."
+MESS_SETTINGS_OPTION_always_show_turn_order_ui_OFF: "Выкл."
+MESS_SETTINGS_DESCRIPTION_always_show_turn_order_ui_ON: "Всегда показывать очередь ходов в боях в верхней части интерфейса."
+MESS_SETTINGS_DESCRIPTION_always_show_turn_order_ui_OFF: "По умолчанию не показывать очередь ходов в боях. Очередь можно отобразить, удерживая <I1088>."
 
 MESS_SETTINGS_LABEL_high_speed_mode_toggle: "Режим высокой скорости"
 MESS_SETTINGS_OPTION_high_speed_mode_toggle_ON: "Переключение"
