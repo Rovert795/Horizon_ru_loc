@@ -407,7 +407,7 @@
         },
         {
           "key": "TXT_HUD_KEYHELP_SBREAK",
-          "value": "S-Брейк"
+          "value": "О-Прорыв"
         },
         {
           "key": "TXT_HUD_KEYHELP_SBREAK_BUTTON",
@@ -431,7 +431,7 @@
         },
         {
           "key": "TXT_HUD_KEYHELP_SKIP_ACTION",
-          "value": "<s32><I1090><s24>Пропустить"
+          "value": "<s32><I1090><s24> Пропустить"
         },
         {
           "key": "TXT_HUD_ITEM_NUM",
@@ -439,7 +439,7 @@
         },
         {
           "key": "TXT_HUD_SHARD_CANCEL",
-          "value": "<I901> Освободить осколки"
+          "value": "<I901> Свернуть осколки"
         },
         {
           "key": "TXT_HUD_SBOOST_CANCEL",
@@ -647,7 +647,7 @@
         },
         {
           "key": "TXT_SYS_LOG_TIMELY_WORDS",
-          "value": "<s34><I1159><s24> Своевременные термины"
+          "value": "<s34><I1159><s24> Актуальные термины"
         },
         {
           "key": "TXT_MES_AUTO_BUTTON",
@@ -1367,7 +1367,7 @@
         },
         {
           "key": "TXT_CAMP_SYS_TITLE_BACK_CHOICES",
-          "value": "Вернуться на экран заголовка?\n<C2>Все несохранённые данные будут потеряны.</C>"
+          "value": "Вернуться на титульный экран?\n<C2>Все несохранённые данные будут потеряны.</C>"
         },
         {
           "key": "TXT_CAMP_ICON_DECIDE",
@@ -1519,7 +1519,7 @@
         },
         {
           "key": "TXT_OPT_TEXT_ENV_VOICE",
-          "value": "Фоновые голоса"
+          "value": "Окружение"
         },
         {
           "key": "TXT_OPT_TEXT_MES_AUTO",
@@ -1531,7 +1531,7 @@
         },
         {
           "key": "TXT_OPT_TEXT_DASH_MODE",
-          "value": "Поведение кнопки рывка"
+          "value": "Рывок"
         },
         {
           "key": "TXT_OPT_TEXT_VIBRATION",
@@ -1539,7 +1539,7 @@
         },
         {
           "key": "TXT_OPT_TEXT_TARGET_LOCK",
-          "value": "Блокировка цели"
+          "value": "Захват цели"
         },
         {
           "key": "TXT_OPT_TEXT_COMMAND_INFO",
@@ -1547,7 +1547,7 @@
         },
         {
           "key": "TXT_OPT_TEXT_RESULT",
-          "value": "Длительность отображения результатов"
+          "value": "Отображение результатов"
         },
         {
           "key": "TXT_OPT_TEXT_FIELD_BTL_LEVEL",
@@ -1571,27 +1571,27 @@
         },
         {
           "key": "TXT_OPT_TEXT_CAM_LR_SPEED",
-          "value": "Чувствительность камеры по горизонтали"
+          "value": "Чувств. камеры по горизонтали"
         },
         {
           "key": "TXT_OPT_TEXT_CAM_UD_SPEED",
-          "value": "Чувствительность камеры по вертикали"
+          "value": "Чувств. камеры по вертикали"
         },
         {
           "key": "TXT_OPT_TEXT_CAM_LR_REVERSE",
-          "value": "Управление камерой по горизонтали"
+          "value": "Упр. камерой по горизонтали"
         },
         {
           "key": "TXT_OPT_TEXT_CAM_UD_REVERSE",
-          "value": "Управление камерой по вертикали"
+          "value": "Упр. камерой по вертикали"
         },
         {
           "key": "TXT_OPT_TEXT_CAM_REVERSE",
-          "value": "Управление камерой по вертикали (вертикальный поворот)"
+          "value": "Упр. камерой по вертикали (вертикальный поворот)"
         },
         {
           "key": "TXT_OPT_TEXT_CAM_ELEVATION",
-          "value": "Автоцентрирование камеры (короткое〈-〉длинное)"
+          "value": "Автоцентр. камеры (быстрее〈-〉дольше)"
         },
         {
           "key": "TXT_OPT_TEXT_TARGET_LR_REVERSE",
@@ -1623,7 +1623,7 @@
         },
         {
           "key": "TXT_OPT_TEXT_KEY_FIELD_ATTACK",
-          "value": "Атака на поле"
+          "value": "Атака"
         },
         {
           "key": "TXT_OPT_TEXT_KEY_AVOID",
@@ -1631,7 +1631,7 @@
         },
         {
           "key": "TXT_OPT_TEXT_KEY_SHARD",
-          "value": "Разместить осколки"
+          "value": "Развернуть осколки"
         },
         {
           "key": "TXT_OPT_TEXT_KEY_HARD_ATTACK",
@@ -1671,7 +1671,7 @@
         },
         {
           "key": "TXT_OPT_TEXT_REVERSE",
-          "value": "Инверсный"
+          "value": "Инверсия"
         },
         {
           "key": "TXT_OPT_TEXT_ON",
@@ -1683,15 +1683,15 @@
         },
         {
           "key": "TXT_OPT_TEXT_DASH_MODE_PUSH",
-          "value": "Удержание"
+          "value": "Удерж."
         },
         {
           "key": "TXT_OPT_TEXT_DASH_MODE_TOGGLE",
-          "value": "Переключение"
+          "value": "Переключ."
         },
         {
           "key": "TXT_OPT_TEXT_DASH_MODE_KEEP",
-          "value": "Переключение заблокировано"
+          "value": "Перекл. заблок."
         },
         {
           "key": "TXT_OPT_TEXT_TARGET_MANUAL",
@@ -1747,11 +1747,11 @@
         },
         {
           "key": "TXT_OPT_TEXT_MOVE_NO_DISP",
-          "value": "Остановлено"
+          "value": "Без. движ."
         },
         {
           "key": "TXT_OPT_TEXT_WAIT_NO_DISP",
-          "value": "В движении"
+          "value": "В движ."
         },
         {
           "key": "TXT_OPT_TEXT_NO_DISP",
@@ -1767,11 +1767,11 @@
         },
         {
           "key": "TXT_OPT_TEXT_ROLL_ON",
-          "value": "Вращение"
+          "value": "Вращается"
         },
         {
           "key": "TXT_OPT_TEXT_ROLL_OFF",
-          "value": "Фиксированный"
+          "value": "Фиксированная"
         },
         {
           "key": "TXT_OPT_TEXT_FREE",
@@ -1831,11 +1831,11 @@
         },
         {
           "key": "TXT_OPT_TEXT_FIELD_BTL_RATE",
-          "value": "Масштаб свободных битв"
+          "value": "Ускорение свободных битв"
         },
         {
           "key": "TXT_OPT_TEXT_TURN_BTL_RATE",
-          "value": "Масштаб тактических битв"
+          "value": "Ускорение тактических битв"
         },
         {
           "key": "TXT_OPT_TEXT_EVENT_RATE",
@@ -3807,7 +3807,7 @@
         },
         {
           "key": "TXT_BUTTON_EVENT_PAUSE2",
-          "value": "<s34><I1052><s24> История　<s34><I1159><s24> Актуальные термины"
+          "value": "<s34><I1052><s24> Журнал　<s34><I1159><s24> Актуальные термины"
         },
         {
           "key": "TXT_MINIMAP_KEY_HELP_SCROLL",
