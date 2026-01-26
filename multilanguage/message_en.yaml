@@ -949,8 +949,8 @@ TITLE_MENU_DESCRIPTION_EXIT: "Выйти из игры."
 
 SAVE_MENU_FORMAT_STRING_SLOT: "Слот %d"
 SAVE_MENU_KEY_HELP_DELETE: "Удалить"
-SAVE_MENU_KEY_HELP_AUTOSAVE: "Показать автосохранения"
-SAVE_MENU_KEY_HELP_NORMALSAVE: "Показать обычные сохранения"
+SAVE_MENU_KEY_HELP_AUTOSAVE: "Автосохранения"
+SAVE_MENU_KEY_HELP_NORMALSAVE: "Ручные сохранения"
 SAVE_MENU_MESSAGE_OVERWRITE: "Вы действительно хотите перезаписать это сохранение?"
 SAVE_MENU_MESSAGE_DELETE: "Вы действительно хотите удалить это сохранение?"
 
