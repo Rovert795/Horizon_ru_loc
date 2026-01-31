@@ -484,7 +484,7 @@
 					"id": 65558,
 					"toffset": "bg_pre012",
 					"text1": "Trails through Daybreak II",
-					"text2": "Van then leaves his office to Swin and Nadia—who\nhad come to Edith in search of somebody—and\ntravels about chasing leads on the last Genesis, the\nfragments of which he gathers after tackling Zecht\nArms' shady dealings and Heiyue's internal strife.\n\nHowever, after a 'tour' conducted by Harwood the\nOathbreaker on fateful Nemeth Island, the eight\nGeneses all fall in the hands of the crimson Grendel\nand a mysterious figure called the Grandmaster."
+					"text2": "Van then leaves his office to Swin and Nadia—who\nhad come to Edith in search of somebody—and\ntravels about chasing leads on the last Genesis, the\nfragments of which he gathers after tackling Zecht\nArms' shady dealings and Heiyue's internal strife.\n\nHowever, after a 'tour' conducted by Harwood the\nOathbreaker on fateful Nemeth Island, the eight\nGeneses all fall in the hands of the crimson Grendel\nand a mysterious figure called the Gardenmaster."
 				},
 				{
 					"id": 131094,
@@ -2216,7 +2216,7 @@
 					"file": "T",
 					"text1": "",
 					"text2": "Marduk Total Security Company",
-					"text3": "A public military company that has been growing rapidly\nin recent years.\n\nThe organization is rife with mysteries, such as the highly\nadvanced technology used in the equipment and facilities\nit owns and operates, the origins of which are unknown.\n\n\n\n"
+					"text3": "A private military company that has been growing rapidly\nin recent years.\n\nThe organization is rife with mysteries, such as the highly\nadvanced technology used in the equipment and facilities\nit owns and operates, the origins of which are unknown.\n\n\n\n"
 				},
 				{
 					"short": 53,
@@ -2225,7 +2225,7 @@
 					"file": "T",
 					"text1": "",
 					"text2": "Ored State",
-					"text3": "An autonomous state located in north-central Zemuria that\nborders Calvard to the southeast.\n\nThe region has been agriculturally developed since ancient\ntimes, taking full advantage of its climate, which is mild for\nits latitude.\n\nIn recent years, the influence of foreign capital in Ored\nhas increased, as evidenced by Marduk's headquarters\nbeing located there."
+					"text3": "An autonomous state located in north-central Zemuria that\nshares its southeast border with Calvard.\n\nThe region has been agriculturally developed since ancient\ntimes, taking full advantage of its climate, which is mild for\nits latitude.\n\nIn recent years, the influence of foreign capital in Ored\nhas increased, as evidenced by Marduk's headquarters\nbeing located there."
 				},
 				{
 					"short": 54,
