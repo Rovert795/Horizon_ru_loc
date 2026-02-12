@@ -2731,7 +2731,7 @@
         },
         {
           "key": "TXT_SHOP_STATUS_HIT",
-          "value": "МЕТ"
+          "value": "ТОЧ"
         },
         {
           "key": "TXT_SHOP_STATUS_AVOID",
@@ -4187,7 +4187,7 @@
         },
         {
           "key": "TXT_FDUNGEON_DISCOUNT_RATE_MAX",
-          "value": "Дальнейшая скидка невозможна.\nТекущая скидка <C2>20<C0>% — максимальная."
+          "value": "Дальнейшая скидка невозможна.\nТекущая скидка <C2>20<C0>% ─ максимальная."
         },
         {
           "key": "TXT_FDUNGEON_HEAL_RFP_MAX",

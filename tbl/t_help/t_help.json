@@ -1079,7 +1079,7 @@
           "int1": 0,
           "file_name1": "note_help5060",
           "file_name2": "",
-          "tab_name": "Оружие — навыки шардов",
+          "tab_name": "Умение осколков ─ Оружие",
           "empty_text_offset": "",
           "long1": 5
         },
@@ -1089,7 +1089,7 @@
           "int1": 0,
           "file_name1": "note_help5070",
           "file_name2": "",
-          "tab_name": "Щиты — навыки шардов",
+          "tab_name": "Умение осколков ─ Щит",
           "empty_text_offset": "",
           "long1": 5
         },
@@ -1099,7 +1099,7 @@
           "int1": 0,
           "file_name1": "note_help5080",
           "file_name2": "",
-          "tab_name": "Привод — навыки шардов",
+          "tab_name": "Умение осколков ─ Драйвер",
           "empty_text_offset": "",
           "long1": 5
         },
@@ -1109,7 +1109,7 @@
           "int1": 0,
           "file_name1": "note_help5090",
           "file_name2": "",
-          "tab_name": "Дополнительно — навыки шардов",
+          "tab_name": "Умение осколков ─ Доп.",
           "empty_text_offset": "",
           "long1": 5
         },

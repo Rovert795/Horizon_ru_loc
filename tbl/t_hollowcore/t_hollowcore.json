@@ -32818,7 +32818,7 @@
           "id": 1017,
           "id_reference": 0,
           "long1": 0,
-          "effect_name": "Повышает МЕТ"
+          "effect_name": "Повышает ТОЧ"
         },
         {
           "id": 1018,
@@ -33245,7 +33245,7 @@
         },
         {
           "id": 1017,
-          "effect_description": "<s24><I378> <s20><c777>МЕТ+%d,"
+          "effect_description": "<s24><I378> <s20><c777>ТОЧ+%d,"
         },
         {
           "id": 1018,

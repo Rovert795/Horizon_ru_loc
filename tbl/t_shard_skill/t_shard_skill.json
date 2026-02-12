@@ -55,7 +55,7 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon0",
           "id_for_something": 0,
-          "name": "Земной удар",
+          "name": "Земляной импульс",
           "description": "Шанс добавить +25% урона Землёй к атакам/навыкам."
         },
         {
@@ -104,7 +104,7 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon0",
           "id_for_something": 1,
-          "name": "Водный удар",
+          "name": "Водяной импульс",
           "description": "Шанс добавить +25% урона Водой к атакам/навыкам."
         },
         {
@@ -153,7 +153,7 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon0",
           "id_for_something": 2,
-          "name": "Огненный удар",
+          "name": "Огненный импульс",
           "description": "Шанс добавить +25% урона Огнём к атакам/навыкам."
         },
         {
@@ -202,7 +202,7 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon0",
           "id_for_something": 3,
-          "name": "Шквальный удар",
+          "name": "Шквальный импульс",
           "description": "Шанс добавить +25% урона Ветром к атакам/навыкам."
         },
         {
@@ -251,7 +251,7 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon0",
           "id_for_something": 4,
-          "name": "Хроно-удар",
+          "name": "Хроно-импульс",
           "description": "Шанс добавить +25% урона Временем к атакам/навыкам."
         },
         {
@@ -300,7 +300,7 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon0",
           "id_for_something": 5,
-          "name": "Космический удар",
+          "name": "Космический импульс",
           "description": "Шанс добавить +25% урона Пространством к атакам/навыкам."
         },
         {
@@ -349,7 +349,7 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon0",
           "id_for_something": 6,
-          "name": "Удар хаоса",
+          "name": "Хаотический импульс",
           "description": "Шанс добавить +25% урона Миражом к атакам/навыкам."
         },
         {
@@ -398,7 +398,7 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon0",
           "id_for_something": 0,
-          "name": "Земной удар II",
+          "name": "Земляной импульс II",
           "description": "Шанс добавить +50% урона Землёй к атакам/навыкам."
         },
         {
@@ -447,7 +447,7 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon0",
           "id_for_something": 1,
-          "name": "Водный удар II",
+          "name": "Водяной импульс II",
           "description": "Шанс добавить +50% урона Водой к атакам/навыкам."
         },
         {
@@ -496,7 +496,7 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon0",
           "id_for_something": 2,
-          "name": "Огненный удар II",
+          "name": "Огненный импульс II",
           "description": "Шанс добавить +50% урона Огнём к атакам/навыкам."
         },
         {
@@ -545,7 +545,7 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon0",
           "id_for_something": 3,
-          "name": "Шквальный удар II",
+          "name": "Шквальный импульс II",
           "description": "Шанс добавить +50% урона Ветром к атакам/навыкам."
         },
         {
@@ -594,7 +594,7 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon0",
           "id_for_something": 4,
-          "name": "Хроно-удар II",
+          "name": "Хроно-импульс II",
           "description": "Шанс добавить +50% урона Временем к атакам/навыкам."
         },
         {
@@ -643,7 +643,7 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon0",
           "id_for_something": 5,
-          "name": "Космический удар II",
+          "name": "Космический импульс II",
           "description": "Шанс добавить +50% урона Пространством к атакам/навыкам."
         },
         {
@@ -692,7 +692,7 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon0",
           "id_for_something": 6,
-          "name": "Удар хаоса II",
+          "name": "Хаотический импульс II",
           "description": "Шанс добавить +50% урона Миражом к атакам/навыкам."
         },
         {
@@ -741,8 +741,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon1",
           "id_for_something": 7,
-          "name": "Клинколом",
-          "description": "Атаки/навыки могут наложить 2 хода СИЛ↓ (М)."
+          "name": "Мечелом",
+          "description": "Атаки/навыки могут наложить СИЛ↓(М) на 2 хода."
         },
         {
           "id": 122,
@@ -790,8 +790,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon1",
           "id_for_something": 7,
-          "name": "Клинкорез",
-          "description": "Улучшенный Ломатель Мечей с +10% урона."
+          "name": "Мечелом II",
+          "description": "Улучшенный Мечелом, +10% урона."
         },
         {
           "id": 115,
@@ -839,8 +839,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon1",
           "id_for_something": 8,
-          "name": "Щитколом",
-          "description": "Атаки/навыки могут наложить 2 хода ЗЩТ↓ (М)."
+          "name": "Щитолом",
+          "description": "Атаки/навыки могут наложить ЗЩТ↓(М) на 2 хода."
         },
         {
           "id": 123,
@@ -888,8 +888,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon1",
           "id_for_something": 8,
-          "name": "Щиторез",
-          "description": "Улучшенный Ломатель Щитов с +10% урона."
+          "name": "Щитолом II",
+          "description": "Улучшенный Щитолом, +10% урона."
         },
         {
           "id": 116,
@@ -937,8 +937,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon2",
           "id_for_something": 9,
-          "name": "Шквал клинколомов",
-          "description": "Удары осколками могут наложить 2 хода СИЛ↓ (М)."
+          "name": "Шквал Мечелома",
+          "description": "Удары осколками могут наложить СИЛ↓(М) на 2 хода."
         },
         {
           "id": 124,
@@ -986,8 +986,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon2",
           "id_for_something": 9,
-          "name": "Шквал клинкорезов",
-          "description": "Шквал Ломателя Мечей с большим шансом и +15% урона."
+          "name": "Шквал Мечелома II",
+          "description": "Улучшенный Шквал Мечелома, +15% урона."
         },
         {
           "id": 117,
@@ -1035,8 +1035,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon2",
           "id_for_something": 10,
-          "name": "Шквал щитколомов",
-          "description": "Удары осколками могут наложить 2 хода ЗЩТ↓ (М)."
+          "name": "Шквал Щитолома",
+          "description": "Удары осколками могут наложить ЗЩТ↓(М) на 2 хода."
         },
         {
           "id": 125,
@@ -1084,8 +1084,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon2",
           "id_for_something": 10,
-          "name": "Шквал щиторезов",
-          "description": "Шквал Ломателя Щитов с большим шансом и +15% урона."
+          "name": "Шквал Щитолома II",
+          "description": "Улучшенный Шквал Щитолома, +15% урона."
         },
         {
           "id": 118,
@@ -1136,8 +1136,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon3",
           "id_for_something": 11,
-          "name": "Фатальное копьё",
-          "description": "Наносит добивающий удар вокруг врага после атаки."
+          "name": "Добивающий выпад",
+          "description": "Наносит добивающий удар в области вокруг врага после атаки."
         },
         {
           "id": 119,
@@ -1188,8 +1188,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon3",
           "id_for_something": 11,
-          "name": "Смертоносное копьё",
-          "description": "Улучшенный Смертоносный Клинок с +50% урона."
+          "name": "Добивающий выпад II",
+          "description": "Улучшенный Добивающий выпад, +50% урона."
         },
         {
           "id": 120,
@@ -1237,7 +1237,7 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon4",
           "id_for_something": 12,
-          "name": "Прилив силы",
+          "name": "Прилив сил",
           "description": "Атаки/навыки могут восстановить 4% ОЗ и 4 ОН."
         },
         {
@@ -1286,7 +1286,7 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon4",
           "id_for_something": 12,
-          "name": "Прилив силы II",
+          "name": "Прилив сил II",
           "description": "Атаки/навыки могут восстановить 8% ОЗ и 8 ОН."
         },
         {
@@ -1390,8 +1390,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardWeapon5",
           "id_for_something": 13,
-          "name": "Истребитель",
-          "description": "Улучшенный Палач с +50% урона."
+          "name": "Палач II",
+          "description": "Улучшенный Палач, +50% урона."
         },
         {
           "id": 200,
@@ -1440,7 +1440,7 @@
           "animation": "btlshard.AniBtlShardShield0",
           "id_for_something": 18,
           "name": "Сопротивление гниению",
-          "description": "Шанс снять Гниение и выжить с 1 ОЗ при смерти."
+          "description": "Шанс снять Гниение и пережить смертельный урон."
         },
         {
           "id": 201,
@@ -1489,7 +1489,7 @@
           "animation": "btlshard.AniBtlShardShield0",
           "id_for_something": 19,
           "name": "Сопротивление заморозке",
-          "description": "Шанс снять Заморозку и выжить с 1 ОЗ при смерти."
+          "description": "Шанс снять Заморозку и пережить смертельный урон."
         },
         {
           "id": 202,
@@ -1538,7 +1538,7 @@
           "animation": "btlshard.AniBtlShardShield0",
           "id_for_something": 20,
           "name": "Сопротивление ожогам",
-          "description": "Шанс снять Ожог и выжить с 1 ОЗ при смерти."
+          "description": "Шанс снять Ожог и пережить смертельный урон."
         },
         {
           "id": 203,
@@ -1587,7 +1587,7 @@
           "animation": "btlshard.AniBtlShardShield0",
           "id_for_something": 21,
           "name": "Сопротивление печати",
-          "description": "Шанс снять Печать и выжить с 1 ОЗ при смерти."
+          "description": "Шанс снять Печать и пережить смертельный урон."
         },
         {
           "id": 204,
@@ -1636,7 +1636,7 @@
           "animation": "btlshard.AniBtlShardShield0",
           "id_for_something": 22,
           "name": "Сопротивление ослеплению",
-          "description": "Шанс снять Ослепление и выжить с 1 ОЗ при смерти."
+          "description": "Шанс снять Ослепление и пережить смертельный урон."
         },
         {
           "id": 205,
@@ -1685,7 +1685,7 @@
           "animation": "btlshard.AniBtlShardShield0",
           "id_for_something": 23,
           "name": "Сопротивление немоте",
-          "description": "Шанс снять Немоту и выжить с 1 ОЗ при смерти."
+          "description": "Шанс снять Немоту и пережить смертельный урон."
         },
         {
           "id": 206,
@@ -1734,7 +1734,7 @@
           "animation": "btlshard.AniBtlShardShield0",
           "id_for_something": 24,
           "name": "Сопротивление страху",
-          "description": "Шанс снять Страх и выжить с 1 ОЗ при смерти."
+          "description": "Шанс снять Страх и пережить смертельный урон."
         },
         {
           "id": 207,
@@ -1783,7 +1783,7 @@
           "animation": "btlshard.AniBtlShardShield1",
           "id_for_something": 18,
           "name": "Сопротивление гниению II",
-          "description": "Высокий шанс снять Гниение и выжить с 1 ОЗ при смерти."
+          "description": "Высокий шанс снять Гниение и пережить смертельный урон."
         },
         {
           "id": 208,
@@ -1832,7 +1832,7 @@
           "animation": "btlshard.AniBtlShardShield1",
           "id_for_something": 19,
           "name": "Сопротивление заморозке II",
-          "description": "Высокий шанс снять Заморозку и выжить с 1 ОЗ при смерти."
+          "description": "Высокий шанс снять Заморозку и пережить смертельный урон."
         },
         {
           "id": 209,
@@ -1881,7 +1881,7 @@
           "animation": "btlshard.AniBtlShardShield1",
           "id_for_something": 20,
           "name": "Сопротивление ожогам II",
-          "description": "Высокий шанс снять Ожог и выжить с 1 ОЗ при смерти."
+          "description": "Высокий шанс снять Ожог и пережить смертельный урон."
         },
         {
           "id": 210,
@@ -1930,7 +1930,7 @@
           "animation": "btlshard.AniBtlShardShield1",
           "id_for_something": 21,
           "name": "Сопротивление печати II",
-          "description": "Высокий шанс снять Печать и выжить с 1 ОЗ при смерти."
+          "description": "Высокий шанс снять Печать и пережить смертельный урон."
         },
         {
           "id": 211,
@@ -1979,7 +1979,7 @@
           "animation": "btlshard.AniBtlShardShield1",
           "id_for_something": 22,
           "name": "Сопротивление ослеплению II",
-          "description": "Высокий шанс снять Ослепление и выжить с 1 ОЗ при смерти."
+          "description": "Высокий шанс снять Ослепление и пережить смертельный урон."
         },
         {
           "id": 212,
@@ -2028,7 +2028,7 @@
           "animation": "btlshard.AniBtlShardShield1",
           "id_for_something": 23,
           "name": "Сопротивление немоте II",
-          "description": "Высокий шанс снять Немоту и выжить с 1 ОЗ при смерти."
+          "description": "Высокий шанс снять Немоту и пережить смертельный урон."
         },
         {
           "id": 213,
@@ -2077,7 +2077,7 @@
           "animation": "btlshard.AniBtlShardShield1",
           "id_for_something": 24,
           "name": "Сопротивление страху II",
-          "description": "Высокий шанс снять Страх и выжить с 1 ОЗ при смерти."
+          "description": "Высокий шанс снять Страх и пережить смертельный урон."
         },
         {
           "id": 214,
@@ -2125,8 +2125,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardShield2",
           "id_for_something": 25,
-          "name": "Защита с регенерацией",
-          "description": "Защита может быть крепче и восстановить немного ОЗ."
+          "name": "Защита - Восстановление",
+          "description": "Шанс укрепить защиту и восстановить немного ОЗ."
         },
         {
           "id": 222,
@@ -2174,8 +2174,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardShield22",
           "id_for_something": 25,
-          "name": "Защита с А-регенерацией",
-          "description": "Низкий шанс Реген. при защите после атаки."
+          "name": "Защита - Восстановление II",
+          "description": "Низкий шанс Восттановления при успешной защите от атаки."
         },
         {
           "id": 215,
@@ -2223,8 +2223,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardShield2",
           "id_for_something": 26,
-          "name": "Защита с воодушевлением",
-          "description": "Защита может быть крепче и восстановить 30 ОН."
+          "name": "Защита - Воодушевление",
+          "description": "Шанс укрепить защиту и восстановить 30 ОН."
         },
         {
           "id": 223,
@@ -2272,8 +2272,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardShield22",
           "id_for_something": 26,
-          "name": "Защита с А-воодушевлением",
-          "description": "Низкий шанс Воодушевления при защите после атаки."
+          "name": "Защита - Воодушевление II",
+          "description": "Низкий шанс Воодушевления при успешной защите от атаки."
         },
         {
           "id": 216,
@@ -2321,8 +2321,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardShield2",
           "id_for_something": 27,
-          "name": "Защита с форте",
-          "description": "Защита может быть крепче и дать эффекты Мощи."
+          "name": "Защита - Усиление",
+          "description": "Шанс укрепить защиту и получить Усиление."
         },
         {
           "id": 224,
@@ -2370,8 +2370,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardShield22",
           "id_for_something": 27,
-          "name": "Защита с А-форте",
-          "description": "Низкий шанс Мощи при защите после атаки."
+          "name": "Защита - Усиление II",
+          "description": "Низкий шанс Усиления при успешной защите от атаки."
         },
         {
           "id": 217,
@@ -2419,8 +2419,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardShield2",
           "id_for_something": 28,
-          "name": "Защита с крестом",
-          "description": "Защита может быть крепче и дать эффекты Герба."
+          "name": "Защита - Сопротивление",
+          "description": "Шанс укрепить защиту и получить Сопротивление."
         },
         {
           "id": 225,
@@ -2468,8 +2468,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardShield22",
           "id_for_something": 28,
-          "name": "Защита с А-крестом",
-          "description": "Низкий шанс Герба при защите после атаки."
+          "name": "Защита - Сопротивление II",
+          "description": "Низкий шанс Сопротивления при успешной защите от атаки."
         },
         {
           "id": 218,
@@ -2518,7 +2518,7 @@
           "animation": "btlshard.AniBtlShardShield3",
           "id_for_something": 29,
           "name": "Страж",
-          "description": "Шанс позволить союзнику выдержать 1/2 урона или смерть с 1 ОЗ."
+          "description": "Шанс снизить урон по союзнику на 1/2 или пережить смертельный урон."
         },
         {
           "id": 219,
@@ -2567,7 +2567,7 @@
           "animation": "btlshard.AniBtlShardShield3",
           "id_for_something": 29,
           "name": "Страж II",
-          "description": "Шанс позволить союзнику выдержать 3/4 урона или смерть с 1 ОЗ."
+          "description": "Шанс снизить урон по союзнику на 3/4 или пережить смертельный урон."
         },
         {
           "id": 220,
@@ -2617,8 +2617,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardShield4",
           "id_for_something": 30,
-          "name": "Карающая стрела",
-          "description": "Шанс контратаковать при атаке на союзника."
+          "name": "Возмездие",
+          "description": "Шанс контратаковать при атаке по союзнику."
         },
         {
           "id": 226,
@@ -2668,8 +2668,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardShield4",
           "id_for_something": 30,
-          "name": "Мстящая стрела",
-          "description": "Урон контратаки Мстящей Стрелы +50%."
+          "name": "Возмездие II",
+          "description": "Улучшенное Возмездие, урон +50%."
         },
         {
           "id": 221,
@@ -2717,8 +2717,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardShield5",
           "id_for_something": 31,
-          "name": "Серафическая сила",
-          "description": "Выдержать 1-ю смерть с 1 ОЗ и восстановить среднее ОЗ/ОЭ/ОН."
+          "name": "Мощь Серафима",
+          "description": "Пережить смертельный урон и восстановить среднее кол-во ОЗ/ОЭ/ОН."
         },
         {
           "id": 227,
@@ -2766,8 +2766,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardShield5",
           "id_for_something": 31,
-          "name": "Офаническая сила",
-          "description": "Выдержать 1-ю смерть с 1 ОЗ и сильно восстановить ОЗ/ОЭ/ОН."
+          "name": "Мощь Серафима II",
+          "description": "Пережить смертельный урон и восстановить большое кол-во ОЗ/ОЭ/ОН."
         },
         {
           "id": 300,
@@ -2816,7 +2816,7 @@
           "animation": "btlshard.AniBtlShardDrive0",
           "id_for_something": 36,
           "name": "Усиление земли",
-          "description": "Шанс добавить +25% урона к атакующим артам Земли."
+          "description": "Шанс добавить +25% урона к атакующим искусствам Земли."
         },
         {
           "id": 301,
@@ -2865,7 +2865,7 @@
           "animation": "btlshard.AniBtlShardDrive0",
           "id_for_something": 37,
           "name": "Усиление воды",
-          "description": "Шанс добавить +25% урона к атакующим артам Воды."
+          "description": "Шанс добавить +25% урона к атакующим искусствам Воды."
         },
         {
           "id": 302,
@@ -2914,7 +2914,7 @@
           "animation": "btlshard.AniBtlShardDrive0",
           "id_for_something": 38,
           "name": "Усиление огня",
-          "description": "Шанс добавить +25% урона к атакующим артам Огня."
+          "description": "Шанс добавить +25% урона к атакующим искусствам Огня."
         },
         {
           "id": 303,
@@ -2963,7 +2963,7 @@
           "animation": "btlshard.AniBtlShardDrive0",
           "id_for_something": 39,
           "name": "Усиление ветра",
-          "description": "Шанс добавить +25% урона к атакующим артам Ветра."
+          "description": "Шанс добавить +25% урона к атакующим искусствам Ветра."
         },
         {
           "id": 304,
@@ -3012,7 +3012,7 @@
           "animation": "btlshard.AniBtlShardDrive0",
           "id_for_something": 40,
           "name": "Хроно-усиление",
-          "description": "Шанс добавить +25% урона к атакующим артам Времени."
+          "description": "Шанс добавить +25% урона к атакующим искусствам Времени."
         },
         {
           "id": 305,
@@ -3061,7 +3061,7 @@
           "animation": "btlshard.AniBtlShardDrive0",
           "id_for_something": 41,
           "name": "Космическое усиление",
-          "description": "Шанс добавить +25% урона к атакующим артам Пространства."
+          "description": "Шанс добавить +25% урона к атакующим искусствам Пространства."
         },
         {
           "id": 306,
@@ -3110,7 +3110,7 @@
           "animation": "btlshard.AniBtlShardDrive0",
           "id_for_something": 42,
           "name": "Усиление хаоса",
-          "description": "Шанс добавить +25% урона к атакующим артам Миража."
+          "description": "Шанс добавить +25% урона к атакующим искусствам Миража."
         },
         {
           "id": 307,
@@ -3159,7 +3159,7 @@
           "animation": "btlshard.AniBtlShardDrive0",
           "id_for_something": 36,
           "name": "Усиление земли II",
-          "description": "Шанс добавить +50% урона к атакующим артам Земли."
+          "description": "Шанс добавить +50% урона к атакующим искусствам Земли."
         },
         {
           "id": 308,
@@ -3208,7 +3208,7 @@
           "animation": "btlshard.AniBtlShardDrive0",
           "id_for_something": 37,
           "name": "Усиление воды II",
-          "description": "Шанс добавить +50% урона к атакующим артам Воды."
+          "description": "Шанс добавить +50% урона к атакующим искусствам Воды."
         },
         {
           "id": 309,
@@ -3257,7 +3257,7 @@
           "animation": "btlshard.AniBtlShardDrive0",
           "id_for_something": 38,
           "name": "Усиление огня II",
-          "description": "Шанс добавить +50% урона к атакующим артам Огня."
+          "description": "Шанс добавить +50% урона к атакующим искусствам Огня."
         },
         {
           "id": 310,
@@ -3306,7 +3306,7 @@
           "animation": "btlshard.AniBtlShardDrive0",
           "id_for_something": 39,
           "name": "Усиление ветра II",
-          "description": "Шанс добавить +50% урона к атакующим артам Ветра."
+          "description": "Шанс добавить +50% урона к атакующим искусствам Ветра."
         },
         {
           "id": 311,
@@ -3355,7 +3355,7 @@
           "animation": "btlshard.AniBtlShardDrive0",
           "id_for_something": 40,
           "name": "Хроно-усиление II",
-          "description": "Шанс добавить +50% урона к атакующим артам Времени."
+          "description": "Шанс добавить +50% урона к атакующим искусствам Времени."
         },
         {
           "id": 312,
@@ -3404,7 +3404,7 @@
           "animation": "btlshard.AniBtlShardDrive0",
           "id_for_something": 41,
           "name": "Космическое усиление II",
-          "description": "Шанс добавить +50% урона к атакующим артам Пространства."
+          "description": "Шанс добавить +50% урона к атакующим искусствам Пространства."
         },
         {
           "id": 313,
@@ -3453,7 +3453,7 @@
           "animation": "btlshard.AniBtlShardDrive0",
           "id_for_something": 42,
           "name": "Усиление хаоса II",
-          "description": "Шанс добавить +50% урона к атакующим артам Миража."
+          "description": "Шанс добавить +50% урона к атакующим искусствам Миража."
         },
         {
           "id": 314,
@@ -3501,8 +3501,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardDrive1",
           "id_for_something": 43,
-          "name": "Слом разума",
-          "description": "Атакующие арты могут наложить 2 хода СИС↓ (М)."
+          "name": "Крушитель разума",
+          "description": "Атакующие искусства могут наложить СИС↓(М) на 2 хода."
         },
         {
           "id": 322,
@@ -3550,8 +3550,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardDrive1",
           "id_for_something": 43,
-          "name": "Разрушение разума",
-          "description": "Улучшенный Ломатель Разума с +10% урона."
+          "name": "Крушитель разума II",
+          "description": "Улучшенный Крушитель Разума, +10% урона."
         },
         {
           "id": 315,
@@ -3599,8 +3599,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardDrive1",
           "id_for_something": 44,
-          "name": "Слом духа",
-          "description": "Атакующие арты могут наложить 2 хода ИЗЩ↓ (М)."
+          "name": "Крушитель духа",
+          "description": "Атакующие искусства могут наложить ИЗЩ↓(М) на 2 хода."
         },
         {
           "id": 323,
@@ -3648,8 +3648,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardDrive1",
           "id_for_something": 44,
-          "name": "Разрушение духа",
-          "description": "Улучшенный Ломатель Духа с +10% урона."
+          "name": "Крушитель духа II",
+          "description": "Улучшенный Крушитель Духа, +10% урона."
         },
         {
           "id": 316,
@@ -3697,8 +3697,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardDrive2",
           "id_for_something": 45,
-          "name": "Шквал сломов разума",
-          "description": "Удары осколками могут наложить 2 хода СИС↓ (М)."
+          "name": "Шквал Крушителя разума",
+          "description": "Удар осколками может наложить СИС↓(М) на 2 хода."
         },
         {
           "id": 324,
@@ -3746,8 +3746,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardDrive2",
           "id_for_something": 45,
-          "name": "Шквал разрушений разума",
-          "description": "Шквал Ломателя Разума с большим шансом и +15% урона."
+          "name": "Шквал Крушителя разума II",
+          "description": "Улучшенный Шквал Крушителя Разума, +15% урона."
         },
         {
           "id": 317,
@@ -3795,8 +3795,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardDrive2",
           "id_for_something": 46,
-          "name": "Шквал сломов духа",
-          "description": "Удары осколками могут наложить 2 хода ИЗЩ↓ (М)."
+          "name": "Шквал Крушитель духа",
+          "description": "Удар осколками может наложить ИЗЩ↓(М) на 2 хода."
         },
         {
           "id": 325,
@@ -3844,8 +3844,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardDrive2",
           "id_for_something": 46,
-          "name": "Шквал разрушений духа",
-          "description": "Шквал Ломателя Духа с большим шансом и +15% урона."
+          "name": "Шквал Крушитель духа II",
+          "description": "Улучшенный Шквал Крушителя Духа, +15% урона."
         },
         {
           "id": 318,
@@ -3893,8 +3893,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardDrive3",
           "id_for_something": 47,
-          "name": "Перо ковчега",
-          "description": "Шанс добивания +50% урона после атакующих артов."
+          "name": "Перо завета",
+          "description": "Шанс на доп. атаку +50% урона, после применения искусства."
         },
         {
           "id": 319,
@@ -3942,8 +3942,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardDrive3",
           "id_for_something": 47,
-          "name": "Перо суда",
-          "description": "Шанс замедляющего добивания +75% урона после атакующих артов."
+          "name": "Перо завета II",
+          "description": "Шанс на доп. атаку +75% урона с наложением задержки, после применения искусства."
         },
         {
           "id": 320,
@@ -3991,8 +3991,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardDrive4",
           "id_for_something": 48,
-          "name": "Поглощающие искусства",
-          "description": "Атакующие арты могут восстановить 10% ОЭ."
+          "name": "Поглощение искусств",
+          "description": "Атакующие искусства могут восстановить 10% ОЭ."
         },
         {
           "id": 326,
@@ -4040,8 +4040,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardDrive4",
           "id_for_something": 48,
-          "name": "Поглощающие искусства II",
-          "description": "Атакующие арты могут восстановить 20% ОЭ."
+          "name": "Поглощение искусств II",
+          "description": "Атакующие искусства могут восстановить 20% ОЭ."
         },
         {
           "id": 321,
@@ -4089,8 +4089,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardDrive5",
           "id_for_something": 49,
-          "name": "Карающие искусства",
-          "description": "Может контратаковать арты Быстрыми Артами (100% при уклонении)."
+          "name": "Искуссное возмездие",
+          "description": "Шанс контатаки искусства Быстрым искусством(100% при уклонении)."
         },
         {
           "id": 327,
@@ -4138,8 +4138,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardDrive5",
           "id_for_something": 49,
-          "name": "Мстящие искусства",
-          "description": "Мстящие Арты с большим шансом и +15% урона."
+          "name": "Искуссное возмездие II",
+          "description": "Улучшенное Искусное Возмездие, +15% урона."
         },
         {
           "id": 400,
@@ -4187,8 +4187,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra0",
           "id_for_something": 54,
-          "name": "Старт с защитой",
-          "description": "Установка осколков может дать 2 хода ЗЩТ/ИЗЩ↑ (М)."
+          "name": "Начало с защитой",
+          "description": "Развертывание осколков может дать ЗЩТ/ИЗЩ↑(М) на 2 хода."
         },
         {
           "id": 401,
@@ -4236,8 +4236,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra0",
           "id_for_something": 55,
-          "name": "Старт с исцелением",
-          "description": "Установка осколков может дать 2 хода Реген. ОЗ."
+          "name": "Начало с исцелением",
+          "description": "Развертывание осколков может дать Реген. ОЗ на 2 хода."
         },
         {
           "id": 402,
@@ -4285,8 +4285,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra0",
           "id_for_something": 56,
-          "name": "Старт с мощью",
-          "description": "Установка осколков может дать 2 хода СИЛ↑ (М)."
+          "name": "Начало с мощью",
+          "description": "Развертывание осколков может дать СИЛ↑(М) на 2 хода."
         },
         {
           "id": 403,
@@ -4334,8 +4334,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra0",
           "id_for_something": 57,
-          "name": "Старт с даром",
-          "description": "Установка осколков может дать 1 ход Прозрения."
+          "name": "Начало с даром",
+          "description": "Развертывание осколков может дать Прозрение на 1 ход."
         },
         {
           "id": 404,
@@ -4383,8 +4383,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra0",
           "id_for_something": 58,
-          "name": "Старт с быстротой",
-          "description": "Установка осколков может дать 2 хода Быстроты (М)."
+          "name": "Начало с быстротой",
+          "description": "Развертывание осколков может дать Ускорение(М) на 2 хода."
         },
         {
           "id": 405,
@@ -4432,8 +4432,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra0",
           "id_for_something": 59,
-          "name": "Старт с магией",
-          "description": "Установка осколков может дать 2 хода СИС↑ (М)."
+          "name": "Начало с магией",
+          "description": "Развертывание осколков может дать СИС↑(М) на 2 хода."
         },
         {
           "id": 406,
@@ -4481,8 +4481,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra0",
           "id_for_something": 60,
-          "name": "Старт с призраком",
-          "description": "Установка осколков может дать 1 ход Скрытности."
+          "name": "Начало с призраком",
+          "description": "Развертывание осколков может дать Незаметность на 1 ход."
         },
         {
           "id": 407,
@@ -4530,8 +4530,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra1",
           "id_for_something": 54,
-          "name": "Старт с защитой II",
-          "description": "Установка осколков может дать 2 хода ЗЩТ/ИЗЩ↑ (Б)."
+          "name": "Начало с защитой II",
+          "description": "Развертывание осколков может дать ЗЩТ/ИЗЩ↑(Б) на 2 хода."
         },
         {
           "id": 408,
@@ -4579,8 +4579,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra1",
           "id_for_something": 55,
-          "name": "Старт с исцелением II",
-          "description": "Установка осколков может дать 4 хода Реген. ОЗ."
+          "name": "Начало с исцелением II",
+          "description": "Развертывание осколков может дать Реген. ОЗ на 4 хода."
         },
         {
           "id": 409,
@@ -4628,8 +4628,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra1",
           "id_for_something": 56,
-          "name": "Старт с мощью II",
-          "description": "Установка осколков может дать 2 хода СИЛ↑ (Б)."
+          "name": "Начало с мощью II",
+          "description": "Развертывание осколков может дать СИЛ↑(Б) на 2 хода."
         },
         {
           "id": 410,
@@ -4677,8 +4677,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra1",
           "id_for_something": 57,
-          "name": "Старт с даром II",
-          "description": "Установка осколков может дать 2 хода Прозрения."
+          "name": "Начало с даром II",
+          "description": "Развертывание осколков может дать Прозрение на 2 хода."
         },
         {
           "id": 411,
@@ -4726,8 +4726,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra1",
           "id_for_something": 58,
-          "name": "Старт с быстротой II",
-          "description": "Установка осколков может дать 2 хода Быстроты (Б)."
+          "name": "Начало с быстротой II",
+          "description": "Развертывание осколков может дать Ускорение(Б) на 2 хода."
         },
         {
           "id": 412,
@@ -4775,8 +4775,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra1",
           "id_for_something": 59,
-          "name": "Старт с магией II",
-          "description": "Установка осколков может дать 2 хода СИС↑ (Б)."
+          "name": "Начало с магией II",
+          "description": "Развертывание осколков может дать СИС↑(Б) на 2 хода."
         },
         {
           "id": 413,
@@ -4824,8 +4824,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra1",
           "id_for_something": 60,
-          "name": "Старт с призраком II",
-          "description": "Установка осколков может дать 2 хода Скрытности."
+          "name": "Начало с призраком II",
+          "description": "Развертывание осколков может дать Незаметность на 2 хода."
         },
         {
           "id": 421,
@@ -4873,8 +4873,8 @@
           "int2": 0,
           "animation": "",
           "id_for_something": 62,
-          "name": "Золотой глаз",
-          "description": "Показывать всех врагов/сокровища на миникарте."
+          "name": "Зоркий глаз",
+          "description": "Отображает всех врагов/сокровища на миникарте."
         },
         {
           "id": 414,
@@ -4922,8 +4922,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra2",
           "id_for_something": 64,
-          "name": "Слом ноги",
-          "description": "Атаки/навыки могут наложить 2 хода Замедления (М)."
+          "name": "Ноголом",
+          "description": "Атаки/навыки могут наложить Замедление(М) на 2 хода."
         },
         {
           "id": 422,
@@ -4971,8 +4971,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra2",
           "id_for_something": 64,
-          "name": "Ногокрушитель",
-          "description": "Улучшенный “Ломатель ног” с +10% к урону."
+          "name": "Ноголом II",
+          "description": "Улучшенный Ноголом, +10% к урону."
         },
         {
           "id": 415,
@@ -5020,8 +5020,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra3",
           "id_for_something": 65,
-          "name": "Шквал Ломаног",
-          "description": "Осколки могут наложить Замедление (М) на 2 хода."
+          "name": "Шквал Ноголома",
+          "description": "Удар осколками может наложить Замедление(М) на 2 хода."
         },
         {
           "id": 423,
@@ -5069,8 +5069,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra3",
           "id_for_something": 65,
-          "name": "Шквал Ногокрушителя",
-          "description": "Шквал “Ломателя ног” с большим шансом и +15% к урону."
+          "name": "Шквал Ноголома II",
+          "description": "Улучшенный Шквал Ноголома, +15% к урону."
         },
         {
           "id": 416,
@@ -5118,8 +5118,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra4",
           "id_for_something": 66,
-          "name": "Авто Форте",
-          "description": "Маленький шанс на УРН↑ (М) в начале хода."
+          "name": "Авто Усиление",
+          "description": "Маленький шанс на УРН↑(М) в начале хода."
         },
         {
           "id": 417,
@@ -5167,8 +5167,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra5",
           "id_for_something": 67,
-          "name": "Авто Крест",
-          "description": "Маленький шанс на СПР↑ (М) в начале хода."
+          "name": "Авто Сопротивление",
+          "description": "Маленький шанс на СПР↑(М) в начале хода."
         },
         {
           "id": 418,
@@ -5216,8 +5216,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra6",
           "id_for_something": 68,
-          "name": "Авто Быстрина",
-          "description": "Маленький шанс на Быстроту (М) в начале хода."
+          "name": "Авто Ускорение",
+          "description": "Маленький шанс на Ускорение(М) в начале хода."
         },
         {
           "id": 424,
@@ -5265,8 +5265,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra7",
           "id_for_something": 69,
-          "name": "Энергозаряд",
-          "description": "Восстанавливает 5% ОЗ/ОЭ после битв."
+          "name": "Заряд Энергии",
+          "description": "Восстанавливает 5% ОЗ/ОЭ после боя."
         },
         {
           "id": 425,
@@ -5314,8 +5314,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra7",
           "id_for_something": 69,
-          "name": "Энергозаряд II",
-          "description": "Восстанавливает 10% ОЗ/ОЭ после битв."
+          "name": "Заряд Энергии II",
+          "description": "Восстанавливает 10% ОЗ/ОЭ после боя."
         },
         {
           "id": 426,
@@ -5363,8 +5363,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra8",
           "id_for_something": 70,
-          "name": "Заряд Мощи",
-          "description": "Восстанавливает 5% ОЗ и 25 ОН после битв."
+          "name": "Заряд Силы",
+          "description": "Восстанавливает 5% ОЗ и 25 ОН после боя."
         },
         {
           "id": 427,
@@ -5412,8 +5412,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra8",
           "id_for_something": 70,
-          "name": "Заряд Мощи II",
-          "description": "Восстанавливает 10% ОЗ и 50 ОН после битв."
+          "name": "Заряд Силы II",
+          "description": "Восстанавливает 10% ОЗ и 50 ОН после боя."
         },
         {
           "id": 419,
@@ -5461,8 +5461,8 @@
           "int2": 0,
           "animation": "",
           "id_for_something": 72,
-          "name": "Ускорение SCLM",
-          "description": "Увеличивает радиус SCLM в командных битвах."
+          "name": "SCLM Усиление",
+          "description": "Увеличивает радиус SCLM в тактических битвах."
         },
         {
           "id": 428,
@@ -5510,8 +5510,8 @@
           "int2": 0,
           "animation": "",
           "id_for_something": 72,
-          "name": "Ускорение SCLM II",
-          "description": "Значительно увеличивает радиус SCLM в командных битвах."
+          "name": "SCLM Усиление II",
+          "description": "Значительно увеличивает радиус SCLM в тактических битвах."
         },
         {
           "id": 420,
@@ -5559,8 +5559,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra10",
           "id_for_something": 73,
-          "name": "Сила Кризиса",
-          "description": "Шанс на повышение всех статов (М) в начале хода при близкой смерти."
+          "name": "Экстренная Сила",
+          "description": "Шанс повысить все хар-ки(М), находясь присмерти, в начале хода."
         },
         {
           "id": 429,
@@ -5608,8 +5608,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra10",
           "id_for_something": 73,
-          "name": "Сила Кризиса II",
-          "description": "Высокий шанс на повышение всех статов (М) в начале хода при близкой смерти."
+          "name": "Экстренная Сила II",
+          "description": "Высокий шанс повысить все хар-ки(М), находясь присмерти, в начале хода."
         },
         {
           "id": 430,
@@ -5657,8 +5657,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra40",
           "id_for_something": 74,
-          "name": "Небесная Удача",
-          "description": "Маленький шанс на бонус к AT на своём следующем ходу после действия."
+          "name": "Божественная Удача",
+          "description": "Маленький шанс активировать AT Бонус на следующий ход после действия."
         },
         {
           "id": 431,
@@ -5706,8 +5706,8 @@
           "int2": 0,
           "animation": "btlshard.AniBtlShardExtra40",
           "id_for_something": 74,
-          "name": "Небесная Удача II",
-          "description": "Шанс на бонус к AT на своём следующем ходу после действия."
+          "name": "Божественная Удача II",
+          "description": "Шанс активировать AT Бонус на следующий ход после действия."
         }
       ]
     }
